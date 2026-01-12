@@ -7,13 +7,16 @@ import LOGOS_DATA from "@/shared/constants/logos-data";
 import toErrorResponse from "@/shared/helpers/to-error-response";
 import normalizeString from "@/shared/helpers/normalize-string";
 import clamp from "@/shared/helpers/clamp";
-import readPageSize from "@/shared/helpers/read-page-size";
-import readOffset from "@/shared/helpers/read-offset";
 import readOptionalNonEmpty from "@/shared/helpers/read-optional-non-empty";
+import readLimit from "@/shared/helpers/read-limit";
+import readSkip from "@/shared/helpers/read-skip";
 
 // models
 import type LogoItem from "@/shared/models/logos/logo-item";
-import ListResponse from '@/shared/models/common/list-response';
+import type ListResponse from "@/shared/models/common/list-response";
+
+// personal constants
+import CACHE_HEADERS from '@/shared/constants/cache-headers';
 
 // personal models
 type PreparedLogo = {
@@ -22,58 +25,65 @@ type PreparedLogo = {
   searchText: string;
 };
 
-// personal constants
-const preparedLogos: PreparedLogo[] = LOGOS_DATA
-  .map((logo) => ({
-    logo,
-    categoryKeys: [logo.mainCategory, ...logo.secondaryCategories].map(normalizeString).filter(Boolean),
-    searchText: normalizeString([logo.name, logo.mainCategory, logo.secondaryCategories.join(" "), logo.websiteLink ?? ""].join(" ")),
-  }));
+const preparedLogos: PreparedLogo[] = LOGOS_DATA.map((logo) => ({
+  logo,
+  categoryKeys: [logo.mainCategory, ...logo.secondaryCategories].map(normalizeString).filter(Boolean),
+  searchText: normalizeString([logo.name, logo.mainCategory, logo.secondaryCategories.join(" "), logo.websiteLink ?? ""].join(" ")),
+}));
 
-// request
+function toResponse(payload: ListResponse<LogoItem>) {
+  return NextResponse.json(payload, { status: 200, headers: CACHE_HEADERS });
+}
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
 
-    const pageSizeResult = readPageSize(searchParams);
-    if (!pageSizeResult.ok) return pageSizeResult.error;
-
-    const offsetResult = readOffset(searchParams);
-    if (!offsetResult.ok) return offsetResult.error;
-
+    // Supported query params (all optional):
+    // - category: string (filters by mainCategory or secondaryCategories; case-insensitive)
+    // - search: string (searches across name, categories, websiteLink; case-insensitive)
+    // - limit: number (max items to return; if omitted returns all items when skip is also omitted)
+    // - skip: number (number of items to skip; default 0; used only when limit or skip is provided)
     const categoryResult = readOptionalNonEmpty(searchParams, "category");
     if (!categoryResult.ok) return categoryResult.error;
 
     const searchResult = readOptionalNonEmpty(searchParams, "search");
     if (!searchResult.ok) return searchResult.error;
 
-    const pageSize = pageSizeResult.value;
-    const offset = offsetResult.value;
-
     const categoryKey = categoryResult.value ? normalizeString(categoryResult.value) : null;
     const searchKey = searchResult.value ? normalizeString(searchResult.value) : null;
 
+    const limitResult = readLimit(searchParams);
+    if (!limitResult.ok) return limitResult.error;
+
+    const skipResult = readSkip(searchParams);
+    if (!skipResult.ok) return skipResult.error;
+
+    const hasLimit = searchParams.has("limit");
+    const hasSkip = searchParams.has("skip");
+    const hasPaging = hasLimit || hasSkip;
+
     const filtered = preparedLogos.filter((item) => {
       if (categoryKey && !item.categoryKeys.includes(categoryKey)) return false;
-      if (searchKey && !item.searchText.includes(searchKey)) return false;
-      return true;
+      return !(searchKey && !item.searchText.includes(searchKey));
+
     });
 
     const total = filtered.length;
 
-    const start = clamp(offset, 0, total);
-    const end = clamp(start + pageSize, 0, total);
+    if (!hasPaging) {
+      return toResponse({ data: filtered.map((x) => x.logo), total });
+    }
 
-    const data = filtered.slice(start, end).map((item) => item.logo);
+    const skip = skipResult.value;
+    const limit = limitResult.value;
 
-    const response: ListResponse<LogoItem> = { data, total };
+    const start = clamp(skip, 0, total);
+    const end = limit === null ? total : clamp(start + limit, 0, total);
 
-    return NextResponse.json(response, {
-      status: 200,
-      headers: {
-        "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400",
-      },
-    });
+    const data = filtered.slice(start, end).map((x) => x.logo);
+
+    return toResponse({ data, total });
   } catch {
     return toErrorResponse(500, "INTERNAL_ERROR", "Unexpected server error.");
   }
