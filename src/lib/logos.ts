@@ -26,7 +26,7 @@ type PreparedLogo = {
 const preparedLogos: PreparedLogo[] = LOGOS_DATA.map((logo) => ({
   logo,
   categoryKeys: [logo.mainCategory, ...logo.secondaryCategories].map(normalizeString).filter(Boolean),
-  searchText: normalizeString([logo.name, logo.mainCategory, logo.secondaryCategories.join(" "), logo.websiteLink ?? ""].join(" ")),
+  searchText: normalizeString(logo.name),
 }));
 
 export async function getLogos(params: GetLogosParams = {}): Promise<ListResponse<LogoItem>> {
