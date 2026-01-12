@@ -37,8 +37,8 @@ const mainNavigation = [
 
 export function Sidebar() {
   return (
-    <aside className="fixed left-0 top-14 z-40 h-[calc(100vh-3.5rem)] w-64 overflow-y-auto border-r border-border/40 bg-background overscroll-none">
-      <div className="flex flex-col gap-4 p-4">
+    <aside className="fixed left-0 top-14 z-40 flex flex-col h-[calc(100vh-3.5rem)] w-64 overflow-y-auto border-r border-border/40 bg-background overscroll-none">
+      <div className="flex-1 flex flex-col gap-4 p-4">
         {/* Main Navigation */}
         <nav className="flex flex-col gap-1">
           {mainNavigation.map((item) => {
@@ -47,7 +47,7 @@ export function Sidebar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+                className="flex items-center gap-3 rounded-lg px-3 py-1.5 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
               >
                 <Icon className="h-5 w-5" />
                 <span className="text-base">{item.name}</span>
@@ -59,17 +59,17 @@ export function Sidebar() {
         <Separator />
 
         {/* Categories */}
-        <nav className="flex flex-col gap-1">
+        <nav className="grow flex flex-col gap-1 h-0 overflow-auto">
           {categories.map((category) => (
             <Link
               key={category.name}
               href={`/category/${category.name.toLowerCase()}`}
-              className="flex items-center justify-between rounded-lg px-3 py-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+              className="flex items-center justify-between rounded-lg px-3 py-1.5 text-muted-foreground hover:text-foreground"
             >
               <span className="text-base">{category.name}</span>
               <Badge
-                variant="secondary"
-                className="bg-muted text-muted-foreground hover:bg-muted"
+                variant="outline"
+                className="text-muted-foreground hover:bg-muted rounded-xl"
               >
                 {category.count}
               </Badge>

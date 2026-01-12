@@ -46,7 +46,7 @@ export default function RootLayout({
         >
           <Header />
           <Sidebar />
-          <main className="pl-64 pt-14">
+          <main className="pl-64">
             {children}
           </main>
         </ThemeProvider>
