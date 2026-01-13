@@ -9,7 +9,7 @@ import buildReqParams from '@/shared/helpers/build-req-params';
 import ListResponse from '@/shared/models/common/list-response';
 import LogoItem from '@/shared/models/logos/logo-item';
 import CategoryListItem from '@/shared/models/categories/category-list-item';
- 
+
 // custom constants
 const isServer = typeof window === 'undefined';
 
