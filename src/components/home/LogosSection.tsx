@@ -61,7 +61,7 @@ export default function LogosSection({ searchQuery, category, showCategoryHeader
     <div className="grow flex flex-col gap-2">
       <SearchBar value={searchQuery} />
 
-      <Card className="flex-1 flex flex-col p-0 gap-0 overflow-hidden bg-none">
+      <Card className="flex-1 flex flex-col p-0 gap-0 overflow-hidden bg-[#0F0F0F]">
         <ScrollArea className="grow flex flex-col h-0">
           <div className="sticky top-0 z-10 flex h-12.5 items-center justify-between py-1.5 pr-2 pl-3 border-b border-neutral-200 dark:border-neutral-800 bg-white/80 backdrop-blur-sm dark:bg-neutral-900/40">
             <div className="flex items-center gap-2">
@@ -94,7 +94,7 @@ export default function LogosSection({ searchQuery, category, showCategoryHeader
 
           <LogoGrid
             logos={logos}
-            hasMore={hasNextPage ?? false}
+            hasMore={hasNextPage}
             onLoadMore={() => fetchNextPage()}
             isLoading={isLoading || isFetchingNextPage}
           />

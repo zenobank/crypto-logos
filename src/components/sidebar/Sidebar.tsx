@@ -4,9 +4,9 @@ import { cn } from '@/lib/utils';
 // components
 import { Separator } from '@/components/ui/separator';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import CategoryList from '@/components/CategoryList';
 import FavoritesCountBadge from '@/components/FavoritesCountBadge';
-import NavLink from '@/components/NavLink';
+import CategoryList from '@/components/sidebar/CategoryList';
+import NavLink from '@/components/sidebar/NavLink';
 
 // custom models
 interface Props {
@@ -24,7 +24,7 @@ const mainNavigation = [
 
 export default async function Sidebar({ className }: Props) {
   return (
-    <aside className={cn('fixed left-0 top-14 z-1000 flex flex-col h-[calc(100vh-3.5rem)] w-64 overflow-y-auto border-r border-border/40 bg-background overscroll-none', className)}>
+    <aside className={cn('fixed left-0 top-14 z-40 flex flex-col h-[calc(100vh-3.5rem)] w-64 overflow-y-auto border-r border-border/40 bg-background overscroll-none', className)}>
       <div className="flex-1 flex flex-col gap-4 py-4">
         {/* Main Navigation */}
         <nav className="flex flex-col gap-1 px-4">

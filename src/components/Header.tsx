@@ -5,7 +5,7 @@ import Image from 'next/image';
 // components
 import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/ThemeToggle';
-import Sidebar from '@/components/Sidebar';
+import Sidebar from '@/components/sidebar/Sidebar';
 import MenuToggle from '@/components/MenuToggle';
 
 // constants

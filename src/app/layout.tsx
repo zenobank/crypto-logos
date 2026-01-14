@@ -9,7 +9,7 @@ import { FavoritesProvider } from '@/providers/FavoritesProvider';
 
 // components
 import Header from '@/components/Header';
-import Sidebar from '@/components/Sidebar';
+import Sidebar from '@/components/sidebar/Sidebar';
 import { Toaster } from '@/components/ui/sonner';
 
 // styles

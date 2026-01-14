@@ -1,7 +1,7 @@
 import { getCategories } from '@/lib/categories';
 
 // components
-import CategoryLink from '@/components/CategoryLink';
+import CategoryLink from '@/components/sidebar/CategoryLink';
 
 export default async function CategoryList() {
   // common

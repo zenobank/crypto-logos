@@ -4,13 +4,17 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 
+// custom models
 interface CategoryLinkProps {
   category: string;
   count: number;
 }
 
 export default function CategoryLink({ category, count }: CategoryLinkProps) {
+  // common
   const pathname = usePathname();
+
+  // computed
   const href = `/category/${category.toLowerCase()}`;
   const isActive = pathname === href;
 
@@ -18,7 +22,7 @@ export default function CategoryLink({ category, count }: CategoryLinkProps) {
     <Link
       href={href}
       className={cn(
-        "flex items-center justify-between rounded-lg px-3 py-1.5 transition-colors hover:text-foreground",
+        "flex items-center justify-between rounded-lg px-3 py-1.5 pr-0 transition-colors hover:text-foreground",
         isActive ? "bg-accent text-accent-foreground" : "text-muted-foreground"
       )}
     >
