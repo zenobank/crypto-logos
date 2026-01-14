@@ -1,0 +1,17 @@
+{
+  "name": "Crypto Logos",
+  "short_name": "Logos",
+  "id": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "513x513",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#070707",
+  "background_color": "#070707",
+  "display": "standalone"
+}

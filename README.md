@@ -1,36 +1,190 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🚀 Getting Started
 
-## Getting Started
+> [!IMPORTANT]
+> Before submitting an SVG, ensure you have the right to use it and that its license permits adding it to zeno. If you are uncertain, please contact the author or the company.
 
-First, run the development server:
+You will need:
+
+- [Node.js 20+](https://nodejs.org/en/).
+- [Git](https://git-scm.com/).
+
+1. [**Fork this repository**](https://github.com/zenobank/crypto-logos/fork) and clone it locally:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone git@github.com:your_username/crypto-logos.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Move into the project folder:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+cd crypto-logos
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Install dependencies:
 
-## Learn More
+```bash
+# Install dependencies:
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Run the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Run the development server:
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. Add your SVG file (or use a direct SVG URL)  
+You have two options for providing the SVG:
+- Option A — Add the .svg file into the repository  
+Put your file into: [**`public/images/library`**](https://github.com/zenobank/crypto-logos/tree/main/public/images/library)  
+Example: [**`public/images/library/logo.svg`**](https://github.com/zenobank/crypto-logos/tree/main/public/images/library)
 
-## Deploy on Vercel
+> [!WARNING]
+>
+> - Remember to optimize SVG for web, you can use [SVGOMG](https://jakearchibald.github.io/svgomg/).
+> - When you optimize the SVG, make sure that the `viewBox` is not removed.
+> - The size limit for each .svg is **21kb**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Option B — Use an external SVG link   
+If you already host the SVG somewhere reliable (CDN / official source), you can keep the logo as a URL in the data file.  
+This is useful when you don’t want to commit the SVG file into the repo, but keep in mind external links can break later.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+6. Add logo metadata (follow the [**`LogoItem`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/models/logos/logo-item.ts) model)   
+Go to the [**`src/shared/constants/logos-data.ts`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/constants/logos-data.ts) and add the information about your logo, following the structure   
+Every logo entry must follow the [**`LogoItem`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/models/logos/logo-item.ts) model, so the app can render it correctly and keep the library consistent.   
+
+- **Data model**:
+
+```ts
+interface LogoItem {
+  id: string;
+  name: string;
+  mainCategory: string;
+  secondaryCategories: string[];
+  websiteLink?: string;
+  brandKitLink?: string;
+  mainLogo: LogoAsset;
+  downloadableFiles: LogoDownloadableFiles;
+}
+
+interface LogoAsset {
+  url: string;
+  format: LogoFileFormat;
+}
+
+type LogoFileFormat = "svg" | "png" | "jpg" | "webp" | "unknown";
+
+interface LogoDownloadableFiles {
+  icon: LogoVariantGroup;
+  text?: LogoVariantGroup;
+}
+
+interface LogoVariantGroup {
+  light: LogoAsset[];
+  dark?: LogoAsset[];
+}
+```
+> [!NOTE] 
+> 
+> - `id`: unique key (use lowercase, no spaces, usually the brand name)
+> - `name`: display name (example: `Stripe`)
+> - `mainCategory`: primary category (example: `fintech`)
+> - `secondaryCategories`: extra categories (example: `["payments", "billing"]`)
+> - `websiteLink`: (optional): official website
+> - `brandKitLink`: (optional): brand guidelines / press kit
+> - `mainLogo`: the “main” logo (usually one SVG)
+> - `downloadableFiles`: files users can download:  
+> &nbsp;&nbsp;`icon`: required  
+> &nbsp;&nbsp;`text`: optional (text logo)  
+> &nbsp;&nbsp; each supports `light` and optionally `dark`  
+> &nbsp;&nbsp; each variant is an array so you can provide multiple assets (formats/sizes) if needed
+
+- **Simple logo (one icon, light only)**:
+
+```ts
+{
+  id: 'Id',
+  name: 'Title',
+  mainCategory: 'Main category',
+  secondaryCategories: ['Secondary categories'],
+  mainLogo: { url: 'https://example.com/main.svg', format: 'svg' },
+  downloadableFiles: {
+    icon: {
+      light: [{ url: 'https://example.com/icon-light.svg', format: 'svg' }]
+    }
+  }
+}
+```
+
+- **Logo (light & dark mode)**:
+
+```ts
+{
+  id: 'Id',
+  name: 'Title',
+  mainCategory: 'Main category',
+  secondaryCategories: ['Secondary categories'],
+  mainLogo: { url: 'https://example.com/main.svg', format: 'svg' },
+  downloadableFiles: {
+    icon: {
+      light: [{ url: 'https://example.com/icon-light.svg', format: 'svg' }],
+      dark: [{ url: 'https://example.com/icon-dark.svg', format: 'svg' }]
+    }
+  }
+}
+```
+
+- **Full example with all properties**:
+
+```ts
+{
+  id: 'Id',
+  name: 'Title',
+  mainCategory: 'Main category',
+  secondaryCategories: ['Secondary categories'],
+  mainLogo: { url: 'https://example.com/main.svg', format: 'svg' },
+  websiteLink: 'https://example.com',
+  brandKitLink: 'https://example.com/brand',
+  downloadableFiles: {
+    icon: {
+      light: [{ url: 'https://example.com/icon-light.svg', format: 'svg' }],
+      dark: [{ url: 'https://example.com/icon-dark.svg', format: 'svg' }]
+    },
+    text: {
+      light: [{ url: 'https://example.com/text-icon-light.svg', format: 'svg' }],
+      dark: [{ url: 'https://example.com/text-icon-dark.svg', format: 'svg' }]
+    }
+  }
+}
+```
+
+- **Add brand guidelines** (where to find the images, how to use it, colors, fonts...):
+
+```ts
+{
+  id: 'Id',
+  name: 'Title',
+  mainCategory: 'Main category',
+  secondaryCategories: ['Secondary categories'],
+  mainLogo: { url: 'https://example.com/main.svg', format: 'svg' },
+  websiteLink: 'https://example.com',
+  brandKitLink: 'https://example.com/brand',
+  downloadableFiles: {
+  icon: {
+    light: [{ url: 'https://example.com/icon-light.svg', format: 'svg' }],
+    dark: [{ url: 'https://example.com/icon-dark.svg', format: 'svg' }]
+    },
+    text: {
+      light: [{ url: 'https://example.com/text-icon-light.svg', format: 'svg' }],
+      dark: [{ url: 'https://example.com/text-icon-dark.svg', format: 'svg' }]
+    }
+  }
+}
+```
+
+> [!NOTE]
+>
+> - You can add multiple categories to the same logo, for example: `secondaryCategories: ['Social', 'Design']`.
+
+And create a pull request with your logo ✨.

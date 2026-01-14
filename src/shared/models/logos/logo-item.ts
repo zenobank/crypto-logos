@@ -6,11 +6,11 @@ interface LogoItem {
   id: string;
   name: string;
   mainCategory: string;
+  mainLogo: LogoAsset;
   secondaryCategories: string[];
+  downloadableFiles: LogoDownloadableFiles;
   websiteLink?: string;
   brandKitLink?: string;
-  mainLogo: LogoAsset;
-  downloadableFiles: LogoDownloadableFiles;
 }
 
 export default LogoItem;

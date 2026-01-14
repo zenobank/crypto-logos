@@ -29,6 +29,17 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Crypto Logos - Free SVG Logo Collection',
   description: 'Browse and download 576+ crypto and tech logos in SVG format',
+  manifest: '/site.webmanifest',
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      {
+        url: '/favicon.png',
+        type: 'image/png',
+      },
+    ],
+    shortcut: ['/favicon.ico'],
+  },
 };
 
 // custom models
