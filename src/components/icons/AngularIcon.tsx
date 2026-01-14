@@ -1,7 +1,7 @@
 export default function AngularIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 242 256" width="20" height="20">
-      <g clip-path="url(#angular__a)">
+      <g clipPath="url(#angular__a)">
         <mask id="angular__b" width="242" height="256" x="0" y="0" maskUnits="userSpaceOnUse" style={{ maskType: 'luminance' }}>
           <path fill="#fff" d="M0 0h242v256H0V0Z"></path>
         </mask>
@@ -18,16 +18,16 @@ export default function AngularIcon() {
       </g>
       <defs>
         <linearGradient id="angular__c" x1="53.2" x2="245" y1="231.9" y2="140.7" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#E40035"></stop>
-          <stop offset=".2" stop-color="#F60A48"></stop>
-          <stop offset=".4" stop-color="#F20755"></stop>
-          <stop offset=".5" stop-color="#DC087D"></stop>
-          <stop offset=".7" stop-color="#9717E7"></stop>
-          <stop offset="1" stop-color="#6C00F5"></stop>
+          <stop stopColor="#E40035"></stop>
+          <stop offset=".2" stopColor="#F60A48"></stop>
+          <stop offset=".4" stopColor="#F20755"></stop>
+          <stop offset=".5" stopColor="#DC087D"></stop>
+          <stop offset=".7" stopColor="#9717E7"></stop>
+          <stop offset="1" stopColor="#6C00F5"></stop>
         </linearGradient>
         <linearGradient id="angular__d" x1="44.5" x2="170" y1="30.7" y2="174" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#FF31D9"></stop>
-          <stop offset="1" stop-color="#FF5BE1" stop-opacity="0"></stop>
+          <stop stopColor="#FF31D9"></stop>
+          <stop offset="1" stopColor="#FF5BE1" stopOpacity="0"></stop>
         </linearGradient>
         <clipPath id="angular__a">
           <path fill="#fff" d="M0 0h242v256H0z"></path>

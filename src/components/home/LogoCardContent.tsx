@@ -3,13 +3,11 @@
 import { ReactNode, useState } from 'react';
 import { BaselineIcon, Copy, Download, Link as LinkIcon, SparklesIcon } from 'lucide-react';
 
-// helpers
-import { downloadLogo } from '@/shared/helpers/logo-actions';
-
 // components
 import { Image } from '@/components/ui/image';
 import { Button } from '@/components/ui/button';
 import CopyLogoPopover from '@/components/home/CopyLogoPopover';
+import DownloadLogoDialog from '@/components/home/DownloadLogoDialog';
 
 // models
 import type LogoItem from '@/shared/models/logos/logo-item';
@@ -31,10 +29,6 @@ export default function LogoCardContent({ logo, children }: LogoCardContentProps
     : logo.mainLogo;
 
   // helpers
-  function handleDownload(): void {
-    downloadLogo(logo.mainLogo.url, `${logo.id}.${logo.mainLogo.format}`);
-  }
-
   function handleOpenWebsite(): void {
     if (logo.websiteLink) {
       window.open(logo.websiteLink, '_blank', 'noopener,noreferrer');
@@ -68,15 +62,16 @@ export default function LogoCardContent({ logo, children }: LogoCardContentProps
             <Copy className="h-5 w-5" />
           </Button>
         </CopyLogoPopover>
-        <Button
-          variant="ghost"
-          size="icon"
-          onClick={handleDownload}
-          className="h-10 w-10"
-          aria-label={`Download ${logo.name} logo`}
-        >
-          <Download className="h-5 w-5" />
-        </Button>
+        <DownloadLogoDialog logo={logo}>
+          <Button
+            variant="ghost"
+            size="icon"
+            className="h-10 w-10"
+            aria-label={`Download ${logo.name} logo`}
+          >
+            <Download className="h-5 w-5" />
+          </Button>
+        </DownloadLogoDialog>
         <Button
           variant="ghost"
           size="icon"

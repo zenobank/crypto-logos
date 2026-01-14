@@ -2,13 +2,14 @@ import Link from 'next/link';
 import { MoreHorizontal, Tag } from 'lucide-react';
 
 // components
-import { Badge } from '@/components/ui/badge';
+import { Badge, badgeVariants } from '@/components/ui/badge';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
+import { cn } from '@/lib/utils';
 
 // custom models
 interface LogoCardTagsProps {
@@ -27,10 +28,14 @@ export default function LogoCardTags({ mainCategory, secondaryCategories }: Logo
 
       {secondaryCategories && secondaryCategories.length > 0 && (
         <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Badge className="h-5.5 text-xs rounded-full px-3 cursor-pointer hover:bg-accent transition-colors" variant="outline">
-              <MoreHorizontal size={32} />
-            </Badge>
+          <DropdownMenuTrigger
+            aria-label="View more categories"
+            className={cn(
+              badgeVariants({ variant: 'outline' }),
+              'h-5.5 text-xs rounded-full px-3 cursor-pointer hover:bg-accent transition-colors'
+            )}
+          >
+            <MoreHorizontal size={32} />
           </DropdownMenuTrigger>
           <DropdownMenuContent align="center" className="min-w-40">
             {secondaryCategories.map((category) => (

@@ -1,7 +1,7 @@
 'use client';
 
 import { ReactNode, useState } from 'react';
-import { Copy, CodeXml } from 'lucide-react';
+import { Copy } from 'lucide-react';
 import { toast } from 'sonner';
 
 // helpers
@@ -55,6 +55,7 @@ enum Framework {
 
 // custom constants
 const frameworks = [
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   { id: Framework.Source, label: 'Source', icon: ({ className }: { className?: string }) => 'Source' },
   { id: Framework.Shadcn, label: 'shadcn/ui', icon: ShadcnIcon },
   { id: Framework.WebComponent, label: 'Web Component', icon: WebComponentIcon },
