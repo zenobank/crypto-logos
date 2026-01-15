@@ -10,10 +10,13 @@ import { getLogosQueryParams } from '@/queries/app-queries';
 // components
 import LogosSection from '@/components/home/LogosSection';
 
+// models
+import LogosSortBy from '@/shared/models/logos/logos-sort-by';
+
 // custom models
 interface Props {
   params: Promise<{ category: string }>;
-  searchParams: Promise<{ q?: string }>;
+  searchParams: Promise<{ q?: string; sort?: string }>;
 }
 
 export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
@@ -58,7 +61,8 @@ export default async function CategoryPage({
 
   // computed
   const { category } = await params;
-  const { q: searchQuery = '' } = await searchParams;
+  const { q: searchQuery = '', sort = LogosSortBy.NameAsc } = await searchParams;
+  const sortBy = (sort === LogosSortBy.NameDesc ? LogosSortBy.NameDesc : LogosSortBy.NameAsc) as LogosSortBy;
 
   // prefetch
   await queryClient.prefetchInfiniteQuery(
@@ -68,7 +72,7 @@ export default async function CategoryPage({
   return (
     <div className="flex-1 flex flex-col p-6">
       <HydrationBoundary state={dehydrate(queryClient)}>
-        <LogosSection searchQuery={searchQuery} category={category} showCategoryHeader />
+        <LogosSection searchQuery={searchQuery} category={category} sortBy={sortBy} showCategoryHeader />
       </HydrationBoundary>
     </div>
   );

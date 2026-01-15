@@ -1,12 +1,12 @@
-import React from 'react';
+import { ReactNode } from 'react';
 
 // components
 import { Skeleton } from '@/components/ui/skeleton';
+import ListSentinel from '@/components/ListSentinel';
 import LogoCard from './LogoCard';
 
 // models
 import type LogoItem from '@/shared/models/logos/logo-item';
-import ListSentinel from '@/components/ListSentinel';
 
 // custom models
 interface Props {
@@ -14,7 +14,7 @@ interface Props {
   hasMore: boolean;
   onLoadMore: () => void;
   isLoading: boolean;
-  EmptyState?: React.ReactNode;
+  EmptyState?: ReactNode;
 }
 
 export default function LogoGrid({ logos, hasMore, onLoadMore, isLoading, EmptyState }: Props) {
@@ -52,12 +52,6 @@ export default function LogoGrid({ logos, hasMore, onLoadMore, isLoading, EmptyS
 
       {/* Sentinel element for infinite scroll */}
       <ListSentinel hasMore={hasMore} onLoadMore={onLoadMore} isLoading={isLoading} />
-
-      {/*{!hasMore && logos.length > 0 && (*/}
-      {/*  <p className="text-center text-sm text-muted-foreground mt-4">*/}
-      {/*    All logos loaded*/}
-      {/*  </p>*/}
-      {/*)}*/}
     </div>
   );
 }

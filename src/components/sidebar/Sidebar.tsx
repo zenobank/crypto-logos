@@ -1,4 +1,4 @@
-import { Home, Heart, Cloud, Code, Package } from 'lucide-react';
+import { Home, Heart, FileJson, Code, Package } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 // components
@@ -17,7 +17,7 @@ interface Props {
 const mainNavigation = [
   { name: 'Home', href: '/', icon: Home },
   { name: 'Favorites', href: '/favorites', icon: Heart },
-  { name: 'API', href: '/api', icon: Cloud },
+  { name: 'API Docs', href: '/api-docs', icon: FileJson },
   { name: 'shadcn/ui', href: '/ui-kit', icon: Code },
   { name: 'Extensions', href: '/extensions', icon: Package },
 ];
