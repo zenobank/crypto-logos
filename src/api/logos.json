@@ -1,238 +1,1802 @@
 [
-  {
-    "id": "casinocoin",
-    "name": "CasinoCoin",
-    "mainCategory": "tokens",
-    "secondaryCategories": [],
-    "websiteLink": null,
-    "brandKitLink": null,
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_casinocoin.png",
-            "format": "png"
-          }
-        ]
+   {
+      "id":"casinocoin",
+      "name":"CasinoCoin",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_casinocoin.png",
+                  "format":"png"
+               }
+            ]
+         }
       }
-    }
-  },
-  {
-    "id": "gamecredits",
-    "name": "GameCredits",
-    "mainCategory": "tokens",
-    "secondaryCategories": [],
-    "websiteLink": null,
-    "brandKitLink": null,
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_gamecredits.png",
-            "format": "png"
-          }
-        ]
+   },
+   {
+      "id":"gamecredits",
+      "name":"GameCredits",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_gamecredits.png",
+                  "format":"png"
+               }
+            ]
+         }
       }
-    }
-  },
-  {
-    "id": "circuits-of-value",
-    "name": "Circuits of Value",
-    "mainCategory": "tokens",
-    "secondaryCategories": [],
-    "websiteLink": null,
-    "brandKitLink": null,
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_circuits-of-value.png",
-            "format": "png"
-          }
-        ]
+   },
+   {
+      "id":"circuits-of-value",
+      "name":"Circuits of Value",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_circuits-of-value.png",
+                  "format":"png"
+               }
+            ]
+         }
       }
-    }
-  },
-  {
-    "id": "tether",
-    "name": "Tether USDt",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": [
-      "tokens"
-    ],
-    "websiteLink": null,
-    "brandKitLink": null,
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_tether.png",
-            "format": "png"
-          }
-        ]
+   },
+   {
+      "id":"tether",
+      "name":"Tether USDt",
+      "mainCategory":"stablecoins",
+      "secondaryCategories":[
+         "tokens"
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_tether.png",
+                  "format":"png"
+               }
+            ]
+         }
       }
-    }
-  },
-  {
-    "id": "agoras-tokens",
-    "name": "Agoras: Tau Net",
-    "mainCategory": "tokens",
-    "secondaryCategories": [],
-    "websiteLink": null,
-    "brandKitLink": null,
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_agoras-tokens.png",
-            "format": "png"
-          }
-        ]
+   },
+   {
+      "id":"agoras-tokens",
+      "name":"Agoras: Tau Net",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_agoras-tokens.png",
+                  "format":"png"
+               }
+            ]
+         }
       }
-    }
-  },
-  {
-    "id": "augur",
-    "name": "Augur",
-    "mainCategory": "tokens",
-    "secondaryCategories": [],
-    "websiteLink": null,
-    "brandKitLink": null,
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_augur.png",
-            "format": "png"
-          }
-        ]
+   },
+   {
+      "id":"augur",
+      "name":"Augur",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_augur.png",
+                  "format":"png"
+               }
+            ]
+         }
       }
-    }
-  },
-  {
-    "id": "pluton",
-    "name": "Pluton",
-    "mainCategory": "tokens",
-    "secondaryCategories": [],
-    "websiteLink": null,
-    "brandKitLink": null,
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_pluton.png",
-            "format": "png"
-          }
-        ]
+   },
+   {
+      "id":"pluton",
+      "name":"Pluton",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_pluton.png",
+                  "format":"png"
+               }
+            ]
+         }
       }
-    }
-  },
-  {
-    "id": "golem-network-tokens",
-    "name": "Golem",
-    "mainCategory": "tokens",
-    "secondaryCategories": [],
-    "websiteLink": null,
-    "brandKitLink": null,
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_golem-network-tokens.png",
-            "format": "png"
-          }
-        ]
+   },
+   {
+      "id":"golem-network-tokens",
+      "name":"Golem",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_golem-network-tokens.png",
+                  "format":"png"
+               }
+            ]
+         }
       }
-    }
-  },
-  {
-    "id": "wings",
-    "name": "Wings",
-    "mainCategory": "tokens",
-    "secondaryCategories": [],
-    "websiteLink": null,
-    "brandKitLink": null,
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_wings.png",
-            "format": "png"
-          }
-        ]
+   },
+   {
+      "id":"wings",
+      "name":"Wings",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_wings.png",
+                  "format":"png"
+               }
+            ]
+         }
       }
-    }
-  },
-  {
-    "id": "maker",
-    "name": "Maker",
-    "mainCategory": "tokens",
-    "secondaryCategories": [],
-    "websiteLink": null,
-    "brandKitLink": null,
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_maker.png",
-            "format": "png"
-          }
-        ]
+   },
+   {
+      "id":"maker",
+      "name":"Maker",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_maker.png",
+                  "format":"png"
+               }
+            ]
+         }
       }
-    }
-  },
-  {
-    "id": "enzyme",
-    "name": "Enzyme",
-    "mainCategory": "tokens",
-    "secondaryCategories": [],
-    "websiteLink": null,
-    "brandKitLink": null,
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_enzyme.png",
-            "format": "png"
-          }
-        ]
+   },
+   {
+      "id":"enzyme",
+      "name":"Enzyme",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_enzyme.png",
+                  "format":"png"
+               }
+            ]
+         }
       }
-    }
-  },
-  {
-    "id": "chrono-tech",
-    "name": "Chrono.tech",
-    "mainCategory": "tokens",
-    "secondaryCategories": [],
-    "websiteLink": null,
-    "brandKitLink": null,
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_chrono-tech.png",
-            "format": "png"
-          }
-        ]
+   },
+   {
+      "id":"chrono-tech",
+      "name":"Chrono.tech",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_chrono-tech.png",
+                  "format":"png"
+               }
+            ]
+         }
       }
-    }
-  },
-  {
-    "id": "swarm-city",
-    "name": "Swarm City",
-    "mainCategory": "tokens",
-    "secondaryCategories": [],
-    "websiteLink": null,
-    "brandKitLink": null,
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_swarm-city.png",
-            "format": "png"
-          }
-        ]
+   },
+   {
+      "id":"swarm-city",
+      "name":"Swarm City",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_swarm-city.png",
+                  "format":"png"
+               }
+            ]
+         }
       }
-    }
-  }
+   },
+   {
+      "id":"rlc",
+      "name":"iExec RLC",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_rlc.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"trust",
+      "name":"WeTrust",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_trust.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"speedcash",
+      "name":"SpeedCash",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_speedcash.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"lunyr",
+      "name":"Lunyr",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_lunyr.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"gnosis-gno",
+      "name":"Gnosis",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_gnosis-gno.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"monolith",
+      "name":"Monolith",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_monolith.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"humaniq",
+      "name":"Humaniq",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_humaniq.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"aragon",
+      "name":"Aragon",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_aragon.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"basic-attention-token",
+      "name":"Basic Attention Token",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_basic-attention-token.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"patientory",
+      "name":"Patientory",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_patientory.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"mysterium",
+      "name":"Mysterium",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_mysterium.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"more-coin",
+      "name":"More Coin",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_more-coin.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"bancor",
+      "name":"Bancor",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_bancor.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"numeraire",
+      "name":"Numeraire",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_numeraire.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"funtoken",
+      "name":"FUNToken",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_funtoken.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"status",
+      "name":"Status",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_status.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"adx-net",
+      "name":"AdEx",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_adx-net.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"storj",
+      "name":"Storj",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_storj.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"polybius",
+      "name":"Polybius",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_polybius.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"gas",
+      "name":"Gas",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_gas.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"suncontract",
+      "name":"SunContract",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_suncontract.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"metal",
+      "name":"Metal DAO",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_metal.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"populous",
+      "name":"Populous",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_populous.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"santiment",
+      "name":"Santiment Network Token",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_santiment.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"omg",
+      "name":"OMG Network",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_omg.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"civic",
+      "name":"Civic",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_civic.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"vgx-token",
+      "name":"VGX Token",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_vgx-token.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"pillar",
+      "name":"Pillar",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_pillar.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"district0x",
+      "name":"district0x",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_district0x.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"dent",
+      "name":"Dent",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_dent.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"investfeed",
+      "name":"InvestFeed",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_investfeed.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"0x",
+      "name":"0x Protocol",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_0x.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"mybit",
+      "name":"MyBit",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_mybit.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"loopring",
+      "name":"Loopring",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_loopring.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"aventus",
+      "name":"Aventus",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_aventus.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"agrello-delta",
+      "name":"Agrello",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_agrello-delta.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"decentraland",
+      "name":"Decentraland",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_decentraland.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"indorse-token",
+      "name":"Indorse Token",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_indorse-token.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"propy",
+      "name":"Propy",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_propy.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"chainlink",
+      "name":"Chainlink",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_chainlink.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"substratum",
+      "name":"Substratum",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_substratum.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"rivetz",
+      "name":"Rivetz",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_rivetz.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"kin",
+      "name":"Kin",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_kin.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"salt",
+      "name":"SALT",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_salt.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"internxt",
+      "name":"Internxt",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_internxt.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"cindicator",
+      "name":"Cindicator",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_cindicator.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"zeusshield",
+      "name":"Zeusshield",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_zeusshield.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"airswap",
+      "name":"AirSwap",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_airswap.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"domraider",
+      "name":"DomRaider",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_domraider.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"request",
+      "name":"Request",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_request.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"ethereum-blue",
+      "name":"Blue Protocol",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_ethereum-blue.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"kucoin-token",
+      "name":"KuCoin Token",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_kucoin-token.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"latoken",
+      "name":"LATOKEN",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_latoken.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"ripio-credit-network",
+      "name":"RCN Finance",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_ripio-credit-network.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"iethereum",
+      "name":"iEthereum",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_iethereum.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"power-ledger",
+      "name":"Powerledger",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_power-ledger.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"atlant",
+      "name":"ATLANT",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_atlant.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"streamr",
+      "name":"Streamr",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_streamr.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"raiden-network-token",
+      "name":"Raiden Network Token",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_raiden-network-token.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"delphy",
+      "name":"Delphy",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_delphy.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"upfiring",
+      "name":"Upfiring",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_upfiring.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"privatix",
+      "name":"Privatix",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_privatix.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"encrypgen",
+      "name":"EncrypGen",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_encrypgen.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"blockv",
+      "name":"BLOCKv",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_blockv.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"flixxo",
+      "name":"Flixxo",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_flixxo.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"dragonchain",
+      "name":"Dragonchain",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_dragonchain.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"presearch",
+      "name":"Presearch",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_presearch.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"blockcdn",
+      "name":"BlockCDN",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_blockcdn.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"uquid-coin",
+      "name":"Uquid Coin",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_uquid-coin.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"worldcore",
+      "name":"Worldcore",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_worldcore.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"gifto",
+      "name":"Gifto",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_gifto.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"genaro-network",
+      "name":"Genaro Network",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_genaro-network.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"starbase",
+      "name":"Starbase",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_starbase.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"stormx",
+      "name":"StormX",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_stormx.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"bibox-token",
+      "name":"Bibox Token",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_bibox-token.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"sirin-labs-token",
+      "name":"SIRIN LABS Token",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_sirin-labs-token.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"neumark",
+      "name":"Neumark",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_neumark.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"utrust",
+      "name":"xMoney",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_utrust.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"bigone-token",
+      "name":"BigONE Token",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_bigone-token.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"game",
+      "name":"Game.com",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_game.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"swftcoin",
+      "name":"SwftCoin",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_swftcoin.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"measurable-data-token",
+      "name":"Measurable Data Token",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_measurable-data-token.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"mixin",
+      "name":"Mixin",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_mixin.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"zap",
+      "name":"Zap",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_zap.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"tokenclub",
+      "name":"TokenClub",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_tokenclub.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"aigang",
+      "name":"Aigang",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_aigang.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   },
+   {
+      "id":"telcoin",
+      "name":"Telcoin",
+      "mainCategory":"tokens",
+      "secondaryCategories":[
+         
+      ],
+      "logo":{
+         "icon":{
+            "light":[
+               {
+                  "url":"/library/icon_light_telcoin.png",
+                  "format":"png"
+               }
+            ]
+         }
+      }
+   }
 ]
