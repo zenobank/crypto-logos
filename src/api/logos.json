@@ -2,7 +2,7 @@
    {
       "id":"casinocoin",
       "name":"CasinoCoin",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -28,7 +28,7 @@
    {
       "id":"gamecredits",
       "name":"GameCredits",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -54,7 +54,7 @@
    {
       "id":"circuits-of-value",
       "name":"Circuits of Value",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -80,9 +80,9 @@
    {
       "id":"tether",
       "name":"Tether USDt",
-      "mainCategory":"Stablecoins",
+      "mainCategory":"stablecoins",
       "secondaryCategories":[
-         "Tokens"
+         "tokens"
       ],
       "websiteLink":null,
       "brandKitLink":null,
@@ -106,7 +106,7 @@
    {
       "id":"agoras-tokens",
       "name":"Agoras: Tau Net",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -132,7 +132,7 @@
    {
       "id":"augur",
       "name":"Augur",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -158,7 +158,7 @@
    {
       "id":"pluton",
       "name":"Pluton",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -184,7 +184,7 @@
    {
       "id":"golem-network-tokens",
       "name":"Golem",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -210,7 +210,7 @@
    {
       "id":"wings",
       "name":"Wings",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -236,7 +236,7 @@
    {
       "id":"maker",
       "name":"Maker",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -262,7 +262,7 @@
    {
       "id":"enzyme",
       "name":"Enzyme",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -288,7 +288,7 @@
    {
       "id":"chrono-tech",
       "name":"Chrono.tech",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -314,7 +314,7 @@
    {
       "id":"swarm-city",
       "name":"Swarm City",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -340,7 +340,7 @@
    {
       "id":"rlc",
       "name":"iExec RLC",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -366,7 +366,7 @@
    {
       "id":"trust",
       "name":"WeTrust",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -392,7 +392,7 @@
    {
       "id":"speedcash",
       "name":"SpeedCash",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -418,7 +418,7 @@
    {
       "id":"lunyr",
       "name":"Lunyr",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -444,7 +444,7 @@
    {
       "id":"gnosis-gno",
       "name":"Gnosis",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -470,7 +470,7 @@
    {
       "id":"monolith",
       "name":"Monolith",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -496,7 +496,7 @@
    {
       "id":"humaniq",
       "name":"Humaniq",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -522,7 +522,7 @@
    {
       "id":"aragon",
       "name":"Aragon",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -548,7 +548,7 @@
    {
       "id":"basic-attention-token",
       "name":"Basic Attention Token",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -574,7 +574,7 @@
    {
       "id":"patientory",
       "name":"Patientory",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -600,7 +600,7 @@
    {
       "id":"mysterium",
       "name":"Mysterium",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -626,7 +626,7 @@
    {
       "id":"more-coin",
       "name":"More Coin",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -652,7 +652,7 @@
    {
       "id":"bancor",
       "name":"Bancor",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -678,7 +678,7 @@
    {
       "id":"numeraire",
       "name":"Numeraire",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -704,7 +704,7 @@
    {
       "id":"funtoken",
       "name":"FUNToken",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -730,7 +730,7 @@
    {
       "id":"status",
       "name":"Status",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -756,7 +756,7 @@
    {
       "id":"adx-net",
       "name":"AdEx",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -782,7 +782,7 @@
    {
       "id":"storj",
       "name":"Storj",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -808,7 +808,7 @@
    {
       "id":"polybius",
       "name":"Polybius",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -834,7 +834,7 @@
    {
       "id":"gas",
       "name":"Gas",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -860,7 +860,7 @@
    {
       "id":"suncontract",
       "name":"SunContract",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -886,7 +886,7 @@
    {
       "id":"metal",
       "name":"Metal DAO",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -912,7 +912,7 @@
    {
       "id":"populous",
       "name":"Populous",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -938,7 +938,7 @@
    {
       "id":"santiment",
       "name":"Santiment Network Token",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -964,7 +964,7 @@
    {
       "id":"omg",
       "name":"OMG Network",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -990,7 +990,7 @@
    {
       "id":"civic",
       "name":"Civic",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1016,7 +1016,7 @@
    {
       "id":"vgx-token",
       "name":"VGX Token",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1042,7 +1042,7 @@
    {
       "id":"pillar",
       "name":"Pillar",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1068,7 +1068,7 @@
    {
       "id":"district0x",
       "name":"district0x",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1094,7 +1094,7 @@
    {
       "id":"dent",
       "name":"Dent",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1120,7 +1120,7 @@
    {
       "id":"investfeed",
       "name":"InvestFeed",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1146,7 +1146,7 @@
    {
       "id":"0x",
       "name":"0x Protocol",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1172,7 +1172,7 @@
    {
       "id":"mybit",
       "name":"MyBit",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1198,7 +1198,7 @@
    {
       "id":"loopring",
       "name":"Loopring",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1224,7 +1224,7 @@
    {
       "id":"aventus",
       "name":"Aventus",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1250,7 +1250,7 @@
    {
       "id":"agrello-delta",
       "name":"Agrello",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1276,7 +1276,7 @@
    {
       "id":"decentraland",
       "name":"Decentraland",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1302,7 +1302,7 @@
    {
       "id":"indorse-token",
       "name":"Indorse Token",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1328,7 +1328,7 @@
    {
       "id":"propy",
       "name":"Propy",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1354,7 +1354,7 @@
    {
       "id":"chainlink",
       "name":"Chainlink",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1380,7 +1380,7 @@
    {
       "id":"substratum",
       "name":"Substratum",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1406,7 +1406,7 @@
    {
       "id":"rivetz",
       "name":"Rivetz",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1432,7 +1432,7 @@
    {
       "id":"kin",
       "name":"Kin",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1458,7 +1458,7 @@
    {
       "id":"salt",
       "name":"SALT",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1484,7 +1484,7 @@
    {
       "id":"internxt",
       "name":"Internxt",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1510,7 +1510,7 @@
    {
       "id":"cindicator",
       "name":"Cindicator",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1536,7 +1536,7 @@
    {
       "id":"zeusshield",
       "name":"Zeusshield",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1562,7 +1562,7 @@
    {
       "id":"airswap",
       "name":"AirSwap",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1588,7 +1588,7 @@
    {
       "id":"domraider",
       "name":"DomRaider",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1614,7 +1614,7 @@
    {
       "id":"request",
       "name":"Request",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1640,7 +1640,7 @@
    {
       "id":"ethereum-blue",
       "name":"Blue Protocol",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1666,7 +1666,7 @@
    {
       "id":"kucoin-token",
       "name":"KuCoin Token",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1692,7 +1692,7 @@
    {
       "id":"latoken",
       "name":"LATOKEN",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1718,7 +1718,7 @@
    {
       "id":"ripio-credit-network",
       "name":"RCN Finance",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1744,7 +1744,7 @@
    {
       "id":"iethereum",
       "name":"iEthereum",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1770,7 +1770,7 @@
    {
       "id":"power-ledger",
       "name":"Powerledger",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1796,7 +1796,7 @@
    {
       "id":"atlant",
       "name":"ATLANT",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1822,7 +1822,7 @@
    {
       "id":"streamr",
       "name":"Streamr",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1848,7 +1848,7 @@
    {
       "id":"raiden-network-token",
       "name":"Raiden Network Token",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1874,7 +1874,7 @@
    {
       "id":"delphy",
       "name":"Delphy",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1900,7 +1900,7 @@
    {
       "id":"upfiring",
       "name":"Upfiring",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1926,7 +1926,7 @@
    {
       "id":"privatix",
       "name":"Privatix",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1952,7 +1952,7 @@
    {
       "id":"encrypgen",
       "name":"EncrypGen",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -1978,7 +1978,7 @@
    {
       "id":"blockv",
       "name":"BLOCKv",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2004,7 +2004,7 @@
    {
       "id":"flixxo",
       "name":"Flixxo",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2030,7 +2030,7 @@
    {
       "id":"dragonchain",
       "name":"Dragonchain",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2056,7 +2056,7 @@
    {
       "id":"presearch",
       "name":"Presearch",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2082,7 +2082,7 @@
    {
       "id":"blockcdn",
       "name":"BlockCDN",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2108,7 +2108,7 @@
    {
       "id":"uquid-coin",
       "name":"Uquid Coin",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2134,7 +2134,7 @@
    {
       "id":"worldcore",
       "name":"Worldcore",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2160,7 +2160,7 @@
    {
       "id":"gifto",
       "name":"Gifto",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2186,7 +2186,7 @@
    {
       "id":"genaro-network",
       "name":"Genaro Network",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2212,7 +2212,7 @@
    {
       "id":"starbase",
       "name":"Starbase",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2238,7 +2238,7 @@
    {
       "id":"stormx",
       "name":"StormX",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2264,7 +2264,7 @@
    {
       "id":"bibox-token",
       "name":"Bibox Token",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2290,7 +2290,7 @@
    {
       "id":"sirin-labs-token",
       "name":"SIRIN LABS Token",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2316,7 +2316,7 @@
    {
       "id":"neumark",
       "name":"Neumark",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2342,7 +2342,7 @@
    {
       "id":"utrust",
       "name":"xMoney",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2368,7 +2368,7 @@
    {
       "id":"bigone-token",
       "name":"BigONE Token",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2394,7 +2394,7 @@
    {
       "id":"game",
       "name":"Game.com",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2420,7 +2420,7 @@
    {
       "id":"swftcoin",
       "name":"SwftCoin",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2446,7 +2446,7 @@
    {
       "id":"measurable-data-token",
       "name":"Measurable Data Token",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2472,7 +2472,7 @@
    {
       "id":"mixin",
       "name":"Mixin",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2498,7 +2498,7 @@
    {
       "id":"zap",
       "name":"Zap",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2524,7 +2524,7 @@
    {
       "id":"tokenclub",
       "name":"TokenClub",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2550,7 +2550,7 @@
    {
       "id":"aigang",
       "name":"Aigang",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
@@ -2576,7 +2576,7 @@
    {
       "id":"telcoin",
       "name":"Telcoin",
-      "mainCategory":"Tokens",
+      "mainCategory":"tokens",
       "secondaryCategories":[
          
       ],
