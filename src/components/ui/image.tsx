@@ -9,7 +9,6 @@ interface ImageProps extends ImgHTMLAttributes<HTMLImageElement> {
   src: string;
   alt: string;
   fallbackText?: string;
-  skeletonClassName?: string;
 }
 
 export function Image({
@@ -17,7 +16,6 @@ export function Image({
   alt,
   fallbackText,
   className,
-  skeletonClassName,
   ...props
 }: ImageProps) {
   // states
@@ -38,20 +36,21 @@ export function Image({
   }
 
   return (
-    <>
-      {loading && <Skeleton className={cn(className, skeletonClassName)} />}
+    <div className={cn('relative flex items-center justify-center z-0', className)}>
+      {loading && <Skeleton className="absolute inset-0 z-[-1]" />}
+
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         {...props}
         src={src}
         alt={alt}
-        className={cn(className, loading && 'hidden')}
+        className="w-full h-full object-cover"
         onLoad={() => setLoading(false)}
         onError={() => {
           setLoading(false);
           setError(true);
         }}
       />
-    </>
+    </div>
   );
 }

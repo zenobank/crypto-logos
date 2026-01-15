@@ -1,6 +1,7 @@
 // components
 import CodeBlock from '@/components/api-docs/CodeBlock';
 import { Badge } from '@/components/ui/badge';
+import RequestExample from '@/components/api-docs/RequestExample';
 
 // custom models
 interface QueryParam {
@@ -87,7 +88,7 @@ export default function EndpointSection({
       <div className="space-y-6">
         <div>
           <h4 className="text-base font-semibold mb-4">Request</h4>
-          <CodeBlock code={requestExample} language="bash" />
+          <RequestExample example={requestExample} />
         </div>
 
         <div>
