@@ -10,7 +10,6 @@ import { useFavorites } from '@/providers/FavoritesProvider';
 // queries
 import { getLogosQueryParams } from '@/queries/app-queries';
 
-
 // components
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -24,11 +23,6 @@ interface Props {
 }
 
 export default function LogosSection({ searchQuery }: Props) {
-  const { hydrated } = useFavorites();
-  return <LogosSectionContent key={hydrated ? 'hydrated' : 'ssr'} searchQuery={searchQuery} />;
-}
-
-function LogosSectionContent({ searchQuery }: Props) {
   // common
   const { favorites, hydrated, clearAll, isLoading: isLoadingFavorites } = useFavorites();
 
@@ -79,7 +73,9 @@ function LogosSectionContent({ searchQuery }: Props) {
           <div className="sticky top-0 z-50 flex h-12.5 items-center justify-between py-1.5 pr-2 pl-3 border-b border-neutral-200 dark:border-neutral-800 bg-white/80 backdrop-blur-sm dark:bg-neutral-900/40">
             <div className="flex items-center gap-2">
               <Folder className="h-5 w-5" />
-              <span className="text-lg">Favorites - {favorites.size} SVGs</span>
+              <span className="text-lg">
+                Favorites<span className="hidden md:inline"> - {favorites.size} SVGs</span>
+              </span>
             </div>
 
             {!!favorites.size && (

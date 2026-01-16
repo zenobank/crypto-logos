@@ -70,7 +70,7 @@ export default async function CategoryPage({
   );
 
   return (
-    <div className="flex-1 flex flex-col p-6">
+    <div className="flex-1 flex flex-col p-6 max-md:p-4">
       <HydrationBoundary state={dehydrate(queryClient)}>
         <LogosSection searchQuery={searchQuery} category={category} sortBy={sortBy} showCategoryHeader />
       </HydrationBoundary>
