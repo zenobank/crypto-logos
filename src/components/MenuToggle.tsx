@@ -23,7 +23,7 @@ export default function MenuToggle({ children }: Props) {
 
   return (
     <>
-      <Button className="hidden max-md:flex" variant="ghost" size="icon" onClick={toggle}>
+      <Button className="hidden max-md:flex" variant="ghost" size="icon" aria-label="open menu" onClick={toggle}>
         <MenuIcon />
       </Button>
       <div
