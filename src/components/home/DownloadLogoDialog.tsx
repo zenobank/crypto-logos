@@ -15,6 +15,8 @@ import DownloadSection from '@/components/home/DownloadSection';
 
 // models
 import type LogoItem from '@/shared/models/logos/logo-item';
+import { cn } from '@/lib/utils';
+import { ScrollArea } from '@/components/ui/scroll-area';
 
 // custom models
 interface DownloadLogoDialogProps {
@@ -26,9 +28,10 @@ export default function DownloadLogoDialog({ logo, children }: DownloadLogoDialo
   // computed
   const hasWordmark = Boolean(logo.logo.text?.light?.[0]);
   const hasDarkIcon = Boolean(logo.logo.icon.dark?.[0]);
+  const hasMultipleFormats = logo.logo.icon.light.length > 1;
 
-  // Check if there's only one image: icon.light only, no dark, no text
-  const hasOnlyOneImage = !hasDarkIcon && !hasWordmark;
+  // Check if there's only one image: single icon.light, no dark, no text, no multiple formats
+  const hasOnlyOneImage = !hasDarkIcon && !hasWordmark && !hasMultipleFormats;
 
   // helpers
   function handleDownload(e: MouseEvent): void {
@@ -45,10 +48,10 @@ export default function DownloadLogoDialog({ logo, children }: DownloadLogoDialo
     <Dialog>
       {
         hasOnlyOneImage ?
-        <div onClick={handleDownload}>
-          {children}
-        </div>
-        : <DialogTrigger asChild>{children}</DialogTrigger>
+          <div onClick={handleDownload}>
+            {children}
+          </div>
+          : <DialogTrigger asChild>{children}</DialogTrigger>
       }
       <DialogContent className="max-w-3xl">
         <DialogHeader>
@@ -58,34 +61,36 @@ export default function DownloadLogoDialog({ logo, children }: DownloadLogoDialo
           </DialogDescription>
         </DialogHeader>
 
-        <div className={`grid gap-4 ${hasWordmark ? 'grid-cols-2' : 'grid-cols-1 max-w-sm mx-auto'}`}>
-          <DownloadSection
-            title="Icon only"
-            previewUrl={logo.logo.icon.light[0]?.url}
-            logoName={logo.id}
-            lightAssets={logo.logo.icon.light}
-            darkAssets={logo.logo.icon.dark}
-            filePrefix="icon"
-          />
-
-          {hasWordmark && logo.logo.text && (
+        <ScrollArea className="max-h-[calc(100dvh-10rem)]">
+          <div className={cn('grid gap-4 max-md:gap-2 max-md:flex max-md:flex-col', hasWordmark ? 'grid-cols-2' : 'grid-cols-1 max-w-sm mx-auto')}>
             <DownloadSection
-              title="With wordmark"
-              previewUrl={logo.logo.text.light[0].url}
+              title="Icon only"
+              previewUrl={logo.logo.icon.light[0]?.url}
               logoName={logo.id}
-              lightAssets={logo.logo.text.light}
-              darkAssets={logo.logo.text.dark}
-              filePrefix="wordmark"
+              lightAssets={logo.logo.icon.light}
+              darkAssets={logo.logo.icon.dark}
+              filePrefix="icon"
             />
-          )}
-        </div>
 
-        <div className="mt-2 flex w-full items-center text-center text-xs text-muted-foreground">
-          <p>
-            Please ensure you have permission from the creators before using the SVG.
-            Modifications are not permitted.
-          </p>
-        </div>
+            {hasWordmark && logo.logo.text && (
+              <DownloadSection
+                title="With wordmark"
+                previewUrl={logo.logo.text.light[0].url}
+                logoName={logo.id}
+                lightAssets={logo.logo.text.light}
+                darkAssets={logo.logo.text.dark}
+                filePrefix="wordmark"
+              />
+            )}
+          </div>
+
+          <div className="mt-2 flex w-full items-center text-center text-xs text-muted-foreground">
+            <p>
+              Please ensure you have permission from the creators before using the SVG.
+              Modifications are not permitted.
+            </p>
+          </div>
+        </ScrollArea>
       </DialogContent>
     </Dialog>
   );

@@ -30,30 +30,31 @@ export default function DownloadSection({
 }: DownloadSectionProps) {
   // computed
   const hasBothVariants = lightAssets.length > 0 && darkAssets && darkAssets.length > 0;
-  const lightAsset = lightAssets[0];
-  const darkAsset = darkAssets?.[0];
   const alternativeSrcs = [...lightAssets, ...(darkAssets || [])].map(el => el.url);
+  const hasMultipleFormats = lightAssets.length > 1 || (darkAssets && darkAssets.length > 1);
 
   // helpers
   function handleDownloadVariant(asset: LogoAsset, variantName: string): void {
     downloadLogo(asset.url, `${logoName}-${filePrefix}-${variantName}.${asset.format}`);
   }
 
-  async function handleDownloadBoth(): Promise<void> {
+  async function handleDownloadAll(): Promise<void> {
     const assets = [];
 
-    if (lightAsset) {
+    for (const asset of lightAssets) {
       assets.push({
-        url: lightAsset.url,
-        fileName: `${logoName}-${filePrefix}-light.${lightAsset.format}`,
+        url: asset.url,
+        fileName: `${logoName}-${filePrefix}-light.${asset.format}`,
       });
     }
 
-    if (darkAsset) {
-      assets.push({
-        url: darkAsset.url,
-        fileName: `${logoName}-${filePrefix}-dark.${darkAsset.format}`,
-      });
+    if (darkAssets) {
+      for (const asset of darkAssets) {
+        assets.push({
+          url: asset.url,
+          fileName: `${logoName}-${filePrefix}-dark.${asset.format}`,
+        });
+      }
     }
 
     await downloadAssetsAsZip(assets, `${logoName}-${filePrefix}.zip`);
@@ -72,44 +73,46 @@ export default function DownloadSection({
       />
 
       <div className="flex flex-col gap-2 w-full">
-        {hasBothVariants && (
+        {(hasBothVariants || hasMultipleFormats) && (
           <Button
             variant="outline"
             size="sm"
-            onClick={handleDownloadBoth}
+            onClick={handleDownloadAll}
             className="w-full justify-start"
           >
             <Download className="h-4 w-4 mr-2" />
-            Light & dark variants
+            {hasBothVariants ? 'All variants & formats' : 'All formats'}
             <span className="ml-auto text-xs text-muted-foreground">.zip</span>
           </Button>
         )}
 
-        {lightAsset && (
+        {lightAssets.map((asset, index) => (
           <Button
+            key={`light-${index}`}
             variant="outline"
             size="sm"
-            onClick={() => handleDownloadVariant(lightAsset, 'light')}
+            onClick={() => handleDownloadVariant(asset, 'light')}
             className="w-full justify-start"
           >
             <Download className="h-4 w-4 mr-2" />
-            {hasBothVariants ? 'Only light variant' : 'Light variant'}
-            <span className="ml-auto text-xs text-muted-foreground">.{lightAsset.format}</span>
+            Light {lightAssets.length > 1 ? asset.format.toUpperCase() : 'variant'}
+            <span className="ml-auto text-xs text-muted-foreground">.{asset.format}</span>
           </Button>
-        )}
+        ))}
 
-        {darkAsset && (
+        {darkAssets?.map((asset, index) => (
           <Button
+            key={`dark-${index}`}
             variant="outline"
             size="sm"
-            onClick={() => handleDownloadVariant(darkAsset, 'dark')}
+            onClick={() => handleDownloadVariant(asset, 'dark')}
             className="w-full justify-start"
           >
             <Download className="h-4 w-4 mr-2" />
-            {hasBothVariants ? 'Only dark variant' : 'Dark variant'}
-            <span className="ml-auto text-xs text-muted-foreground">.{darkAsset.format}</span>
+            Dark {darkAssets.length > 1 ? asset.format.toUpperCase() : 'variant'}
+            <span className="ml-auto text-xs text-muted-foreground">.{asset.format}</span>
           </Button>
-        )}
+        ))}
       </div>
     </div>
   );
