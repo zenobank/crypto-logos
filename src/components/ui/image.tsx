@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import NextImage, { ImageProps as NextImageProps } from 'next/image';
 import { cn } from '@/lib/utils';
 import { Skeleton } from './skeleton';
@@ -10,6 +10,7 @@ interface ImageProps extends Omit<NextImageProps, 'onLoad' | 'onError'> {
   src: string;
   alt: string;
   fallbackText?: string;
+  alternativeSrcs?: string[];
 }
 
 export function Image({
@@ -18,12 +19,44 @@ export function Image({
   width,
   height,
   fallbackText,
+  alternativeSrcs = [],
   className,
   ...props
 }: ImageProps) {
   // states
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
+  const [currentSrcIndex, setCurrentSrcIndex] = useState(-1);
+
+  // computed
+  const allSrcs = [src, ...alternativeSrcs];
+  const currentSrc = currentSrcIndex === -1 ? src : allSrcs[currentSrcIndex];
+
+  // effects
+  useEffect(() => {
+    setLoading(true);
+    setError(false);
+    setCurrentSrcIndex(-1);
+  }, [src]);
+
+  // helpers
+  function handleLoad(): void {
+    setLoading(false);
+  }
+
+  function handleError(): void {
+    const nextIndex = currentSrcIndex + 1;
+
+    // If there are more alternative sources, try the next one
+    if (nextIndex < allSrcs.length) {
+      setCurrentSrcIndex(nextIndex);
+      setLoading(true);
+    } else {
+      // All sources failed, show error
+      setLoading(false);
+      setError(true);
+    }
+  }
 
   if (error) {
     return (
@@ -44,16 +77,16 @@ export function Image({
 
       <NextImage
         {...props}
-        src={src}
+        src={currentSrc}
         alt={alt}
         width={width}
         height={height}
-        className={cn('w-full h-full object-cover', loading && 'opacity-0')}
-        onLoad={() => setLoading(false)}
-        onError={() => {
-          setLoading(false);
-          setError(true);
-        }}
+        loading="eager"
+        fetchPriority="high"
+        quality={75}
+        className={cn('h-full object-contain', loading && 'opacity-0')}
+        onLoad={handleLoad}
+        onError={handleError}
       />
     </div>
   );

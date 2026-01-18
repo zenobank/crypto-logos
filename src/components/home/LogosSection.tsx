@@ -32,11 +32,19 @@ export default function LogosSection({ searchQuery, category, sortBy, showCatego
               {showCategoryHeader && <BackButton />}
               <Folder className="h-5 w-5" />
               <span className="text-lg">
-                {showCategoryHeader && category
-                  ? `${category.charAt(0).toUpperCase() + category.slice(1)} - `
-                  : ''}
-                <LogosCountBadge searchQuery={searchQuery} category={category} />
-                {showCategoryHeader ? ' SVGs' : ' logos'}
+                {
+                  showCategoryHeader && category
+                    ? category.charAt(0).toUpperCase() + category.slice(1)
+                    : ''
+                }
+                <span className="hidden md:inline">
+                  {showCategoryHeader && category ? ' - ' : ''}
+                  <LogosCountBadge
+                    searchQuery={searchQuery}
+                    category={category}
+                    categoryPage={showCategoryHeader}
+                  />
+                </span>
               </span>
             </div>
             <SortDropdown value={sortBy} />

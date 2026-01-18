@@ -25,7 +25,7 @@ export default async function Sidebar({ className }: Props) {
     <aside className={cn('fixed left-0 top-14 z-40 flex flex-col h-[calc(100vh-3.5rem)] w-64 overflow-y-auto border-r border-border/40 bg-background overscroll-none', className)}>
       <div className="flex-1 flex flex-col gap-4 py-4">
         {/* Main Navigation */}
-        <nav className="flex flex-col gap-1 px-4">
+        <nav className="flex flex-col gap-1 pl-1 pr-2">
           {mainNavigation.map((item) => {
             const Icon = item.icon;
             const isFavorites = item.href === '/favorites';
@@ -50,8 +50,8 @@ export default async function Sidebar({ className }: Props) {
         <Separator />
 
         {/* Categories */}
-        <ScrollArea className="grow h-0 pl-4">
-          <nav className="flex flex-col gap-1 pr-4">
+        <ScrollArea className="grow h-0 pl-1 pr-2">
+          <nav className="flex flex-col gap-1">
             <CategoryList />
           </nav>
         </ScrollArea>

@@ -37,8 +37,8 @@ npm run dev
 5. Add your SVG file (or use a direct SVG URL).  
 You have two options for providing the SVG:
 - Option A — Add the .svg file into the repository:  
-Put your file into: [**`public/library`**](https://github.com/zenobank/crypto-logos/tree/main/public/images/library).  
-Example: [**`public/library/logo.svg`**](https://github.com/zenobank/crypto-logos/tree/main/public/images/library).
+Put your file into: [**`public/library`**](https://github.com/zenobank/crypto-logos/tree/main/public/library).  
+Example: [**`public/library/logo.svg`**](https://github.com/zenobank/crypto-logos/tree/main/public/library).
 
 > [!WARNING]
 >
@@ -51,7 +51,7 @@ If you already host the SVG somewhere reliable (CDN / official source), you can 
 This is useful when you don’t want to commit the SVG file into the repo, but keep in mind external links can break later.
 
 6. Add logo metadata (follow the [**`LogoItem`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/models/logos/logo-item.ts) model).   
-Go to the [**`src/api/logos.json`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/constants/logos-data.ts) and add the information about your logo, following the structure.   
+Go to the [**`src/api/logos.json`**](https://github.com/zenobank/crypto-logos/tree/main/src/api/logos.json) and add the information about your logo, following the structure.   
 Every logo entry must follow the [**`LogoItem`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/models/logos/logo-item.ts) model, so the app can render it correctly and keep the library consistent.   
 
 - **Data model**:
@@ -92,10 +92,10 @@ interface LogoVariantGroup {
 > - `secondaryCategories`: extra categories (example: `["payments", "billing"]`).
 > - `websiteLink`: (optional): official website.
 > - `brandKitLink`: (optional): brand guidelines / press kit.
-> - `logo`: logo files users can download:
-> &nbsp;&nbsp;`icon`: required.
-> &nbsp;&nbsp;`text`: optional (text logo).
-> &nbsp;&nbsp; each supports `light` and optionally `dark`.
+> - `logo`: logo files users can download:  
+> &nbsp;&nbsp;`icon`: required.  
+> &nbsp;&nbsp;`text`: optional (text logo).  
+> &nbsp;&nbsp; each supports `light` and optionally `dark`.  
 > &nbsp;&nbsp; each variant is an array so you can provide multiple assets (formats/sizes) if needed.
 
 - **Simple logo (one icon, light only)**:

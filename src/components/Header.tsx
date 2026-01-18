@@ -1,6 +1,9 @@
 import Link from 'next/link';
-import { Settings, Send } from 'lucide-react';
+import { Send, Github } from 'lucide-react';
 import Image from 'next/image';
+
+// api
+import GithubApi from '@/api/github.api';
 
 // components
 import { Button } from '@/components/ui/button';
@@ -11,7 +14,13 @@ import MenuToggle from '@/components/MenuToggle';
 // constants
 import { GITHUB_GET_STARTED_LINK_URL, GITHUB_LINK_URL } from '@/shared/constants/links';
 
-export default function Header() {
+// helpers
+import formatNumber from '@/shared/helpers/format-number';
+
+export default async function Header() {
+  const stars = await GithubApi.getRepoStars('zenobank', 'crypto-logos');
+  const starsLabel = formatNumber(stars);
+
   return (
     <header className="sticky top-0 z-50 flex w-full border-b border-border/40 bg-background">
       <div className="flex-1 flex h-14 items-center justify-between px-4">
@@ -40,40 +49,12 @@ export default function Header() {
 
         {/* Actions */}
         <div className="flex items-center gap-2">
-          <Button
-            variant="ghost"
-            size="icon"
-            className="h-9 w-9"
-            asChild
-          >
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center"
-            >
-              X
-            </a>
-          </Button>
-
           <ThemeToggle />
 
           <Button
             variant="ghost"
             size="icon"
-            className="h-9 w-9"
-            asChild
-          >
-            <Link href="/ui-kit">
-              <Settings className="h-4 w-4" />
-              <span className="sr-only">Settings</span>
-            </Link>
-          </Button>
-
-          <Button
-            variant="ghost"
-            size="icon"
-            className="h-9 w-12 gap-1"
+            className="h-9 gap-1 min-w-12 w-fit px-2"
             asChild
           >
             <a
@@ -82,7 +63,8 @@ export default function Header() {
               rel="noopener noreferrer"
               className="flex items-center"
             >
-              5.4k
+              <Github className="h-4 w-4"/>
+              <span>{ starsLabel }</span>
             </a>
           </Button>
 

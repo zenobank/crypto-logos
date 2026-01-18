@@ -22,7 +22,7 @@ export default function CategoryLink({ category, count }: CategoryLinkProps) {
     <Link
       href={href}
       className={cn(
-        "flex items-center justify-between rounded-lg px-3 py-1.5 pr-0 transition-colors hover:text-foreground",
+        "flex items-center justify-between rounded-lg px-3 py-1.5 transition-colors hover:text-foreground",
         isActive ? "bg-accent text-accent-foreground" : "text-muted-foreground"
       )}
     >

@@ -20,14 +20,19 @@ export default function LogoCard({ logo }: Props) {
     <Card className="py-3 px-3.5 gap-0 bg-transparent">
       {/* Top right icons - Palette + Heart */}
       <div className="flex items-center justify-end gap-1">
-        <Button
-          variant="ghost"
-          size="icon"
-          className="h-8 w-8"
-          aria-label={`View ${logo.name} color palette`}
-        >
-          <Palette className="h-5 w-5" />
-        </Button>
+        {logo.brandKitLink && (
+          <Button
+            variant="ghost"
+            size="icon"
+            className="h-8 w-8"
+            aria-label={`View ${logo.name} brand kit`}
+            asChild
+          >
+            <a href={logo.brandKitLink} target="_blank" rel="noopener noreferrer">
+              <Palette className="h-5 w-5" />
+            </a>
+          </Button>
+        )}
         <FavoriteToggle id={logo.id} />
       </div>
 

@@ -25,6 +25,10 @@ export default function SearchBar({ value }: Props) {
 
   // effects
   useEffect(() => {
+    setSearchQuery(value);
+  }, [value]);
+
+  useEffect(() => {
     const timeout = setTimeout(() => {
       const params = new URLSearchParams(window.location.search);
       if (searchQuery) {
