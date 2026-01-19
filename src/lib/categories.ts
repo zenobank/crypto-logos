@@ -11,7 +11,7 @@ const categoriesCounts = LOGOS_DATA.reduce((acc, logo) => {
   const mainCategory = normalizeString(logo.mainCategory);
   acc[mainCategory] = (acc[mainCategory] || 0) + 1;
 
-  logo.secondaryCategories.forEach((category) => {
+  logo.secondaryCategories.forEach((category: string) => {
     const sanitizedCategory = normalizeString(category);
     acc[sanitizedCategory] = (acc[sanitizedCategory] || 0) + 1;
   });

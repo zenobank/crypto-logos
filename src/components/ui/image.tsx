@@ -81,8 +81,6 @@ export function Image({
         alt={alt}
         width={width}
         height={height}
-        loading="eager"
-        fetchPriority="high"
         quality={75}
         className={cn('h-full object-contain', loading && 'opacity-0')}
         onLoad={handleLoad}

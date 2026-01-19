@@ -10,7 +10,7 @@ export function getLogosQueryParams(
   searchQuery: string | null,
   category: string | null,
   sortBy: string | null = LogosSortBy.NameAsc,
-  limit: number | null = 30,
+  limit: number | null = 20,
 ) {
   return {
     queryKey: ['logos', searchQuery, category, sortBy],
