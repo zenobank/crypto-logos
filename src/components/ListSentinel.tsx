@@ -33,7 +33,7 @@ function ListSentinel({ hasMore, onLoadMore, isLoading }: Props) {
     return () => observer.disconnect();
   }, [hasMore, isLoading, onLoadMore]);
 
-  return hasMore && <div ref={sentinelRef} className="h-10" />;
+  return hasMore && <div ref={sentinelRef} className="absolute bottom-100 h-10 max-md:bottom-20" />;
 }
 
 export default ListSentinel;

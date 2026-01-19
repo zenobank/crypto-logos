@@ -62,7 +62,7 @@ export function Image({
     return (
       <div
         className={cn(
-          'flex items-center justify-center bg-muted text-muted-foreground font-medium text-sm p-4 rounded-xl',
+          'flex items-center justify-center bg-muted text-foreground/70 font-medium text-sm p-4 rounded-xl',
           className,
         )}
       >
@@ -81,8 +81,6 @@ export function Image({
         alt={alt}
         width={width}
         height={height}
-        loading="eager"
-        fetchPriority="high"
         quality={75}
         className={cn('h-full object-contain', loading && 'opacity-0')}
         onLoad={handleLoad}

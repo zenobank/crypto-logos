@@ -5,7 +5,11 @@ import { useInfiniteQuery } from '@tanstack/react-query';
 // queries
 import { getLogosQueryParams } from '@/queries/app-queries';
 
+// hooks
+import useScrollReset from '@/hooks/use-scroll-reset';
+
 // components
+import { ScrollArea } from '@/components/ui/scroll-area';
 import LogoGrid from './LogoGrid';
 
 // models
@@ -29,6 +33,8 @@ export default function InfiniteScrollWrapper({ searchQuery, category, sortBy }:
     error,
   } = useInfiniteQuery(getLogosQueryParams(searchQuery, category, sortBy));
 
+  const { scrollContainerRef } = useScrollReset([searchQuery, category, sortBy]);
+
   // computed
   const logos = (data || { pages: [] }).pages.flatMap((page) => page.data);
 
@@ -41,11 +47,13 @@ export default function InfiniteScrollWrapper({ searchQuery, category, sortBy }:
   }
 
   return (
-    <LogoGrid
-      logos={logos}
-      hasMore={hasNextPage}
-      onLoadMore={() => fetchNextPage()}
-      isLoading={isLoading || isFetchingNextPage}
-    />
+    <ScrollArea className="grow flex flex-col h-0 py-4" viewportRef={scrollContainerRef}>
+      <LogoGrid
+        logos={logos}
+        hasMore={hasNextPage}
+        onLoadMore={() => fetchNextPage()}
+        isLoading={isLoading || isFetchingNextPage}
+      />
+    </ScrollArea>
   );
 }

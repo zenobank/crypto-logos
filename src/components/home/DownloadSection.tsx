@@ -1,4 +1,7 @@
+'use client';
+
 import { Download } from 'lucide-react';
+import { useTheme } from 'next-themes';
 
 // helpers
 import { downloadLogo, downloadAssetsAsZip } from '@/shared/helpers/logo-actions';
@@ -13,7 +16,6 @@ import type LogoAsset from '@/shared/models/logos/logo-asset';
 // custom models
 interface DownloadSectionProps {
   title: string;
-  previewUrl: string;
   logoName: string;
   lightAssets: LogoAsset[];
   darkAssets?: LogoAsset[];
@@ -22,14 +24,17 @@ interface DownloadSectionProps {
 
 export default function DownloadSection({
   title,
-  previewUrl,
   logoName,
   lightAssets,
   darkAssets,
   filePrefix,
 }: DownloadSectionProps) {
+  // hooks
+  const { resolvedTheme } = useTheme();
+
   // computed
   const hasBothVariants = lightAssets.length > 0 && darkAssets && darkAssets.length > 0;
+  const previewUrl = (resolvedTheme === 'dark' && darkAssets?.[0]?.url) || lightAssets[0]?.url;
   const alternativeSrcs = [...lightAssets, ...(darkAssets || [])].map(el => el.url);
   const hasMultipleFormats = lightAssets.length > 1 || (darkAssets && darkAssets.length > 1);
 

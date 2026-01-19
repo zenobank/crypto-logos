@@ -65,7 +65,6 @@ export default function DownloadLogoDialog({ logo, children }: DownloadLogoDialo
           <div className={cn('grid gap-4 max-md:gap-2 max-md:flex max-md:flex-col', hasWordmark ? 'grid-cols-2' : 'grid-cols-1 max-w-sm mx-auto')}>
             <DownloadSection
               title="Icon only"
-              previewUrl={logo.logo.icon.light[0]?.url}
               logoName={logo.id}
               lightAssets={logo.logo.icon.light}
               darkAssets={logo.logo.icon.dark}
@@ -75,7 +74,6 @@ export default function DownloadLogoDialog({ logo, children }: DownloadLogoDialo
             {hasWordmark && logo.logo.text && (
               <DownloadSection
                 title="With wordmark"
-                previewUrl={logo.logo.text.light[0].url}
                 logoName={logo.id}
                 lightAssets={logo.logo.text.light}
                 darkAssets={logo.logo.text.dark}
