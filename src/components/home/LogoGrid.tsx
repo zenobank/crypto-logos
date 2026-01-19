@@ -32,7 +32,7 @@ export default function LogoGrid({ logos, hasMore, onLoadMore, isLoading, EmptyS
   }
 
   return (
-    <>
+    <div className="relative">
       <div className="grid grid-cols-[repeat(auto-fill,minmax(15rem,1fr))] gap-4 px-3">
         {logos.map((logo, index) => (
           <LogoCard
@@ -52,6 +52,6 @@ export default function LogoGrid({ logos, hasMore, onLoadMore, isLoading, EmptyS
 
       {/* Sentinel element for infinite scroll */}
       <ListSentinel hasMore={hasMore} onLoadMore={onLoadMore} isLoading={isLoading} />
-    </>
+    </div>
   );
 }
