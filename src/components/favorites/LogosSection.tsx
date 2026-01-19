@@ -10,6 +10,9 @@ import { useFavorites } from '@/providers/FavoritesProvider';
 // queries
 import { getLogosQueryParams } from '@/queries/app-queries';
 
+// hooks
+import useScrollReset from '@/hooks/use-scroll-reset';
+
 // components
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -25,6 +28,7 @@ interface Props {
 export default function LogosSection({ searchQuery }: Props) {
   // common
   const { favorites, hydrated, clearAll, isLoading: isLoadingFavorites } = useFavorites();
+  const { scrollContainerRef } = useScrollReset([searchQuery]);
 
   // state
   const [initialVisibleIds] = useState<Set<string>>(() => new Set(favorites));
@@ -69,27 +73,28 @@ export default function LogosSection({ searchQuery }: Props) {
       <SearchBar value={searchQuery} />
 
       <Card className="flex-1 flex flex-col p-0 gap-0 overflow-hidden bg-transparent">
-        <ScrollArea className="grow flex flex-col h-0">
-          <div className="sticky top-0 z-10 flex h-12.5 items-center justify-between py-1.5 pr-2 pl-3 border-b border-neutral-200 dark:border-neutral-800 bg-white/80 backdrop-blur-sm dark:bg-neutral-900/40">
-            <div className="flex items-center gap-2">
-              <Folder className="h-5 w-5" />
-              <span className="text-lg">
+        <div className="flex h-12.5 items-center justify-between py-1.5 pr-2 pl-3 border-b border-neutral-200 dark:border-neutral-800 bg-white/80 backdrop-blur-sm dark:bg-neutral-900/40">
+          <div className="flex items-center gap-2">
+            <Folder className="h-5 w-5" />
+            <span className="text-lg">
                 Favorites<span className="hidden md:inline"> - {favorites.size} SVG{favorites.size === 1 ? '' : 's'}</span>
               </span>
-            </div>
-
-            {!!favorites.size && (
-              <Button className="flex item-center" variant="ghost" onClick={clearAll}>
-                <Trash />
-                <span>Clear All</span>
-              </Button>
-            )}
           </div>
 
+          {!!favorites.size && (
+            <Button className="flex item-center" variant="ghost" onClick={clearAll}>
+              <Trash />
+              <span>Clear All</span>
+            </Button>
+          )}
+        </div>
+
+        <ScrollArea className="grow h-0 py-4" viewportRef={scrollContainerRef}>
           <LogoGrid
             logos={logos}
             hasMore={false}
-            onLoadMore={() => {}}
+            onLoadMore={() => {
+            }}
             isLoading={isLoading || isLoadingFavorites || !hydrated}
           />
         </ScrollArea>
