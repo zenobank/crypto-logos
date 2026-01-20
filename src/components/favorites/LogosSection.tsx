@@ -1,16 +1,13 @@
 'use client';
 
-import { useMemo, useState } from 'react';
-import { useInfiniteQuery } from '@tanstack/react-query';
+import { useMemo, useRef } from 'react';
 import { Folder, Trash } from 'lucide-react';
 
-// providers
-import { useFavorites } from '@/providers/FavoritesProvider';
-
-// queries
-import { getLogosQueryParams } from '@/queries/app-queries';
+// models
+import LogoItem from '@/shared/models/logos/logo-item';
 
 // hooks
+import { useFavorites } from '@/providers/FavoritesProvider';
 import useScrollReset from '@/hooks/use-scroll-reset';
 
 // components
@@ -27,46 +24,54 @@ interface Props {
 
 export default function LogosSection({ searchQuery }: Props) {
   // common
-  const { favorites, hydrated, clearAll, isLoading: isLoadingFavorites } = useFavorites();
+  const { favorites, favoriteItems, hydrated, clearAll, isLoading: isLoadingFavorites } = useFavorites();
   const { scrollContainerRef } = useScrollReset([searchQuery]);
 
-  // state
-  const [initialVisibleIds] = useState<Set<string>>(() => new Set(favorites));
+  const initialItemsRef = useRef<Map<string, LogoItem> | null>(null);
+
+  if (hydrated && !initialItemsRef.current) {
+    const map = new Map<string, LogoItem>();
+
+    for (const item of favoriteItems) {
+      const id = String((item as any)?.id ?? '');
+      if (!id) continue;
+      map.set(id, item);
+    }
+
+    initialItemsRef.current = map;
+  }
+
 
   // computed
-  const visibleIds = useMemo(() => {
-    const next = new Set(initialVisibleIds);
-    for (const id of favorites) next.add(id);
-    return next;
-  }, [initialVisibleIds, favorites]);
-
-  const canFetch = hydrated && visibleIds.size > 0;
-
-  const { data, isLoading } = useInfiniteQuery({
-    ...getLogosQueryParams(searchQuery, null),
-    enabled: canFetch,
-  });
-
   const logos = useMemo(() => {
-    if (!data || visibleIds.size === 0) return [];
+    const map = new Map<string, LogoItem>();
 
-    const out: (typeof data.pages)[number]['data'][number][] = [];
-    const seen = new Set<string>();
-
-    for (const page of data.pages) {
-      for (const logo of page.data) {
-        const id = String(logo.id);
-
-        if (!visibleIds.has(id)) continue;
-        if (seen.has(id)) continue;
-
-        seen.add(id);
-        out.push(logo);
+    if (initialItemsRef.current) {
+      for (const [id, item] of initialItemsRef.current.entries()) {
+        map.set(id, item);
       }
     }
 
-    return out;
-  }, [data, visibleIds]);
+    for (const item of favoriteItems) {
+      const id = String((item as any)?.id ?? '');
+      if (!id) continue;
+      map.set(id, item);
+    }
+
+    let list = Array.from(map.values());
+
+    const q = searchQuery.trim().toLowerCase();
+    if (!q) return list;
+
+    list = list.filter((logo: any) => {
+      const name = String(logo?.name ?? '').toLowerCase();
+      return name.includes(q)
+    });
+
+    return list;
+  }, [favoriteItems, searchQuery]);
+
+  const isLoading = isLoadingFavorites || !hydrated;
 
   return (
     <div className="grow flex flex-col gap-2">
@@ -77,8 +82,12 @@ export default function LogosSection({ searchQuery }: Props) {
           <div className="flex items-center gap-2">
             <Folder className="h-5 w-5" />
             <span className="text-lg">
-                Favorites<span className="hidden md:inline"> - {favorites.size} SVG{favorites.size === 1 ? '' : 's'}</span>
+              Favorites
+              <span className="hidden md:inline">
+                {' '}
+                - {favorites.size} SVG{favorites.size === 1 ? '' : 's'}
               </span>
+            </span>
           </div>
 
           {!!favorites.size && (
@@ -93,9 +102,8 @@ export default function LogosSection({ searchQuery }: Props) {
           <LogoGrid
             logos={logos}
             hasMore={false}
-            onLoadMore={() => {
-            }}
-            isLoading={isLoading || isLoadingFavorites || !hydrated}
+            onLoadMore={() => {}}
+            isLoading={isLoading}
           />
         </ScrollArea>
       </Card>

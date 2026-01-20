@@ -33,7 +33,7 @@ export default function LogoCard({ logo }: Props) {
             </a>
           </Button>
         )}
-        <FavoriteToggle id={logo.id} />
+        <FavoriteToggle logo={logo} />
       </div>
 
       <LogoCardContent logo={logo}>
