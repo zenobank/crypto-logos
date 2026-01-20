@@ -7,8 +7,8 @@ import { useFavorites } from '@/providers/FavoritesProvider';
 import { Badge } from '@/components/ui/badge';
 
 export default function FavoritesCountBadge() {
-  const { favorites } = useFavorites();
-  const count = favorites.size;
+  const { favoriteItems } = useFavorites();
+  const count = favoriteItems.length;
 
   if (!count) return null;
 

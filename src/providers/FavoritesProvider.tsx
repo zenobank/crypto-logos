@@ -4,7 +4,6 @@ import React, { createContext, useCallback, useContext, useMemo, useSyncExternal
 import LogoItem from '@/shared/models/logos/logo-item';
 
 type FavoritesContextValue = {
-  favorites: Set<string>;
   favoriteItems: LogoItem[];
   hydrated: boolean;
   isLoading: boolean;
@@ -92,10 +91,6 @@ export function FavoritesProvider({ children }: { children: React.ReactNode }) {
   const isLoading = !hydrated;
 
   const favoriteItems = useMemo(() => parseFavoriteItems(raw), [raw]);
-  const favorites = useMemo(
-    () => new Set(favoriteItems.map((x: any) => x.id as string)),
-    [favoriteItems],
-  );
 
   const toggleFavorite = useCallback((logo: LogoItem) => {
     const id = (logo as any).id as string | undefined;
@@ -121,14 +116,14 @@ export function FavoritesProvider({ children }: { children: React.ReactNode }) {
     (logo: LogoItem) => {
       const id = (logo as any).id as string | undefined;
       if (!id) return false;
-      return favorites.has(id);
+      return favoriteItems.some((x: any) => x.id === id);
     },
-    [favorites],
+    [favoriteItems],
   );
 
   const value = useMemo(
-    () => ({ favorites, favoriteItems, hydrated, isLoading, toggleFavorite, isFavorite, clearAll }),
-    [favorites, favoriteItems, hydrated, isLoading, toggleFavorite, isFavorite, clearAll],
+    () => ({ favoriteItems, hydrated, isLoading, toggleFavorite, isFavorite, clearAll }),
+    [favoriteItems, hydrated, isLoading, toggleFavorite, isFavorite, clearAll],
   );
 
   return <FavoritesContext.Provider value={value}>{children}</FavoritesContext.Provider>;

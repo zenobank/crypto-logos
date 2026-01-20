@@ -22,56 +22,36 @@ interface Props {
   searchQuery: string;
 }
 
+type LogoItemLike = LogoItem & { id?: string | number; name?: string };
+
 export default function LogosSection({ searchQuery }: Props) {
-  // common
-  const { favorites, favoriteItems, hydrated, clearAll, isLoading: isLoadingFavorites } = useFavorites();
+  const { favoriteItems, hydrated, clearAll, isLoading: isLoadingFavorites } = useFavorites();
   const { scrollContainerRef } = useScrollReset([searchQuery]);
 
-  const initialItemsRef = useRef<Map<string, LogoItem> | null>(null);
+  const cacheRef = useRef<Map<string, LogoItem>>(new Map());
 
-  if (hydrated && !initialItemsRef.current) {
-    const map = new Map<string, LogoItem>();
-
-    for (const item of favoriteItems) {
-      const id = String((item as any)?.id ?? '');
-      if (!id) continue;
-      map.set(id, item);
-    }
-
-    initialItemsRef.current = map;
-  }
-
-
-  // computed
   const logos = useMemo(() => {
-    const map = new Map<string, LogoItem>();
-
-    if (initialItemsRef.current) {
-      for (const [id, item] of initialItemsRef.current.entries()) {
-        map.set(id, item);
+    for (const item of favoriteItems) {
+      const id = String((item as LogoItemLike).id ?? '');
+      if (!id) continue;
+      if (!cacheRef.current.has(id)) {
+        cacheRef.current.set(id, item);
       }
     }
 
-    for (const item of favoriteItems) {
-      const id = String((item as any)?.id ?? '');
-      if (!id) continue;
-      map.set(id, item);
-    }
-
-    let list = Array.from(map.values());
+    const list = Array.from(cacheRef.current.values());
 
     const q = searchQuery.trim().toLowerCase();
     if (!q) return list;
 
-    list = list.filter((logo: any) => {
-      const name = String(logo?.name ?? '').toLowerCase();
-      return name.includes(q)
+    return list.filter((logo) => {
+      const name = String((logo as LogoItemLike).name ?? '').toLowerCase();
+      return name.includes(q);
     });
-
-    return list;
   }, [favoriteItems, searchQuery]);
 
   const isLoading = isLoadingFavorites || !hydrated;
+  const count = favoriteItems.length;
 
   return (
     <div className="grow flex flex-col gap-2">
@@ -85,13 +65,13 @@ export default function LogosSection({ searchQuery }: Props) {
               Favorites
               <span className="hidden md:inline">
                 {' '}
-                - {favorites.size} SVG{favorites.size === 1 ? '' : 's'}
+                - {count} SVG{count === 1 ? '' : 's'}
               </span>
             </span>
           </div>
 
-          {!!favorites.size && (
-            <Button className="flex item-center" variant="ghost" onClick={clearAll}>
+          {!!count && (
+            <Button className="flex items-center" variant="ghost" onClick={clearAll}>
               <Trash />
               <span>Clear All</span>
             </Button>
@@ -99,12 +79,7 @@ export default function LogosSection({ searchQuery }: Props) {
         </div>
 
         <ScrollArea className="grow flex flex-col h-0 py-4" viewportRef={scrollContainerRef}>
-          <LogoGrid
-            logos={logos}
-            hasMore={false}
-            onLoadMore={() => {}}
-            isLoading={isLoading}
-          />
+          <LogoGrid logos={logos} hasMore={false} onLoadMore={() => {}} isLoading={isLoading} />
         </ScrollArea>
       </Card>
     </div>
