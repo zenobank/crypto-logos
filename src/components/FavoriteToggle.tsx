@@ -8,11 +8,11 @@ import { useFavorites } from '@/providers/FavoritesProvider';
 import { Button } from '@/components/ui/button';
 
 // models
-import LogoItem from '@/shared/models/logos/logo-item';
+import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 
 // custom models
 interface Props {
-  logo: LogoItem;
+  logo: LogoItemsResponse;
 }
 
 function FavoriteToggle({ logo }: Props) {

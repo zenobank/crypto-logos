@@ -3,15 +3,15 @@
 import React, { createContext, useCallback, useContext, useMemo, useSyncExternalStore } from 'react';
 
 // models
-import LogoItem from '@/shared/models/logos/logo-item';
+import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 
 // personal interface
 type FavoritesContextValue = {
-  favoriteItems: LogoItem[];
+  favoriteItems: LogoItemsResponse[];
   hydrated: boolean;
   isLoading: boolean;
-  toggleFavorite: (logo: LogoItem) => void;
-  isFavorite: (logo: LogoItem) => boolean;
+  toggleFavorite: (logo: LogoItemsResponse) => void;
+  isFavorite: (logo: LogoItemsResponse) => boolean;
   clearAll: () => void;
 };
 
@@ -49,24 +49,24 @@ function subscribe(onStoreChange: () => void) {
 }
 
 function parseFavoriteItems(raw: string | null) {
-  if (!raw) return [] as LogoItem[];
+  if (!raw) return [] as LogoItemsResponse[];
   try {
     const parsed = JSON.parse(raw);
     if (!Array.isArray(parsed)) return [];
 
-    const out: LogoItem[] = [];
+    const out: LogoItemsResponse[] = [];
     const seen = new Set<string>();
 
     for (const value of parsed) {
       if (!value || typeof value !== 'object') continue;
 
-      const id = (value as LogoItem).id;
+      const id = (value as LogoItemsResponse).id;
       if (!id) continue;
 
       if (seen.has(id)) continue;
       seen.add(id);
 
-      out.push(value as LogoItem);
+      out.push(value as LogoItemsResponse);
     }
 
     return out;
@@ -75,7 +75,7 @@ function parseFavoriteItems(raw: string | null) {
   }
 }
 
-function writeFavoriteItems(items: LogoItem[]) {
+function writeFavoriteItems(items: LogoItemsResponse[]) {
   if (typeof window === 'undefined') return;
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
   window.dispatchEvent(new Event(CHANGE_EVENT));
@@ -96,12 +96,12 @@ export function FavoritesProvider({ children }: { children: React.ReactNode }) {
 
   const favoriteItems = useMemo(() => parseFavoriteItems(raw), [raw]);
 
-  const toggleFavorite = useCallback((logo: LogoItem) => {
-    const id = (logo as LogoItem).id as string | undefined;
+  const toggleFavorite = useCallback((logo: LogoItemsResponse) => {
+    const id = logo.id as string | undefined;
     if (!id) return;
 
     const current = parseFavoriteItems(getClientSnapshot());
-    const index = current.findIndex((x: LogoItem) => x.id === id);
+    const index = current.findIndex((x) => x.id === id);
 
     if (index >= 0) {
       current.splice(index, 1);
@@ -117,10 +117,10 @@ export function FavoritesProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const isFavorite = useCallback(
-    (logo: LogoItem) => {
-      const id = (logo as LogoItem).id as string | undefined;
+    (logo: LogoItemsResponse) => {
+      const id = logo.id as string | undefined;
       if (!id) return false;
-      return favoriteItems.some((x: LogoItem) => x.id === id);
+      return favoriteItems.some((x) => x.id === id);
     },
     [favoriteItems],
   );

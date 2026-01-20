@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Folder, Trash } from 'lucide-react';
 
 // models
-import LogoItem from '@/shared/models/logos/logo-item';
+import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 
 // hooks
 import { useFavorites } from '@/providers/FavoritesProvider';
@@ -22,28 +22,26 @@ interface Props {
   searchQuery: string;
 }
 
-type LogoItemLike = LogoItem & { id?: string | number; name?: string };
-
 export default function LogosSection({ searchQuery }: Props) {
   // common
   const { favoriteItems, hydrated, clearAll, isLoading: isLoadingFavorites } = useFavorites();
   const { scrollContainerRef } = useScrollReset([searchQuery]);
 
   // states
-  const [visibleItems, setVisibleItems] = useState<LogoItem[]>([]);
+  const [visibleItems, setVisibleItems] = useState<LogoItemsResponse[]>([]);
 
   // watchers
   useEffect(() => {
     setVisibleItems((prev) => {
-      const map = new Map<string, LogoItem>();
+      const map = new Map<string, LogoItemsResponse>();
 
       for (const item of prev) {
-        const id = String((item as LogoItemLike).id ?? '');
+        const id = String(item.id ?? '');
         if (id) map.set(id, item);
       }
 
       for (const item of favoriteItems) {
-        const id = String((item as LogoItemLike).id ?? '');
+        const id = String(item.id ?? '');
         if (id && !map.has(id)) {
           map.set(id, item);
         }
@@ -59,7 +57,7 @@ export default function LogosSection({ searchQuery }: Props) {
     if (!q) return visibleItems;
 
     return visibleItems.filter((logo) => {
-      const name = String((logo as LogoItemLike).name ?? '').toLowerCase();
+      const name = String(logo.name ?? '').toLowerCase();
       return name.includes(q);
     });
   }, [visibleItems, searchQuery]);
