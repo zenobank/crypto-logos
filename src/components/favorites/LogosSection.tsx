@@ -1,16 +1,13 @@
 'use client';
 
-import { useMemo, useState } from 'react';
-import { useInfiniteQuery } from '@tanstack/react-query';
+import { useEffect, useMemo, useState } from 'react';
 import { Folder, Trash } from 'lucide-react';
 
-// providers
-import { useFavorites } from '@/providers/FavoritesProvider';
-
-// queries
-import { getLogosQueryParams } from '@/queries/app-queries';
+// models
+import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 
 // hooks
+import { useFavorites } from '@/providers/FavoritesProvider';
 import useScrollReset from '@/hooks/use-scroll-reset';
 
 // components
@@ -27,62 +24,66 @@ interface Props {
 
 export default function LogosSection({ searchQuery }: Props) {
   // common
-  const { favorites, hydrated, clearAll, isLoading: isLoadingFavorites } = useFavorites();
+  const { favoriteItems, hydrated, clearAll, isLoading: isLoadingFavorites } = useFavorites();
   const { scrollContainerRef } = useScrollReset([searchQuery]);
 
-  // state
-  const [initialVisibleIds] = useState<Set<string>>(() => new Set(favorites));
+  // states
+  const [visibleItems, setVisibleItems] = useState<LogoItemsResponse[]>([]);
+
+  // watchers
+  useEffect(() => {
+    setVisibleItems((prev) => {
+      const map = new Map<string, LogoItemsResponse>();
+
+      for (const item of prev) {
+        const id = String(item.id ?? '');
+        if (id) map.set(id, item);
+      }
+
+      for (const item of favoriteItems) {
+        const id = String(item.id ?? '');
+        if (id && !map.has(id)) {
+          map.set(id, item);
+        }
+      }
+
+      return Array.from(map.values());
+    });
+  }, [favoriteItems]);
 
   // computed
-  const visibleIds = useMemo(() => {
-    const next = new Set(initialVisibleIds);
-    for (const id of favorites) next.add(id);
-    return next;
-  }, [initialVisibleIds, favorites]);
-
-  const canFetch = hydrated && visibleIds.size > 0;
-
-  const { data, isLoading } = useInfiniteQuery({
-    ...getLogosQueryParams(searchQuery, null),
-    enabled: canFetch,
-  });
-
   const logos = useMemo(() => {
-    if (!data || visibleIds.size === 0) return [];
+    const q = searchQuery.trim().toLowerCase();
+    if (!q) return visibleItems;
 
-    const out: (typeof data.pages)[number]['data'][number][] = [];
-    const seen = new Set<string>();
+    return visibleItems.filter((logo) => {
+      const name = String(logo.name ?? '').toLowerCase();
+      return name.includes(q);
+    });
+  }, [visibleItems, searchQuery]);
 
-    for (const page of data.pages) {
-      for (const logo of page.data) {
-        const id = String(logo.id);
-
-        if (!visibleIds.has(id)) continue;
-        if (seen.has(id)) continue;
-
-        seen.add(id);
-        out.push(logo);
-      }
-    }
-
-    return out;
-  }, [data, visibleIds]);
+  const isLoading = isLoadingFavorites || !hydrated;
+  const count = favoriteItems.length;
 
   return (
     <div className="grow flex flex-col gap-2">
-      <SearchBar value={searchQuery} />
+      <SearchBar />
 
       <Card className="flex-1 flex flex-col p-0 gap-0 overflow-hidden bg-transparent">
         <div className="flex h-12.5 items-center justify-between py-1.5 pr-2 pl-3 border-b border-neutral-200 dark:border-neutral-800 bg-white/80 backdrop-blur-sm dark:bg-neutral-900/40">
           <div className="flex items-center gap-2">
             <Folder className="h-5 w-5" />
             <span className="text-lg">
-                Favorites<span className="hidden md:inline"> - {favorites.size} SVG{favorites.size === 1 ? '' : 's'}</span>
+              Favorites
+              <span className="hidden md:inline">
+                {' '}
+                - {count} SVG{count === 1 ? '' : 's'}
               </span>
+            </span>
           </div>
 
-          {!!favorites.size && (
-            <Button className="flex item-center" variant="ghost" onClick={clearAll}>
+          {!!count && (
+            <Button className="flex items-center" variant="ghost" onClick={clearAll}>
               <Trash />
               <span>Clear All</span>
             </Button>
@@ -90,13 +91,7 @@ export default function LogosSection({ searchQuery }: Props) {
         </div>
 
         <ScrollArea className="grow flex flex-col h-0 py-4" viewportRef={scrollContainerRef}>
-          <LogoGrid
-            logos={logos}
-            hasMore={false}
-            onLoadMore={() => {
-            }}
-            isLoading={isLoading || isLoadingFavorites || !hydrated}
-          />
+          <LogoGrid logos={logos} hasMore={false} onLoadMore={() => {}} isLoading={isLoading} />
         </ScrollArea>
       </Card>
     </div>

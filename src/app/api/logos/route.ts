@@ -45,7 +45,7 @@ export async function GET(request: Request) {
     const skipResult = readSkip(searchParams);
     if (!skipResult.ok) return skipResult.error;
 
-    const data = await getLogos({
+    const data = getLogos({
       category: categoryResult.value || undefined,
       search: searchResult.value || undefined,
       sortBy: sortBy || undefined,

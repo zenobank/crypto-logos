@@ -35,12 +35,12 @@ import AngularIcon from '@/components/icons/AngularIcon';
 import AstroIcon from '@/components/icons/AstroIcon';
 
 // models
-import type LogoItem from '@/shared/models/logos/logo-item';
+import type LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 import LogoAsset from '@/shared/models/logos/logo-asset';
 
 // custom models
 interface CopyLogoPopoverProps {
-  logo: LogoItem;
+  logo: LogoItemsResponse;
   showWordmark: boolean;
   children: ReactNode;
 }

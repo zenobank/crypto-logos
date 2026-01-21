@@ -1,5 +1,6 @@
 interface CategoryListItem {
-  category: string;
+  id: string;
+  name: string;
   count: number;
 }
 

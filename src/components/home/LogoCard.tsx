@@ -8,11 +8,11 @@ import LogoCardTags from '@/components/home/LogoCardTags';
 import LogoCardContent from '@/components/home/LogoCardContent';
 
 // models
-import type LogoItem from '@/shared/models/logos/logo-item';
+import type LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 
 // custom models
 interface Props {
-  logo: LogoItem;
+  logo: LogoItemsResponse;
 }
 
 export default function LogoCard({ logo }: Props) {
@@ -33,11 +33,11 @@ export default function LogoCard({ logo }: Props) {
             </a>
           </Button>
         )}
-        <FavoriteToggle id={logo.id} />
+        <FavoriteToggle logo={logo} />
       </div>
 
       <LogoCardContent logo={logo}>
-        <h3 className="font-medium text-lg text-center mb-1">{logo.name}</h3>
+        <h3 className="font-medium text-lg text-center mb-1 break-all">{logo.name}</h3>
 
         <LogoCardTags
           mainCategory={logo.mainCategory}

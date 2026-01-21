@@ -6,11 +6,11 @@ import ListSentinel from '@/components/ListSentinel';
 import LogoCard from './LogoCard';
 
 // models
-import type LogoItem from '@/shared/models/logos/logo-item';
+import type LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 
 // custom models
 interface Props {
-  logos: LogoItem[];
+  logos: LogoItemsResponse[];
   hasMore: boolean;
   onLoadMore: () => void;
   isLoading: boolean;
@@ -34,9 +34,9 @@ export default function LogoGrid({ logos, hasMore, onLoadMore, isLoading, EmptyS
   return (
     <div className="relative">
       <div className="grid grid-cols-[repeat(auto-fill,minmax(15rem,1fr))] gap-4 px-3">
-        {logos.map((logo, index) => (
+        {logos.map((logo) => (
           <LogoCard
-            key={index}
+            key={logo.id}
             logo={logo}
           />
         ))}

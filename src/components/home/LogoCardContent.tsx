@@ -11,12 +11,12 @@ import CopyLogoPopover from '@/components/home/CopyLogoPopover';
 import DownloadLogoDialog from '@/components/home/DownloadLogoDialog';
 
 // models
-import type LogoItem from '@/shared/models/logos/logo-item';
+import type LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 import LogoAsset from '@/shared/models/logos/logo-asset';
 
 // custom models
 interface LogoCardContentProps {
-  logo: LogoItem;
+  logo: LogoItemsResponse;
   children: ReactNode;
 }
 

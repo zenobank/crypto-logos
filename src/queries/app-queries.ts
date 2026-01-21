@@ -3,7 +3,7 @@ import AppApi from '@/api/app.api';
 
 // models
 import ListResponse from '@/shared/models/common/list-response';
-import LogoItem from '@/shared/models/logos/logo-item';
+import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 import LogosSortBy from '@/shared/models/logos/logos-sort-by';
 
 const INITIAL_PAGE_SIZE = 30;
@@ -29,7 +29,7 @@ export function getLogosQueryParams(
       });
     },
     initialPageParam: 0,
-    getNextPageParam: (lastPage: ListResponse<LogoItem>, allPages: ListResponse<LogoItem>[]) => {
+    getNextPageParam: (lastPage: ListResponse<LogoItemsResponse>, allPages: ListResponse<LogoItemsResponse>[]) => {
       const loadedCount = allPages.reduce((sum, page) => sum + page.data.length, 0);
       return loadedCount < lastPage.total ? loadedCount : undefined;
     },

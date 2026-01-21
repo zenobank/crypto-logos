@@ -1,28 +1,17 @@
-// data
-import LOGOS_DATA from '@/api/logos.json';
-
-// helpers
-import normalizeString from '@/shared/helpers/normalize-string';
-
 // models
 import CategoryListItem from '@/shared/models/categories/category-list-item';
 
-const categoriesCounts = LOGOS_DATA.reduce((acc, logo) => {
-  const mainCategory = normalizeString(logo.mainCategory);
-  acc[mainCategory] = (acc[mainCategory] || 0) + 1;
+// constants
+import { CATEGORY_MAP, CATEGORIES_RESPONSE } from '@/shared/constants/logos-data';
 
-  logo.secondaryCategories.forEach((category: string) => {
-    const sanitizedCategory = normalizeString(category);
-    acc[sanitizedCategory] = (acc[sanitizedCategory] || 0) + 1;
-  });
+export function getCategories(): CategoryListItem[] {
+  return CATEGORIES_RESPONSE;
+}
 
-  return acc;
-}, {} as Record<string, number>);
+export function getCategoryById(id: string): CategoryListItem | null {
+  if (!id) {
+    return null;
+  }
 
-const categoriesResponse: CategoryListItem[] = Object.keys(categoriesCounts).map(
-  (category) => ({ category, count: categoriesCounts[category] }),
-);
-
-export async function getCategories(): Promise<CategoryListItem[]> {
-  return categoriesResponse;
+  return CATEGORY_MAP[id];
 }

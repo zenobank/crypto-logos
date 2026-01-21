@@ -1,17 +1,13 @@
 // data
-import LOGOS_DATA_RAW from '@/api/logos.json';
+import { LOGOS_RESPONSE, LOGOS_BY_CATEGORY, LOGOS_SEARCH_INDEX, CATEGORY_SEARCH_INDEXES } from '@/shared/constants/logos-data';
 
 // helpers
-import normalizeString from '@/shared/helpers/normalize-string';
 import clamp from '@/shared/helpers/clamp';
 
 // models
-import LogoItem from '@/shared/models/logos/logo-item';
+import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 import ListResponse from '@/shared/models/common/list-response';
 import LogosSortBy from '@/shared/models/logos/logos-sort-by';
-
-// Type-cast the imported JSON to the correct type
-const LOGOS_DATA = LOGOS_DATA_RAW as unknown as LogoItem[];
 
 // custom models
 export interface GetLogosParams {
@@ -22,47 +18,41 @@ export interface GetLogosParams {
   sortBy?: LogosSortBy;
 }
 
-type PreparedLogo = {
-  logo: LogoItem;
-  categoryKeys: string[];
-  searchText: string;
-};
-
-const preparedLogos: PreparedLogo[] = LOGOS_DATA.map((logo) => ({
-  logo,
-  categoryKeys: [logo.mainCategory, ...logo.secondaryCategories].map(normalizeString).filter(Boolean),
-  searchText: normalizeString(logo.name),
-}));
-
-export async function getLogos(params: GetLogosParams = {}): Promise<ListResponse<LogoItem>> {
-  const { category, search, limit, skip = 0, sortBy = LogosSortBy.NameAsc } = params;
-
-  const categoryKey = category ? normalizeString(category) : null;
-  const searchKey = search ? normalizeString(search) : null;
-
-  const filtered = preparedLogos.filter((item) => {
-    if (categoryKey && !item.categoryKeys.includes(categoryKey)) return false;
-    return !(searchKey && !item.searchText.includes(searchKey));
-  });
-
-  // Sort the filtered results
-  const sorted = filtered.toSorted((a, b) => {
-    return sortBy === LogosSortBy.NameAsc
-      ? a.logo.name.localeCompare(b.logo.name)
-      : b.logo.name.localeCompare(a.logo.name);
-  });
-
-  const total = sorted.length;
-
-  // If no pagination params, return all
-  if (limit === undefined) {
-    return { data: sorted.map((x) => x.logo), total };
+function getResults(search?: string, category?: string): LogoItemsResponse[] {
+  if (!search && !category) {
+    return LOGOS_RESPONSE;
   }
 
-  const start = clamp(skip, 0, total);
-  const end = clamp(start + limit, 0, total);
+  if (!search) {
+    return LOGOS_BY_CATEGORY[category!] ?? [];
+  }
 
-  const data = sorted.slice(start, end).map((x) => x.logo);
+  const categoryData = category ? CATEGORY_SEARCH_INDEXES[category] : null;
+
+  if (category && !categoryData) {
+    return [];
+  }
+
+  const { index, logos } = categoryData ?? { index: LOGOS_SEARCH_INDEX, logos: LOGOS_RESPONSE };
+  const indices = index.search(search) as number[];
+  return indices.map(i => logos[i]);
+}
+
+export function getLogos(params: GetLogosParams = {}): ListResponse<LogoItemsResponse> {
+  const { category, search, limit, skip = 0, sortBy = LogosSortBy.NameAsc } = params;
+
+  const results = getResults(search, category);
+
+  const sorted = results.toSorted((a, b) =>
+    sortBy === LogosSortBy.NameAsc
+      ? a.name.localeCompare(b.name)
+      : b.name.localeCompare(a.name)
+  );
+
+  const total = sorted.length;
+  const data = limit === undefined
+    ? sorted
+    : sorted.slice(clamp(skip, 0, total), clamp(skip + limit, 0, total));
 
   return { data, total };
 }

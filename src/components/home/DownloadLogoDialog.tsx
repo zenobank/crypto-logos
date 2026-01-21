@@ -14,13 +14,13 @@ import {
 import DownloadSection from '@/components/home/DownloadSection';
 
 // models
-import type LogoItem from '@/shared/models/logos/logo-item';
+import type LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 import { cn } from '@/lib/utils';
 import { ScrollArea } from '@/components/ui/scroll-area';
 
 // custom models
 interface DownloadLogoDialogProps {
-  logo: LogoItem;
+  logo: LogoItemsResponse;
   children: ReactNode;
 }
 

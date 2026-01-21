@@ -1,52 +1,62 @@
-// Sample API request and response examples for documentation
-
 export const API_EXAMPLES = {
   getAllLogos: {
     request: 'curl {{baseUrl}}/api/logos',
     response: `{
   "data": [
     {
-      "id": "bitcoin",
-      "name": "Bitcoin",
-      "mainCategory": "cryptocurrency",
-      "secondaryCategories": ["payment", "defi"],
+      "id": "nft_eth_0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e",
+      "name": "Azuki Elementals",
+      "symbol": "ELEM",
+      "websiteLink": "https://www.azuki.com",
       "logo": {
         "icon": {
           "light": [
             {
-              "url": "/logos/bitcoin.svg",
-              "format": "svg"
+              "url": "/library/icon_light_nft_eth_0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e.png",
+              "format": "png"
             }
           ]
         }
       },
-      "websiteLink": "https://bitcoin.org"
+      "mainCategory": {
+        "id": "nft",
+        "name": "NFT"
+      },
+      "secondaryCategories": [
+        {
+          "id": "tokens",
+          "name": "tokens"
+        }
+      ]
     },
     {
-      "id": "ethereum",
-      "name": "Ethereum",
-      "mainCategory": "cryptocurrency",
-      "secondaryCategories": ["blockchain", "defi"],
+      "id": "nft_solana_4d3f3ecf1ba60fb5bfe314afb5d3f8b5",
+      "name": "Doodle Devils Drip 2025",
+      "symbol": "",
       "logo": {
         "icon": {
           "light": [
             {
-              "url": "/logos/ethereum.svg",
-              "format": "svg"
-            }
-          ],
-          "dark": [
-            {
-              "url": "/logos/ethereum-dark.svg",
-              "format": "svg"
+              "url": "/library/icon_light_nft_solana_4d3f3ecf1ba60fb5bfe314afb5d3f8b5.png",
+              "format": "png"
             }
           ]
         }
       },
-      "websiteLink": "https://ethereum.org"
+      "mainCategory": {
+        "id": "nft",
+        "name": "NFT"
+      },
+      "secondaryCategories": [
+        {
+          "id": "tokens",
+          "name": "tokens"
+        }
+      ]
     }
+    // ...other items
   ],
-  "total": 576
+  "total": 14714
 }`,
   },
 
@@ -55,91 +65,127 @@ export const API_EXAMPLES = {
     response: `{
   "data": [
     {
-      "id": "bitcoin",
-      "name": "Bitcoin",
-      "mainCategory": "cryptocurrency",
-      "secondaryCategories": ["payment", "defi"],
+      "id": "nft_eth_0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e",
+      "name": "Azuki Elementals",
+      "symbol": "ELEM",
+      "websiteLink": "https://www.azuki.com",
       "logo": {
         "icon": {
           "light": [
             {
-              "url": "/logos/bitcoin.svg",
-              "format": "svg"
+              "url": "/library/icon_light_nft_eth_0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e.png",
+              "format": "png"
             }
           ]
         }
       },
-      "websiteLink": "https://bitcoin.org"
+      "mainCategory": {
+        "id": "nft",
+        "name": "NFT"
+      },
+      "secondaryCategories": [
+        {
+          "id": "tokens",
+          "name": "tokens"
+        }
+      ]
     }
     // ... 9 more items
   ],
-  "total": 576
+  "total": 14714
 }`,
   },
 
   getLogosByCategory: {
-    request: 'curl "{{baseUrl}}/api/logos?category=defi"',
+    request: 'curl "{{baseUrl}}/api/logos?category=nft"',
     response: `{
   "data": [
     {
-      "id": "uniswap",
-      "name": "Uniswap",
-      "mainCategory": "defi",
-      "secondaryCategories": ["cryptocurrency", "dex"],
+      "id": "nft_eth_0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e",
+      "name": "Azuki Elementals",
+      "symbol": "ELEM",
+      "websiteLink": "https://www.azuki.com",
       "logo": {
         "icon": {
           "light": [
             {
-              "url": "/logos/uniswap.svg",
-              "format": "svg"
+              "url": "/library/icon_light_nft_eth_0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e.png",
+              "format": "png"
             }
           ]
         }
       },
-      "websiteLink": "https://uniswap.org"
+      "mainCategory": {
+        "id": "nft",
+        "name": "NFT"
+      },
+      "secondaryCategories": [
+        {
+          "id": "tokens",
+          "name": "tokens"
+        }
+      ]
     },
     {
-      "id": "aave",
-      "name": "Aave",
-      "mainCategory": "defi",
-      "secondaryCategories": ["cryptocurrency", "lending"],
+      "id": "nft_solana_4d3f3ecf1ba60fb5bfe314afb5d3f8b5",
+      "name": "Doodle Devils Drip 2025",
+      "symbol": "",
       "logo": {
         "icon": {
           "light": [
             {
-              "url": "/logos/aave.svg",
-              "format": "svg"
+              "url": "/library/icon_light_nft_solana_4d3f3ecf1ba60fb5bfe314afb5d3f8b5.png",
+              "format": "png"
             }
           ]
         }
       },
-      "websiteLink": "https://aave.com"
+      "mainCategory": {
+        "id": "nft",
+        "name": "NFT"
+      },
+      "secondaryCategories": [
+        {
+          "id": "tokens",
+          "name": "tokens"
+        }
+      ]
     }
+    // ...other items
   ],
-  "total": 45
+  "total": 5163
 }`,
   },
 
   searchLogos: {
-    request: 'curl "{{baseUrl}}/api/logos?search=bitcoin"',
+    request: 'curl "{{baseUrl}}/api/logos?search=Azuki"',
     response: `{
   "data": [
     {
-      "id": "bitcoin",
-      "name": "Bitcoin",
-      "mainCategory": "cryptocurrency",
-      "secondaryCategories": ["payment", "defi"],
+      "id": "nft_eth_0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e",
+      "name": "Azuki Elementals",
+      "symbol": "ELEM",
+      "websiteLink": "https://www.azuki.com",
       "logo": {
         "icon": {
           "light": [
             {
-              "url": "/logos/bitcoin.svg",
-              "format": "svg"
+              "url": "/library/icon_light_nft_eth_0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e.png",
+              "format": "png"
             }
           ]
         }
       },
-      "websiteLink": "https://bitcoin.org"
+      "mainCategory": {
+        "id": "nft",
+        "name": "NFT"
+      },
+      "secondaryCategories": [
+        {
+          "id": "tokens",
+          "name": "tokens"
+        }
+      ]
     }
   ],
   "total": 1
@@ -150,30 +196,15 @@ export const API_EXAMPLES = {
     request: 'curl {{baseUrl}}/api/categories',
     response: `[
   {
-    "category": "cryptocurrency",
-    "count": 287
+    "id": "nft",
+    "name": "NFT",
+    "count": 5163
   },
   {
-    "category": "defi",
-    "count": 45
-  },
-  {
-    "category": "blockchain",
-    "count": 123
-  },
-  {
-    "category": "payment",
-    "count": 67
-  },
-  {
-    "category": "exchange",
-    "count": 54
+    "id": "tokens",
+    "name": "tokens",
+    "count": 13181
   }
 ]`,
   },
 } as const;
-
-// Helper to replace {{baseUrl}} placeholder with actual base URL
-export function formatRequest(request: string, baseUrl: string): string {
-  return request.replace(/\{\{baseUrl\}\}/g, baseUrl);
-}

@@ -6,16 +6,17 @@ import { cn } from '@/lib/utils';
 
 // custom models
 interface CategoryLinkProps {
-  category: string;
+  id: string;
+  name: string;
   count: number;
 }
 
-export default function CategoryLink({ category, count }: CategoryLinkProps) {
+export default function CategoryLink({ id, name, count }: CategoryLinkProps) {
   // common
   const pathname = usePathname();
 
   // computed
-  const href = `/category/${category.toLowerCase()}`;
+  const href = `/category/${id}`;
   const isActive = pathname === href;
 
   return (
@@ -26,7 +27,7 @@ export default function CategoryLink({ category, count }: CategoryLinkProps) {
         isActive ? "bg-accent text-accent-foreground" : "text-muted-foreground"
       )}
     >
-      <span className="text-base capitalize">{category}</span>
+      <span className="text-base capitalize">{name}</span>
       <span
         className={cn(
           "text-xs px-2 py-0.5 rounded-xl border transition-colors",

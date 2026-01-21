@@ -55,7 +55,8 @@ interface LogoItem {
 }
 
 interface CategoryListItem {
-  category: string;
+  id: string;
+  name: string;
   count: number;
 }
 
@@ -163,7 +164,7 @@ export default function ApiDocsPage() {
                     <div id="get-logos-by-category" className="scroll-mt-20">
                       <EndpointSection
                         method="GET"
-                        path="/api/logos?category=defi"
+                        path="/api/logos?category=nft"
                         description="Filter logos by a specific category. Category matching is case-insensitive and searches both main and secondary categories."
                         requestExample={API_EXAMPLES.getLogosByCategory.request}
                         responseExample={API_EXAMPLES.getLogosByCategory.response}
@@ -174,7 +175,7 @@ export default function ApiDocsPage() {
                     <div id="search-logos" className="scroll-mt-20">
                       <EndpointSection
                         method="GET"
-                        path="/api/logos?search=bitcoin"
+                        path="/api/logos?search=Azuki"
                         description="Search for logos by name. The search performs a case-insensitive substring match against logo names."
                         requestExample={API_EXAMPLES.searchLogos.request}
                         responseExample={API_EXAMPLES.searchLogos.response}

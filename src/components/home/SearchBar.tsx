@@ -1,46 +1,25 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRef, useEffect } from 'react';
+import { useQueryState, parseAsString } from 'nuqs';
 import { Search, X } from 'lucide-react';
 
 // components
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 
-// custom models
-interface Props {
-  value: string;
-}
-
-export default function SearchBar({ value }: Props) {
-  // common
-  const router = useRouter();
-
+export default function SearchBar() {
   // refs
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // states
-  const [searchQuery, setSearchQuery] = useState(value);
-
-  // effects
-  useEffect(() => {
-    setSearchQuery(value);
-  }, [value]);
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      const params = new URLSearchParams(window.location.search);
-      if (searchQuery) {
-        params.set('q', searchQuery);
-      } else {
-        params.delete('q');
-      }
-      router.push(`${window.location.pathname}?${params.toString()}`);
-    }, 300);
-
-    return () => clearTimeout(timeout);
-  }, [searchQuery, router]);
+  // state
+  const [searchQuery, setSearchQuery] = useQueryState(
+    'q',
+    parseAsString.withDefault('').withOptions({
+      limitUrlUpdates: { method: 'debounce', timeMs: 300 },
+      shallow: false,
+    })
+  );
 
   // Keyboard shortcut (⌘K / Ctrl+K)
   useEffect(() => {

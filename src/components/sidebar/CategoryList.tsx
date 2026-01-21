@@ -3,11 +3,11 @@ import { getCategories } from '@/lib/categories';
 // components
 import CategoryLink from '@/components/sidebar/CategoryLink';
 
-export default async function CategoryList() {
+export default function CategoryList() {
   // common
-  const categories = await getCategories();
+  const categories = getCategories();
 
-  return categories?.map(({ category, count }) => (
-    <CategoryLink key={category} category={category} count={count} />
+  return categories?.map(({ id, name, count }) => (
+    <CategoryLink key={id} id={id} name={name} count={count} />
   ));
 }

@@ -11,8 +11,7 @@ import CACHE_HEADERS from '@/shared/constants/cache-headers';
 
 export async function GET() {
   try {
-    const data = await getCategories();
-    return NextResponse.json(data, {
+    return NextResponse.json(getCategories(), {
       status: 200,
       headers: CACHE_HEADERS,
     });

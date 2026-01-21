@@ -7,21 +7,24 @@ import { useFavorites } from '@/providers/FavoritesProvider';
 // components
 import { Button } from '@/components/ui/button';
 
+// models
+import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
+
 // custom models
 interface Props {
-  id: string;
+  logo: LogoItemsResponse;
 }
 
-function FavoriteToggle({ id }: Props) {
+function FavoriteToggle({ logo }: Props) {
   // common
   const { toggleFavorite, isFavorite: isFavoriteId } = useFavorites();
 
   // computed
-  const isFavorite = isFavoriteId(id);
+  const isFavorite = isFavoriteId(logo);
 
   // helpers
   function handleToggleFavorite(): void {
-    toggleFavorite(id)
+    toggleFavorite(logo)
   }
 
   return (

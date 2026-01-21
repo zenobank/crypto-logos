@@ -12,17 +12,22 @@ import {
 import { cn } from '@/lib/utils';
 
 // custom models
+interface LogoCategory {
+  id: string;
+  name: string;
+}
+
 interface LogoCardTagsProps {
-  mainCategory: string;
-  secondaryCategories: string[];
+  mainCategory: LogoCategory;
+  secondaryCategories: LogoCategory[];
 }
 
 export default function LogoCardTags({ mainCategory, secondaryCategories }: LogoCardTagsProps) {
   return (
     <div className="flex items-center justify-center gap-2 mb-3 flex-wrap">
-      <Link href={`/category/${mainCategory.toLowerCase()}`}>
+      <Link href={`/category/${mainCategory.id}`}>
         <Badge className="capitalize h-5.5 text-xs rounded-full px-3 cursor-pointer hover:bg-accent transition-colors" variant="outline">
-          {mainCategory}
+          {mainCategory.name}
         </Badge>
       </Link>
 
@@ -39,13 +44,13 @@ export default function LogoCardTags({ mainCategory, secondaryCategories }: Logo
           </DropdownMenuTrigger>
           <DropdownMenuContent align="center" className="min-w-40">
             {secondaryCategories.map((category) => (
-              <DropdownMenuItem key={category} asChild>
+              <DropdownMenuItem key={category.id} asChild>
                 <Link
-                  href={`/category/${category.toLowerCase()}`}
+                  href={`/category/${category.id}`}
                   className="cursor-pointer capitalize"
                 >
                   <Tag className="h-4 w-4 mr-2" />
-                  {category}
+                  {category.name}
                 </Link>
               </DropdownMenuItem>
             ))}

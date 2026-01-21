@@ -1,7 +1,5 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import { getLogosQueryParams } from '@/queries/app-queries';
-import { dehydrate, HydrationBoundary, QueryClient } from '@tanstack/react-query';
 
 // components
 import LogosSection from '@/components/favorites/LogosSection';
@@ -35,20 +33,12 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function FavoritesPage({
   searchParams,
 }: Props) {
-  // common
-  const queryClient = new QueryClient();
-
   // computed
   const { q: searchQuery = '' } = await searchParams;
 
-  // prefetch
-  await queryClient.prefetchInfiniteQuery(getLogosQueryParams(searchQuery, null));
-
   return (
     <div className="flex-1 flex flex-col p-6 max-md:p-4">
-      <HydrationBoundary state={dehydrate(queryClient)}>
-        <LogosSection searchQuery={searchQuery} />
-      </HydrationBoundary>
+      <LogosSection searchQuery={searchQuery} />
     </div>
   );
 }

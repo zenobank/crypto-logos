@@ -1,22 +1,26 @@
-// lib
-import { getLogos as getLogosLib, type GetLogosParams } from '@/lib/logos';
-import { getCategories as getCategoriesLib } from '@/lib/categories';
-
 // helpers
 import buildReqParams from '@/shared/helpers/build-req-params';
 
 // models
 import ListResponse from '@/shared/models/common/list-response';
-import LogoItem from '@/shared/models/logos/logo-item';
+import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 import CategoryListItem from '@/shared/models/categories/category-list-item';
+import LogosSortBy from '@/shared/models/logos/logos-sort-by';
 
 // custom constants
 const isServer = typeof window === 'undefined';
 
 const AppApi = {
-  async getLogos(params: GetLogosParams): Promise<ListResponse<LogoItem>> {
+  async getLogos(params: {
+    limit?: number;
+    skip?: number;
+    category?: string;
+    search?: string;
+    sortBy?: LogosSortBy;
+  }): Promise<ListResponse<LogoItemsResponse>> {
     if (isServer) {
-      return getLogosLib(params);
+      const { getLogos } = await import('@/lib/logos');
+      return getLogos(params);
     }
 
     const searchParams = buildReqParams(params as Record<string, string | number>);
@@ -31,7 +35,8 @@ const AppApi = {
 
   async getCategories(): Promise<CategoryListItem[]> {
     if (isServer) {
-      return getCategoriesLib();
+      const { getCategories } = await import('@/lib/categories');
+      return getCategories();
     }
 
     const response = await fetch('/api/categories');
