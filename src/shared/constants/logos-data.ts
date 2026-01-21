@@ -1,5 +1,3 @@
-import FlexSearch from 'flexsearch';
-
 // data
 import LOGOS_DATA from '@/api/logos.json';
 
@@ -72,30 +70,8 @@ export const LOGOS_BY_CATEGORY = Object.fromEntries(
   Object.entries(LOGOS_BY_CATEGORY_UNSORTED).map(([key, logos]) => [
     key,
     logos.toSorted((a, b) => a.name.localeCompare(b.name)),
-  ])
+  ]),
 );
-
-// Global search index (all logos)
-export const LOGOS_SEARCH_INDEX = new FlexSearch.Index({
-  tokenize: 'forward',
-  resolution: 9,
-});
-
-// Build global index
-LOGOS_RESPONSE.forEach((logo, i) => {
-  LOGOS_SEARCH_INDEX.add(i, logo.name);
-});
-
-// Per-category search indexes
-export const CATEGORY_SEARCH_INDEXES = Object.entries(LOGOS_BY_CATEGORY).reduce((acc, [categoryId, logos]) => {
-  const index = new FlexSearch.Index({
-    tokenize: 'forward',
-    resolution: 9,
-  });
-  logos.forEach((logo, i) => index.add(i, logo.name));
-  acc[categoryId] = { index, logos };
-  return acc;
-}, {} as Record<string, { index: typeof LOGOS_SEARCH_INDEX; logos: LogoItemsResponse[] }>);
 
 // Logo by ID map for O(1) lookup
 export const LOGOS_BY_ID = LOGOS_RESPONSE.reduce((acc, logo) => {

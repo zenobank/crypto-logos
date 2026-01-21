@@ -1,5 +1,5 @@
 // data
-import { LOGOS_RESPONSE, LOGOS_BY_CATEGORY, LOGOS_SEARCH_INDEX, CATEGORY_SEARCH_INDEXES } from '@/shared/constants/logos-data';
+import { LOGOS_RESPONSE, LOGOS_BY_CATEGORY } from '@/shared/constants/logos-data';
 
 // helpers
 import clamp from '@/shared/helpers/clamp';
@@ -19,23 +19,14 @@ export interface GetLogosParams {
 }
 
 function getResults(search?: string, category?: string): LogoItemsResponse[] {
-  if (!search && !category) {
-    return LOGOS_RESPONSE;
-  }
+  const baseLogos = category ? (LOGOS_BY_CATEGORY[category] ?? []) : LOGOS_RESPONSE;
 
   if (!search) {
-    return LOGOS_BY_CATEGORY[category!] ?? [];
+    return baseLogos;
   }
 
-  const categoryData = category ? CATEGORY_SEARCH_INDEXES[category] : null;
-
-  if (category && !categoryData) {
-    return [];
-  }
-
-  const { index, logos } = categoryData ?? { index: LOGOS_SEARCH_INDEX, logos: LOGOS_RESPONSE };
-  const indices = index.search(search) as number[];
-  return indices.map(i => logos[i]);
+  const searchLower = search.toLowerCase();
+  return baseLogos.filter((logo) => logo.name.toLowerCase().includes(searchLower));
 }
 
 export function getLogos(params: GetLogosParams = {}): ListResponse<LogoItemsResponse> {
