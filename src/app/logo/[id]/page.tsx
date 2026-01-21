@@ -12,6 +12,8 @@ import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import LogoDisplaySection from '@/components/logo-detail/LogoDisplaySection';
 import LogoDetailDownloads from '@/components/logo-detail/LogoDetailDownloads';
+import { Image } from '@/components/ui/image';
+import FavoriteToggle from '@/components/FavoriteToggle';
 
 // custom models
 interface Props {
@@ -80,6 +82,8 @@ export default async function LogoDetailPage({ params }: Props) {
 
   // computed
   const allCategories = [logo.mainCategory, ...logo.secondaryCategories];
+  const logoIconLight = logo.logo.icon.light[0]?.url;
+  const logoIconDark = logo.logo.icon.dark?.[0]?.url || logoIconLight;
 
   return (
     <div className="flex-1 flex flex-col p-6 max-md:p-4 max-w-4xl mx-auto w-full">
@@ -92,14 +96,16 @@ export default async function LogoDetailPage({ params }: Props) {
         <span>{logo.name}</span>
       </nav>
 
-      {/* Logo display */}
-      <div className="mb-8">
-        <LogoDisplaySection logo={logo} />
-      </div>
-
       {/* Title and tags */}
       <div className="mb-6">
-        <h1 className="text-3xl font-bold mb-3">{logo.name}</h1>
+        <div className="flex items-center justify-between gap-2">
+          <h1 className="inline-flex items-center gap-1 text-3xl font-bold mb-3">
+            <span>{logo.name}</span>
+            <Image className="inline-block w-8 h-8 ml-2 dark:hidden" src={logoIconLight} alt={logo.name} width={32} height={32} />
+            <Image className="inline-block w-8 h-8 ml-2 not-dark:hidden" src={logoIconDark} alt={logo.name} width={32} height={32} />
+          </h1>
+          <FavoriteToggle variant="outline" logo={logo} />
+        </div>
         <div className="flex flex-wrap gap-2">
           {allCategories.map((category) => (
             <Link key={category.id} href={`/category/${category.id}`}>
@@ -109,6 +115,11 @@ export default async function LogoDetailPage({ params }: Props) {
             </Link>
           ))}
         </div>
+      </div>
+
+      {/* Logo display */}
+      <div className="mb-8">
+        <LogoDisplaySection logo={logo} />
       </div>
 
       <Separator className="mb-8" />

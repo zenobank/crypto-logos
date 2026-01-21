@@ -1,14 +1,14 @@
 'use client';
 
 import { ReactNode, useState } from 'react';
-import { BaselineIcon, Copy, Download, Link as LinkIcon, SparklesIcon } from 'lucide-react';
+// import { BaselineIcon, Copy, Download, Link as LinkIcon, SparklesIcon } from 'lucide-react';
 import { useTheme } from 'next-themes';
 
 // components
 import { Image } from '@/components/ui/image';
-import { Button } from '@/components/ui/button';
-import CopyLogoPopover from '@/components/home/CopyLogoPopover';
-import DownloadLogoDialog from '@/components/home/DownloadLogoDialog';
+// import { Button } from '@/components/ui/button';
+// import CopyLogoPopover from '@/components/home/CopyLogoPopover';
+// import DownloadLogoDialog from '@/components/home/DownloadLogoDialog';
 
 // models
 import type LogoItemsResponse from '@/shared/models/logos/logo-items-response';
@@ -68,50 +68,50 @@ export default function LogoCardContent({ logo, children }: LogoCardContentProps
 
       {children}
 
-      <div className="flex items-center justify-center gap-4" onClick={(e) => e.stopPropagation()}>
-        <CopyLogoPopover logo={logo} showWordmark={showWordmark}>
-          <Button
-            variant="ghost"
-            size="icon"
-            className="h-10 w-10"
-            aria-label={`Copy ${logo.name} logo to clipboard`}
-          >
-            <Copy className="h-5 w-5" />
-          </Button>
-        </CopyLogoPopover>
-        <DownloadLogoDialog logo={logo}>
-          <Button
-            variant="ghost"
-            size="icon"
-            className="h-10 w-10"
-            aria-label={`Download ${logo.name} logo`}
-          >
-            <Download className="h-5 w-5" />
-          </Button>
-        </DownloadLogoDialog>
-        <Button
-          variant="ghost"
-          size="icon"
-          onClick={handleOpenWebsite}
-          className="h-10 w-10"
-          disabled={!logo.websiteLink}
-          aria-label={`Visit ${logo.name} website`}
-        >
-          <LinkIcon className="h-5 w-5" />
-        </Button>
-        {hasWordmark && (
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={handleToggleWordmark}
-            className="h-10 w-10"
-            title={showWordmark ? 'Show logo SVG' : 'Show wordmark SVG'}
-            aria-label={showWordmark ? 'Show logo SVG' : 'Show wordmark SVG'}
-          >
-            {showWordmark ? <SparklesIcon className="h-5 w-5" /> : <BaselineIcon className="h-5 w-5" />}
-          </Button>
-        )}
-      </div>
+      {/*<div className="flex items-center justify-center gap-4" onClick={(e) => e.stopPropagation()}>*/}
+      {/*  <CopyLogoPopover logo={logo} showWordmark={showWordmark}>*/}
+      {/*    <Button*/}
+      {/*      variant="ghost"*/}
+      {/*      size="icon"*/}
+      {/*      className="h-10 w-10"*/}
+      {/*      aria-label={`Copy ${logo.name} logo to clipboard`}*/}
+      {/*    >*/}
+      {/*      <Copy className="h-5 w-5" />*/}
+      {/*    </Button>*/}
+      {/*  </CopyLogoPopover>*/}
+      {/*  <DownloadLogoDialog logo={logo}>*/}
+      {/*    <Button*/}
+      {/*      variant="ghost"*/}
+      {/*      size="icon"*/}
+      {/*      className="h-10 w-10"*/}
+      {/*      aria-label={`Download ${logo.name} logo`}*/}
+      {/*    >*/}
+      {/*      <Download className="h-5 w-5" />*/}
+      {/*    </Button>*/}
+      {/*  </DownloadLogoDialog>*/}
+      {/*  <Button*/}
+      {/*    variant="ghost"*/}
+      {/*    size="icon"*/}
+      {/*    onClick={handleOpenWebsite}*/}
+      {/*    className="h-10 w-10"*/}
+      {/*    disabled={!logo.websiteLink}*/}
+      {/*    aria-label={`Visit ${logo.name} website`}*/}
+      {/*  >*/}
+      {/*    <LinkIcon className="h-5 w-5" />*/}
+      {/*  </Button>*/}
+      {/*  {hasWordmark && (*/}
+      {/*    <Button*/}
+      {/*      variant="ghost"*/}
+      {/*      size="icon"*/}
+      {/*      onClick={handleToggleWordmark}*/}
+      {/*      className="h-10 w-10"*/}
+      {/*      title={showWordmark ? 'Show logo SVG' : 'Show wordmark SVG'}*/}
+      {/*      aria-label={showWordmark ? 'Show logo SVG' : 'Show wordmark SVG'}*/}
+      {/*    >*/}
+      {/*      {showWordmark ? <SparklesIcon className="h-5 w-5" /> : <BaselineIcon className="h-5 w-5" />}*/}
+      {/*    </Button>*/}
+      {/*  )}*/}
+      {/*</div>*/}
     </>
   );
 }

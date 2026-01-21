@@ -41,8 +41,8 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                 className="max-h-full max-w-full object-contain"
                 src={iconLight.url}
                 alt={`${logo.name} light icon`}
-                width={200}
-                height={200}
+                width={120}
+                height={120}
                 fallbackText="No logo"
               />
             </div>
@@ -60,8 +60,8 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                 className="max-h-full max-w-full object-contain"
                 src={iconDark.url}
                 alt={`${logo.name} dark icon`}
-                width={200}
-                height={200}
+                width={120}
+                height={120}
                 fallbackText="No logo"
               />
             </div>

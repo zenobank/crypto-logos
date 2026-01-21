@@ -13,9 +13,10 @@ import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 // custom models
 interface Props {
   logo: LogoItemsResponse;
+  variant?: 'default' | 'secondary' | 'outline' | 'ghost';
 }
 
-function FavoriteToggle({ logo }: Props) {
+function FavoriteToggle({ logo, variant = 'ghost' }: Props) {
   // common
   const { toggleFavorite, isFavorite: isFavoriteId } = useFavorites();
 
@@ -29,7 +30,7 @@ function FavoriteToggle({ logo }: Props) {
 
   return (
     <Button
-      variant="ghost"
+      variant={variant}
       size="icon"
       onClick={handleToggleFavorite}
       className="h-8 w-8"

@@ -21,7 +21,7 @@ export default function LogoCardWrapper({ children, logoId }: Props) {
     router.push(`/logo/${logoId}`);
   }
 
-  return <div className="flex flex-col cursor-pointer" onClick={openDetails}>
+  return <div className="flex flex-col cursor-pointer min-h-60" onClick={openDetails}>
     {children}
   </div>
 }
