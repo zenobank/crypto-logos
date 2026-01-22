@@ -1,7 +1,10 @@
 'use client';
 
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { oneDark, oneLight } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import {
+  oneDark,
+  oneLight,
+} from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { useTheme } from 'next-themes';
 
 // components
@@ -19,14 +22,10 @@ export default function CodeBlock({ code, language, title }: CodeBlockProps) {
   const syntaxTheme = resolvedTheme === 'dark' ? oneDark : oneLight;
 
   return (
-    <div className="relative group">
-      {title && (
-        <div className="text-sm font-medium mb-2">
-          {title}
-        </div>
-      )}
+    <div className="group relative">
+      {title && <div className="mb-2 text-sm font-medium">{title}</div>}
       <div className="flex">
-        <div className="grow relative w-0 rounded-lg overflow-auto border border-neutral-200 dark:border-neutral-800">
+        <div className="relative w-0 grow overflow-auto rounded-lg border border-neutral-200 dark:border-neutral-800">
           <div className="absolute top-3 right-3 z-10">
             <CopyButton code={code} />
           </div>

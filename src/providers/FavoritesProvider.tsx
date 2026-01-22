@@ -1,6 +1,12 @@
 'use client';
 
-import React, { createContext, useCallback, useContext, useMemo, useSyncExternalStore } from 'react';
+import React, {
+  createContext,
+  useCallback,
+  useContext,
+  useMemo,
+  useSyncExternalStore,
+} from 'react';
 
 // models
 import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
@@ -90,7 +96,11 @@ function useHydrated() {
 }
 
 export function FavoritesProvider({ children }: { children: React.ReactNode }) {
-  const raw = useSyncExternalStore(subscribe, getClientSnapshot, getServerSnapshot);
+  const raw = useSyncExternalStore(
+    subscribe,
+    getClientSnapshot,
+    getServerSnapshot,
+  );
   const hydrated = useHydrated();
   const isLoading = !hydrated;
 
@@ -126,15 +136,27 @@ export function FavoritesProvider({ children }: { children: React.ReactNode }) {
   );
 
   const value = useMemo(
-    () => ({ favoriteItems, hydrated, isLoading, toggleFavorite, isFavorite, clearAll }),
+    () => ({
+      favoriteItems,
+      hydrated,
+      isLoading,
+      toggleFavorite,
+      isFavorite,
+      clearAll,
+    }),
     [favoriteItems, hydrated, isLoading, toggleFavorite, isFavorite, clearAll],
   );
 
-  return <FavoritesContext.Provider value={value}>{children}</FavoritesContext.Provider>;
+  return (
+    <FavoritesContext.Provider value={value}>
+      {children}
+    </FavoritesContext.Provider>
+  );
 }
 
 export function useFavorites() {
   const ctx = useContext(FavoritesContext);
-  if (!ctx) throw new Error('useFavorites must be used within FavoritesProvider');
+  if (!ctx)
+    throw new Error('useFavorites must be used within FavoritesProvider');
   return ctx;
 }

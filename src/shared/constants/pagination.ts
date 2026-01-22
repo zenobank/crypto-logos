@@ -1,7 +1,4 @@
 const DEFAULT_PAGE_SIZE = 20;
 const MAX_PAGE_SIZE = 100;
 
-export {
-  DEFAULT_PAGE_SIZE,
-  MAX_PAGE_SIZE,
-}
+export { DEFAULT_PAGE_SIZE, MAX_PAGE_SIZE };

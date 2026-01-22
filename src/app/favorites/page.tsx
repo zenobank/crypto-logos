@@ -10,9 +10,10 @@ interface Props {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const title = 'Favorites Logos - Free SVG Logos'
+  const title = 'Favorites Logos - Free SVG Logos';
 
-  const description = 'Favorites logos in SVG format. Free, high-quality SVG logos for your projects.'
+  const description =
+    'Favorites logos in SVG format. Free, high-quality SVG logos for your projects.';
 
   return {
     title,
@@ -34,14 +35,12 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default async function FavoritesPage({
-  searchParams,
-}: Props) {
+export default async function FavoritesPage({ searchParams }: Props) {
   // computed
   const { q: searchQuery = '' } = await searchParams;
 
   return (
-    <div className="flex-1 flex flex-col p-6 max-md:p-4">
+    <div className="flex flex-1 flex-col p-6 max-md:p-4">
       <LogosSection searchQuery={searchQuery} />
     </div>
   );

@@ -28,15 +28,12 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
     <div className="space-y-8">
       {/* Icon variants */}
       <div>
-        <h3 className="text-sm font-medium text-muted-foreground mb-3">Icon</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <h3 className="text-muted-foreground mb-3 text-sm font-medium">Icon</h3>
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           {/* Light icon on a light background */}
           <div className="flex flex-col items-center gap-3">
-            <div className="relative w-full aspect-square rounded-2xl bg-zinc-50 dark:bg-zinc-100 border border-zinc-200 dark:border-zinc-300 flex items-center justify-center p-12">
-              <CopyButton
-                assets={iconLightAssets}
-                variant="light"
-              />
+            <div className="relative flex aspect-square w-full items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 p-12 dark:border-zinc-300 dark:bg-zinc-100">
+              <CopyButton assets={iconLightAssets} variant="light" />
               <Image
                 className="max-h-full max-w-full object-contain"
                 src={iconLight.url}
@@ -46,16 +43,13 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                 fallbackText="No logo"
               />
             </div>
-            <span className="text-sm text-muted-foreground">Light</span>
+            <span className="text-muted-foreground text-sm">Light</span>
           </div>
 
           {/* Dark icon on a dark background */}
           <div className="flex flex-col items-center gap-3">
-            <div className="relative w-full aspect-square rounded-2xl bg-zinc-900 dark:bg-zinc-900 border border-zinc-800 flex items-center justify-center p-12">
-              <CopyButton
-                assets={iconDarkAssets}
-                variant="dark"
-              />
+            <div className="relative flex aspect-square w-full items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 p-12 dark:bg-zinc-900">
+              <CopyButton assets={iconDarkAssets} variant="dark" />
               <Image
                 className="max-h-full max-w-full object-contain"
                 src={iconDark.url}
@@ -65,7 +59,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                 fallbackText="No logo"
               />
             </div>
-            <span className="text-sm text-muted-foreground">Dark</span>
+            <span className="text-muted-foreground text-sm">Dark</span>
           </div>
         </div>
       </div>
@@ -73,15 +67,14 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
       {/* Wordmark variants */}
       {hasWordmark && textLightAssets && (
         <div>
-          <h3 className="text-sm font-medium text-muted-foreground mb-3">Wordmark</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <h3 className="text-muted-foreground mb-3 text-sm font-medium">
+            Wordmark
+          </h3>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {/* Light wordmark on a light background */}
             <div className="flex flex-col items-center gap-3">
-              <div className="relative w-full h-32 rounded-2xl bg-zinc-50 dark:bg-zinc-100 border border-zinc-200 dark:border-zinc-300 flex items-center justify-center px-8">
-                <CopyButton
-                  assets={textLightAssets}
-                  variant="light"
-                />
+              <div className="relative flex h-32 w-full items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 px-8 dark:border-zinc-300 dark:bg-zinc-100">
+                <CopyButton assets={textLightAssets} variant="light" />
                 <Image
                   className="max-h-full max-w-full object-contain"
                   src={textLight!.url}
@@ -91,17 +84,14 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                   fallbackText="No wordmark"
                 />
               </div>
-              <span className="text-sm text-muted-foreground">Light</span>
+              <span className="text-muted-foreground text-sm">Light</span>
             </div>
 
             {/* Dark wordmark on a dark background */}
             {textDarkAssets && (
               <div className="flex flex-col items-center gap-3">
-                <div className="relative w-full h-32 rounded-2xl bg-zinc-900 dark:bg-zinc-900 border border-zinc-800 flex items-center justify-center px-8">
-                  <CopyButton
-                    assets={textDarkAssets}
-                    variant="dark"
-                  />
+                <div className="relative flex h-32 w-full items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 px-8 dark:bg-zinc-900">
+                  <CopyButton assets={textDarkAssets} variant="dark" />
                   <Image
                     className="max-h-full max-w-full object-contain"
                     src={textDark!.url}
@@ -111,7 +101,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                     fallbackText="No wordmark"
                   />
                 </div>
-                <span className="text-sm text-muted-foreground">Dark</span>
+                <span className="text-muted-foreground text-sm">Dark</span>
               </div>
             )}
           </div>

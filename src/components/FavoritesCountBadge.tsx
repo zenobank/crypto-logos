@@ -11,7 +11,6 @@ export default function FavoritesCountBadge() {
   const count = favoriteItems.length;
 
   if (!count) return null;
-
   return (
     <Badge
       variant="outline"

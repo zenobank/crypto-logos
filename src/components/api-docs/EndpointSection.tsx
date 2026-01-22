@@ -30,34 +30,34 @@ export default function EndpointSection({
 }: EndpointSectionProps) {
   return (
     <section className="mb-12">
-      <div className="flex items-center gap-3 mb-4">
+      <div className="mb-4 flex items-center gap-3">
         <Badge
           variant={method === 'GET' ? 'default' : 'secondary'}
-          className="font-mono text-xs px-2 py-0.5"
+          className="px-2 py-0.5 font-mono text-xs"
         >
           {method}
         </Badge>
-        <h3 className="text-xl font-semibold font-mono">{path}</h3>
+        <h3 className="font-mono text-xl font-semibold">{path}</h3>
       </div>
 
-      <p className="text-neutral-600 dark:text-neutral-400 mb-6">
+      <p className="mb-6 text-neutral-600 dark:text-neutral-400">
         {description}
       </p>
 
       {queryParams && queryParams.length > 0 && (
         <div className="mb-6">
-          <h4 className="text-base font-semibold mb-4">Query Parameters</h4>
-          <div className="border border-neutral-200 dark:border-neutral-800 rounded-lg overflow-hidden bg-transparent">
+          <h4 className="mb-4 text-base font-semibold">Query Parameters</h4>
+          <div className="overflow-hidden rounded-lg border border-neutral-200 bg-transparent dark:border-neutral-800">
             <table className="w-full">
               <thead className="border-b border-neutral-200 dark:border-neutral-800">
                 <tr>
-                  <th className="text-left px-6 py-3 text-sm font-medium text-neutral-700 dark:text-neutral-300">
+                  <th className="px-6 py-3 text-left text-sm font-medium text-neutral-700 dark:text-neutral-300">
                     Parameter
                   </th>
-                  <th className="text-left px-6 py-3 text-sm font-medium text-neutral-700 dark:text-neutral-300">
+                  <th className="px-6 py-3 text-left text-sm font-medium text-neutral-700 dark:text-neutral-300">
                     Type
                   </th>
-                  <th className="text-left px-6 py-3 text-sm font-medium text-neutral-700 dark:text-neutral-300">
+                  <th className="px-6 py-3 text-left text-sm font-medium text-neutral-700 dark:text-neutral-300">
                     Description
                   </th>
                 </tr>
@@ -68,10 +68,10 @@ export default function EndpointSection({
                     <td className="px-6 py-4 font-mono text-sm text-neutral-900 dark:text-neutral-100">
                       {param.name}
                       {param.required && (
-                        <span className="text-red-500 ml-1">*</span>
+                        <span className="ml-1 text-red-500">*</span>
                       )}
                     </td>
-                    <td className="px-6 py-4 text-sm text-neutral-600 dark:text-neutral-400 font-mono">
+                    <td className="px-6 py-4 font-mono text-sm text-neutral-600 dark:text-neutral-400">
                       {param.type}
                     </td>
                     <td className="px-6 py-4 text-sm text-neutral-600 dark:text-neutral-400">
@@ -87,12 +87,12 @@ export default function EndpointSection({
 
       <div className="space-y-6">
         <div>
-          <h4 className="text-base font-semibold mb-4">Request</h4>
+          <h4 className="mb-4 text-base font-semibold">Request</h4>
           <RequestExample example={requestExample} />
         </div>
 
         <div>
-          <h4 className="text-base font-semibold mb-4">Response</h4>
+          <h4 className="mb-4 text-base font-semibold">Response</h4>
           <CodeBlock code={responseExample} language="json" />
         </div>
       </div>

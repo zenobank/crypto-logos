@@ -1,7 +1,10 @@
 // models
 import FormatNumberOptions from '@/shared/models/common/format-number-options';
 
-function formatNumber(value: number, options: FormatNumberOptions = {}): string {
+function formatNumber(
+  value: number,
+  options: FormatNumberOptions = {},
+): string {
   const {
     locale = 'en',
     maximumFractionDigits = 1,

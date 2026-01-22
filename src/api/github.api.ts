@@ -1,12 +1,12 @@
-import { ms } from "@/lib/ms";
+import { ms } from '@/lib/ms';
 
 const GithubApi = {
   async getRepoStars(owner: string, repo: string): Promise<number> {
-    const revalidate = ms("1h") / 60;
+    const revalidate = ms('1h') / 60;
     try {
       const res = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
         headers: {
-          Accept: "application/vnd.github+json",
+          Accept: 'application/vnd.github+json',
         },
         next: { revalidate },
       });
@@ -14,7 +14,7 @@ const GithubApi = {
       if (!res.ok) return 0;
 
       const data = (await res.json()) as { stargazers_count?: number };
-      return typeof data.stargazers_count === "number"
+      return typeof data.stargazers_count === 'number'
         ? data.stargazers_count
         : 0;
     } catch {

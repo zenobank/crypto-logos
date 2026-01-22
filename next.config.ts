@@ -1,4 +1,4 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -10,15 +10,22 @@ const nextConfig: NextConfig = {
           { key: 'Content-Type', value: 'application/manifest+json' },
           { key: 'Access-Control-Allow-Origin', value: '*' },
           { key: 'Access-Control-Allow-Methods', value: 'GET' },
-          { key: 'Access-Control-Allow-Headers', value: 'X-Requested-With, content-type, Authorization' }
-        ]
-      }
-    ]
+          {
+            key: 'Access-Control-Allow-Headers',
+            value: 'X-Requested-With, content-type, Authorization',
+          },
+        ],
+      },
+    ];
   },
   async redirects() {
     return [
-      { source: '/manifest.json', destination: '/site.webmanifest', permanent: true }
-    ]
+      {
+        source: '/manifest.json',
+        destination: '/site.webmanifest',
+        permanent: true,
+      },
+    ];
   },
   reactCompiler: true,
 };

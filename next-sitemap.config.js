@@ -1,7 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const logosData = require('./src/api/logos.json');
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const SERVER_BASE_URL = require('./src/shared/constants/server-base-url.ts').default;
+const SERVER_BASE_URL =
+  require('./src/shared/constants/server-base-url.ts').default;
 
 function normalizeString(str) {
   return str
@@ -75,4 +76,4 @@ module.exports = {
       ...logoPaths,
     ];
   },
-}
+};

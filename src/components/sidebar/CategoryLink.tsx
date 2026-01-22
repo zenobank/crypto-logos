@@ -23,15 +23,15 @@ export default function CategoryLink({ id, name, count }: CategoryLinkProps) {
     <Link
       href={href}
       className={cn(
-        "flex items-center justify-between rounded-lg px-3 py-1.5 transition-colors hover:text-foreground",
-        isActive ? "bg-accent text-accent-foreground" : "text-muted-foreground"
+        'hover:text-foreground flex items-center justify-between rounded-lg px-3 py-1.5 transition-colors',
+        isActive ? 'bg-accent text-accent-foreground' : 'text-muted-foreground',
       )}
     >
       <span className="text-base capitalize">{name}</span>
       <span
         className={cn(
-          "text-xs px-2 py-0.5 rounded-xl border transition-colors",
-          isActive ? "border-accent-foreground/20" : "border-border"
+          'rounded-xl border px-2 py-0.5 text-xs transition-colors',
+          isActive ? 'border-accent-foreground/20' : 'border-border',
         )}
       >
         {count}

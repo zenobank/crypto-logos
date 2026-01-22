@@ -4,7 +4,10 @@ import CategoryListItem from '@/shared/models/categories/category-list-item';
 
 type LogoCategory = Omit<CategoryListItem, 'count'>;
 
-interface LogoItemsResponse extends Omit<LogoItem, 'mainCategory' | 'secondaryCategories'> {
+interface LogoItemsResponse extends Omit<
+  LogoItem,
+  'mainCategory' | 'secondaryCategories'
+> {
   mainCategory: LogoCategory;
   secondaryCategories: LogoCategory[];
 }

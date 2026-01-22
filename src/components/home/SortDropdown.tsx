@@ -32,7 +32,8 @@ export default function SortDropdown({ value }: Props) {
   const pathname = usePathname();
 
   // computed
-  const currentOption = sortOptions.find((opt) => opt.value === value) || sortOptions[0];
+  const currentOption =
+    sortOptions.find((opt) => opt.value === value) || sortOptions[0];
 
   // helpers
   function handleSort(newSort: LogosSortBy): void {

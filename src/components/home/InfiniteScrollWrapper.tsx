@@ -22,7 +22,11 @@ interface Props {
   sortBy: LogosSortBy;
 }
 
-export default function InfiniteScrollWrapper({ searchQuery, category, sortBy }: Props) {
+export default function InfiniteScrollWrapper({
+  searchQuery,
+  category,
+  sortBy,
+}: Props) {
   // requests
   const {
     data,
@@ -33,21 +37,28 @@ export default function InfiniteScrollWrapper({ searchQuery, category, sortBy }:
     error,
   } = useInfiniteQuery(getLogosQueryParams(searchQuery, category, sortBy));
 
-  const { scrollContainerRef } = useScrollReset([searchQuery, category, sortBy]);
+  const { scrollContainerRef } = useScrollReset([
+    searchQuery,
+    category,
+    sortBy,
+  ]);
 
   // computed
   const logos = (data || { pages: [] }).pages.flatMap((page) => page.data);
 
   if (error) {
     return (
-      <div className="text-center text-destructive p-6">
+      <div className="text-destructive p-6 text-center">
         Error loading logos: {(error as Error).message}
       </div>
     );
   }
 
   return (
-    <ScrollArea className="grow flex flex-col h-0 py-4" viewportRef={scrollContainerRef}>
+    <ScrollArea
+      className="flex h-0 grow flex-col py-4"
+      viewportRef={scrollContainerRef}
+    >
       <LogoGrid
         logos={logos}
         hasMore={hasNextPage}

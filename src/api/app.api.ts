@@ -23,7 +23,9 @@ const AppApi = {
       return getLogos(params);
     }
 
-    const searchParams = buildReqParams(params as Record<string, string | number>);
+    const searchParams = buildReqParams(
+      params as Record<string, string | number>,
+    );
     const response = await fetch(`/api/logos?${searchParams}`);
 
     if (!response.ok) {

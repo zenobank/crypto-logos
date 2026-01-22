@@ -25,7 +25,7 @@ function FavoriteToggle({ logo, variant = 'ghost' }: Props) {
 
   // helpers
   function handleToggleFavorite(): void {
-    toggleFavorite(logo)
+    toggleFavorite(logo);
   }
 
   return (

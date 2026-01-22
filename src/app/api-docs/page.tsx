@@ -70,10 +70,13 @@ interface ListResponse<T> {
 
 export default function ApiDocsPage() {
   return (
-    <div className="flex-1 flex flex-col p-6 max-md:p-4">
-      <Card className="flex-1 flex flex-col p-0 gap-0 overflow-hidden bg-transparent">
-        <ScrollArea className="grow flex flex-col h-0">
-          <div data-scroll-area-viewport="" className="size-full rounded-[inherit]">
+    <div className="flex flex-1 flex-col p-6 max-md:p-4">
+      <Card className="flex flex-1 flex-col gap-0 overflow-hidden bg-transparent p-0">
+        <ScrollArea className="flex h-0 grow flex-col">
+          <div
+            data-scroll-area-viewport=""
+            className="size-full rounded-[inherit]"
+          >
             <div data-scroll-area-content="">
               <ApiDocsHeader />
               {/* Mobile TOC */}
@@ -81,33 +84,49 @@ export default function ApiDocsPage() {
                 <TableOfContents />
               </div>
 
-              <div className="container mx-auto px-6 lg:px-4 flex-1 mt-8 mb-6">
-                <div className="flex flex-col lg:flex-row gap-8 max-w-6xl mx-auto">
-                  <article className="markdown flex-1 min-w-0">
+              <div className="container mx-auto mt-8 mb-6 flex-1 px-6 lg:px-4">
+                <div className="mx-auto flex max-w-6xl flex-col gap-8 lg:flex-row">
+                  <article className="markdown min-w-0 flex-1">
                     {/* Introduction */}
-                    <h2 id="introduction" className="text-2xl font-bold mb-4 scroll-mt-20">Introduction</h2>
-                    <p className="text-neutral-600 dark:text-neutral-400 mb-6">
-                      The Crypto Logos API provides access to 576+ cryptocurrency and
-                      blockchain project logos in SVG format. This RESTful API allows you
-                      to fetch logos, filter by category, search by name, and retrieve
-                      category information.
+                    <h2
+                      id="introduction"
+                      className="mb-4 scroll-mt-20 text-2xl font-bold"
+                    >
+                      Introduction
+                    </h2>
+                    <p className="mb-6 text-neutral-600 dark:text-neutral-400">
+                      The Crypto Logos API provides access to 576+
+                      cryptocurrency and blockchain project logos in SVG format.
+                      This RESTful API allows you to fetch logos, filter by
+                      category, search by name, and retrieve category
+                      information.
                     </p>
 
                     {/* Base URL */}
-                    <h3 id="base-url" className="text-xl font-semibold mb-3 scroll-mt-20">Base URL</h3>
+                    <h3
+                      id="base-url"
+                      className="mb-3 scroll-mt-20 text-xl font-semibold"
+                    >
+                      Base URL
+                    </h3>
                     <BaseUrlDisplayWithCopy />
 
                     {/* TypeScript */}
                     <div id="typescript" className="mt-8 mb-12 scroll-mt-20">
-                      <h2 className="text-2xl font-bold mb-4">TypeScript</h2>
-                      <p className="text-neutral-600 dark:text-neutral-400 mb-6">
+                      <h2 className="mb-4 text-2xl font-bold">TypeScript</h2>
+                      <p className="mb-6 text-neutral-600 dark:text-neutral-400">
                         You can use the following types for the API responses:
                       </p>
                       <CodeBlock code={typescriptTypes} language="typescript" />
                     </div>
 
                     {/* Endpoints */}
-                    <h2 id="endpoints" className="text-2xl font-bold mb-6 scroll-mt-20">Endpoints</h2>
+                    <h2
+                      id="endpoints"
+                      className="mb-6 scroll-mt-20 text-2xl font-bold"
+                    >
+                      Endpoints
+                    </h2>
 
                     {/* GET /api/logos - Full */}
                     <div id="get-all-logos" className="scroll-mt-20">
@@ -132,7 +151,7 @@ export default function ApiDocsPage() {
                             name: 'sortBy',
                             type: 'LogosSortBy',
                             description:
-                              'Sort logos by name in ascending or descending order. Default is \'name-asc\'.',
+                              "Sort logos by name in ascending or descending order. Default is 'name-asc'.",
                           },
                           {
                             name: 'limit',
@@ -159,7 +178,9 @@ export default function ApiDocsPage() {
                         path="/api/logos?limit=10&skip=0"
                         description="Get a limited number of logos with pagination. Use the limit parameter to control page size and skip for offset-based pagination."
                         requestExample={API_EXAMPLES.getLogosWithLimit.request}
-                        responseExample={API_EXAMPLES.getLogosWithLimit.response}
+                        responseExample={
+                          API_EXAMPLES.getLogosWithLimit.response
+                        }
                       />
                     </div>
 
@@ -170,7 +191,9 @@ export default function ApiDocsPage() {
                         path="/api/logos?category=nft"
                         description="Filter logos by a specific category. Category matching is case-insensitive and searches both main and secondary categories."
                         requestExample={API_EXAMPLES.getLogosByCategory.request}
-                        responseExample={API_EXAMPLES.getLogosByCategory.response}
+                        responseExample={
+                          API_EXAMPLES.getLogosByCategory.response
+                        }
                       />
                     </div>
 
@@ -197,26 +220,28 @@ export default function ApiDocsPage() {
                     </div>
 
                     {/* Notes */}
-                    <div className="mt-12 p-6 bg-transparent rounded-lg border border-neutral-200 dark:border-neutral-800">
-                      <h3 className="text-lg font-semibold mb-3">Notes</h3>
-                      <ul className="list-disc list-inside space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
+                    <div className="mt-12 rounded-lg border border-neutral-200 bg-transparent p-6 dark:border-neutral-800">
+                      <h3 className="mb-3 text-lg font-semibold">Notes</h3>
+                      <ul className="list-inside list-disc space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
                         <li>
-                          All query parameters are optional unless specified otherwise
+                          All query parameters are optional unless specified
+                          otherwise
                         </li>
                         <li>
-                          Category and search filters can be combined for more specific
-                          results
+                          Category and search filters can be combined for more
+                          specific results
                         </li>
                         <li>
-                          The API returns SVG URLs that can be directly used in your
-                          application
+                          The API returns SVG URLs that can be directly used in
+                          your application
                         </li>
                         <li>
-                          Responses include both light and dark variants when available
+                          Responses include both light and dark variants when
+                          available
                         </li>
                         <li>
-                          Some logos include wordmark/text variants in the
-                          logo field
+                          Some logos include wordmark/text variants in the logo
+                          field
                         </li>
                       </ul>
                     </div>

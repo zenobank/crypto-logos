@@ -22,11 +22,20 @@ interface LogoCardTagsProps {
   secondaryCategories: LogoCategory[];
 }
 
-export default function LogoCardTags({ mainCategory, secondaryCategories }: LogoCardTagsProps) {
+export default function LogoCardTags({
+  mainCategory,
+  secondaryCategories,
+}: LogoCardTagsProps) {
   return (
-    <div className="flex items-center justify-center gap-2 mb-3 flex-wrap" onClick={(e) => e.stopPropagation()}>
+    <div
+      className="mb-3 flex flex-wrap items-center justify-center gap-2"
+      onClick={(e) => e.stopPropagation()}
+    >
       <Link href={`/category/${mainCategory.id}`}>
-        <Badge className="capitalize h-5.5 text-xs rounded-full px-3 cursor-pointer hover:bg-accent transition-colors" variant="outline">
+        <Badge
+          className="hover:bg-accent h-5.5 cursor-pointer rounded-full px-3 text-xs capitalize transition-colors"
+          variant="outline"
+        >
           {mainCategory.name}
         </Badge>
       </Link>
@@ -37,7 +46,7 @@ export default function LogoCardTags({ mainCategory, secondaryCategories }: Logo
             aria-label="View more categories"
             className={cn(
               badgeVariants({ variant: 'outline' }),
-              'h-5.5 text-xs rounded-full px-3 cursor-pointer hover:bg-accent transition-colors'
+              'hover:bg-accent h-5.5 cursor-pointer rounded-full px-3 text-xs transition-colors',
             )}
           >
             <MoreHorizontal size={32} />
@@ -49,7 +58,7 @@ export default function LogoCardTags({ mainCategory, secondaryCategories }: Logo
                   href={`/category/${category.id}`}
                   className="cursor-pointer capitalize"
                 >
-                  <Tag className="h-4 w-4 mr-2" />
+                  <Tag className="mr-2 h-4 w-4" />
                   {category.name}
                 </Link>
               </DropdownMenuItem>

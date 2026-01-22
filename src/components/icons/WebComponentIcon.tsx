@@ -1,7 +1,15 @@
 export default function WebComponentIcon() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="21" height="21">
-      <path fill="var(--bgcolor, #fff)" d="m31 12-1 1L2 63l29 51h67l15-26v-2l14-23-15-24v-2L98 12H31zm21 30h21l13 21-13 21H52L40 63z"></path>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 128 128"
+      width="21"
+      height="21"
+    >
+      <path
+        fill="var(--bgcolor, #fff)"
+        d="m31 12-1 1L2 63l29 51h67l15-26v-2l14-23-15-24v-2L98 12H31zm21 30h21l13 21-13 21H52L40 63z"
+      ></path>
       <path fill="#166da5" d="m122 63-12 21-18-21 18-21z"></path>
       <path fill="#8fdb69" d="M108 88 89 65 78 84l17 26z"></path>
       <path fill="#166da5" d="M108 38 89 61 78 42l17-26z"></path>

@@ -55,29 +55,29 @@ type Props = Readonly<{
 export default function RootLayout({ children }: Props) {
   return (
     <html lang="en" suppressHydrationWarning>
-    <body
-      className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-    >
-    <NuqsAdapter>
-      <ThemeProvider
-        enableSystem
-        disableTransitionOnChange
-        attribute="class"
-        defaultTheme="system"
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <QueryProvider>
-          <FavoritesProvider>
-            <Header />
-            <Sidebar className="max-md:hidden" />
-            <main className="flex-1 flex flex-col pl-64 max-md:pl-0">
-              {children}
-            </main>
-            <Toaster />
-          </FavoritesProvider>
-        </QueryProvider>
-      </ThemeProvider>
-    </NuqsAdapter>
-    </body>
+        <NuqsAdapter>
+          <ThemeProvider
+            enableSystem
+            disableTransitionOnChange
+            attribute="class"
+            defaultTheme="system"
+          >
+            <QueryProvider>
+              <FavoritesProvider>
+                <Header />
+                <Sidebar className="max-md:hidden" />
+                <main className="flex flex-1 flex-col pl-64 max-md:pl-0">
+                  {children}
+                </main>
+                <Toaster />
+              </FavoritesProvider>
+            </QueryProvider>
+          </ThemeProvider>
+        </NuqsAdapter>
+      </body>
     </html>
   );
 }

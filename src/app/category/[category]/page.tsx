@@ -1,4 +1,8 @@
-import { QueryClient, HydrationBoundary, dehydrate } from '@tanstack/react-query';
+import {
+  QueryClient,
+  HydrationBoundary,
+  dehydrate,
+} from '@tanstack/react-query';
 import type { Metadata } from 'next';
 
 // lib
@@ -21,7 +25,10 @@ interface Props {
   searchParams: Promise<{ q?: string; sort?: string }>;
 }
 
-export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+  searchParams,
+}: Props): Promise<Metadata> {
   const { category } = await params;
   const { q: searchQuery } = await searchParams;
 
@@ -57,17 +64,17 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
   };
 }
 
-export default async function CategoryPage({
-  params,
-  searchParams,
-}: Props) {
+export default async function CategoryPage({ params, searchParams }: Props) {
   // common
   const queryClient = new QueryClient();
 
   // computed
   const { category } = await params;
-  const { q: searchQuery = '', sort = LogosSortBy.NameAsc } = await searchParams;
-  const sortBy = (sort === LogosSortBy.NameDesc ? LogosSortBy.NameDesc : LogosSortBy.NameAsc) as LogosSortBy;
+  const { q: searchQuery = '', sort = LogosSortBy.NameAsc } =
+    await searchParams;
+  const sortBy = (
+    sort === LogosSortBy.NameDesc ? LogosSortBy.NameDesc : LogosSortBy.NameAsc
+  ) as LogosSortBy;
 
   // prefetch
   await queryClient.prefetchInfiniteQuery(
@@ -75,9 +82,14 @@ export default async function CategoryPage({
   );
 
   return (
-    <div className="flex-1 flex flex-col p-6 max-md:p-4">
+    <div className="flex flex-1 flex-col p-6 max-md:p-4">
       <HydrationBoundary state={dehydrate(queryClient)}>
-        <LogosSection searchQuery={searchQuery} category={category} sortBy={sortBy} showCategoryHeader />
+        <LogosSection
+          searchQuery={searchQuery}
+          category={category}
+          sortBy={sortBy}
+          showCategoryHeader
+        />
       </HydrationBoundary>
     </div>
   );

@@ -14,7 +14,11 @@ interface DownloadButtonProps {
   format: string;
 }
 
-export default function DownloadButton({ url, filename, format }: DownloadButtonProps) {
+export default function DownloadButton({
+  url,
+  filename,
+  format,
+}: DownloadButtonProps) {
   const Icon = format === 'svg' ? FileCode : FileImage;
 
   return (
@@ -23,7 +27,7 @@ export default function DownloadButton({ url, filename, format }: DownloadButton
       className="flex-1"
       onClick={() => downloadLogo(url, filename)}
     >
-      <Icon className="h-4 w-4 mr-2" />
+      <Icon className="mr-2 h-4 w-4" />
       {format.toUpperCase()}
     </Button>
   );

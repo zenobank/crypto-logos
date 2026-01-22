@@ -24,7 +24,12 @@ interface Props {
 
 export default function LogosSection({ searchQuery }: Props) {
   // common
-  const { favoriteItems, hydrated, clearAll, isLoading: isLoadingFavorites } = useFavorites();
+  const {
+    favoriteItems,
+    hydrated,
+    clearAll,
+    isLoading: isLoadingFavorites,
+  } = useFavorites();
   const { scrollContainerRef } = useScrollReset([searchQuery]);
 
   // states
@@ -66,11 +71,11 @@ export default function LogosSection({ searchQuery }: Props) {
   const count = favoriteItems.length;
 
   return (
-    <div className="grow flex flex-col gap-2">
+    <div className="flex grow flex-col gap-2">
       <SearchBar />
 
-      <Card className="flex-1 flex flex-col p-0 gap-0 overflow-hidden bg-transparent">
-        <div className="flex h-12.5 items-center justify-between py-1.5 pr-2 pl-3 border-b border-neutral-200 dark:border-neutral-800 bg-white/80 backdrop-blur-sm dark:bg-neutral-900/40">
+      <Card className="flex flex-1 flex-col gap-0 overflow-hidden bg-transparent p-0">
+        <div className="flex h-12.5 items-center justify-between border-b border-neutral-200 bg-white/80 py-1.5 pr-2 pl-3 backdrop-blur-sm dark:border-neutral-800 dark:bg-neutral-900/40">
           <div className="flex items-center gap-2">
             <Folder className="h-5 w-5" />
             <span className="text-lg">
@@ -83,15 +88,27 @@ export default function LogosSection({ searchQuery }: Props) {
           </div>
 
           {!!count && (
-            <Button className="flex items-center" variant="ghost" onClick={clearAll}>
+            <Button
+              className="flex items-center"
+              variant="ghost"
+              onClick={clearAll}
+            >
               <Trash />
               <span>Clear All</span>
             </Button>
           )}
         </div>
 
-        <ScrollArea className="grow flex flex-col h-0 py-4" viewportRef={scrollContainerRef}>
-          <LogoGrid logos={logos} hasMore={false} onLoadMore={() => {}} isLoading={isLoading} />
+        <ScrollArea
+          className="flex h-0 grow flex-col py-4"
+          viewportRef={scrollContainerRef}
+        >
+          <LogoGrid
+            logos={logos}
+            hasMore={false}
+            onLoadMore={() => {}}
+            isLoading={isLoading}
+          />
         </ScrollArea>
       </Card>
     </div>

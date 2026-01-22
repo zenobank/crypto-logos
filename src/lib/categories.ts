@@ -2,7 +2,10 @@
 import CategoryListItem from '@/shared/models/categories/category-list-item';
 
 // constants
-import { CATEGORY_MAP, CATEGORIES_RESPONSE } from '@/shared/constants/logos-data';
+import {
+  CATEGORY_MAP,
+  CATEGORIES_RESPONSE,
+} from '@/shared/constants/logos-data';
 
 export function getCategories(): CategoryListItem[] {
   return CATEGORIES_RESPONSE;

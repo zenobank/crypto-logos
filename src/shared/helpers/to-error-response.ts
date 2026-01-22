@@ -7,7 +7,7 @@ function toErrorResponse(
   status: number,
   code: string,
   message: string,
-  details?: Record<string, unknown>
+  details?: Record<string, unknown>,
 ): NextResponse<ApiErrorResponse> {
   const payload: ApiErrorResponse = { error: { code, message, details } };
   return NextResponse.json<ApiErrorResponse>(payload, { status });

@@ -9,7 +9,8 @@ import {
   DialogContent,
   DialogDescription,
   DialogHeader,
-  DialogTitle, DialogTrigger,
+  DialogTitle,
+  DialogTrigger,
 } from '@/components/ui/dialog';
 import DownloadSection from '@/components/home/DownloadSection';
 
@@ -24,7 +25,10 @@ interface DownloadLogoDialogProps {
   children: ReactNode;
 }
 
-export default function DownloadLogoDialog({ logo, children }: DownloadLogoDialogProps) {
+export default function DownloadLogoDialog({
+  logo,
+  children,
+}: DownloadLogoDialogProps) {
   // computed
   const hasWordmark = Boolean(logo.logo.text?.light?.[0]);
   const hasDarkIcon = Boolean(logo.logo.icon.dark?.[0]);
@@ -46,13 +50,11 @@ export default function DownloadLogoDialog({ logo, children }: DownloadLogoDialo
 
   return (
     <Dialog>
-      {
-        hasOnlyOneImage ?
-          <div onClick={handleDownload}>
-            {children}
-          </div>
-          : <DialogTrigger asChild>{children}</DialogTrigger>
-      }
+      {hasOnlyOneImage ? (
+        <div onClick={handleDownload}>{children}</div>
+      ) : (
+        <DialogTrigger asChild>{children}</DialogTrigger>
+      )}
       <DialogContent className="max-w-3xl">
         <DialogHeader>
           <DialogTitle>Download {logo.name} SVGs</DialogTitle>
@@ -62,7 +64,12 @@ export default function DownloadLogoDialog({ logo, children }: DownloadLogoDialo
         </DialogHeader>
 
         <ScrollArea className="max-h-[calc(100dvh-10rem)]">
-          <div className={cn('grid gap-4 max-md:gap-2 max-md:flex max-md:flex-col', hasWordmark ? 'grid-cols-2' : 'grid-cols-1 max-w-sm mx-auto')}>
+          <div
+            className={cn(
+              'grid gap-4 max-md:flex max-md:flex-col max-md:gap-2',
+              hasWordmark ? 'grid-cols-2' : 'mx-auto max-w-sm grid-cols-1',
+            )}
+          >
             <DownloadSection
               title="Icon only"
               logoName={logo.id}
@@ -82,10 +89,10 @@ export default function DownloadLogoDialog({ logo, children }: DownloadLogoDialo
             )}
           </div>
 
-          <div className="mt-2 flex w-full items-center text-center text-xs text-muted-foreground">
+          <div className="text-muted-foreground mt-2 flex w-full items-center text-center text-xs">
             <p>
-              Please ensure you have permission from the creators before using the SVG.
-              Modifications are not permitted.
+              Please ensure you have permission from the creators before using
+              the SVG. Modifications are not permitted.
             </p>
           </div>
         </ScrollArea>

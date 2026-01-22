@@ -94,7 +94,9 @@ function toKebabCase(str: string): string {
 }
 
 function toPascalCase(str: string): string {
-  return str.replace(/(?:^|[\s-])(\w)/g, (_, char) => char.toUpperCase()).replace(/[\s-]/g, '');
+  return str
+    .replace(/(?:^|[\s-])(\w)/g, (_, char) => char.toUpperCase())
+    .replace(/[\s-]/g, '');
 }
 
 export async function generateWebComponentTemplate(
@@ -221,7 +223,9 @@ defineProps({
 </template>`;
 }
 
-export async function generateSvelteTSTemplate(logoUrl: string): Promise<string> {
+export async function generateSvelteTSTemplate(
+  logoUrl: string,
+): Promise<string> {
   const svgContent = await fetchSVGContent(logoUrl);
   const svgAttributes = extractSVGAttributes(svgContent);
   const svgInner = extractSVGInner(svgContent);
@@ -237,7 +241,9 @@ export async function generateSvelteTSTemplate(logoUrl: string): Promise<string>
 </svg>`;
 }
 
-export async function generateSvelteJSTemplate(logoUrl: string): Promise<string> {
+export async function generateSvelteJSTemplate(
+  logoUrl: string,
+): Promise<string> {
   const svgContent = await fetchSVGContent(logoUrl);
   const svgAttributes = extractSVGAttributes(svgContent);
   const svgInner = extractSVGInner(svgContent);

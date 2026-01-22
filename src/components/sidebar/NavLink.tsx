@@ -24,8 +24,8 @@ export default function NavLink({ name, href, icon, children }: NavLinkProps) {
     <Link
       href={href}
       className={cn(
-        "flex items-center gap-3 rounded-lg px-3 py-1.5 transition-colors hover:bg-accent hover:text-accent-foreground",
-        isActive ? "bg-accent text-accent-foreground" : "text-muted-foreground"
+        'hover:bg-accent hover:text-accent-foreground flex items-center gap-3 rounded-lg px-3 py-1.5 transition-colors',
+        isActive ? 'bg-accent text-accent-foreground' : 'text-muted-foreground',
       )}
     >
       {icon}

@@ -86,10 +86,13 @@ export default async function LogoDetailPage({ params }: Props) {
   const logoIconDark = logo.logo.icon.dark?.[0]?.url || logoIconLight;
 
   return (
-    <div className="flex-1 flex flex-col p-6 max-md:p-4 max-w-4xl mx-auto w-full">
+    <div className="mx-auto flex w-full max-w-4xl flex-1 flex-col p-6 max-md:p-4">
       {/* Breadcrumb */}
-      <nav className="flex items-center gap-2 text-sm mb-6">
-        <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
+      <nav className="mb-6 flex items-center gap-2 text-sm">
+        <Link
+          href="/"
+          className="text-muted-foreground hover:text-foreground transition-colors"
+        >
           Home
         </Link>
         <span className="text-muted-foreground">/</span>
@@ -99,17 +102,32 @@ export default async function LogoDetailPage({ params }: Props) {
       {/* Title and tags */}
       <div className="mb-6">
         <div className="flex items-center justify-between gap-2">
-          <h1 className="inline-flex items-center gap-1 text-3xl font-bold mb-3">
+          <h1 className="mb-3 inline-flex items-center gap-1 text-3xl font-bold">
             <span>{logo.name}</span>
-            <Image className="inline-block w-8 h-8 ml-2 dark:hidden" src={logoIconLight} alt={logo.name} width={32} height={32} />
-            <Image className="inline-block w-8 h-8 ml-2 not-dark:hidden" src={logoIconDark} alt={logo.name} width={32} height={32} />
+            <Image
+              className="ml-2 inline-block h-8 w-8 dark:hidden"
+              src={logoIconLight}
+              alt={logo.name}
+              width={32}
+              height={32}
+            />
+            <Image
+              className="ml-2 inline-block h-8 w-8 not-dark:hidden"
+              src={logoIconDark}
+              alt={logo.name}
+              width={32}
+              height={32}
+            />
           </h1>
           <FavoriteToggle variant="outline" logo={logo} />
         </div>
         <div className="flex flex-wrap gap-2">
           {allCategories.map((category) => (
             <Link key={category.id} href={`/category/${category.id}`}>
-              <Badge variant="secondary" className="capitalize cursor-pointer hover:bg-accent">
+              <Badge
+                variant="secondary"
+                className="hover:bg-accent cursor-pointer capitalize"
+              >
                 {category.name}
               </Badge>
             </Link>
@@ -132,20 +150,28 @@ export default async function LogoDetailPage({ params }: Props) {
       {/* Links */}
       {(logo.websiteLink || logo.brandKitLink) && (
         <div>
-          <h2 className="text-xl font-semibold mb-4">Links</h2>
+          <h2 className="mb-4 text-xl font-semibold">Links</h2>
           <div className="flex flex-wrap gap-3">
             {logo.websiteLink && (
               <Button variant="outline" asChild>
-                <a href={logo.websiteLink} target="_blank" rel="noopener noreferrer nofollow">
-                  <ExternalLink className="h-4 w-4 mr-2" />
+                <a
+                  href={logo.websiteLink}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  <ExternalLink className="mr-2 h-4 w-4" />
                   Website
                 </a>
               </Button>
             )}
             {logo.brandKitLink && (
               <Button variant="outline" asChild>
-                <a href={logo.brandKitLink} target="_blank" rel="noopener noreferrer nofollow">
-                  <Download className="h-4 w-4 mr-2" />
+                <a
+                  href={logo.brandKitLink}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  <Download className="mr-2 h-4 w-4" />
                   Brand Kit
                 </a>
               </Button>

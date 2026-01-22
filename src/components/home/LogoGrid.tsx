@@ -17,14 +17,20 @@ interface Props {
   EmptyState?: ReactNode;
 }
 
-export default function LogoGrid({ logos, hasMore, onLoadMore, isLoading, EmptyState }: Props) {
+export default function LogoGrid({
+  logos,
+  hasMore,
+  onLoadMore,
+  isLoading,
+  EmptyState,
+}: Props) {
   if (logos.length === 0 && !isLoading) {
     return EmptyState ? (
       <>{EmptyState}</>
     ) : (
-      <div className="text-center py-12">
-        <p className="text-lg text-muted-foreground">No logos found</p>
-        <p className="text-sm text-muted-foreground mt-2">
+      <div className="py-12 text-center">
+        <p className="text-muted-foreground text-lg">No logos found</p>
+        <p className="text-muted-foreground mt-2 text-sm">
           Try adjusting your search query
         </p>
       </div>
@@ -35,10 +41,7 @@ export default function LogoGrid({ logos, hasMore, onLoadMore, isLoading, EmptyS
     <div className="relative">
       <div className="grid grid-cols-[repeat(auto-fill,minmax(15rem,1fr))] gap-4 px-3">
         {logos.map((logo) => (
-          <LogoCard
-            key={logo.id}
-            logo={logo}
-          />
+          <LogoCard key={logo.id} logo={logo} />
         ))}
 
         {/* Loading skeletons */}
@@ -51,7 +54,11 @@ export default function LogoGrid({ logos, hasMore, onLoadMore, isLoading, EmptyS
       </div>
 
       {/* Sentinel element for infinite scroll */}
-      <ListSentinel hasMore={hasMore} onLoadMore={onLoadMore} isLoading={isLoading} />
+      <ListSentinel
+        hasMore={hasMore}
+        onLoadMore={onLoadMore}
+        isLoading={isLoading}
+      />
     </div>
   );
 }

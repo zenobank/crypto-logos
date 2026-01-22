@@ -33,9 +33,7 @@ export default function CopyButton({ assets, variant }: CopyButtonProps) {
     ? 'absolute top-3 right-3 h-8 w-8 bg-white/80 hover:bg-white shadow-sm'
     : 'absolute top-3 right-3 h-8 w-8 bg-zinc-800/80 hover:bg-zinc-800 shadow-sm';
 
-  const iconClass = isLight
-    ? 'h-4 w-4 text-zinc-600'
-    : 'h-4 w-4 text-zinc-400';
+  const iconClass = isLight ? 'h-4 w-4 text-zinc-600' : 'h-4 w-4 text-zinc-400';
 
   const checkClass = isLight
     ? 'h-4 w-4 text-green-600'
@@ -95,7 +93,7 @@ export default function CopyButton({ assets, variant }: CopyButtonProps) {
                 setOpen(false);
               }}
             >
-              <Copy className="h-4 w-4 mr-2" />
+              <Copy className="mr-2 h-4 w-4" />
               Copy {asset.format.toUpperCase()}
             </Button>
           ))}

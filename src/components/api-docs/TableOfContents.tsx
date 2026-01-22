@@ -46,11 +46,11 @@ function TocLinks({
           key={item.id}
           onClick={() => onItemClick(item.id)}
           className={cn(
-            'block w-full text-left text-sm transition-colors cursor-pointer',
+            'block w-full cursor-pointer text-left text-sm transition-colors',
             item.level === 2 ? 'pl-4' : '',
             activeId === item.id
-              ? 'text-neutral-900 dark:text-neutral-100 font-medium'
-              : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-300',
+              ? 'font-medium text-neutral-900 dark:text-neutral-100'
+              : 'text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-300',
           )}
         >
           {item.title}
@@ -96,8 +96,12 @@ export default function TableOfContents() {
   return (
     <>
       {/* Mobile Accordion */}
-      <div className="sticky top-12.5 z-20 lg:hidden mb-6 bg-white/80 backdrop-blur-sm dark:bg-neutral-900/40">
-        <Accordion type="single" collapsible className="border-b border-neutral-200 dark:border-neutral-800 bg-transparent">
+      <div className="sticky top-12.5 z-20 mb-6 bg-white/80 backdrop-blur-sm lg:hidden dark:bg-neutral-900/40">
+        <Accordion
+          type="single"
+          collapsible
+          className="border-b border-neutral-200 bg-transparent dark:border-neutral-800"
+        >
           <AccordionItem value="toc" className="border-none">
             <AccordionTrigger className="px-4 py-3 hover:no-underline">
               <span className="text-base font-semibold">On this page</span>
@@ -110,8 +114,8 @@ export default function TableOfContents() {
       </div>
 
       {/* Desktop Sidebar */}
-      <aside className="hidden lg:block sticky top-20 w-56 shrink-0 h-fit">
-        <div className="text-sm font-semibold mb-4">On this page</div>
+      <aside className="sticky top-20 hidden h-fit w-56 shrink-0 lg:block">
+        <div className="mb-4 text-sm font-semibold">On this page</div>
         <TocLinks activeId={activeId} onItemClick={handleClick} />
       </aside>
     </>

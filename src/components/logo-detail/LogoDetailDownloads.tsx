@@ -19,10 +19,16 @@ interface DownloadCardProps {
   variant: 'light' | 'dark';
 }
 
-function DownloadCard({ title, assets, logoName, type, variant }: DownloadCardProps) {
+function DownloadCard({
+  title,
+  assets,
+  logoName,
+  type,
+  variant,
+}: DownloadCardProps) {
   return (
     <Card className="p-4">
-      <h3 className="font-medium mb-3">{title}</h3>
+      <h3 className="mb-3 font-medium">{title}</h3>
       <div className="flex gap-2">
         {assets.map((asset) => (
           <DownloadButton
@@ -37,7 +43,9 @@ function DownloadCard({ title, assets, logoName, type, variant }: DownloadCardPr
   );
 }
 
-export default function LogoDetailDownloads({ logo }: LogoDetailDownloadsProps) {
+export default function LogoDetailDownloads({
+  logo,
+}: LogoDetailDownloadsProps) {
   // computed
   const iconLight = logo.logo.icon.light;
   const iconDark = logo.logo.icon.dark;
@@ -49,8 +57,8 @@ export default function LogoDetailDownloads({ logo }: LogoDetailDownloadsProps) 
     <div className="space-y-8">
       {/* Icon Downloads */}
       <div>
-        <h2 className="text-xl font-semibold mb-4">Download</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <h2 className="mb-4 text-xl font-semibold">Download</h2>
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <DownloadCard
             title="Light Version"
             assets={iconLight}
@@ -73,8 +81,8 @@ export default function LogoDetailDownloads({ logo }: LogoDetailDownloadsProps) 
       {/* Wordmark Downloads */}
       {hasWordmark && textLight && (
         <div>
-          <h2 className="text-xl font-semibold mb-4">Wordmark</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <h2 className="mb-4 text-xl font-semibold">Wordmark</h2>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <DownloadCard
               title="Light Version"
               assets={textLight}

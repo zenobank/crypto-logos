@@ -14,7 +14,12 @@ function readSkip(params: URLSearchParams): QueryResult<number> {
   if (parsed < 0) {
     return {
       ok: false,
-      error: toErrorResponse(400, 'INVALID_QUERY', 'Query param \'skip\' must be a non-negative integer.', { skip: raw }),
+      error: toErrorResponse(
+        400,
+        'INVALID_QUERY',
+        "Query param 'skip' must be a non-negative integer.",
+        { skip: raw },
+      ),
     };
   }
 

@@ -19,9 +19,12 @@ interface Props {
 export default function LogoCard({ logo }: Props) {
   return (
     <LogoCardWrapper logoId={logo.id}>
-      <Card className="grow py-3 px-3.5 gap-0 bg-transparent hover:bg-accent/50 transition-colors">
+      <Card className="hover:bg-accent/50 grow gap-0 bg-transparent px-3.5 py-3 transition-colors">
         {/* Top right icons - Palette + Heart */}
-        <div className="flex items-center justify-end gap-1" onClick={(e) => e.stopPropagation()}>
+        <div
+          className="flex items-center justify-end gap-1"
+          onClick={(e) => e.stopPropagation()}
+        >
           {/*{logo.brandKitLink && (*/}
           {/*  <Button*/}
           {/*    variant="ghost"*/}
@@ -39,7 +42,9 @@ export default function LogoCard({ logo }: Props) {
         </div>
 
         <LogoCardContent logo={logo}>
-          <h3 className="font-medium text-lg text-center mb-1 break-all">{logo.name}</h3>
+          <h3 className="mb-1 text-center text-lg font-medium break-all">
+            {logo.name}
+          </h3>
 
           <LogoCardTags
             mainCategory={logo.mainCategory}

@@ -18,7 +18,7 @@ export default function SearchBar() {
     parseAsString.withDefault('').withOptions({
       limitUrlUpdates: { method: 'debounce', timeMs: 300 },
       shallow: false,
-    })
+    }),
   );
 
   // Keyboard shortcut (⌘K / Ctrl+K)
@@ -42,16 +42,16 @@ export default function SearchBar() {
 
   return (
     <div className="relative">
-      <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+      <Search className="text-muted-foreground absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2" />
       <Input
         ref={inputRef}
         type="text"
         placeholder="Search logos..."
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
-        className="pl-9 h-10.5 pr-20"
+        className="h-10.5 pr-20 pl-9"
       />
-      <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-2">
+      <div className="absolute top-1/2 right-3 flex -translate-y-1/2 items-center gap-2">
         {searchQuery && (
           <button
             onClick={handleClear}

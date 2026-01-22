@@ -29,16 +29,22 @@ export function getLogosQueryParams(
       });
     },
     initialPageParam: 0,
-    getNextPageParam: (lastPage: ListResponse<LogoItemsResponse>, allPages: ListResponse<LogoItemsResponse>[]) => {
-      const loadedCount = allPages.reduce((sum, page) => sum + page.data.length, 0);
+    getNextPageParam: (
+      lastPage: ListResponse<LogoItemsResponse>,
+      allPages: ListResponse<LogoItemsResponse>[],
+    ) => {
+      const loadedCount = allPages.reduce(
+        (sum, page) => sum + page.data.length,
+        0,
+      );
       return loadedCount < lastPage.total ? loadedCount : undefined;
     },
-  }
+  };
 }
 
 export function getCategoriesQueryParams() {
   return {
     queryKey: ['categories'],
     queryFn: AppApi.getCategories,
-  }
+  };
 }

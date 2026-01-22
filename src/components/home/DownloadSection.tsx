@@ -4,7 +4,10 @@ import { Download } from 'lucide-react';
 import { useTheme } from 'next-themes';
 
 // helpers
-import { downloadLogo, downloadAssetsAsZip } from '@/shared/helpers/logo-actions';
+import {
+  downloadLogo,
+  downloadAssetsAsZip,
+} from '@/shared/helpers/logo-actions';
 
 // components
 import { Button } from '@/components/ui/button';
@@ -33,14 +36,22 @@ export default function DownloadSection({
   const { resolvedTheme } = useTheme();
 
   // computed
-  const hasBothVariants = lightAssets.length > 0 && darkAssets && darkAssets.length > 0;
-  const previewUrl = (resolvedTheme === 'dark' && darkAssets?.[0]?.url) || lightAssets[0]?.url;
-  const alternativeSrcs = [...lightAssets, ...(darkAssets || [])].map(el => el.url);
-  const hasMultipleFormats = lightAssets.length > 1 || (darkAssets && darkAssets.length > 1);
+  const hasBothVariants =
+    lightAssets.length > 0 && darkAssets && darkAssets.length > 0;
+  const previewUrl =
+    (resolvedTheme === 'dark' && darkAssets?.[0]?.url) || lightAssets[0]?.url;
+  const alternativeSrcs = [...lightAssets, ...(darkAssets || [])].map(
+    (el) => el.url,
+  );
+  const hasMultipleFormats =
+    lightAssets.length > 1 || (darkAssets && darkAssets.length > 1);
 
   // helpers
   function handleDownloadVariant(asset: LogoAsset, variantName: string): void {
-    downloadLogo(asset.url, `${logoName}-${filePrefix}-${variantName}.${asset.format}`);
+    downloadLogo(
+      asset.url,
+      `${logoName}-${filePrefix}-${variantName}.${asset.format}`,
+    );
   }
 
   async function handleDownloadAll(): Promise<void> {
@@ -66,7 +77,7 @@ export default function DownloadSection({
   }
 
   return (
-    <div className="flex flex-col items-center gap-4 p-4 border rounded-lg bg-card">
+    <div className="bg-card flex flex-col items-center gap-4 rounded-lg border p-4">
       <Image
         className="h-16 w-auto"
         src={previewUrl}
@@ -77,7 +88,7 @@ export default function DownloadSection({
         fallbackText={title}
       />
 
-      <div className="flex flex-col gap-2 w-full">
+      <div className="flex w-full flex-col gap-2">
         {(hasBothVariants || hasMultipleFormats) && (
           <Button
             variant="outline"
@@ -85,9 +96,9 @@ export default function DownloadSection({
             onClick={handleDownloadAll}
             className="w-full justify-start"
           >
-            <Download className="h-4 w-4 mr-2" />
+            <Download className="mr-2 h-4 w-4" />
             {hasBothVariants ? 'All variants & formats' : 'All formats'}
-            <span className="ml-auto text-xs text-muted-foreground">.zip</span>
+            <span className="text-muted-foreground ml-auto text-xs">.zip</span>
           </Button>
         )}
 
@@ -99,9 +110,12 @@ export default function DownloadSection({
             onClick={() => handleDownloadVariant(asset, 'light')}
             className="w-full justify-start"
           >
-            <Download className="h-4 w-4 mr-2" />
-            Light {lightAssets.length > 1 ? asset.format.toUpperCase() : 'variant'}
-            <span className="ml-auto text-xs text-muted-foreground">.{asset.format}</span>
+            <Download className="mr-2 h-4 w-4" />
+            Light{' '}
+            {lightAssets.length > 1 ? asset.format.toUpperCase() : 'variant'}
+            <span className="text-muted-foreground ml-auto text-xs">
+              .{asset.format}
+            </span>
           </Button>
         ))}
 
@@ -113,9 +127,12 @@ export default function DownloadSection({
             onClick={() => handleDownloadVariant(asset, 'dark')}
             className="w-full justify-start"
           >
-            <Download className="h-4 w-4 mr-2" />
-            Dark {darkAssets.length > 1 ? asset.format.toUpperCase() : 'variant'}
-            <span className="ml-auto text-xs text-muted-foreground">.{asset.format}</span>
+            <Download className="mr-2 h-4 w-4" />
+            Dark{' '}
+            {darkAssets.length > 1 ? asset.format.toUpperCase() : 'variant'}
+            <span className="text-muted-foreground ml-auto text-xs">
+              .{asset.format}
+            </span>
           </Button>
         ))}
       </div>

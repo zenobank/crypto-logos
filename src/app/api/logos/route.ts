@@ -35,8 +35,16 @@ export async function GET(request: Request) {
     if (!sortByResult.ok) return sortByResult.error;
 
     const sortBy = sortByResult.value as LogosSortBy | null;
-    if (sortBy && sortBy !== LogosSortBy.NameAsc && sortBy !== LogosSortBy.NameDesc) {
-      return toErrorResponse(400, 'INVALID_SORT_BY', 'sortBy must be \'name-asc\' or \'name-desc\'');
+    if (
+      sortBy &&
+      sortBy !== LogosSortBy.NameAsc &&
+      sortBy !== LogosSortBy.NameDesc
+    ) {
+      return toErrorResponse(
+        400,
+        'INVALID_SORT_BY',
+        "sortBy must be 'name-asc' or 'name-desc'",
+      );
     }
 
     const limitResult = readLimit(searchParams);

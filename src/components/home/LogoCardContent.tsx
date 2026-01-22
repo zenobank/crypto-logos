@@ -20,7 +20,10 @@ interface LogoCardContentProps {
   children: ReactNode;
 }
 
-export default function LogoCardContent({ logo, children }: LogoCardContentProps) {
+export default function LogoCardContent({
+  logo,
+  children,
+}: LogoCardContentProps) {
   // state
   const [showWordmark, setShowWordmark] = useState(false);
   const { resolvedTheme } = useTheme();
@@ -33,7 +36,8 @@ export default function LogoCardContent({ logo, children }: LogoCardContentProps
   // helpers
   // Get the current logo based on variant (icon/text) and theme (light/dark)
   function getCurrentLogo(): LogoAsset {
-    const variant = showWordmark && hasWordmark ? logo.logo.text : logo.logo.icon;
+    const variant =
+      showWordmark && hasWordmark ? logo.logo.text : logo.logo.icon;
     if (!variant) {
       return logo.logo.icon.light[0];
     }
@@ -58,7 +62,7 @@ export default function LogoCardContent({ logo, children }: LogoCardContentProps
   return (
     <>
       <Image
-        className="mt-1.5 mb-4 mx-auto min-w-10 h-10"
+        className="mx-auto mt-1.5 mb-4 h-10 min-w-10"
         fallbackText="No logo"
         src={currentLogo.url}
         alt={logo.name}

@@ -1,6 +1,12 @@
 export default function ReactIcon() {
   return (
-    <svg viewBox="0 0 569 512" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+    <svg
+      viewBox="0 0 569 512"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+    >
       <g fill="none" fillRule="evenodd">
         <g transform="translate(-227, -256)" fill="#58C4DC" fillRule="nonzero">
           <g transform="translate(227, 256)">

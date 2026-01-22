@@ -36,11 +36,7 @@ export default function CopyButton({ code }: CopyButtonProps) {
       className="h-8 w-8"
       aria-label="Copy code to clipboard"
     >
-      {copied ? (
-        <Check className="h-4 w-4" />
-      ) : (
-        <Copy className="h-4 w-4" />
-      )}
+      {copied ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
     </Button>
   );
 }
