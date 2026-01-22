@@ -26,7 +26,7 @@ export default function LogosCountBadge({
   return (
     <>
       {total}
-      {categoryPage ? ` SVG${total === 1 ? '' : 's'}` : ' logos'}
+      {categoryPage ? ` Logo${total === 1 ? '' : 's'}` : ' Logos'}
     </>
   );
 }

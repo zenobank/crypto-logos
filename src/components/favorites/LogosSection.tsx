@@ -82,7 +82,7 @@ export default function LogosSection({ searchQuery }: Props) {
               Favorites
               <span className="hidden md:inline">
                 {' '}
-                - {count} SVG{count === 1 ? '' : 's'}
+                - {count} Logo{count === 1 ? '' : 's'}
               </span>
             </span>
           </div>
