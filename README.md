@@ -1,8 +1,5 @@
 ## 🚀 Getting Started
 
-> [!IMPORTANT]
-> Before submitting an SVG, ensure you have the right to use it and that its license permits adding it to zeno. If you are uncertain, please contact the author or the company.
-
 You will need:
 
 - [Node.js 20+](https://nodejs.org/en/).
