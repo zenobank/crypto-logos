@@ -500,32 +500,7 @@
       }
     }
   },
-  {
-    "id": "abi-decoder",
-    "name": "ConsenSys ABI Decoder",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
-    "websiteLink": "https://github.com/ConsenSys/abi-decoder",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_abi-decoder.png", "format": "png" }
-        ]
-      }
-    }
-  },
-  {
-    "id": "abitype",
-    "name": "ABIType",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
-    "websiteLink": "https://github.com/wagmi-dev/abitype#readme",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_abitype.png", "format": "png" }]
-      }
-    }
-  },
+
   {
     "id": "abracadabra",
     "name": "Abracadabra",
@@ -540,18 +515,7 @@
       }
     }
   },
-  {
-    "id": "acctual",
-    "name": "Acctual",
-    "mainCategory": "wallets",
-    "secondaryCategories": ["Infrastructure Tools"],
-    "websiteLink": "https://acctual.com",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_acctual.png", "format": "png" }]
-      }
-    }
-  },
+
   {
     "id": "ackee-blockchain",
     "name": "Ackee Blockchain",
@@ -566,18 +530,7 @@
       }
     }
   },
-  {
-    "id": "advix",
-    "name": "Advix.com",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
-    "websiteLink": "https://advix.com",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_advix.png", "format": "png" }]
-      }
-    }
-  },
+
   {
     "id": "aerodrome-finance",
     "name": "Aerodrome Finance",
@@ -609,46 +562,7 @@
       }
     }
   },
-  {
-    "id": "agorapp",
-    "name": "AgorApp",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
-    "websiteLink": "https://agorapp.dev",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_agorapp.png", "format": "png" }]
-      }
-    }
-  },
-  {
-    "id": "airswap-subgraph",
-    "name": "AirSwap Subgraph",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
-    "websiteLink": "https://github.com/airswap/airswap-protocols",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_airswap-subgraph.png", "format": "png" }
-        ]
-      }
-    }
-  },
-  {
-    "id": "airswift",
-    "name": "Airswift",
-    "mainCategory": "wallets",
-    "secondaryCategories": ["Infrastructure Tools"],
-    "websiteLink": "https://airswift.io",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_airswift.png", "format": "png" }
-        ]
-      }
-    }
-  },
+
   {
     "id": "akash-network",
     "name": "Akash Network",
@@ -678,35 +592,7 @@
       }
     }
   },
-  {
-    "id": "aktionariat",
-    "name": "Aktionariat AG",
-    "mainCategory": "investors",
-    "secondaryCategories": ["Infrastructure Tools"],
-    "websiteLink": "https://www.aktionariat.com",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_aktionariat.png", "format": "png" }
-        ]
-      }
-    }
-  },
-  {
-    "id": "alchemix",
-    "name": "Alchemix",
-    "symbol": "ALCX",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://alchemix.fi",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_alchemix.png", "format": "png" }
-        ]
-      }
-    }
-  },
+
   {
     "id": "alchemy",
     "name": "Alchemy",
@@ -718,65 +604,7 @@
       }
     }
   },
-  {
-    "id": "alchemy-nft-api",
-    "name": "Alchemy NFT API",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": ["NFT"],
-    "websiteLink": "https://www.alchemy.com/dapps/alchemy-nft-api",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_alchemy-nft-api.png", "format": "png" }
-        ]
-      }
-    }
-  },
-  {
-    "id": "alchemy-notify",
-    "name": "Alchemy Notify",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_alchemy-notify.png", "format": "png" }
-        ]
-      }
-    }
-  },
-  {
-    "id": "alchemy-prices-api",
-    "name": "Alchemy Prices API",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_alchemy-prices-api.png",
-            "format": "png"
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "alchemy-university",
-    "name": "Alchemy University",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_alchemy-university.png",
-            "format": "png"
-          }
-        ]
-      }
-    }
-  },
+
   {
     "id": "alchemy-ventures",
     "name": "Alchemy Ventures",
@@ -802,32 +630,7 @@
       }
     }
   },
-  {
-    "id": "aleno-ai",
-    "name": "Aleno",
-    "mainCategory": "payments",
-    "secondaryCategories": ["Infrastructure Tools"],
-    "websiteLink": "https://aleno.ai",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_aleno-ai.png", "format": "png" }
-        ]
-      }
-    }
-  },
-  {
-    "id": "alfa1",
-    "name": "Alfa1",
-    "mainCategory": "wallets",
-    "secondaryCategories": ["Infrastructure Tools"],
-    "websiteLink": "https://www.alfa1.io",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_alfa1.png", "format": "png" }]
-      }
-    }
-  },
+
   {
     "id": "algorand",
     "name": "algorand",
@@ -924,18 +727,7 @@
       }
     }
   },
-  {
-    "id": "alta",
-    "name": "ALTA",
-    "mainCategory": "investors",
-    "secondaryCategories": ["Infrastructure Tools"],
-    "websiteLink": "https://altalab.io",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_alta.png", "format": "png" }]
-      }
-    }
-  },
+
   {
     "id": "altfins",
     "name": "altFINS",
@@ -952,7 +744,7 @@
     "id": "altme-wallet ",
     "name": "Altme Wallet",
     "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
+    "secondaryCategories": ["wallets"],
     "websiteLink": "https://altme.io",
     "logo": {
       "icon": {
@@ -962,44 +754,7 @@
       }
     }
   },
-  {
-    "id": "altr",
-    "name": "Altr",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": ["NFT"],
-    "websiteLink": "https://altr.trade",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_altr.png", "format": "png" }]
-      }
-    }
-  },
-  {
-    "id": "amarna",
-    "name": "Amarna",
-    "mainCategory": "payments",
-    "secondaryCategories": ["Infrastructure Tools"],
-    "websiteLink": "https://github.com/crytic/amarna",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_amarna.png", "format": "png" }]
-      }
-    }
-  },
-  {
-    "id": "ambcrypto",
-    "name": "AMBCrypto",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
-    "websiteLink": "https://ambcrypto.com",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_ambcrypto.png", "format": "png" }
-        ]
-      }
-    }
-  },
+
   {
     "id": "ambire-wallet",
     "name": "Ambire Wallet",
@@ -1011,33 +766,6 @@
         "light": [
           { "url": "/library/icon_light_ambire-wallet.png", "format": "png" }
         ]
-      }
-    }
-  },
-  {
-    "id": "ambisafe",
-    "name": "Ambisafe",
-    "mainCategory": "exchanges",
-    "secondaryCategories": ["Infrastructure Tools", "wallets"],
-    "websiteLink": "https://www.ambisafe.com",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_ambisafe.png", "format": "png" }
-        ]
-      }
-    }
-  },
-  {
-    "id": "amp",
-    "name": "Amp",
-    "symbol": "AMP",
-    "mainCategory": "tokens",
-    "secondaryCategories": [],
-    "websiteLink": "https://amp.xyz",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_amp.png", "format": "png" }]
       }
     }
   },
@@ -2099,20 +1827,7 @@
       }
     }
   },
-  {
-    "id": "beanstalk",
-    "name": "Bean",
-    "symbol": "BEAN",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": ["tokens", "stablecoins"],
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_beanstalk.png", "format": "png" }
-        ]
-      }
-    }
-  },
+
   {
     "id": "beast-dao",
     "name": "0xNAME",
@@ -7349,21 +7064,7 @@
       }
     }
   },
-  {
-    "id": "ethena-usde",
-    "name": "Ethena USDe",
-    "symbol": "USDe",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://www.ethena.fi",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_ethena-usde.png", "format": "png" }
-        ]
-      }
-    }
-  },
+
   {
     "id": "etheno",
     "name": "Etheno",
@@ -7718,21 +7419,7 @@
       }
     }
   },
-  {
-    "id": "euro-coin",
-    "name": "EURC",
-    "symbol": "EURC",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://www.circle.com",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_euro-coin.png", "format": "png" }
-        ]
-      }
-    }
-  },
+
   {
     "id": "event-decoder",
     "name": "Event Decoder",
@@ -7776,44 +7463,7 @@
       }
     }
   },
-  {
-    "id": "evm-toolkit",
-    "name": "EVM Toolkit",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
-    "websiteLink": "https://quilt.github.io/etk",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_evm-toolkit.png", "format": "png" }
-        ]
-      }
-    }
-  },
-  {
-    "id": "evmdasm",
-    "name": "evmdasm",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
-    "websiteLink": "https://github.com/ethereum/evmdasm",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_evmdasm.png", "format": "png" }]
-      }
-    }
-  },
-  {
-    "id": "evmole",
-    "name": "EVMole",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
-    "websiteLink": "https://github.com/cdump/evmole",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_evmole.png", "format": "png" }]
-      }
-    }
-  },
+
   {
     "id": "evmtools-xyz",
     "name": "evmtools",
@@ -8095,24 +7745,7 @@
       }
     }
   },
-  {
-    "id": "first-digital-usd",
-    "name": "First Digital USD",
-    "symbol": "FDUSD",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://firstdigitallabs.com",
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_first-digital-usd.png",
-            "format": "png"
-          }
-        ]
-      }
-    }
-  },
+
   {
     "id": "fishcake",
     "name": "Fishcake",
@@ -9142,24 +8775,7 @@
       }
     }
   },
-  {
-    "id": "global-dollar-usdg",
-    "name": "Global Dollar",
-    "symbol": "USDG",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://globaldollar.com",
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_global-dollar-usdg.png",
-            "format": "png"
-          }
-        ]
-      }
-    }
-  },
+
   {
     "id": "globalcryptopress",
     "name": "Global Crypto Press",
@@ -12210,19 +11826,7 @@
       }
     }
   },
-  {
-    "id": "mai",
-    "name": "MAI",
-    "symbol": "MIMATIC",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": ["tokens", "stablecoins"],
-    "websiteLink": "http://mai.finance",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_mai.png", "format": "png" }]
-      }
-    }
-  },
+
   {
     "id": "makersplace",
     "name": "MakersPlace",
@@ -13592,24 +13196,7 @@
       }
     }
   },
-  {
-    "id": "multi-collateral-dai",
-    "name": "Dai",
-    "symbol": "DAI",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://makerdao.com",
-    "logo": {
-      "icon": {
-        "light": [
-          {
-            "url": "/library/icon_light_multi-collateral-dai.png",
-            "format": "png"
-          }
-        ]
-      }
-    }
-  },
+
   {
     "id": "multicoin-capital",
     "name": "Multicoin Capital",
@@ -13639,20 +13226,7 @@
       }
     }
   },
-  {
-    "id": "multisender",
-    "name": "Multisender",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": [],
-    "websiteLink": "https://multisender.app",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_multisender.png", "format": "png" }
-        ]
-      }
-    }
-  },
+
   {
     "id": "multiverse-c2c",
     "name": "Multiverse C2C",
@@ -16921,21 +16495,7 @@
       }
     }
   },
-  {
-    "id": "origin-dollar",
-    "name": "Origin Dollar",
-    "symbol": "OUSD",
-    "mainCategory": "Infrastructure Tools",
-    "secondaryCategories": ["tokens", "stablecoins"],
-    "websiteLink": "https://www.ousd.com",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_origin-dollar.png", "format": "png" }
-        ]
-      }
-    }
-  },
+
   {
     "id": "origin-ether",
     "name": "Origin Ether",
@@ -17422,21 +16982,7 @@
       }
     }
   },
-  {
-    "id": "paypal-usd",
-    "name": "PayPal USD",
-    "symbol": "PYUSD",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://www.paypal.com/pyusd",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_paypal-usd.png", "format": "png" }
-        ]
-      }
-    }
-  },
+
   {
     "id": "paywithflash",
     "name": "Flash",
@@ -19158,21 +18704,7 @@
       }
     }
   },
-  {
-    "id": "ripple-usd",
-    "name": "Ripple USD",
-    "symbol": "RLUSD",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://ripple.com/solutions/stablecoin",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_ripple-usd.png", "format": "png" }
-        ]
-      }
-    }
-  },
+
   {
     "id": "rise-in",
     "name": "Rise In",
@@ -22593,19 +22125,7 @@
       }
     }
   },
-  {
-    "id": "tether",
-    "name": "Tether USDt",
-    "symbol": "USDT",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://tether.to",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_tether.png", "format": "png" }]
-      }
-    }
-  },
+
   {
     "id": "tether-gold",
     "name": "Tether Gold",
@@ -23478,19 +22998,7 @@
       }
     }
   },
-  {
-    "id": "trueusd",
-    "name": "TrueUSD",
-    "symbol": "TUSD",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://tusd.io",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_trueusd.png", "format": "png" }]
-      }
-    }
-  },
+
   {
     "id": "truffle",
     "name": "Truffle",
@@ -23886,21 +23394,7 @@
       }
     }
   },
-  {
-    "id": "united-stables",
-    "name": "United Stables",
-    "symbol": "U",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://u.tech",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_united-stables.png", "format": "png" }
-        ]
-      }
-    }
-  },
+
   {
     "id": "universalx",
     "name": "UniversalX",
@@ -24016,47 +23510,7 @@
       }
     }
   },
-  {
-    "id": "usd-coin",
-    "name": "USDC",
-    "symbol": "USDC",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://www.circle.com/en/usdc",
-    "logo": {
-      "icon": {
-        "light": [
-          { "url": "/library/icon_light_usd-coin.png", "format": "png" }
-        ]
-      }
-    }
-  },
-  {
-    "id": "usd1",
-    "name": "World Liberty Financial USD",
-    "symbol": "USD1",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://www.worldlibertyfinancial.com",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_usd1.png", "format": "png" }]
-      }
-    }
-  },
-  {
-    "id": "usdd",
-    "name": "USDD",
-    "symbol": "USDD",
-    "mainCategory": "stablecoins",
-    "secondaryCategories": ["tokens"],
-    "websiteLink": "https://usdd.io",
-    "logo": {
-      "icon": {
-        "light": [{ "url": "/library/icon_light_usdd.png", "format": "png" }]
-      }
-    }
-  },
+
   {
     "id": "usp-blockchain-club",
     "name": "USP Blockchain Club",
