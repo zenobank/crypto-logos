@@ -42,7 +42,7 @@ export default function SearchBar() {
 
   return (
     <div className="relative">
-      <Search className="text-muted-foreground absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2" />
+      <Search className="absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
       <Input
         ref={inputRef}
         type="text"
@@ -55,7 +55,7 @@ export default function SearchBar() {
         {searchQuery && (
           <button
             onClick={handleClear}
-            className="text-muted-foreground hover:text-foreground transition-colors"
+            className="text-muted-foreground transition-colors hover:text-foreground"
             aria-label="Clear search"
           >
             <X className="h-4 w-4" />

@@ -28,7 +28,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
     <div className="space-y-8">
       {/* Icon variants */}
       <div>
-        <h3 className="text-muted-foreground mb-3 text-sm font-medium">Icon</h3>
+        <h3 className="mb-3 text-sm font-medium text-muted-foreground">Icon</h3>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           {/* Light icon on a light background */}
           <div className="flex flex-col items-center gap-3">
@@ -43,7 +43,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                 fallbackText="No logo"
               />
             </div>
-            <span className="text-muted-foreground text-sm">Light</span>
+            <span className="text-sm text-muted-foreground">Light</span>
           </div>
 
           {/* Dark icon on a dark background */}
@@ -59,7 +59,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                 fallbackText="No logo"
               />
             </div>
-            <span className="text-muted-foreground text-sm">Dark</span>
+            <span className="text-sm text-muted-foreground">Dark</span>
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
       {/* Wordmark variants */}
       {hasWordmark && textLightAssets && (
         <div>
-          <h3 className="text-muted-foreground mb-3 text-sm font-medium">
+          <h3 className="mb-3 text-sm font-medium text-muted-foreground">
             Wordmark
           </h3>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -84,7 +84,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                   fallbackText="No wordmark"
                 />
               </div>
-              <span className="text-muted-foreground text-sm">Light</span>
+              <span className="text-sm text-muted-foreground">Light</span>
             </div>
 
             {/* Dark wordmark on a dark background */}
@@ -101,7 +101,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                     fallbackText="No wordmark"
                   />
                 </div>
-                <span className="text-muted-foreground text-sm">Dark</span>
+                <span className="text-sm text-muted-foreground">Dark</span>
               </div>
             )}
           </div>

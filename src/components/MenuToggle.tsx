@@ -34,7 +34,7 @@ export default function MenuToggle({ children }: Props) {
       </Button>
       <div
         className={cn(
-          'bg-background fixed inset-y-0 left-0 z-50 w-64 shadow-lg transition-transform duration-300 ease-in-out',
+          'fixed inset-y-0 left-0 z-50 w-64 bg-background shadow-lg transition-transform duration-300 ease-in-out',
           isOpen ? 'translate-x-0' : '-translate-x-full',
         )}
       >

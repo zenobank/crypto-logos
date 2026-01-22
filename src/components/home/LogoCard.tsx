@@ -19,7 +19,7 @@ interface Props {
 export default function LogoCard({ logo }: Props) {
   return (
     <LogoCardWrapper logoId={logo.id}>
-      <Card className="hover:bg-accent/50 grow gap-0 bg-transparent px-3.5 py-3 transition-colors">
+      <Card className="grow gap-0 bg-transparent px-3.5 py-3 transition-colors hover:bg-accent/50">
         {/* Top right icons - Palette + Heart */}
         <div
           className="flex items-center justify-end gap-1"

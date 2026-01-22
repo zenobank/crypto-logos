@@ -29,8 +29,8 @@ export default function LogoGrid({
       <>{EmptyState}</>
     ) : (
       <div className="py-12 text-center">
-        <p className="text-muted-foreground text-lg">No logos found</p>
-        <p className="text-muted-foreground mt-2 text-sm">
+        <p className="text-lg text-muted-foreground">No logos found</p>
+        <p className="mt-2 text-sm text-muted-foreground">
           Try adjusting your search query
         </p>
       </div>

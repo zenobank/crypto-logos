@@ -708,7 +708,7 @@ export default function CopyLogoPopover({
         )}
 
         {/* Disclaimer */}
-        <div className="text-muted-foreground mt-1 flex w-full items-center text-center text-[12px]">
+        <div className="mt-1 flex w-full items-center text-center text-[12px] text-muted-foreground">
           <p>
             Please ensure you have permission from the creators before using the
             logo. Modifications are not permitted.

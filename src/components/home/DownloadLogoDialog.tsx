@@ -89,7 +89,7 @@ export default function DownloadLogoDialog({
             )}
           </div>
 
-          <div className="text-muted-foreground mt-2 flex w-full items-center text-center text-xs">
+          <div className="mt-2 flex w-full items-center text-center text-xs text-muted-foreground">
             <p>
               Please ensure you have permission from the creators before using
               the SVG. Modifications are not permitted.

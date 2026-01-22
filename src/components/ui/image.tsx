@@ -63,7 +63,7 @@ export function Image({
     return (
       <div
         className={cn(
-          'bg-muted text-foreground/70 flex items-center justify-center rounded-xl p-4 text-sm font-medium',
+          'flex items-center justify-center rounded-xl bg-muted p-4 text-sm font-medium text-foreground/70',
           className,
         )}
       >

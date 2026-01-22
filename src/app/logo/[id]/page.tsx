@@ -91,7 +91,7 @@ export default async function LogoDetailPage({ params }: Props) {
       <nav className="mb-6 flex items-center gap-2 text-sm">
         <Link
           href="/"
-          className="text-muted-foreground hover:text-foreground transition-colors"
+          className="text-muted-foreground transition-colors hover:text-foreground"
         >
           Home
         </Link>
@@ -126,7 +126,7 @@ export default async function LogoDetailPage({ params }: Props) {
             <Link key={category.id} href={`/category/${category.id}`}>
               <Badge
                 variant="secondary"
-                className="hover:bg-accent cursor-pointer capitalize"
+                className="cursor-pointer capitalize hover:bg-accent"
               >
                 {category.name}
               </Badge>

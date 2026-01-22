@@ -77,7 +77,7 @@ export default function DownloadSection({
   }
 
   return (
-    <div className="bg-card flex flex-col items-center gap-4 rounded-lg border p-4">
+    <div className="flex flex-col items-center gap-4 rounded-lg border bg-card p-4">
       <Image
         className="h-16 w-auto"
         src={previewUrl}
@@ -98,7 +98,7 @@ export default function DownloadSection({
           >
             <Download className="mr-2 h-4 w-4" />
             {hasBothVariants ? 'All variants & formats' : 'All formats'}
-            <span className="text-muted-foreground ml-auto text-xs">.zip</span>
+            <span className="ml-auto text-xs text-muted-foreground">.zip</span>
           </Button>
         )}
 
@@ -113,7 +113,7 @@ export default function DownloadSection({
             <Download className="mr-2 h-4 w-4" />
             Light{' '}
             {lightAssets.length > 1 ? asset.format.toUpperCase() : 'variant'}
-            <span className="text-muted-foreground ml-auto text-xs">
+            <span className="ml-auto text-xs text-muted-foreground">
               .{asset.format}
             </span>
           </Button>
@@ -130,7 +130,7 @@ export default function DownloadSection({
             <Download className="mr-2 h-4 w-4" />
             Dark{' '}
             {darkAssets.length > 1 ? asset.format.toUpperCase() : 'variant'}
-            <span className="text-muted-foreground ml-auto text-xs">
+            <span className="ml-auto text-xs text-muted-foreground">
               .{asset.format}
             </span>
           </Button>

@@ -33,7 +33,7 @@ export default function LogoCardTags({
     >
       <Link href={`/category/${mainCategory.id}`}>
         <Badge
-          className="hover:bg-accent h-5.5 cursor-pointer rounded-full px-3 text-xs capitalize transition-colors"
+          className="h-5.5 cursor-pointer rounded-full px-3 text-xs capitalize transition-colors hover:bg-accent"
           variant="outline"
         >
           {mainCategory.name}
@@ -46,7 +46,7 @@ export default function LogoCardTags({
             aria-label="View more categories"
             className={cn(
               badgeVariants({ variant: 'outline' }),
-              'hover:bg-accent h-5.5 cursor-pointer rounded-full px-3 text-xs transition-colors',
+              'h-5.5 cursor-pointer rounded-full px-3 text-xs transition-colors hover:bg-accent',
             )}
           >
             <MoreHorizontal size={32} />

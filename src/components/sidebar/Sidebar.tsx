@@ -24,7 +24,7 @@ export default async function Sidebar({ className }: Props) {
   return (
     <aside
       className={cn(
-        'border-border/40 bg-background fixed top-14 left-0 z-40 flex h-[calc(100vh-3.5rem)] w-64 flex-col overflow-y-auto overscroll-none border-r',
+        'fixed top-14 left-0 z-40 flex h-[calc(100vh-3.5rem)] w-64 flex-col overflow-y-auto overscroll-none border-r border-border/40 bg-background',
         className,
       )}
     >

@@ -48,7 +48,7 @@ export default function InfiniteScrollWrapper({
 
   if (error) {
     return (
-      <div className="text-destructive p-6 text-center">
+      <div className="p-6 text-center text-destructive">
         Error loading logos: {(error as Error).message}
       </div>
     );

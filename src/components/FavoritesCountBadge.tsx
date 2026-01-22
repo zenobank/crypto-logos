@@ -14,7 +14,7 @@ export default function FavoritesCountBadge() {
   return (
     <Badge
       variant="outline"
-      className="text-muted-foreground hover:bg-muted rounded-xl"
+      className="rounded-xl text-muted-foreground hover:bg-muted"
     >
       {count}
     </Badge>

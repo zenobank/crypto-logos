@@ -25,7 +25,7 @@ export default async function Header() {
   const starsLabel = formatNumber(stars);
 
   return (
-    <header className="border-border/40 bg-background sticky top-0 z-50 flex w-full border-b">
+    <header className="sticky top-0 z-50 flex w-full border-b border-border/40 bg-background">
       <div className="flex h-14 flex-1 items-center justify-between px-4">
         {/* Logo */}
         <div className="flex items-center gap-2">
