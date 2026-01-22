@@ -3600,31 +3600,15 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
-  {
-    id: 'foundry-forge',
-    name: 'Forge',
-    mainCategory: 'Infrastructure Tools',
-    secondaryCategories: [],
-    websiteLink:
-      'https://github.com/foundry-rs/foundry/tree/master/crates/forge',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/icon_light_foundry-forge.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
+
   {
     id: '1inch',
     name: '1inch',
     symbol: '1INCH',
     mainCategory: 'exchanges',
-    secondaryCategories: ['tokens', 'Infrastructure Tools'],
+    secondaryCategories: ['Infrastructure Tools'],
     websiteLink: 'https://1inch.com',
+    brandKitLink: 'https://1inch.com/press-room',
     logo: {
       icon: {
         light: [
