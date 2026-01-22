@@ -81,7 +81,7 @@ export default async function Header() {
               rel="noopener noreferrer nofollow"
             >
               <Send className="h-4 w-4" />
-              Submit
+              Add Logo
             </a>
           </Button>
         </div>
