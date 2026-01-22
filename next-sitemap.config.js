@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const logosData = require('./src/api/logos.json');
+const logosData = require('./src/api/logos-data');
 
 // Keep this file self-contained (no TS imports) so next-sitemap can run under plain Node.
 const SERVER_BASE_URL = process.env.VERCEL_PROJECT_PRODUCTION_URL

@@ -1,5 +1,5 @@
 // data
-import LOGOS_DATA from '@/api/logos.json';
+import { LOGOS_DATA } from '@/api/logos-data';
 
 // models
 import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
