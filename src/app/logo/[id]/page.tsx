@@ -134,23 +134,11 @@ export default async function LogoDetailPage({ params }: Props) {
           ))}
         </div>
       </div>
+      <Separator className="" />
 
-      {/* Logo display */}
-      <div className="mb-8">
-        <LogoDisplaySection logo={logo} />
-      </div>
-
-      <Separator className="mb-8" />
-
-      {/* Downloads */}
-      <LogoDetailDownloads logo={logo} />
-
-      <Separator className="my-8" />
-
-      {/* Links */}
       {(logo.websiteLink || logo.brandKitLink) && (
-        <div>
-          <h2 className="mb-4 text-xl font-semibold">Links</h2>
+        <div className="my-4">
+          <h2 className="mb-3 text-xl font-semibold">Links</h2>
           <div className="flex flex-wrap gap-3">
             {logo.websiteLink && (
               <Button variant="outline" asChild>
@@ -171,7 +159,7 @@ export default async function LogoDetailPage({ params }: Props) {
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                 >
-                  <Download className="mr-2 h-4 w-4" />
+                  <ExternalLink className="mr-2 h-4 w-4" />
                   Brand Kit
                 </a>
               </Button>
@@ -179,6 +167,18 @@ export default async function LogoDetailPage({ params }: Props) {
           </div>
         </div>
       )}
+
+      {/* Logo display */}
+      <div className="mb-8">
+        <LogoDisplaySection logo={logo} />
+      </div>
+
+      {/* Downloads */}
+      {/* <LogoDetailDownloads logo={logo} /> */}
+
+      {/* <Separator className="my-8" /> */}
+
+      {/* Links */}
     </div>
   );
 }

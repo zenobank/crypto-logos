@@ -2999,11 +2999,19 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/aave-token-round.png',
             format: 'png',
           },
+          {
+            url: '/library/aave-token-round.png',
+            format: 'svg',
+          },
         ],
         dark: [
           {
             url: '/library/aave-token-round.png',
             format: 'png',
+          },
+          {
+            url: '/library/aave-token-round.png',
+            format: 'svg',
           },
         ],
       },
