@@ -3,16 +3,28 @@ import { LOGOS_DATA } from '@/api/logos-data';
 
 // models
 import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
+import { LogoCategory } from '../models/logos/logo-category';
 
 function normalizeString(value: string): string {
   return String(value ?? '').trim();
 }
 
-function getCategoryIdByName(name: string): string {
-  return String(name ?? '')
-    .trim()
-    .toLowerCase()
-    .replace(/\s+/g, '-');
+export function getCategoryLabel(category: LogoCategory): string {
+  const map: Record<LogoCategory, string> = {
+    stablecoins: 'Stablecoins',
+    tokens: 'Tokens',
+    chains: 'Blockchains',
+    'infrastructure-tools': 'Infrastructure Tools',
+    rwa: 'RWA',
+    'crypto-banks': 'Crypto Banks',
+    wallets: 'Wallets',
+    exchanges: 'Exchanges',
+    investors: 'Investors',
+    nft: 'NFT',
+    payments: 'Payments',
+  };
+
+  return map[category];
 }
 
 // categories
@@ -33,8 +45,8 @@ export const CATEGORIES_COUNT = LOGOS_DATA.reduce(
 
 export const CATEGORIES_RESPONSE = Object.keys(CATEGORIES_COUNT).map(
   (category) => ({
-    id: getCategoryIdByName(category),
-    name: category,
+    id: category,
+    name: getCategoryLabel(category as LogoCategory),
     count: CATEGORIES_COUNT[category],
   }),
 );
@@ -52,12 +64,12 @@ export const LOGOS_RESPONSE: LogoItemsResponse[] = LOGOS_DATA.map(
   ({ mainCategory, secondaryCategories, ...other }) => ({
     ...other,
     mainCategory: {
-      id: getCategoryIdByName(mainCategory),
-      name: mainCategory,
+      id: mainCategory,
+      name: getCategoryLabel(mainCategory as LogoCategory),
     },
     secondaryCategories: secondaryCategories.map((category) => ({
-      id: getCategoryIdByName(category),
-      name: category,
+      id: category,
+      name: getCategoryLabel(category as LogoCategory),
     })),
   }),
 ).toSorted((a, b) =>
