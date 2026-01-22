@@ -4,15 +4,33 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'ethena-usde',
     name: 'Ethena USDe',
-    symbol: 'USDe',
     mainCategory: 'stablecoins',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.ethena.fi',
+    brandKitLink: 'https://docs.ethena.fi/resources/media-assets',
     logo: {
       icon: {
         light: [
           {
-            url: '/library/icon_light_ethena-usde.png',
+            url: '/null.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethena',
+    name: 'Ethena (ENA)',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.ethena.fi',
+    brandKitLink: 'https://docs.ethena.fi/resources/media-assets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/null.png',
             format: 'png',
           },
         ],
@@ -1359,46 +1377,7 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
-  {
-    id: 'fenix',
-    name: 'Fenix',
-    mainCategory: 'exchanges',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/icon_light_fenix.svg',
-            format: 'svg',
-          },
-          {
-            url: '/library/icon_light_fenix.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'intentx',
-    name: 'IntentX',
-    mainCategory: 'exchanges',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/icon_light_intentx.svg',
-            format: 'svg',
-          },
-          {
-            url: '/library/icon_light_intentx.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
+
   {
     id: 'lifi',
     name: 'LI.FI',
@@ -3692,3 +3671,163 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
 ];
+// aerodrome
+// aero token
+// Ethereum
+// BSC
+// Base
+// Tron
+// Plasma
+// Arbitrum
+// Hyperliquid
+// Polygon
+// Avalanche
+// Sui
+// Aptos
+// Cronos
+// Starknet
+// Monad
+// Cardano
+// Linea
+// Berachain
+// Rootstock
+// Stacks
+// Unichain
+// Ton
+// Sonic
+// Algorand
+// Thorchain
+// Celo
+// Toncoin
+// Bitcoin Cash
+// Fantom
+// Raydium
+// Orca
+// Tornado Cash
+// thegraph
+// The Graph token (GRT)
+// gamma
+// ichi
+// polymarket
+// thena https://thena.fi/
+// orbs https://www.orbs.com/
+// YZiLabs (Binance Labs) https://www.yzilabs.com/
+// symmio
+// seleni
+// mirana https://www.mirana.xyz/
+// prismatic capital https://www.prismaticcapital.com/
+// agnostic https://www.agnostic.fund/
+// coral
+// contango https://www.contango.digital/
+// Quantstamp https://quantstamp.com/
+// mantle
+// steer
+// gamma
+// ichi
+// move
+// sui
+// aptos
+// ripple
+// XRP
+// Ripple Ledger
+// YC
+// Sequoia
+// tron link
+// Sparrow
+// aqua
+// wallet of satoshi
+// boltz exchange
+// solfare
+// backpack
+// phantom
+// rabby wallet
+// ledger
+// Safepal
+// tangem
+// Exodus Wallet
+// gemini
+// dune
+// solana
+// Robinhood
+// now wallet
+// solfare
+// keystone
+// circle
+// helium
+// wallet connect
+// trust wallet
+// berachain
+// Coin98 Wallet
+// brave wallet
+// ink chain
+// raimbow wallet
+// zerion
+// tron link
+// ipfs
+// Pudgy Penguins
+// lynex
+// monero
+// binance pay
+// de bridge
+// across
+// tatum
+// alchemy
+// quicknode
+// moralis
+// mexc
+// btcpay
+// rust
+// solidity
+// stripe
+// dogecoin
+// shiba inu
+// pepe
+// officalt rump
+// bonk
+// fartcoin
+// fireblocks
+// bvnk
+// zeno bank
+// hold hold
+// bit2me
+// Ethereal
+// wagmi
+// viem
+// berachain
+// trezor
+// rand app
+// gmx
+// gnosis
+// reap global
+// monerium
+// revolut
+// multisneder
+// monero
+// usdt
+// usdt0
+// EURT
+// MXNT
+// axiom trade
+// bloom
+// trojan
+// bullx
+// BONKbot
+// Binance
+// Coinbase
+// Upbit
+// OKX
+// Bybit
+// Bitget
+// Gate
+// KuCoin
+// MEXC
+// HTX
+// Crypto.com
+// Bitfinex
+// Kraken
+// LBank
+// Bitstamp
+// monero
+// change now
+// trocador
+// ff.io
