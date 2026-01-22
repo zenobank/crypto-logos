@@ -58,11 +58,10 @@ enum Framework {
 
 // custom constants
 const frameworks = [
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   {
     id: Framework.Source,
     label: 'Source',
-    icon: ({ className }: { className?: string }) => 'Source',
+    icon: ({}: { className?: string }) => 'Source',
   },
   // { id: Framework.Shadcn, label: 'shadcn/ui', icon: ShadcnIcon },
   {

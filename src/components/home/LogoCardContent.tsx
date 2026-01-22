@@ -49,15 +49,15 @@ export default function LogoCardContent({
     return variant.light[0];
   }
 
-  function handleOpenWebsite(): void {
-    if (logo.websiteLink) {
-      window.open(logo.websiteLink, '_blank', 'noopener,noreferrer');
-    }
-  }
+  // function handleOpenWebsite(): void {
+  //   if (logo.websiteLink) {
+  //     window.open(logo.websiteLink, '_blank', 'noopener,noreferrer');
+  //   }
+  // }
 
-  function handleToggleWordmark(): void {
-    setShowWordmark(!showWordmark);
-  }
+  // function handleToggleWordmark(): void {
+  //   setShowWordmark(!showWordmark);
+  // }
 
   return (
     <>
