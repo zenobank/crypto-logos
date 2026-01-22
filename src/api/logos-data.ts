@@ -3831,3 +3831,13 @@ export const LOGOS_DATA: LogoItem[] = [
 // change now
 // trocador
 // ff.io
+// Pump.fun
+// Meteora;
+
+// Camelot;
+
+// algebra;
+
+// sushiswap;
+
+// quickswap;
