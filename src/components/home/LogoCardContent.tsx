@@ -25,7 +25,7 @@ export default function LogoCardContent({
   children,
 }: LogoCardContentProps) {
   // state
-  const [showWordmark, setShowWordmark] = useState(false);
+  const [showWordmark] = useState(false);
   const { resolvedTheme } = useTheme();
 
   // computed
