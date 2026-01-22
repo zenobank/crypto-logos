@@ -1,8 +1,6 @@
-import { ms } from '@/lib/ms';
-
 const GithubApi = {
   async getRepoStars(owner: string, repo: string): Promise<number> {
-    const revalidate = ms('1h') / 60;
+    const revalidate = 3600; // 1 hour
     try {
       const res = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
         headers: {
