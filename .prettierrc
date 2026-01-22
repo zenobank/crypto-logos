@@ -2,5 +2,7 @@
   "singleQuote": true,
   "trailingComma": "all",
   "printWidth": 80,
-  "plugins": ["prettier-plugin-tailwindcss"]
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindFunctions": ["cn", "clsx", "cva", "twMerge", "twJoin"],
+  "tailwindStylesheet": "./src/app/globals.css"
 }
