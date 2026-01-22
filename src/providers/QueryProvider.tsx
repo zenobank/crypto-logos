@@ -2,6 +2,7 @@
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactNode, useState } from 'react';
+import { ms } from '@/lib/ms';
 
 // custom models
 interface Props {
@@ -13,7 +14,7 @@ export default function QueryProvider({ children }: Props) {
     return new QueryClient({
       defaultOptions: {
         queries: {
-          staleTime: 60 * 1000, // 1 minute
+          staleTime: ms('1m'),
           refetchOnWindowFocus: false,
         },
       },
