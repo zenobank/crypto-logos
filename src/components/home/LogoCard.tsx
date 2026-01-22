@@ -25,19 +25,6 @@ export default function LogoCard({ logo }: Props) {
           className="flex items-center justify-end gap-1"
           onClick={(e) => e.stopPropagation()}
         >
-          {/*{logo.brandKitLink && (*/}
-          {/*  <Button*/}
-          {/*    variant="ghost"*/}
-          {/*    size="icon"*/}
-          {/*    className="h-8 w-8"*/}
-          {/*    aria-label={`View ${logo.name} brand kit`}*/}
-          {/*    asChild*/}
-          {/*  >*/}
-          {/*    <a href={logo.brandKitLink} target="_blank" rel="noopener noreferrer nofollow">*/}
-          {/*      <Palette className="h-5 w-5" />*/}
-          {/*    </a>*/}
-          {/*  </Button>*/}
-          {/*)}*/}
           <FavoriteToggle logo={logo} />
         </div>
 
