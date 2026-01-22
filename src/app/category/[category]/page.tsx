@@ -42,8 +42,8 @@ export async function generateMetadata({
     : `${categoryName} Logos - ${total} Free SVG Logos`;
 
   const description = searchQuery
-    ? `Search results for "${searchQuery}" in ${categoryName} category. Browse ${total} crypto and tech logos in SVG format.`
-    : `Browse and download ${total} ${categoryName} logos in SVG format. Free, high-quality SVG logos for your projects.`;
+    ? `Search results for "${searchQuery}" in ${categoryName} category. Browse ${total} crypto logos in SVG and PNG format.`
+    : `Browse and download ${total} ${categoryName} logos in SVG and PNG format. Free, high-quality SVG and PNG logos for your projects.`;
 
   return {
     title,

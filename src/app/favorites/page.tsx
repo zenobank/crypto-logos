@@ -10,10 +10,10 @@ interface Props {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const title = 'Favorites Logos - Free SVG Logos';
+  const title = 'Favorites Logos - Crypto Logos';
 
   const description =
-    'Favorites logos in SVG format. Free, high-quality SVG logos for your projects.';
+    'Browse and download your favorite crypto logos in SVG and PNG format';
 
   return {
     title,
