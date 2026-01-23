@@ -76,7 +76,7 @@ export default function SearchBar() {
   }
 
   return (
-    <div className="relative">
+    <div className="relative h-10.5">
       <Search className="absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
       <Input
         className="h-10.5 pr-20 pl-9"

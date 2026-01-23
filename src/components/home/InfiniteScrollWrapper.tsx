@@ -47,21 +47,6 @@ export default function InfiniteScrollWrapper({
   // computed
   const logos = (data || { pages: [] }).pages.flatMap((page) => page.data);
 
-  // effects
-  // passive pages preload
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (!hasNextPage) {
-        clearInterval(interval);
-        return;
-      }
-
-      preloadMore();
-    }, 3_000);
-
-    return () => clearInterval(interval);
-  }, [searchQuery, category, sortBy]);
-
   // async helpers
   async function preloadMore(): Promise<void> {
     if ('requestIdleCallback' in window) {
@@ -74,6 +59,25 @@ export default function InfiniteScrollWrapper({
   async function loadMore(): Promise<void> {
     fetchNextPage();
   }
+
+  // effects
+  // passive pages preload
+  useEffect(() => {
+    if (!hasNextPage) {
+      return;
+    }
+
+    const interval = setInterval(() => {
+      if (!hasNextPage) {
+        clearInterval(interval);
+        return;
+      }
+
+      preloadMore();
+    }, 3_000);
+
+    return () => clearInterval(interval);
+  }, [searchQuery, category, sortBy, hasNextPage]);
 
   if (error) {
     return (
