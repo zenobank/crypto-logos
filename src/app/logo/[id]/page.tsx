@@ -1,17 +1,19 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { ExternalLink, Download } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
 // data
-import { LOGOS_BY_ID } from '@/shared/constants/logos-data';
+import { LOGOS_BY_ID, LOGOS_RESPONSE } from '@/shared/constants/logos-data';
 
 // components
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import LogoDisplaySection from '@/components/logo-detail/LogoDisplaySection';
-import LogoDetailDownloads from '@/components/logo-detail/LogoDetailDownloads';
+// import LogoDetailDownloads from '@/components/logo-detail/LogoDetailDownloads';
+import RelatedLogos from '@/components/logo-detail/RelatedLogos';
+import ScrollToTop from '@/components/ui/scroll-to-top';
 import { Image } from '@/components/ui/image';
 import FavoriteToggle from '@/components/FavoriteToggle';
 
@@ -20,8 +22,9 @@ interface Props {
   params: Promise<{ id: string }>;
 }
 
-export const dynamic = 'force-static';
-export const revalidate = 2_592_000; // 1 month
+export function generateStaticParams() {
+  return LOGOS_RESPONSE.map((logo) => ({ id: logo.id }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params;
@@ -173,12 +176,18 @@ export default async function LogoDetailPage({ params }: Props) {
         <LogoDisplaySection logo={logo} />
       </div>
 
+      {/* Related Logos */}
+      <RelatedLogos logoId={id} />
+
       {/* Downloads */}
       {/* <LogoDetailDownloads logo={logo} /> */}
 
       {/* <Separator className="my-8" /> */}
 
       {/* Links */}
+
+      {/* Scroll to top */}
+      <ScrollToTop />
     </div>
   );
 }
