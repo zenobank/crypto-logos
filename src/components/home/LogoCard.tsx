@@ -1,9 +1,10 @@
+import Link from 'next/link';
+
 // components
 import { Card } from '@/components/ui/card';
 import FavoriteToggle from '@/components/FavoriteToggle';
 import LogoCardTags from '@/components/home/LogoCardTags';
 import LogoCardContent from '@/components/home/LogoCardContent';
-import Link from 'next/link';
 
 // models
 import type LogoItemsResponse from '@/shared/models/logos/logo-items-response';

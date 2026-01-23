@@ -30,8 +30,8 @@ export default function CopyButton({ assets, variant }: CopyButtonProps) {
   const isLight = variant === 'light';
 
   const buttonClass = isLight
-    ? 'absolute top-3 right-3 h-8 w-8 bg-white/80 hover:bg-white shadow-sm'
-    : 'absolute top-3 right-3 h-8 w-8 bg-zinc-800/80 hover:bg-zinc-800 shadow-sm';
+    ? 'absolute z-1 top-3 right-3 h-8 w-8 bg-white/80 hover:bg-white/100 shadow-sm'
+    : 'absolute z-1 top-3 right-3 h-8 w-8 bg-zinc-800/80 hover:bg-zinc-800/100 shadow-sm';
 
   const iconClass = isLight ? 'h-4 w-4 text-zinc-600' : 'h-4 w-4 text-zinc-400';
 

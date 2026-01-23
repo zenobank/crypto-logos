@@ -1,6 +1,7 @@
 // components
 import { Image } from '@/components/ui/image';
 import CopyButton from './CopyButton';
+import DownloadIconButton from './DownloadIconButton';
 
 // models
 import type LogoItemsResponse from '@/shared/models/logos/logo-items-response';
@@ -33,6 +34,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
           {/* Light icon on a light background */}
           <div className="flex flex-col items-center gap-3">
             <div className="relative flex aspect-square w-3/4 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 p-9 dark:border-zinc-300 dark:bg-zinc-100">
+              <DownloadIconButton assets={iconLightAssets} logoName={logo.name} variant="light" />
               <CopyButton assets={iconLightAssets} variant="light" />
               <Image
                 className="max-h-full max-w-full object-contain"
@@ -50,6 +52,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
           {/* Dark icon on a dark background */}
           <div className="flex flex-col items-center gap-3">
             <div className="relative flex aspect-square w-3/4 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 p-9 dark:bg-zinc-900">
+              <DownloadIconButton assets={iconDarkAssets} logoName={logo.name} variant="dark" />
               <CopyButton assets={iconDarkAssets} variant="dark" />
               <Image
                 className="max-h-full max-w-full object-contain"
@@ -74,13 +77,14 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
             {/* Light wordmark on a light background */}
             <div className="flex flex-col items-center gap-3">
               <div className="relative flex h-24 w-3/4 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 px-6 dark:border-zinc-300 dark:bg-zinc-100">
+                <DownloadIconButton assets={textLightAssets} logoName={logo.name} variant="light" />
                 <CopyButton assets={textLightAssets} variant="light" />
                 <Image
                   className="max-h-full max-w-full object-contain"
                   src={textLight!.url}
                   alt={`${logo.name} light wordmark`}
-                  width={240}
-                  height={80}
+                  width={180}
+                  height={60}
                   fallbackText="No wordmark"
                   preload
                 />
@@ -92,13 +96,14 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
             {textDarkAssets && (
               <div className="flex flex-col items-center gap-3">
                 <div className="relative flex h-24 w-3/4 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 px-6 dark:bg-zinc-900">
+                  <DownloadIconButton assets={textDarkAssets} logoName={logo.name} variant="dark" />
                   <CopyButton assets={textDarkAssets} variant="dark" />
                   <Image
                     className="max-h-full max-w-full object-contain"
                     src={textDark!.url}
                     alt={`${logo.name} dark wordmark`}
-                    width={240}
-                    height={80}
+                    width={180}
+                    height={60}
                     fallbackText="No wordmark"
                     preload
                   />
