@@ -32,7 +32,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           {/* Light icon on a light background */}
           <div className="flex flex-col items-center gap-3">
-            <div className="relative flex aspect-square w-full items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 p-12 dark:border-zinc-300 dark:bg-zinc-100">
+            <div className="relative flex aspect-square w-3/4 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 p-9 dark:border-zinc-300 dark:bg-zinc-100">
               <CopyButton assets={iconLightAssets} variant="light" />
               <Image
                 className="max-h-full max-w-full object-contain"
@@ -41,6 +41,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                 width={120}
                 height={120}
                 fallbackText="No logo"
+                preload
               />
             </div>
             <span className="text-sm text-muted-foreground">Light</span>
@@ -48,7 +49,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
 
           {/* Dark icon on a dark background */}
           <div className="flex flex-col items-center gap-3">
-            <div className="relative flex aspect-square w-full items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 p-12 dark:bg-zinc-900">
+            <div className="relative flex aspect-square w-3/4 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 p-9 dark:bg-zinc-900">
               <CopyButton assets={iconDarkAssets} variant="dark" />
               <Image
                 className="max-h-full max-w-full object-contain"
@@ -57,6 +58,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                 width={120}
                 height={120}
                 fallbackText="No logo"
+                preload
               />
             </div>
             <span className="text-sm text-muted-foreground">Dark</span>
@@ -71,7 +73,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {/* Light wordmark on a light background */}
             <div className="flex flex-col items-center gap-3">
-              <div className="relative flex h-32 w-full items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 px-8 dark:border-zinc-300 dark:bg-zinc-100">
+              <div className="relative flex h-24 w-3/4 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 px-6 dark:border-zinc-300 dark:bg-zinc-100">
                 <CopyButton assets={textLightAssets} variant="light" />
                 <Image
                   className="max-h-full max-w-full object-contain"
@@ -80,6 +82,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                   width={240}
                   height={80}
                   fallbackText="No wordmark"
+                  preload
                 />
               </div>
               <span className="text-sm text-muted-foreground">Light</span>
@@ -88,7 +91,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
             {/* Dark wordmark on a dark background */}
             {textDarkAssets && (
               <div className="flex flex-col items-center gap-3">
-                <div className="relative flex h-32 w-full items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 px-8 dark:bg-zinc-900">
+                <div className="relative flex h-24 w-3/4 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 px-6 dark:bg-zinc-900">
                   <CopyButton assets={textDarkAssets} variant="dark" />
                   <Image
                     className="max-h-full max-w-full object-contain"
@@ -97,6 +100,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
                     width={240}
                     height={80}
                     fallbackText="No wordmark"
+                    preload
                   />
                 </div>
                 <span className="text-sm text-muted-foreground">Dark</span>

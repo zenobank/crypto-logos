@@ -6,6 +6,7 @@ import { getCategoryById } from '@/lib/categories';
 
 // components
 import { Card } from '@/components/ui/card';
+import { Skeleton } from '@/components/ui/skeleton';
 import SearchBar from './SearchBar';
 import SortDropdown from './SortDropdown';
 import BackButton from './BackButton';
@@ -34,7 +35,7 @@ export default function LogosSection({
 
   return (
     <div className="flex grow flex-col gap-2">
-      <Suspense>
+      <Suspense fallback={<Skeleton className="h-10.5 w-full rounded-md" />}>
         <SearchBar />
       </Suspense>
 

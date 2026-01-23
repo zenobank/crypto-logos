@@ -15,11 +15,13 @@ import Link from 'next/link';
 interface LogoCardContentProps {
   logo: LogoItemsResponse;
   children: ReactNode;
+  loading?: 'lazy' | 'eager';
 }
 
 export default function LogoCardContent({
   logo,
   children,
+  loading,
 }: LogoCardContentProps) {
   // state
   const [showWordmark] = useState(false);
@@ -56,6 +58,7 @@ export default function LogoCardContent({
           alt={logo.name}
           height={55}
           width={showWordmark ? 240 : 55}
+          loading={loading}
         />
       </Link>
       {children}
