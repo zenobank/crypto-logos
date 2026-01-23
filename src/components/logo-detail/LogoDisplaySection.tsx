@@ -30,10 +30,10 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
       {/* Icon variants */}
       <div>
         <h2 className="mb-3 text-xl font-semibold">Icon</h2>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div className="flex items-center gap-4 max-sm:flex-col">
           {/* Light icon on a light background */}
-          <div className="flex flex-col items-center gap-3">
-            <div className="relative flex aspect-square w-3/4 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 p-9 dark:border-zinc-300 dark:bg-zinc-100">
+          <div className="flex flex-col items-center gap-3 max-sm:w-full">
+            <div className="relative flex aspect-square h-78 max-lg:h-54 max-sm:h-auto max-sm:w-full items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 p-9 dark:border-zinc-300 dark:bg-zinc-100">
               <DownloadIconButton assets={iconLightAssets} logoName={logo.name} variant="light" />
               <CopyButton assets={iconLightAssets} variant="light" />
               <Image
@@ -50,8 +50,8 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
           </div>
 
           {/* Dark icon on a dark background */}
-          <div className="flex flex-col items-center gap-3">
-            <div className="relative flex aspect-square w-3/4 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 p-9 dark:bg-zinc-900">
+          <div className="flex flex-col items-center gap-3 max-sm:w-full">
+            <div className="relative flex aspect-square h-78 max-lg:h-54 max-sm:h-auto max-sm:w-full items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 p-9 dark:bg-zinc-900">
               <DownloadIconButton assets={iconDarkAssets} logoName={logo.name} variant="dark" />
               <CopyButton assets={iconDarkAssets} variant="dark" />
               <Image
@@ -73,10 +73,10 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
       {hasWordmark && textLightAssets && (
         <div>
           <h2 className="mb-3 text-xl font-semibold">Wordmark</h2>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <div className="flex items-center gap-4 max-sm:flex-col">
             {/* Light wordmark on a light background */}
-            <div className="flex flex-col items-center gap-3">
-              <div className="relative flex h-24 w-3/4 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 px-6 dark:border-zinc-300 dark:bg-zinc-100">
+            <div className="flex flex-col items-center gap-3 max-sm:w-full">
+              <div className="relative flex h-24 w-78 max-lg:h-20 max-lg:w-54 max-sm:w-full max-sm:h-24 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 px-6 dark:border-zinc-300 dark:bg-zinc-100">
                 <DownloadIconButton assets={textLightAssets} logoName={logo.name} variant="light" />
                 <CopyButton assets={textLightAssets} variant="light" />
                 <Image
@@ -94,8 +94,8 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
 
             {/* Dark wordmark on a dark background */}
             {textDarkAssets && (
-              <div className="flex flex-col items-center gap-3">
-                <div className="relative flex h-24 w-3/4 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 px-6 dark:bg-zinc-900">
+              <div className="flex flex-col items-center gap-3 max-sm:w-full">
+                <div className="relative flex h-24 w-78 max-lg:h-20 max-lg:w-54 max-sm:w-full max-sm:h-24 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 px-6 dark:bg-zinc-900">
                   <DownloadIconButton assets={textDarkAssets} logoName={logo.name} variant="dark" />
                   <CopyButton assets={textDarkAssets} variant="dark" />
                   <Image
