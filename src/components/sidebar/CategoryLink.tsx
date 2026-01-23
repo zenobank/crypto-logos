@@ -17,7 +17,7 @@ export default function CategoryLink({ id, name, count }: CategoryLinkProps) {
 
   // computed
   const href = `/category/${id}`;
-  const isActive = pathname === href;
+  const isActive = pathname === href || pathname === `${href === '/' ? '' : href}/search`;
 
   return (
     <Link

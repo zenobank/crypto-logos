@@ -1,25 +1,60 @@
 'use client';
 
 import { useRef, useEffect } from 'react';
-import { useQueryState, parseAsString } from 'nuqs';
+import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { Search, X } from 'lucide-react';
+
+// hooks
+import useDebouncedState from '@/hooks/use-debounced-state';
 
 // components
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 
 export default function SearchBar() {
+  // common
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
   // refs
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // state
-  const [searchQuery, setSearchQuery] = useQueryState(
-    'q',
-    parseAsString.withDefault('').withOptions({
-      limitUrlUpdates: { method: 'debounce', timeMs: 300 },
-      shallow: false,
-    }),
-  );
+  // states
+  const {
+    state: searchQuery,
+    setState: setSearchQuery,
+    debouncedState: debouncedSearchQuery,
+  } = useDebouncedState(searchParams.get('q') ?? '', 300);
+
+  // computed
+  const isSearchPage = pathname.endsWith('/search');
+
+  // effects
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (debouncedSearchQuery) {
+      params.set('q', debouncedSearchQuery);
+    }
+
+    let basePath = pathname || '/';
+
+    if (debouncedSearchQuery) {
+      if (!basePath.endsWith('/search')) {
+        basePath = basePath.endsWith('/') ? basePath + 'search' : basePath + '/search';
+      }
+    } else {
+      if (basePath.endsWith('/search')) {
+        basePath = basePath.slice(0, -7);
+        if (!basePath) {
+          basePath = '/';
+        }
+      }
+    }
+
+    const url = params.toString() ? `${basePath}?${params.toString()}` : basePath;
+    router.replace(url);
+  }, [debouncedSearchQuery, pathname, router]);
 
   // Keyboard shortcut (⌘K / Ctrl+K)
   useEffect(() => {
@@ -44,12 +79,13 @@ export default function SearchBar() {
     <div className="relative">
       <Search className="absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
       <Input
-        ref={inputRef}
+        className="h-10.5 pr-20 pl-9"
         type="text"
         placeholder="Search logos..."
+        autoFocus={isSearchPage}
+        ref={inputRef}
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
-        className="h-10.5 pr-20 pl-9"
       />
       <div className="absolute top-1/2 right-3 flex -translate-y-1/2 items-center gap-2">
         {searchQuery && (

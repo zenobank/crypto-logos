@@ -1,4 +1,8 @@
+import { Suspense } from 'react';
 import { Folder } from 'lucide-react';
+
+// helpers
+import { getCategoryById } from '@/lib/categories';
 
 // components
 import { Card } from '@/components/ui/card';
@@ -10,20 +14,19 @@ import LogosCountBadge from './LogosCountBadge';
 
 // models
 import LogosSortBy from '@/shared/models/logos/logos-sort-by';
-import { getCategoryById } from '@/lib/categories';
 
 // custom models
 interface Props {
-  searchQuery: string;
-  category: string | null;
-  sortBy: LogosSortBy;
+  searchQuery?: string;
+  category?: string | null;
+  sortBy?: LogosSortBy;
   showCategoryHeader?: boolean;
 }
 
 export default function LogosSection({
-  searchQuery,
-  category,
-  sortBy,
+  searchQuery = '',
+  category = '',
+  sortBy = LogosSortBy.NameAsc,
   showCategoryHeader = false,
 }: Props) {
   // computed
@@ -31,7 +34,9 @@ export default function LogosSection({
 
   return (
     <div className="flex grow flex-col gap-2">
-      <SearchBar />
+      <Suspense>
+        <SearchBar />
+      </Suspense>
 
       <Card className="flex flex-1 flex-col gap-0 overflow-hidden bg-transparent p-0">
         <div className="flex h-12.5 items-center justify-between border-b border-neutral-200 bg-white/80 py-1.5 pr-2 pl-3 backdrop-blur-sm dark:border-neutral-800 dark:bg-neutral-900/40">

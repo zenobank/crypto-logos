@@ -18,7 +18,7 @@ export default function NavLink({ name, href, icon, children }: NavLinkProps) {
   const pathname = usePathname();
 
   // computed
-  const isActive = pathname === href;
+  const isActive = pathname === href || pathname === `${href === '/' ? '' : href}/search`;
 
   return (
     <Link

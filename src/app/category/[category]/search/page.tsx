@@ -14,33 +14,41 @@ import { getLogosQueryParams } from '@/queries/app-queries';
 // components
 import LogosSection from '@/components/home/LogosSection';
 
-// constants
-import { CATEGORIES_RESPONSE } from '@/shared/constants/logos-data';
+// models
+import LogosSortBy from '@/shared/models/logos/logos-sort-by';
 
 // custom models
 interface Props {
   params: Promise<{ category: string }>;
-}
-
-export async function generateStaticParams() {
-  return CATEGORIES_RESPONSE.map(({ id: category }) => ({ category }));
+  searchParams: Promise<{ q?: string; sort?: string }>;
 }
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: Props): Promise<Metadata> {
   const { category } = await params;
+  const { q: searchQuery } = await searchParams;
 
+  // Get the count of logos in this category
   const { total } = getLogos({ category });
+
   const categoryName = category.charAt(0).toUpperCase() + category.slice(1);
 
-  const title = `${categoryName} Logos - ${total} Free SVG Logos`;
-  const description = `Browse and download ${total} ${categoryName} logos in SVG and PNG format. Free, high-quality SVG and PNG logos for your projects.`;
+  const title = searchQuery
+    ? `Search "${searchQuery}" in ${categoryName} - Crypto Logos`
+    : `${categoryName} Logos - ${total} Free SVG Logos`;
+
+  const description = searchQuery
+    ? `Search results for "${searchQuery}" in ${categoryName} category. Browse ${total} crypto logos in SVG and PNG format.`
+    : `Browse and download ${total} ${categoryName} logos in SVG and PNG format. Free, high-quality SVG and PNG logos for your projects.`;
 
   return {
     title,
     description,
-    robots: { index: true, follow: true },
+    robots: searchQuery
+      ? { index: false, follow: true }
+      : { index: true, follow: true },
     openGraph: {
       title,
       description,
@@ -54,23 +62,30 @@ export async function generateMetadata({
   };
 }
 
-export default async function CategoryPage({ params }: Props) {
+export default async function CategoryPage({ params, searchParams }: Props) {
   // common
   const queryClient = new QueryClient();
 
   // computed
   const { category } = await params;
+  const { q: searchQuery = '', sort = LogosSortBy.NameAsc } =
+    await searchParams;
+  const sortBy = (
+    sort === LogosSortBy.NameDesc ? LogosSortBy.NameDesc : LogosSortBy.NameAsc
+  ) as LogosSortBy;
 
   // prefetch
   await queryClient.prefetchInfiniteQuery(
-    getLogosQueryParams('', category),
+    getLogosQueryParams(searchQuery, category, sortBy),
   );
 
   return (
     <div className="flex flex-1 flex-col p-6 max-md:p-4">
       <HydrationBoundary state={dehydrate(queryClient)}>
         <LogosSection
+          searchQuery={searchQuery}
           category={category}
+          sortBy={sortBy}
           showCategoryHeader
         />
       </HydrationBoundary>
