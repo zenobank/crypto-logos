@@ -1,5 +1,5 @@
 'use client';
-
+import { useEffect } from 'react';
 import { useInfiniteQuery } from '@tanstack/react-query';
 
 // queries
@@ -27,6 +27,13 @@ export default function InfiniteScrollWrapper({
   category,
   sortBy,
 }: Props) {
+  // common
+  const { scrollContainerRef } = useScrollReset([
+    searchQuery,
+    category,
+    sortBy,
+  ]);
+
   // requests
   const {
     data,
@@ -37,14 +44,36 @@ export default function InfiniteScrollWrapper({
     error,
   } = useInfiniteQuery(getLogosQueryParams(searchQuery, category, sortBy));
 
-  const { scrollContainerRef } = useScrollReset([
-    searchQuery,
-    category,
-    sortBy,
-  ]);
-
   // computed
   const logos = (data || { pages: [] }).pages.flatMap((page) => page.data);
+
+  // effects
+  // passive pages preload
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (!hasNextPage) {
+        clearInterval(interval);
+        return;
+      }
+
+      preloadMore();
+    }, 3_000);
+
+    return () => clearInterval(interval);
+  }, [searchQuery, category, sortBy]);
+
+  // async helpers
+  async function preloadMore(): Promise<void> {
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(() => fetchNextPage());
+    } else {
+      fetchNextPage();
+    }
+  }
+
+  async function loadMore(): Promise<void> {
+    fetchNextPage();
+  }
 
   if (error) {
     return (
@@ -62,7 +91,7 @@ export default function InfiniteScrollWrapper({
       <LogoGrid
         logos={logos}
         hasMore={hasNextPage}
-        onLoadMore={() => fetchNextPage()}
+        onLoadMore={loadMore}
         isLoading={isLoading || isFetchingNextPage}
       />
     </ScrollArea>
