@@ -48,7 +48,7 @@ export default function LogoGrid({
         {isLoading &&
           Array.from({ length: 6 }).map((_, i) => (
             <div key={`skeleton-${i}`} className="space-y-4">
-              <Skeleton className="h-48 w-full" />
+              <Skeleton className="h-60 w-full" />
             </div>
           ))}
       </div>

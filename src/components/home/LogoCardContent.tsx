@@ -9,6 +9,7 @@ import { Image } from '@/components/ui/image';
 // models
 import type LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 import LogoAsset from '@/shared/models/logos/logo-asset';
+import Link from 'next/link';
 
 // custom models
 interface LogoCardContentProps {
@@ -47,14 +48,16 @@ export default function LogoCardContent({
 
   return (
     <>
-      <Image
-        className="mx-auto mt-1.5 mb-4 h-16 min-w-22"
-        fallbackText="No logo"
-        src={currentLogo.url}
-        alt={logo.name}
-        height={55}
-        width={showWordmark ? 240 : 55}
-      />
+      <Link className="flex" href={`/logo/${logo.id}`}>
+        <Image
+          className="mx-auto mt-1.5 mb-4 h-16 min-w-22"
+          fallbackText="No logo"
+          src={currentLogo.url}
+          alt={logo.name}
+          height={55}
+          width={showWordmark ? 240 : 55}
+        />
+      </Link>
       {children}
     </>
   );

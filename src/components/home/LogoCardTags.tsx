@@ -28,7 +28,7 @@ export default function LogoCardTags({
 }: LogoCardTagsProps) {
   return (
     <div
-      className="mb-3 flex flex-wrap items-center justify-center gap-2"
+      className="z-1 flex flex-wrap items-center justify-center gap-2 mb-3"
       onClick={(e) => e.stopPropagation()}
     >
       <Link href={`/category/${mainCategory.id}`}>
