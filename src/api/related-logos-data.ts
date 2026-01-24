@@ -1,6 +1,7 @@
 export type RelatedLogosMap = Record<string, string[]>;
 
+// Relations are automatically bidirectional
+// You only need to define the relation once
 export const RELATED_LOGOS_DATA: RelatedLogosMap = {
-  usdc: ['tether'], // USDC -> USDT example
-  tether: ['usdc'], // Bidirectional for USDT -> USDC
+  usdc: ['tether'], // USDC <-> USDT (automatic bidirectional)
 };
