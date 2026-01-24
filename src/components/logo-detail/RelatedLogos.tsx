@@ -11,10 +11,12 @@ import LogoCardContent from '@/components/home/LogoCardContent';
 // custom models
 interface Props {
   logoId: string;
+  limit?: number;
 }
 
-export default function RelatedLogos({ logoId }: Props) {
-  const relatedLogos = getRelatedLogos(logoId);
+const DEFAULT_LIMIT = 12;
+export default function RelatedLogos({ logoId, limit = DEFAULT_LIMIT }: Props) {
+  const relatedLogos = getRelatedLogos(logoId).slice(0, limit);
 
   if (relatedLogos.length === 0) {
     return null;
@@ -26,7 +28,10 @@ export default function RelatedLogos({ logoId }: Props) {
       <h2 className="mb-4 text-xl font-semibold">Related Logos</h2>
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
         {relatedLogos.map((logo) => (
-          <Card key={logo.id} className="relative h-full gap-0 bg-transparent px-3.5 py-3 transition-colors hover:bg-accent/50">
+          <Card
+            key={logo.id}
+            className="relative h-full gap-0 bg-transparent px-3.5 py-3 transition-colors hover:bg-accent/50"
+          >
             <Link
               className="absolute inset-0 z-0"
               href={`/logo/${logo.id}`}
