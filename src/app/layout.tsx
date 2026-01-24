@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
+import { GoogleTagManager } from '@next/third-parties/google';
 
 // providers
 import { ThemeProvider } from '@/providers/theme-provider';
@@ -54,6 +55,7 @@ type Props = Readonly<{
 export default function RootLayout({ children }: Props) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <GoogleTagManager gtmId="GTM-PFGGLPVM" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
