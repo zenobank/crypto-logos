@@ -2,11 +2,15 @@ import { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { GoogleTagManager } from '@next/third-parties/google';
+import { dehydrate, HydrationBoundary, QueryClient } from '@tanstack/react-query';
 
 // providers
 import { ThemeProvider } from '@/providers/theme-provider';
 import QueryProvider from '@/providers/QueryProvider';
 import { FavoritesProvider } from '@/providers/FavoritesProvider';
+
+// queries
+import { getLogosQueryParams } from '@/queries/app-queries';
 
 // components
 import Header from '@/components/Header';
@@ -52,7 +56,15 @@ type Props = Readonly<{
   children: ReactNode;
 }>;
 
-export default function RootLayout({ children }: Props) {
+export default async function RootLayout({ children }: Props) {
+  // common
+  const queryClient = new QueryClient();
+
+  // prefetch
+  await queryClient.prefetchInfiniteQuery(
+    getLogosQueryParams('', ''),
+  );
+
   return (
     <html lang="en" suppressHydrationWarning>
       <GoogleTagManager gtmId="GTM-PFGGLPVM" />
@@ -66,14 +78,16 @@ export default function RootLayout({ children }: Props) {
           defaultTheme="system"
         >
           <QueryProvider>
-            <FavoritesProvider>
-              <Header />
-              <Sidebar className="max-md:hidden" />
-              <main className="flex flex-1 flex-col pl-64 max-md:pl-0">
-                {children}
-              </main>
-              <Toaster />
-            </FavoritesProvider>
+            <HydrationBoundary state={dehydrate(queryClient)}>
+              <FavoritesProvider>
+                <Header />
+                <Sidebar className="max-md:hidden" />
+                <main className="flex flex-1 flex-col pl-64 max-md:pl-0">
+                  {children}
+                </main>
+                <Toaster />
+              </FavoritesProvider>
+            </HydrationBoundary>
           </QueryProvider>
         </ThemeProvider>
       </body>

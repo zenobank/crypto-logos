@@ -1,12 +1,4 @@
-import {
-  QueryClient,
-  HydrationBoundary,
-  dehydrate,
-} from '@tanstack/react-query';
 import type { Metadata } from 'next';
-
-// queries
-import { getLogosQueryParams } from '@/queries/app-queries';
 
 // components
 import LogosSection from '@/components/home/LogosSection';
@@ -33,19 +25,9 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Home() {
-  // common
-  const queryClient = new QueryClient();
-
-  // prefetch
-  await queryClient.prefetchInfiniteQuery(
-    getLogosQueryParams('', ''),
-  );
-
   return (
     <div className="flex flex-1 flex-col p-6 max-md:p-4">
-      <HydrationBoundary state={dehydrate(queryClient)}>
-        <LogosSection />
-      </HydrationBoundary>
+      <LogosSection />
     </div>
   );
 }

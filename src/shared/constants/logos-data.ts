@@ -74,7 +74,7 @@ export const LOGOS_RESPONSE: LogoItemsResponse[] = LOGOS_DATA.map(
   }),
 ).toSorted((a, b) =>
   a.name.localeCompare(b.name),
-) as unknown as LogoItemsResponse[];
+);
 
 // Pre-sorted by name ascending for performance
 const LOGOS_BY_CATEGORY_UNSORTED = LOGOS_RESPONSE.reduce(

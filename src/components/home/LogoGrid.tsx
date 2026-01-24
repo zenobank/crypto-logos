@@ -24,6 +24,16 @@ export default function LogoGrid({
   isLoading,
   EmptyState,
 }: Props) {
+  // helpers
+  function getCompositeKey(logo: LogoItemsResponse) {
+    return JSON.stringify({
+      id: logo.id,
+      name: logo.name,
+      mainCategoryId: logo.mainCategory.id,
+      brandKitLink: logo.brandKitLink,
+    });
+  }
+
   if (logos.length === 0 && !isLoading) {
     return EmptyState ? (
       <>{EmptyState}</>
@@ -41,7 +51,7 @@ export default function LogoGrid({
     <div className="relative">
       <div className="grid grid-cols-[repeat(auto-fill,minmax(15rem,1fr))] gap-4 px-3">
         {logos.map((logo) => (
-          <LogoCard key={logo.id} logo={logo} />
+          <LogoCard key={getCompositeKey(logo)} logo={logo} />
         ))}
 
         {/* Loading skeletons */}

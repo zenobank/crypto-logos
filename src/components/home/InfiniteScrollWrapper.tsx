@@ -1,12 +1,12 @@
 'use client';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { useInfiniteQuery } from '@tanstack/react-query';
 
 // queries
 import { getLogosQueryParams } from '@/queries/app-queries';
 
 // hooks
-import useScrollReset from '@/hooks/use-scroll-reset';
+import useScrollPersistence from '@/hooks/use-scroll-persistence';
 
 // components
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -27,8 +27,11 @@ export default function InfiniteScrollWrapper({
   category,
   sortBy,
 }: Props) {
+  // refs
+  const scrollContainerRef = useRef<HTMLElement | null>(null);
+
   // common
-  const { scrollContainerRef } = useScrollReset([
+  useScrollPersistence(scrollContainerRef, 'homeScrollPosition', [
     searchQuery,
     category,
     sortBy,
@@ -46,9 +49,14 @@ export default function InfiniteScrollWrapper({
 
   // computed
   const logos = (data || { pages: [] }).pages.flatMap((page) => page.data);
+  const totalLoaded = data?.pages.flatMap(({ data }) => data).length || 0;
 
   // async helpers
   async function preloadMore(): Promise<void> {
+    if (isFetchingNextPage) {
+      return;
+    }
+
     if ('requestIdleCallback' in window) {
       requestIdleCallback(() => fetchNextPage());
     } else {
@@ -57,7 +65,9 @@ export default function InfiniteScrollWrapper({
   }
 
   async function loadMore(): Promise<void> {
-    fetchNextPage();
+    if (!isFetchingNextPage) {
+      fetchNextPage();
+    }
   }
 
   // effects
@@ -67,6 +77,7 @@ export default function InfiniteScrollWrapper({
       return;
     }
 
+    preloadMore();
     const interval = setInterval(() => {
       if (!hasNextPage) {
         clearInterval(interval);

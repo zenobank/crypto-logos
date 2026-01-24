@@ -6,8 +6,8 @@ import ListResponse from '@/shared/models/common/list-response';
 import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 import LogosSortBy from '@/shared/models/logos/logos-sort-by';
 
-const INITIAL_PAGE_SIZE = 100;
-const SUBSEQUENT_PAGE_SIZE = 200;
+const INITIAL_PAGE_SIZE = 30;
+const SUBSEQUENT_PAGE_SIZE = 100;
 
 export function getLogosQueryParams(
   searchQuery: string | null,

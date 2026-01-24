@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Folder, Trash } from 'lucide-react';
 
 // models
@@ -8,7 +8,7 @@ import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 
 // hooks
 import { useFavorites } from '@/providers/FavoritesProvider';
-import useScrollReset from '@/hooks/use-scroll-reset';
+import useScrollPersistence from '@/hooks/use-scroll-persistence';
 
 // components
 import { Card } from '@/components/ui/card';
@@ -30,7 +30,10 @@ export default function LogosSection({ searchQuery }: Props) {
     clearAll,
     isLoading: isLoadingFavorites,
   } = useFavorites();
-  const { scrollContainerRef } = useScrollReset([searchQuery]);
+  const scrollContainerRef = useRef<HTMLElement | null>(null);
+  useScrollPersistence(scrollContainerRef, 'favoritesScrollPosition', [
+    searchQuery,
+  ]);
 
   // states
   const [visibleItems, setVisibleItems] = useState<LogoItemsResponse[]>([]);
