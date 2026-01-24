@@ -1,18 +1,7 @@
-import seedrandom from 'seedrandom';
 import { RELATED_LOGOS_DATA } from '@/api/related-logos-data';
 import { LOGOS_BY_ID, LOGOS_BY_CATEGORY } from '@/shared/constants/logos-data';
 import type LogoItemsResponse from '@/shared/models/logos/logo-items-response';
-
-// Deterministic shuffle using Fisher-Yates with seeded random
-function shuffleWithSeed<T>(array: T[], seed: string): T[] {
-  const result = [...array];
-  const rng = seedrandom(seed);
-  for (let i = result.length - 1; i > 0; i--) {
-    const j = Math.floor(rng() * (i + 1));
-    [result[i], result[j]] = [result[j], result[i]];
-  }
-  return result;
-}
+import { shuffleWithSeed } from '../helpers/suffle-with-seed';
 
 // Find inverse relations: logos that have logoId in their list
 function getInverseRelated(logoId: string): string[] {
@@ -56,6 +45,5 @@ export function getRelatedLogos(logoId: string): LogoItemsResponse[] {
     }
   }
 
-  // Shuffle deterministically based on logoId so each logo shows different related logos
   return result;
 }
