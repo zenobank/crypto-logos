@@ -27,11 +27,8 @@ export default function LogoCardTags({
   secondaryCategories,
 }: LogoCardTagsProps) {
   return (
-    <div
-      className="z-1 flex flex-wrap items-center justify-center gap-2 mb-3"
-      onClick={(e) => e.stopPropagation()}
-    >
-      <Link href={`/category/${mainCategory.id}`}>
+    <div className="flex flex-wrap items-center justify-center gap-2 mb-3">
+      <Link className="z-1" href={`/category/${mainCategory.id}`}>
         <Badge
           className="h-5.5 cursor-pointer rounded-full px-3 text-xs capitalize transition-colors hover:bg-accent"
           variant="outline"
@@ -46,7 +43,7 @@ export default function LogoCardTags({
             aria-label="View more categories"
             className={cn(
               badgeVariants({ variant: 'outline' }),
-              'h-5.5 cursor-pointer rounded-full px-3 text-xs transition-colors hover:bg-accent',
+              'z-1 h-5.5 cursor-pointer rounded-full px-3 text-xs transition-colors hover:bg-accent',
             )}
           >
             <MoreHorizontal size={32} />

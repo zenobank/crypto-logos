@@ -4,7 +4,7 @@ function useScrollPersistence(
   scrollContainerRef: RefObject<HTMLElement | null>,
   storageKey: string,
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  filterDeps: any[] = []
+  filterDeps: any[] = [],
 ) {
   // refs
   const isInitialMount = useRef(true);
@@ -31,7 +31,7 @@ function useScrollPersistence(
 
     // Check if filters changed
     const filtersChanged = !prevDeps.current.every(
-      (dep, i) => dep === filterDeps[i]
+      (dep, i) => dep === filterDeps[i],
     );
     prevDeps.current = filterDeps;
 
@@ -56,10 +56,13 @@ function useScrollPersistence(
   }, [scrollContainerRef, storageKey]);
 
   useEffect(() => {
-    window.addEventListener('beforeunload', () => {
+    function listener(): void {
       sessionStorage.removeItem(storageKey);
-    });
-  }, []);
+    }
+
+    window.addEventListener('beforeunload', listener);
+    return () => window.removeEventListener('beforeunload', listener);
+  }, [storageKey]);
 }
 
 export default useScrollPersistence;

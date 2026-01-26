@@ -49,7 +49,6 @@ export default function InfiniteScrollWrapper({
 
   // computed
   const logos = (data || { pages: [] }).pages.flatMap((page) => page.data);
-  const totalLoaded = data?.pages.flatMap(({ data }) => data).length || 0;
 
   // async helpers
   async function preloadMore(): Promise<void> {

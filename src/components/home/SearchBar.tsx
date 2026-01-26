@@ -27,9 +27,6 @@ export default function SearchBar() {
     debouncedState: debouncedSearchQuery,
   } = useDebouncedState(searchParams.get('q') ?? '', 300);
 
-  // computed
-  // const isSearchPage = pathname.endsWith('/search');
-
   // effects
   useEffect(() => {
     const params = new URLSearchParams();
@@ -82,7 +79,6 @@ export default function SearchBar() {
         className="h-10.5 pr-20 pl-9"
         type="text"
         placeholder="Search logos..."
-        autoFocus
         ref={inputRef}
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}

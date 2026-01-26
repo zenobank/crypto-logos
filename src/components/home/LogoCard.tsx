@@ -25,7 +25,7 @@ export default function LogoCard({ logo }: Props) {
       />
 
       {/* Top right icons - above the link */}
-      <div className="relative z-10 flex items-center justify-end gap-1">
+      <div className="flex items-center justify-end gap-1">
         <FavoriteToggle logo={logo} />
       </div>
 

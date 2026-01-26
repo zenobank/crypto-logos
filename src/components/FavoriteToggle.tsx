@@ -33,7 +33,7 @@ function FavoriteToggle({ logo, variant = 'ghost' }: Props) {
       variant={variant}
       size="icon"
       onClick={handleToggleFavorite}
-      className="h-8 w-8"
+      className="z-1 h-8 w-8"
       aria-label={isFavorite ? `Remove from favorites` : `Add to favorites`}
     >
       <Heart
