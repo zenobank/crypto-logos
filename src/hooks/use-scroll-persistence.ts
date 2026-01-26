@@ -6,6 +6,8 @@ function useScrollPersistence(
   storageKey: string,
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   filterDeps: any[] = [],
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  waitFor: any[] = [],
 ) {
   // common
   useResetStorage(storageKey);
@@ -17,6 +19,10 @@ function useScrollPersistence(
   // effects
   // Restore or reset on mount/filter change
   useEffect(() => {
+    if (waitFor.length && !waitFor.every(Boolean)) {
+      return;
+    }
+
     const el = scrollContainerRef.current;
     if (!el) {
       return;
@@ -45,7 +51,7 @@ function useScrollPersistence(
       sessionStorage.removeItem(storageKey);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, filterDeps);
+  }, [...filterDeps, ...waitFor]);
 
   // Save position on scroll
   useEffect(() => {

@@ -31,12 +31,16 @@ export default function LogosSection({ searchQuery }: Props) {
     isLoading: isLoadingFavorites,
   } = useFavorites();
   const scrollContainerRef = useRef<HTMLElement | null>(null);
-  useScrollPersistence(scrollContainerRef, 'favoritesScrollPosition', [
-    searchQuery,
-  ]);
 
   // states
   const [visibleItems, setVisibleItems] = useState<LogoItemsResponse[]>([]);
+
+  useScrollPersistence(
+    scrollContainerRef,
+    'favoritesScrollPosition',
+    [searchQuery],
+    [visibleItems.length],
+  );
 
   // watchers
   useEffect(() => {
@@ -109,7 +113,8 @@ export default function LogosSection({ searchQuery }: Props) {
           <LogoGrid
             logos={logos}
             hasMore={false}
-            onLoadMore={() => {}}
+            onLoadMore={() => {
+            }}
             isLoading={isLoading}
           />
         </ScrollArea>
