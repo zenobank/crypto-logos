@@ -6,16 +6,22 @@ import { Search, X } from 'lucide-react';
 
 // hooks
 import useDebouncedState from '@/hooks/use-debounced-state';
+import useStorageState from '@/hooks/use-storage-state';
+import useResetStorage from '@/hooks/use-reset-storage';
 
 // components
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
+
+// custom constants
+const storageKey = 'searchFocus';
 
 export default function SearchBar() {
   // common
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  useResetStorage(storageKey);
 
   // refs
   const inputRef = useRef<HTMLInputElement>(null);
@@ -26,6 +32,7 @@ export default function SearchBar() {
     setState: setSearchQuery,
     debouncedState: debouncedSearchQuery,
   } = useDebouncedState(searchParams.get('q') ?? '', 300);
+  const [searchWasFocused, setSearchWasFocused] = useStorageState<boolean>(false, storageKey);
 
   // effects
   useEffect(() => {
@@ -51,6 +58,9 @@ export default function SearchBar() {
 
     const url = params.toString() ? `${basePath}?${params.toString()}` : basePath;
     router.replace(url);
+    if (searchWasFocused) {
+      inputRef.current?.focus();
+    }
   }, [debouncedSearchQuery, pathname, router]);
 
   // Keyboard shortcut (⌘K / Ctrl+K)
@@ -65,6 +75,29 @@ export default function SearchBar() {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
+
+  useEffect(() => {
+    function onFocus(): void {
+      setSearchWasFocused(true);
+    }
+    function onBlur(): void {
+      setSearchWasFocused(false);
+    }
+
+    const ref = inputRef.current;
+
+    if (ref) {
+      ref.addEventListener('focus', onFocus);
+      ref.addEventListener('blur', onBlur);
+    }
+
+    return () => {
+      if (ref) {
+        ref.removeEventListener('focus', onFocus);
+        ref.removeEventListener('blur', onBlur);
+      }
+    }
+  }, [inputRef]);
 
   // helpers
   function handleClear(): void {

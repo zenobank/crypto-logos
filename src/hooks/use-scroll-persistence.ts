@@ -1,4 +1,5 @@
 import { RefObject, useEffect, useRef } from 'react';
+import useResetStorage from '@/hooks/use-reset-storage';
 
 function useScrollPersistence(
   scrollContainerRef: RefObject<HTMLElement | null>,
@@ -6,6 +7,9 @@ function useScrollPersistence(
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   filterDeps: any[] = [],
 ) {
+  // common
+  useResetStorage(storageKey);
+
   // refs
   const isInitialMount = useRef(true);
   const prevDeps = useRef(filterDeps);
@@ -54,15 +58,6 @@ function useScrollPersistence(
     el.addEventListener('scroll', save);
     return () => el.removeEventListener('scroll', save);
   }, [scrollContainerRef, storageKey]);
-
-  useEffect(() => {
-    function listener(): void {
-      sessionStorage.removeItem(storageKey);
-    }
-
-    window.addEventListener('beforeunload', listener);
-    return () => window.removeEventListener('beforeunload', listener);
-  }, [storageKey]);
 }
 
 export default useScrollPersistence;
