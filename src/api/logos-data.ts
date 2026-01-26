@@ -12,7 +12,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/null.png',
+            url: '/library/icon_light_ethena-usde.png',
             format: 'png',
           },
         ],
@@ -30,7 +30,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/null.png',
+            url: '/library/icon_light_ethena-ena.png',
             format: 'png',
           },
         ],
@@ -1932,8 +1932,14 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_nft_eth_0x8a90cab2b38dba80c64b7734e58ee1db38b8992e.jpg',
-            format: 'jpg',
+            url: '/library/icon_light_doodles.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/icon_light_doodles.svg',
+            format: 'svg',
           },
         ],
       },
