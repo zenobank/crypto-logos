@@ -1,7 +1,7 @@
-export type RelatedLogosMap = Record<string, string[]>;
+// Each array represents a group of related logos (bidirectional)
+// Example: ['usdc', 'tether'] means USDC and USDT are related to each other
+export type RelatedLogosGroup = string[];
 
-// Relations are automatically bidirectional
-// You only need to define the relation once
-export const RELATED_LOGOS_DATA: RelatedLogosMap = {
-  usdc: ['tether'], // USDC <-> USDT (automatic bidirectional)
-};
+export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
+  ['usdc', 'tether'], // USDC <-> USDT
+];

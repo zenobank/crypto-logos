@@ -3,15 +3,20 @@ import { LOGOS_BY_ID, LOGOS_BY_CATEGORY } from '@/shared/constants/logos-data';
 import type LogoItemsResponse from '@/shared/models/logos/logo-items-response';
 import { shuffleWithSeed } from '../helpers/suffle-with-seed';
 
-// Find inverse relations: logos that have logoId in their list
-function getInverseRelated(logoId: string): string[] {
-  const inverseRelated: string[] = [];
-  for (const [key, relatedIds] of Object.entries(RELATED_LOGOS_DATA)) {
-    if (relatedIds.includes(logoId)) {
-      inverseRelated.push(key);
+// Pre-computed lookup map: logoId -> related logoIds (O(1) lookup)
+const RELATED_LOGOS_MAP: Record<string, string[]> = {};
+
+for (const group of RELATED_LOGOS_DATA) {
+  for (const logoId of group) {
+    if (!RELATED_LOGOS_MAP[logoId]) {
+      RELATED_LOGOS_MAP[logoId] = [];
+    }
+    for (const relatedId of group) {
+      if (relatedId !== logoId && !RELATED_LOGOS_MAP[logoId].includes(relatedId)) {
+        RELATED_LOGOS_MAP[logoId].push(relatedId);
+      }
     }
   }
-  return inverseRelated;
 }
 
 export function getRelatedLogos(logoId: string): LogoItemsResponse[] {
@@ -21,13 +26,8 @@ export function getRelatedLogos(logoId: string): LogoItemsResponse[] {
   const seen = new Set<string>([logoId]);
   const result: LogoItemsResponse[] = [];
 
-  // 1. Manual mappings (direct + inverse for automatic bidirectionality)
-  const directRelated = shuffleWithSeed(
-    RELATED_LOGOS_DATA[logoId] || [],
-    logoId,
-  );
-  const inverseRelated = shuffleWithSeed(getInverseRelated(logoId), logoId);
-  const related = [...directRelated, ...inverseRelated];
+  // 1. Manual mappings from groups (automatically bidirectional)
+  const related = shuffleWithSeed(RELATED_LOGOS_MAP[logoId] || [], logoId);
 
   for (const relatedId of related) {
     if (!seen.has(relatedId) && LOGOS_BY_ID[relatedId]) {

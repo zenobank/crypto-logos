@@ -3740,7 +3740,7 @@ export const LOGOS_DATA: LogoItem[] = [
 // Sequoia
 // tron link
 // Sparrow
-// aqua
+// aqua wallet
 // wallet of satoshi
 // boltz exchange
 // solfare
