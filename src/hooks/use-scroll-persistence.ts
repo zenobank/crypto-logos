@@ -60,7 +60,8 @@ function useScrollPersistence(
       return;
     }
 
-    const save = () => sessionStorage.setItem(storageKey, el.scrollTop.toString());
+    const save = () =>
+      sessionStorage.setItem(storageKey, el.scrollTop.toString());
     el.addEventListener('scroll', save);
     return () => el.removeEventListener('scroll', save);
   }, [scrollContainerRef, storageKey]);
