@@ -3,7 +3,6 @@ export type LogoCategory =
   | 'tokens'
   | 'chains'
   | 'infrastructure-tools'
-  | 'rwa'
   | 'crypto-banks'
   | 'wallets'
   | 'exchanges'

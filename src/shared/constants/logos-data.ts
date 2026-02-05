@@ -15,7 +15,6 @@ export function getCategoryLabel(category: LogoCategory): string {
     tokens: 'Tokens',
     chains: 'Blockchains',
     'infrastructure-tools': 'Infrastructure Tools',
-    rwa: 'RWA',
     'crypto-banks': 'Crypto Banks',
     wallets: 'Wallets',
     exchanges: 'Exchanges',

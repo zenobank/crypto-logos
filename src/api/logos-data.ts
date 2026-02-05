@@ -42,7 +42,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'ethena-usde',
     name: 'Ethena USDe',
     mainCategory: 'stablecoins',
-    secondaryCategories: ['tokens'],
+    secondaryCategories: [],
     websiteLink: 'https://www.ethena.fi',
     brandKitLink: 'https://docs.ethena.fi/resources/media-assets',
     logo: {
@@ -56,24 +56,7 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
-  {
-    id: 'ethena',
-    name: 'Ethena (ENA)',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: ['tokens'],
-    websiteLink: 'https://www.ethena.fi',
-    brandKitLink: 'https://docs.ethena.fi/resources/media-assets',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/icon_light_ethena-ena.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
+
   {
     id: 'aptos',
     name: 'aptos',
@@ -250,8 +233,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'decentraland',
     name: 'Decentraland (MANA)',
-    mainCategory: 'rwa',
-    secondaryCategories: ['tokens'],
+    mainCategory: 'tokens',
+    secondaryCategories: [],
     websiteLink: 'https://decentraland.org',
     logo: {
       icon: {
@@ -546,7 +529,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'manifold',
     name: 'Manifold',
     mainCategory: 'infrastructure-tools',
-    secondaryCategories: ['nft'],
+    secondaryCategories: [],
     websiteLink: 'https://manifold.xyz',
     logo: {
       icon: {
@@ -563,7 +546,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'maple-finance',
     name: 'Maple Finance (SYRUP)',
     mainCategory: 'defi',
-    secondaryCategories: ['tokens', 'rwa'],
+    secondaryCategories: ['tokens'],
     websiteLink: 'https://maple.finance',
     logo: {
       icon: {
@@ -1133,7 +1116,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'tangible',
     name: 'Tangible',
     mainCategory: 'defi',
-    secondaryCategories: ['rwa'],
+    secondaryCategories: [],
     websiteLink: 'https://www.tangible.store',
     logo: {
       icon: {
@@ -1463,10 +1446,9 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'avalanche',
-    name: 'avalanche',
-    symbol: 'AVAX',
-    mainCategory: 'rwa',
-    secondaryCategories: ['tokens', 'chains'],
+    name: 'Avalanche (AVAX)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
     logo: {
       icon: {
         light: [
@@ -1500,7 +1482,7 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Ondo',
     symbol: 'ONDO',
     mainCategory: 'defi',
-    secondaryCategories: ['rwa'],
+    secondaryCategories: [],
     websiteLink: 'https://ondo.foundation',
     logo: {
       icon: {
@@ -1618,8 +1600,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'bitgo',
     name: 'BitGo',
-    mainCategory: 'crypto-banks',
-    secondaryCategories: ['wallets'],
+    mainCategory: 'wallets',
+    secondaryCategories: [],
     websiteLink: 'https://www.bitgo.com',
     logo: {
       icon: {
@@ -1845,7 +1827,7 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Azuki',
     symbol: 'AZUKI',
     mainCategory: 'nft',
-    secondaryCategories: ['tokens'],
+    secondaryCategories: [],
     websiteLink: 'http://www.azuki.com',
     logo: {
       icon: {
@@ -1881,7 +1863,7 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Doodles',
     symbol: 'DOODLE',
     mainCategory: 'nft',
-    secondaryCategories: ['tokens'],
+    secondaryCategories: [],
     websiteLink: 'https://www.doodles.app',
     logo: {
       icon: {
@@ -1953,10 +1935,9 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'algorand',
-    name: 'algorand',
-    symbol: 'ALGO',
-    mainCategory: 'rwa',
-    secondaryCategories: ['tokens', 'chains'],
+    name: 'Algorand (ALGO)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
     logo: {
       icon: {
         light: [
@@ -2167,8 +2148,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'ethena',
-    name: 'Ethena',
-    symbol: 'ENA',
+    name: 'Ethena (ENA)',
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.ethena.fi',
@@ -3279,7 +3259,7 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Chainlink',
     symbol: 'LINK',
     mainCategory: 'infrastructure-tools',
-    secondaryCategories: ['tokens', 'rwa'],
+    secondaryCategories: ['tokens'],
     websiteLink: 'https://chain.link',
     logo: {
       icon: {
@@ -3364,7 +3344,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'blur',
     name: 'Blur',
-    mainCategory: 'nft',
+    mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://blur.io',
     logo: {
