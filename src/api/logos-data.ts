@@ -814,7 +814,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'rareskills',
-    name: 'RareSkills Bootcamp',
+    name: 'RareSkills',
     mainCategory: 'education',
     secondaryCategories: [],
     websiteLink: 'https://www.rareskills.io',
