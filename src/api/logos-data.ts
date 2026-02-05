@@ -815,7 +815,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'rareskills',
     name: 'RareSkills Bootcamp',
-    mainCategory: 'infrastructure-tools',
+    mainCategory: 'education',
     secondaryCategories: [],
     websiteLink: 'https://www.rareskills.io',
     logo: {
@@ -832,7 +832,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'rarible',
     name: 'Rarible',
-    mainCategory: 'education',
+    mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://rari.foundation',
     logo: {
