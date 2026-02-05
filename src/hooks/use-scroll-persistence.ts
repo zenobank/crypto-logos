@@ -34,7 +34,7 @@ function useScrollPersistence(
       // Navigation (back/forward) → restore saved position
       const saved = +(sessionStorage.getItem(storageKey) || 0);
       if (saved) {
-        el.scrollTo({ top: saved, behavior: 'smooth' });
+        el.scrollTo({ top: saved, behavior: 'instant' });
       }
       return;
     }
