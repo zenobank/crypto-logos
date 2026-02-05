@@ -23,6 +23,7 @@ export function getCategoryLabel(category: LogoCategory): string {
     payments: 'Payments',
     defi: 'DeFi',
     education: 'Education',
+    services: 'Services',
   };
 
   return map[category];

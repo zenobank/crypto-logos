@@ -59,7 +59,7 @@ export const LOGOS_DATA: LogoItem[] = [
 
   {
     id: 'aptos',
-    name: 'aptos',
+    name: 'Aptos (APT)',
     symbol: 'APT',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
@@ -76,7 +76,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'arbitrum',
-    name: 'Arbitrum',
+    name: 'Arbitrum (ARB)',
     symbol: 'ARB',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
@@ -94,7 +94,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'bitcoin',
-    name: 'bitcoin',
+    name: 'Bitcoin (BTC)',
     symbol: 'BTC',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
@@ -388,7 +388,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'gmx',
     name: 'GMX',
     symbol: 'GMX',
-    mainCategory: 'exchanges',
+    mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://gmx.io',
     logo: {
@@ -1824,7 +1824,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'nft_eth_0xed5af388653567af2f388e6224dc7c4b3241c544',
-    name: 'Azuki',
+    name: 'Azuki (AZUKI)',
     symbol: 'AZUKI',
     mainCategory: 'nft',
     secondaryCategories: [],
@@ -1860,7 +1860,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'nft_eth_0x8a90cab2b38dba80c64b7734e58ee1db38b8992e',
-    name: 'Doodles',
+    name: 'Doodles (DOODLE)',
     symbol: 'DOODLE',
     mainCategory: 'nft',
     secondaryCategories: [],
@@ -1951,7 +1951,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'astar',
-    name: 'Astar',
+    name: 'Astar (ASTR)',
     symbol: 'ASTR',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens', 'chains'],
@@ -1987,7 +1987,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'basic-attention-token',
-    name: 'Basic Attention Token',
+    name: 'Basic Attention Token (BAT)',
     symbol: 'BAT',
     mainCategory: 'tokens',
     secondaryCategories: [],
@@ -2005,7 +2005,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'onbeam',
-    name: 'Beam',
+    name: 'Beam (BEAM)',
     symbol: 'BEAM',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
@@ -2023,7 +2023,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'berachain',
-    name: 'Berachain',
+    name: 'Berachain (BERA)',
     symbol: 'BERA',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
@@ -2041,7 +2041,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'bittensor',
-    name: 'Bittensor',
+    name: 'Bittensor (TAO)',
     symbol: 'TAO',
     mainCategory: 'tokens',
     secondaryCategories: [],
@@ -2059,7 +2059,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'cardano',
-    name: 'cardano (ADA)',
+    name: 'Cardano (ADA)',
     symbol: 'ADA',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
@@ -2112,7 +2112,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'dogwifhat',
-    name: 'dogwifhat',
+    name: 'dogwifhat (WIF)',
     symbol: 'WIF',
     mainCategory: 'tokens',
     secondaryCategories: [],
@@ -2130,7 +2130,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'eigencloud',
-    name: 'EigenCloud',
+    name: 'Eigen Layer (EIGEN)',
     symbol: 'EIGEN',
     mainCategory: 'tokens',
     secondaryCategories: [],
@@ -2183,10 +2183,9 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'ethereum',
-    name: 'ethereum',
-    symbol: 'ETH',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: ['tokens', 'chains'],
+    name: 'Ethereum (ETH)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
     logo: {
       icon: {
         light: [
@@ -2254,7 +2253,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'gala',
-    name: 'Gala',
+    name: 'Gala (GALA)',
     symbol: 'GALA',
     mainCategory: 'tokens',
     secondaryCategories: [],
@@ -2398,7 +2397,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'metaplex',
-    name: 'Metaplex',
+    name: 'Metaplex (MPLX)',
     symbol: 'MPLX',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -2416,7 +2415,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'shiba-inu',
-    name: 'Shiba Inu',
+    name: 'Shiba Inu (SHIB)',
     symbol: 'SHIB',
     mainCategory: 'tokens',
     secondaryCategories: [],
@@ -2434,7 +2433,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'sky',
-    name: 'Sky',
+    name: 'Sky (SKY)',
     symbol: 'SKY',
     mainCategory: 'defi',
     secondaryCategories: [],
@@ -2519,7 +2518,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'world-liberty-financial-wlfi',
-    name: 'World Liberty Financial',
+    name: 'World Liberty Financial (WLFI)',
     symbol: 'WLFI',
     mainCategory: 'tokens',
     secondaryCategories: [],
@@ -2708,7 +2707,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'first-digital-usd',
-    name: 'First Digital USD',
+    name: 'First Digital USD (FDUSD)',
     symbol: 'FDUSD',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
@@ -2726,7 +2725,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'global-dollar-usdg',
-    name: 'Global Dollar',
+    name: 'Global Dollar (USDG)',
     symbol: 'USDG',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
@@ -2744,7 +2743,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'dai',
-    name: 'Dai',
+    name: 'Dai (DAI)',
     symbol: 'DAI',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
@@ -2762,7 +2761,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'paypal-usd',
-    name: 'PayPal USD',
+    name: 'PayPal USD (PYUSD)',
     symbol: 'PYUSD',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
@@ -2780,7 +2779,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'ripple-usd',
-    name: 'Ripple USD',
+    name: 'Ripple USD (RLUSD)',
     symbol: 'RLUSD',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
@@ -2816,7 +2815,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'usd1',
-    name: 'World Liberty Financial USD',
+    name: 'World Liberty Financial USD (USD1)',
     symbol: 'USD1',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
@@ -2883,7 +2882,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'angle',
-    name: 'Angle',
+    name: 'Angle (ANGLE)',
     symbol: 'ANGLE',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
@@ -2901,7 +2900,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'aave',
-    name: 'Aave',
+    name: 'Aave (AAVE)',
     symbol: 'AAVE',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
@@ -2973,7 +2972,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'aragon',
-    name: 'Aragon',
+    name: 'Aragon (ANT)',
     symbol: 'ANT',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens'],
@@ -3256,7 +3255,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'chainlink',
-    name: 'Chainlink',
+    name: 'Chainlink (LINK)',
     symbol: 'LINK',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens'],
@@ -3360,7 +3359,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'blast',
-    name: 'Blast',
+    name: 'Blast (BLAST)',
     symbol: 'BLAST',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
@@ -3429,7 +3428,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'beefy-finance',
-    name: 'Beefy',
+    name: 'Beefy (BIFI)',
     symbol: 'BIFI',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
@@ -3464,7 +3463,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'axelar',
-    name: 'Axelar',
+    name: 'Axelar (AXL)',
     symbol: 'AXL',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens'],
@@ -3482,7 +3481,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'axie-infinity',
-    name: 'Axie Infinity',
+    name: 'Axie Infinity (AXS)',
     symbol: 'AXS',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
@@ -3518,7 +3517,7 @@ export const LOGOS_DATA: LogoItem[] = [
 
   {
     id: 'trueusd',
-    name: 'TrueUSD',
+    name: 'TrueUSD (TUSD)',
     symbol: 'TUSD',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
@@ -3536,7 +3535,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'usdd',
-    name: 'Decentralized USD',
+    name: 'Decentralized USD (USDD)',
     symbol: 'USDD',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
@@ -3553,8 +3552,8 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'tether',
-    name: 'Tether USD',
+    id: 'usdt',
+    name: 'Tether USD (USDT)',
     symbol: 'USDT',
     mainCategory: 'stablecoins',
     secondaryCategories: [],

@@ -10,4 +10,5 @@ export type LogoCategory =
   | 'nft'
   | 'payments'
   | 'defi'
-  | 'education';
+  | 'education'
+  | 'services';
