@@ -2,6 +2,23 @@ import LogoItem from '@/shared/models/logos/logo-item';
 
 export const LOGOS_DATA: LogoItem[] = [
   {
+    id: 'zenobank',
+    name: 'Zeno Bank',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: [],
+    websiteLink: 'https://zenobank.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/icon_light_zenobank.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'ethena-usde',
     name: 'Ethena USDe',
     mainCategory: 'stablecoins',
@@ -58,8 +75,8 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'arbitrum',
     name: 'Arbitrum',
     symbol: 'ARB',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: ['tokens', 'chains'],
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
     websiteLink: 'https://arbitrum.foundation',
     logo: {
       icon: {
@@ -2090,8 +2107,8 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'berachain',
     name: 'Berachain',
     symbol: 'BERA',
-    mainCategory: 'tokens',
-    secondaryCategories: [],
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
     websiteLink: 'https://berachain.com',
     logo: {
       icon: {
@@ -2234,7 +2251,7 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'ether.fi',
     symbol: 'ETHFI',
     mainCategory: 'tokens',
-    secondaryCategories: [],
+    secondaryCategories: ['infrastructure-tools', 'crypto-banks'],
     websiteLink: 'https://www.ether.fi',
     logo: {
       icon: {
@@ -2973,8 +2990,8 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'aave',
     name: 'Aave',
     symbol: 'AAVE',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: ['tokens'],
+    mainCategory: 'exchanges',
+    secondaryCategories: ['tokens', 'infrastructure-tools'],
     websiteLink: 'https://aave.com',
     brandKitLink: 'https://aave.com/brand',
     logo: {
@@ -3586,25 +3603,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
 
-  {
-    id: '1inch',
-    name: '1inch',
-    symbol: '1INCH',
-    mainCategory: 'exchanges',
-    secondaryCategories: ['infrastructure-tools'],
-    websiteLink: 'https://1inch.com',
-    brandKitLink: 'https://1inch.com/press-room',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/icon_light_1inch.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
   {
     id: 'trueusd',
     name: 'TrueUSD',
