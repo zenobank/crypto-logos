@@ -22,6 +22,8 @@ export function getCategoryLabel(category: LogoCategory): string {
     investors: 'Investors',
     nft: 'NFT',
     payments: 'Payments',
+    defi: 'DeFi',
+    education: 'Education',
   };
 
   return map[category];
@@ -72,9 +74,7 @@ export const LOGOS_RESPONSE: LogoItemsResponse[] = LOGOS_DATA.map(
       name: getCategoryLabel(category as LogoCategory),
     })),
   }),
-).toSorted((a, b) =>
-  a.name.localeCompare(b.name),
-);
+).toSorted((a, b) => a.name.localeCompare(b.name));
 
 // Pre-sorted by name ascending for performance
 const LOGOS_BY_CATEGORY_UNSORTED = LOGOS_RESPONSE.reduce(

@@ -9,4 +9,6 @@ export type LogoCategory =
   | 'exchanges'
   | 'investors'
   | 'nft'
-  | 'payments';
+  | 'payments'
+  | 'defi'
+  | 'education';
