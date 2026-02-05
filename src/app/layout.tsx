@@ -2,7 +2,11 @@ import { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { GoogleTagManager } from '@next/third-parties/google';
-import { dehydrate, HydrationBoundary, QueryClient } from '@tanstack/react-query';
+import {
+  dehydrate,
+  HydrationBoundary,
+  QueryClient,
+} from '@tanstack/react-query';
 
 // providers
 import { ThemeProvider } from '@/providers/theme-provider';
@@ -36,8 +40,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: SERVER_BASE_URL,
-  title: 'Crypto Logos - Free SVG Logo Collection',
-  description: 'Browse and download 576+ crypto and tech logos in SVG format',
+  title: 'Crypto Logos - Download Crypto Logos',
+  description:
+    'Browse and download the major crypto and tech logos. Free, high-quality logos for your projects.',
   manifest: '/site.webmanifest',
   icons: {
     icon: [
@@ -61,9 +66,7 @@ export default async function RootLayout({ children }: Props) {
   const queryClient = new QueryClient();
 
   // prefetch
-  await queryClient.prefetchInfiniteQuery(
-    getLogosQueryParams('', ''),
-  );
+  await queryClient.prefetchInfiniteQuery(getLogosQueryParams('', ''));
 
   return (
     <html lang="en" suppressHydrationWarning>

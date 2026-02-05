@@ -4,8 +4,9 @@ import type { Metadata } from 'next';
 import LogosSection from '@/components/home/LogosSection';
 
 export async function generateMetadata(): Promise<Metadata> {
-  const title = 'Crypto Logos - Free SVG Logo Collection';
-  const description = 'Browse and download 576+ crypto and tech logos in SVG format. Free, high-quality SVG logos for your projects.';
+  const title = 'Crypto Logos - Download Crypto Logos';
+  const description =
+    'Browse and download the major crypto and tech logos. Free, high-quality logos for your projects.';
 
   return {
     title,

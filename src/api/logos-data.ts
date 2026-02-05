@@ -245,8 +245,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'depay',
     name: 'DePay',
-    mainCategory: 'wallets',
-    secondaryCategories: ['infrastructure-tools'],
+    mainCategory: 'payments',
+    secondaryCategories: [],
     websiteLink: 'https://depay.com',
     logo: {
       icon: {
@@ -279,8 +279,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'dydx',
     name: 'dYdX',
-    mainCategory: 'exchanges',
-    secondaryCategories: ['infrastructure-tools'],
+    mainCategory: 'defi',
+    secondaryCategories: [],
     websiteLink: 'https://dydx.exchange',
     logo: {
       icon: {
@@ -1296,7 +1296,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'beethoven-x',
     name: 'Beethoven X',
     mainCategory: 'defi',
-    secondaryCategories: ['infrastructure-tools'],
+    secondaryCategories: [],
     websiteLink: 'https://beets.fi',
     logo: {
       icon: {
@@ -1602,23 +1602,7 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
-  {
-    id: 'ens',
-    name: 'Ethereum Name Service',
-    mainCategory: 'wallets',
-    secondaryCategories: ['infrastructure-tools'],
-    websiteLink: 'https://ens.domains',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/icon_light_ens.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
+
   {
     id: 'guardarian',
     name: 'Guardarian',
@@ -1725,7 +1709,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'solflare',
     name: 'Solflare',
     mainCategory: 'wallets',
-    secondaryCategories: ['infrastructure-tools'],
+    secondaryCategories: [],
     websiteLink: 'https://solflare.com',
     logo: {
       icon: {
@@ -1776,7 +1760,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'zerion',
     name: 'Zerion',
     mainCategory: 'wallets',
-    secondaryCategories: ['infrastructure-tools'],
+    secondaryCategories: [],
     websiteLink: 'https://zerion.io',
     logo: {
       icon: {
@@ -2310,7 +2294,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'layerzero',
     name: 'LayerZero (ZRO)',
     mainCategory: 'chains',
-    secondaryCategories: ['tokens', 'infrastructure-tools'],
+    secondaryCategories: ['tokens'],
     websiteLink: 'https://layerzero.foundation',
     logo: {
       icon: {
@@ -2579,7 +2563,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'fireblocks',
     name: 'Fireblocks',
     mainCategory: 'wallets',
-    secondaryCategories: ['infrastructure-tools'],
+    secondaryCategories: [],
     websiteLink: 'https://www.fireblocks.com',
     logo: {
       icon: {
@@ -2799,7 +2783,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'alchemy-ventures',
     name: 'Alchemy Ventures',
     mainCategory: 'investors',
-    secondaryCategories: ['infrastructure-tools'],
+    secondaryCategories: [],
     logo: {
       icon: {
         light: [
@@ -2815,7 +2799,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'anchorage',
     name: 'Anchorage Digital',
     mainCategory: 'crypto-banks',
-    secondaryCategories: ['infrastructure-tools', 'wallets'],
+    secondaryCategories: [],
     websiteLink: 'https://www.anchorage.com',
     logo: {
       icon: {

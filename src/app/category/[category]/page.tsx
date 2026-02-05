@@ -26,16 +26,14 @@ export async function generateStaticParams() {
   return CATEGORIES_RESPONSE.map(({ id: category }) => ({ category }));
 }
 
-export async function generateMetadata({
-  params,
-}: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category } = await params;
 
   const { total } = getLogos({ category });
   const categoryName = category.charAt(0).toUpperCase() + category.slice(1);
 
   const title = `${categoryName} Logos - ${total} Free SVG Logos`;
-  const description = `Browse and download ${total} ${categoryName} logos in SVG and PNG format. Free, high-quality SVG and PNG logos for your projects.`;
+  const description = `Browse and download the major ${categoryName} logos. Free, high-quality logos for your projects.`;
 
   return {
     title,
@@ -62,17 +60,12 @@ export default async function CategoryPage({ params }: Props) {
   const { category } = await params;
 
   // prefetch
-  await queryClient.prefetchInfiniteQuery(
-    getLogosQueryParams('', category),
-  );
+  await queryClient.prefetchInfiniteQuery(getLogosQueryParams('', category));
 
   return (
     <div className="flex flex-1 flex-col p-6 max-md:p-4">
       <HydrationBoundary state={dehydrate(queryClient)}>
-        <LogosSection
-          category={category}
-          showCategoryHeader
-        />
+        <LogosSection category={category} showCategoryHeader />
       </HydrationBoundary>
     </div>
   );

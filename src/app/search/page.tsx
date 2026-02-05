@@ -16,7 +16,7 @@ import LogosSortBy from '@/shared/models/logos/logos-sort-by';
 
 // custom models
 interface Props {
-  searchParams: Promise<{ q?: string, category?: string; sort?: LogosSortBy }>;
+  searchParams: Promise<{ q?: string; category?: string; sort?: LogosSortBy }>;
 }
 
 export async function generateMetadata({
@@ -29,8 +29,8 @@ export async function generateMetadata({
     : 'Crypto Logos - Free SVG Logo Collection';
 
   const description = searchQuery
-    ? `Search results for "${searchQuery}" in our collection of 576+ crypto and tech logos in SVG format`
-    : 'Browse and download 576+ crypto and tech logos in SVG format. Free, high-quality SVG logos for your projects.';
+    ? `Search results for "${searchQuery}" in our collection of major crypto and tech logos`
+    : 'Browse and download the major crypto and tech logos. Free, high-quality logos for your projects.';
 
   return {
     title,
