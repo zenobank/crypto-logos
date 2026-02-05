@@ -5,7 +5,6 @@ import { LogoCategory } from './logo-category';
 interface LogoItem {
   id: string;
   name: string;
-  symbol?: string;
   mainCategory: LogoCategory;
   secondaryCategories: LogoCategory[];
   logo: LogoDownloadableFiles;
