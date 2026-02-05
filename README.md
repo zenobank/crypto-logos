@@ -8,7 +8,7 @@ You will need:
 1. [**Fork this repository**](https://github.com/zenobank/crypto-logos/fork) and clone it locally:
 
 ```bash
-git clone git@github.com:your_username/crypto-logos.git
+git clone https://github.com/zenobank/crypto-logos.git
 ```
 
 2. Move into the project folder:
@@ -21,14 +21,14 @@ cd crypto-logos
 
 ```bash
 # Install dependencies:
-npm install
+pnpm install
 ```
 
 4. Run the development server:
 
 ```bash
 # Run the development server:
-npm run dev
+pnpm dev
 ```
 
 5. Add your SVG file (or use a direct SVG URL).  
@@ -49,7 +49,7 @@ npm run dev
   This is useful when you don’t want to commit the SVG file into the repo, but keep in mind external links can break later.
 
 6. Add logo metadata (follow the [**`LogoItem`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/models/logos/logo-item.ts) model).  
-   Go to the [**`src/api/logos.json`**](https://github.com/zenobank/crypto-logos/tree/main/src/api/logos.json) and add the information about your logo, following the structure.  
+   Go to the [**`src/api/logos-data.ts`**](https://github.com/zenobank/crypto-logos/tree/main/src/api/logos-data.ts) and add the information about your logo, following the structure.  
    Every logo entry must follow the [**`LogoItem`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/models/logos/logo-item.ts) model, so the app can render it correctly and keep the library consistent.
 
 - **Data model**:
@@ -86,9 +86,9 @@ interface LogoVariantGroup {
 > [!NOTE]
 >
 > - `id`: unique key (use lowercase, no spaces, usually the brand name).
-> - `name`: display name (example: `Stripe`).
-> - `mainCategory`: primary category (example: `fintech`).
-> - `secondaryCategories`: extra categories (example: `["payments", "billing"]`).
+> - `name`: display name (example: `Solana (SOL)`).
+> - `mainCategory`: primary category (example: `chains`).
+> - `secondaryCategories`: extra categories (example: `["tokens"]`).
 > - `websiteLink`: (optional): official website.
 > - `brandKitLink`: (optional): brand guidelines / press kit.
 > - `logo`: logo files users can download:  
@@ -159,8 +159,8 @@ interface LogoVariantGroup {
 {
   id: 'Id',
   name: 'Title',
-  mainCategory: 'Main category',
-  secondaryCategories: ['Secondary categories'],
+  mainCategory: 'tokens',
+  secondaryCategories: [],
   websiteLink: 'https://example.com',
   brandKitLink: 'https://example.com/brand',
   logo: {
@@ -178,6 +178,6 @@ interface LogoVariantGroup {
 
 > [!NOTE]
 >
-> - You can add multiple categories to the same logo, for example: `secondaryCategories: ['Social', 'Design']`.
+> - You can add multiple categories to the same logo, for example: `secondaryCategories: ['chains', 'tokens']`.
 
 And create a pull request with your logo ✨.
