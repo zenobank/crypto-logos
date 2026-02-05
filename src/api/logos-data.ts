@@ -7,6 +7,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'crypto-banks',
     secondaryCategories: ['payments'],
     websiteLink: 'https://zenobank.io',
+    brandKitLink: 'https://cryptologos.zenobank.io/',
     logo: {
       icon: {
         light: [
@@ -60,6 +61,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'aptos',
     name: 'Aptos (APT)',
+    brandKitLink: 'https://aptosnetwork.com/media-kit',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -79,6 +81,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://arbitrum.foundation',
+    brandKitLink: 'https://arbitrum.io/brand-kit',
     logo: {
       icon: {
         light: [
@@ -109,6 +112,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'hedera',
     name: 'Hedera (HBAR)',
+    brandKitLink: 'https://brand.hedera.com/',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -128,6 +132,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.optimism.io',
+    brandKitLink: 'https://www.optimism.io/brand',
     logo: {
       icon: {
         light: [
@@ -143,6 +148,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'solana',
     name: 'Solana (SOL)',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/1Y882o7uxW4Bx2vL6MXI-IozbGTX3ztBk',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -159,6 +166,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'tezos',
     name: 'Tezos (XTZ)',
+    brandKitLink: 'https://tezos.com/visual-identity/',
     mainCategory: 'chains',
     secondaryCategories: [],
     logo: {
@@ -194,6 +202,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://cobo.com',
+    brandKitLink: 'https://brandfetch.com/cobo.com',
     logo: {
       icon: {
         light: [
@@ -208,6 +217,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'carbon-perpetuals',
     name: 'Carbon',
+    brandKitLink:
+      'https://switcheo.notion.site/Carbon-Media-Kit-819ec0d0ed7e45389da48ffd3dbfa6a2',
     mainCategory: 'exchanges',
     secondaryCategories: [],
     logo: {
@@ -231,6 +242,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://decentraland.org',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/1ZTEgSGg7yX_gjLOVzIvvria-j2tOBQme',
     logo: {
       icon: {
         light: [
@@ -248,6 +261,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'payments',
     secondaryCategories: [],
     websiteLink: 'https://depay.com',
+    brandKitLink: 'https://depay.com/brand',
     logo: {
       icon: {
         light: [
@@ -265,6 +279,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://dune.com/home',
+    brandKitLink: 'https://dune.com/brand',
     logo: {
       icon: {
         light: [
@@ -282,6 +297,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://dydx.exchange',
+    brandKitLink: 'https://www.dydx.foundation/brand',
     logo: {
       icon: {
         light: [
@@ -299,6 +315,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['nft'],
     websiteLink: 'https://ens.domains',
+    brandKitLink: 'https://ens.domains/assets/brand/ENS Brand Guidelines.pdf',
     logo: {
       icon: {
         light: [
@@ -316,6 +333,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.farcaster.xyz',
+    brandKitLink: 'https://github.com/vrypan/farcaster-brand',
     logo: {
       icon: {
         light: [
@@ -333,6 +351,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.gate.io',
+    brandKitLink: 'https://www.gate.com/media-kit',
     logo: {
       icon: {
         light: [
@@ -350,6 +369,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.geckoterminal.com',
+    brandKitLink: 'https://brand.coingecko.com/resources/brand-kit',
     logo: {
       icon: {
         light: [
@@ -367,6 +387,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://www.gemini.com',
+    brandKitLink: 'https://brandfolder.com/gemini/',
     logo: {
       icon: {
         light: [
@@ -384,6 +405,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://gmx.io',
+    brandKitLink:
+      'https://github.com/gmx-io/gmx-assets/raw/main/GMX-Assets.zip',
     logo: {
       icon: {
         light: [
@@ -401,6 +424,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://www.htx.com',
+    brandKitLink:
+      'https://brandfetch.com/htx.gov.sg?view=library&library=default',
     logo: {
       icon: {
         light: [
@@ -418,6 +443,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://www.kucoin.com',
+    brandKitLink: 'https://www.kucoin.com/announcement/en-kucoin-media-kit',
     logo: {
       icon: {
         light: [
@@ -435,6 +461,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://kwenta.io',
+    brandKitLink: 'https://github.com/Kwenta/brand-kit/tree/main/assets/png',
     logo: {
       icon: {
         light: [
@@ -452,6 +479,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://kyberswap.com',
+    brandKitLink: 'https://kyber.network/media-kit',
     logo: {
       icon: {
         light: [
@@ -473,6 +501,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://lido.fi',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/1aubFyvG7YVyyVWGf5yDxjtv6CwvAXdJU',
     logo: {
       icon: {
         light: [
@@ -490,6 +520,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.liquity.org',
+    brandKitLink:
+      'https://uploads-ssl.webflow.com/5fd883457ba5da4c3822b02c/6011885fae7ee22bd6732e34_liquity_press_kit.pdf',
     logo: {
       icon: {
         light: [
@@ -524,6 +556,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://manifold.xyz',
+    brandKitLink: 'https://github.com/manifoldxyz/manifold-brand',
     logo: {
       icon: {
         light: [
@@ -541,6 +574,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://maple.finance',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/1Fagf8mfVOBnSVWmN7UHiD57ZQQjO4EQB',
     logo: {
       icon: {
         light: [
@@ -558,6 +593,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://metamask.io',
+    brandKitLink: 'https://metamask.io/assets',
     logo: {
       icon: {
         light: [
@@ -576,6 +612,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'payments',
     secondaryCategories: [],
     websiteLink: 'https://www.moonpay.com',
+    brandKitLink: 'https://brandfetch.com/moonpay.com',
     logo: {
       icon: {
         light: [
@@ -593,6 +630,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://developers.moralis.com',
+    brandKitLink: 'https://moralis.com/brand-resources/',
     logo: {
       icon: {
         light: [
@@ -610,6 +648,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://morpho.org',
+    brandKitLink: 'https://brand.morpho.org/',
     logo: {
       icon: {
         light: [
@@ -661,6 +700,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: [],
     websiteLink: 'https://www.optimism.io',
+    brandKitLink:
+      'https://framerusercontent.com/assets/Wn6u304MllKTQuVWtSywXaEtnyM.zip',
     logo: {
       icon: {
         light: [
@@ -682,6 +723,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'investors',
     secondaryCategories: [],
     websiteLink: 'https://www.paradigm.xyz',
+    brandKitLink: 'https://www.paradigm.co/help/miscellaneous/media-kit',
     logo: {
       icon: {
         light: [
@@ -699,6 +741,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://phantom.app',
+    brandKitLink: 'https://docs.phantom.com/resources/assets',
     logo: {
       icon: {
         light: [
@@ -733,6 +776,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: [],
     websiteLink: 'https://polygon.technology',
+    brandKitLink: 'https://brandfetch.com/polygon.technology',
     logo: {
       icon: {
         light: [
@@ -750,6 +794,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://www.privy.io',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/1Vm-Bs1arm3WgQ4tlzu9trGv6b-fiDQf2',
     logo: {
       icon: {
         light: [
@@ -767,6 +813,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://quantstamp.com',
+    brandKitLink: 'https://quantstamp.com/media',
     logo: {
       icon: {
         light: [
@@ -784,6 +831,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://rabby.io',
+    brandKitLink: 'https://github.com/RabbyHub/logo',
     logo: {
       icon: {
         light: [
@@ -801,6 +849,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.rainbowkit.com',
+    brandKitLink:
+      'https://www.figma.com/community/file/1139300796265858893/rainbow-brand-assets',
     logo: {
       icon: {
         light: [
@@ -835,6 +885,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://rari.foundation',
+    brandKitLink: 'https://og.rarible.com/branding',
     logo: {
       icon: {
         light: [
@@ -852,6 +903,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://raydium.io/#',
+    brandKitLink: 'https://docs.raydium.io/raydium/protocol/media-assets',
     logo: {
       icon: {
         light: [
@@ -869,6 +921,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://traderjoexyz.com',
+    brandKitLink:
+      'https://lfjgg.notion.site/LFJ-Media-Kit-84b6e05c50a1447395ad1105f536ff82',
     logo: {
       icon: {
         light: [
@@ -903,6 +957,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://rhino.fi',
+    brandKitLink: 'https://rhino.fi/media-kit',
     logo: {
       icon: {
         light: [
@@ -920,6 +975,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://safe.global',
+    brandKitLink: 'https://brandfetch.com/safe.global',
     logo: {
       icon: {
         light: [
@@ -937,6 +993,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.sherlock.xyz',
+    brandKitLink:
+      'https://www.figma.com/design/H5xwkBU76qbi7WbJpzUCQ4/Sherlock-Brandkit-2026--External-',
     logo: {
       icon: {
         light: [
@@ -971,6 +1029,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://docs.soliditylang.org/en/latest',
+    brandKitLink: 'https://docs.soliditylang.org/en/latest/brand-guide.html',
     logo: {
       icon: {
         light: [
@@ -1005,6 +1064,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'payments',
     secondaryCategories: [],
     websiteLink: 'https://spherepay.co',
+    brandKitLink: 'https://presskit.sphereinc.com/',
     logo: {
       icon: {
         light: [
@@ -1022,6 +1082,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://app.squidrouter.com',
+    brandKitLink:
+      'https://docs.squidrouter.com/additional-resources/brand-assets',
     logo: {
       icon: {
         light: [
@@ -1054,6 +1116,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'stellar',
     name: 'Stellar (XLM)',
+    brandKitLink: 'https://stellar.org/brand-resources',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -1073,6 +1136,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://www.sushi.com',
+    brandKitLink: 'https://github.com/sushiswap/art',
     logo: {
       icon: {
         light: [
@@ -1094,6 +1158,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.synthetix.io',
+    brandKitLink: 'https://www.synthetix.io/brand',
     logo: {
       icon: {
         light: [
@@ -1111,6 +1176,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://www.tangible.store',
+    brandKitLink: 'https://playbook.tangible.is/brand-kit/',
     logo: {
       icon: {
         light: [
@@ -1128,6 +1194,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://tenderly.co',
+    brandKitLink:
+      'https://tenderlydev.notion.site/brand-assets?v=14584be6a2e68193bb4c000c1d311ff5',
     logo: {
       icon: {
         light: [
@@ -1145,6 +1213,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://thirdweb.com',
+    brandKitLink: 'https://thirdweb.com/brand-kit',
     logo: {
       icon: {
         light: [
@@ -1162,6 +1231,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.tradingview.com/crypto-screener',
+    brandKitLink: 'https://www.tradingview.com/media-kit/',
     logo: {
       icon: {
         light: [
@@ -1179,6 +1249,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://trezor.io',
+    brandKitLink: 'https://satoshilabs.visualbook.pro/trezor',
     logo: {
       icon: {
         light: [
@@ -1196,6 +1267,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://www.turnkey.com',
+    brandKitLink: 'https://www.turnkey.com/turnkey-brand-kit',
     logo: {
       icon: {
         light: [
@@ -1213,6 +1285,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://github.com/UMAprotocol/subgraphs',
+    brandKitLink:
+      'https://github.com/UMAprotocol/website/raw/master/documents/press-kit/UMA_Style_Guide_v2.pdf',
     logo: {
       icon: {
         light: [
@@ -1230,6 +1304,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://uniswap.org/blog/uni',
+    brandKitLink:
+      'https://github.com/Uniswap/brand-assets/raw/main/Uniswap%20Brand%20Assets.zip',
     logo: {
       icon: {
         light: [
@@ -1247,6 +1323,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://velodrome.finance',
+    brandKitLink: 'https://velodrome.finance/brand',
     logo: {
       icon: {
         light: [
@@ -1264,6 +1341,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://web3js.org',
+    brandKitLink: 'https://github.com/web3/web3.js/tree/4.x/assets/logo',
     logo: {
       icon: {
         light: [
@@ -1281,6 +1359,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://yearn.finance/vaults',
+    brandKitLink: 'https://presskit.yearn.fi/',
     logo: {
       icon: {
         light: [
@@ -1298,6 +1377,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://beets.fi',
+    brandKitLink: 'https://brand.beets.fi/',
     logo: {
       icon: {
         light: [
@@ -1316,6 +1396,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: ['defi'],
     websiteLink: 'https://li.fi',
+    brandKitLink: 'https://li.fi/brand-guidelines/',
     logo: {
       icon: {
         light: [
@@ -1333,6 +1414,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: ['defi'],
     websiteLink: 'https://matcha.xyz',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/16z4lhn1h9pm7n12b0hTMwzCknjtZKzaf',
     logo: {
       icon: {
         light: [
@@ -1404,6 +1487,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://www.okx.com',
+    brandKitLink: 'https://brandfetch.com/okx.com',
     logo: {
       icon: {
         light: [
@@ -1418,6 +1502,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'privex',
     name: 'Privex',
+    brandKitLink: 'https://cdn.privex.io/Privex%20Brand%20Pack.zip',
     mainCategory: 'defi',
     secondaryCategories: [],
     logo: {
@@ -1438,6 +1523,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'avalanche',
     name: 'Avalanche (AVAX)',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/1i81sIjB6Z8hmQIITyXB37c1thodumFKJ',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -1454,6 +1541,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'iota',
     name: 'IOTA',
+    brandKitLink: 'https://assets.iota.org/',
     mainCategory: 'chains',
     secondaryCategories: [],
     logo: {
@@ -1473,6 +1561,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://ondo.foundation',
+    brandKitLink:
+      'https://ondo-finance.notion.site/Ondo-Media-Kit-3bc0a5aced014cc4b0ef62f1638bbf8e',
     logo: {
       icon: {
         light: [
@@ -1490,6 +1580,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://pendle.finance',
+    brandKitLink: 'https://www.pendle.finance/brand-guide',
     logo: {
       icon: {
         light: [
@@ -1507,6 +1598,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://gold.tether.to',
+    brandKitLink: 'https://tether.to/en/media/',
     logo: {
       icon: {
         light: [
@@ -1521,6 +1613,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'vechain',
     name: 'VeChain (VET)',
+    brandKitLink: 'https://vechain.org/brand-assets',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -1574,6 +1667,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://biconomy.io',
+    brandKitLink:
+      'https://biconomy.notion.site/Biconomy-Brand-Kit-f79e3e17243e411fb573c8437a5719d0',
     logo: {
       icon: {
         light: [
@@ -1591,6 +1686,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://www.bitgo.com',
+    brandKitLink: 'https://design.bitgo.com/',
     logo: {
       icon: {
         light: [
@@ -1609,6 +1705,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://guardarian.com',
+    brandKitLink: 'https://guardarian.com/press-and-media#brand-assets',
     logo: {
       icon: {
         light: [
@@ -1643,6 +1740,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: [],
     websiteLink: 'https://github.com/lightningnetwork/lnd',
+    brandKitLink:
+      'https://design.blockstream.com/styleguide/branding/core-lightning.html',
     logo: {
       icon: {
         light: [
@@ -1677,6 +1776,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'payments',
     secondaryCategories: [],
     websiteLink: 'https://mercuryo.io',
+    brandKitLink: 'https://mercuryo.io/press',
     logo: {
       icon: {
         light: [
@@ -1694,6 +1794,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'payments',
     secondaryCategories: [],
     websiteLink: 'https://reap.global',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/14pAxwcqyAY9Os3mJQGPkZCKu0hET0ZnV',
     logo: {
       icon: {
         light: [
@@ -1711,6 +1813,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://solflare.com',
+    brandKitLink: 'https://brandfetch.com/solflare.com',
     logo: {
       icon: {
         light: [
@@ -1745,6 +1848,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://walletconnect.com',
+    brandKitLink: 'https://github.com/WalletConnect/walletconnect-assets',
     logo: {
       icon: {
         light: [
@@ -1762,6 +1866,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://zerion.io',
+    brandKitLink:
+      'https://zerion.notion.site/Company-info-brand-assets-b9bfad1ef7b745a7a2e09640f6374ff1',
     logo: {
       icon: {
         light: [
@@ -1857,6 +1963,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://magiceden.io',
+    brandKitLink:
+      'https://docs-wallet.magiceden.io/resources/ME_Wallet_BrandGuide_062524.pdf',
     logo: {
       icon: {
         light: [
@@ -1891,6 +1999,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://opensea.io',
+    brandKitLink: 'https://docs.opensea.io/docs/logos',
     logo: {
       icon: {
         light: [
@@ -1905,6 +2014,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'algorand',
     name: 'Algorand (ALGO)',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/16KHGZK5nsAbXN9AyKF0U2IP5LRr2XZJ8',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -1924,6 +2035,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens', 'chains'],
     websiteLink: 'https://astar.network',
+    brandKitLink: 'https://astar.network/brand-asset-kit',
     logo: {
       icon: {
         light: [
@@ -1941,6 +2053,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.asterdex.com',
+    brandKitLink: 'https://astar.network/brand-asset-kit',
     logo: {
       icon: {
         light: [
@@ -1975,6 +2088,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.onbeam.com',
+    brandKitLink: 'https://www.beam.mw/Media_Kit.zip',
     logo: {
       icon: {
         light: [
@@ -1992,6 +2106,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://berachain.com',
+    brandKitLink: 'https://brandfetch.com/berachain.com',
     logo: {
       icon: {
         light: [
@@ -2009,6 +2124,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://bittensor.com',
+    brandKitLink:
+      'https://github.com/latent-to/developer-docs/tree/main/static/bittensor-media-assets',
     logo: {
       icon: {
         light: [
@@ -2023,6 +2140,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'cardano',
     name: 'Cardano (ADA)',
+    brandKitLink: 'https://cardano.org/brand-assets/',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -2042,6 +2160,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://cow.fi',
+    brandKitLink:
+      'https://cownation.notion.site/CoW-DAO-Brand-Kit-dad6212f182f49d38683e8410bfb37d2',
     logo: {
       icon: {
         light: [
@@ -2076,6 +2196,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://dogwifhat.us',
+    brandKitLink: 'https://cryptologos.cc/dogwifhat',
     logo: {
       icon: {
         light: [
@@ -2093,6 +2214,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.eigenlayer.xyz',
+    brandKitLink:
+      'https://github.com/Layr-Labs/media-kit/blob/master/EigenLayer-Brand-Guidelines.pdf',
     logo: {
       icon: {
         light: [
@@ -2110,6 +2233,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.ethena.fi',
+    brandKitLink:
+      'https://www.figma.com/file/OYn3YOnDrt77qNLSGDuVkH/Ethena-Media-Assets?type=design&node-id=733%3A1794&mode=design&t=D3VpsKDeYJb8oT4G-1',
     logo: {
       icon: {
         light: [
@@ -2127,6 +2252,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['crypto-banks', 'tokens'],
     websiteLink: 'https://www.ether.fi',
+    brandKitLink: 'https://etherfi.notion.site/ether-fi-media-kit',
     logo: {
       icon: {
         light: [
@@ -2141,6 +2267,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'ethereum',
     name: 'Ethereum (ETH)',
+    brandKitLink: 'https://ethereum.org/assets/#brand',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -2160,6 +2287,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://falcon.finance',
+    brandKitLink: 'https://docs.falcon.finance/resources/brand-assets',
     logo: {
       icon: {
         light: [
@@ -2211,6 +2339,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://gala.com',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/1GMaNMUCyFq6SxQVFohK9SdsL78IrPb15?usp=drive_link',
     logo: {
       icon: {
         light: [
@@ -2228,6 +2358,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://gnosis.io',
+    brandKitLink: 'https://github.com/gnosischain/media-kit',
     logo: {
       icon: {
         light: [
@@ -2245,6 +2376,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens', 'exchanges'],
     websiteLink: 'https://hyperliquid.xyz',
+    brandKitLink: 'https://hyperliquid.gitbook.io/hyperliquid-docs/brand-kit',
     logo: {
       icon: {
         light: [
@@ -2262,6 +2394,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://integral.link',
+    brandKitLink: 'https://brandfetch.com/integral.link',
     logo: {
       icon: {
         light: [
@@ -2279,6 +2412,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.jito.network',
+    brandKitLink: 'https://brandfetch.com/jito.network',
     logo: {
       icon: {
         light: [
@@ -2296,6 +2430,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://layerzero.foundation',
+    brandKitLink:
+      'https://publicdocs.notion.site/LayerZero-Media-Kit-bd838df13f864a4b9f403c789c670d9a',
     logo: {
       icon: {
         light: [
@@ -2313,6 +2449,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'nft',
     secondaryCategories: [],
     websiteLink: 'https://www.pudgypenguins.com',
+    brandKitLink: 'https://media.pudgypenguins.com/brand-builders',
     logo: {
       icon: {
         light: [
@@ -2330,6 +2467,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://group.mantle.xyz',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/1ByNQpJ9RTat9valFheMN3vBF_fCt7qzx',
     logo: {
       icon: {
         light: [
@@ -2347,6 +2486,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.metaplex.com',
+    brandKitLink: 'https://brandfetch.com/metaplex.com',
     logo: {
       icon: {
         light: [
@@ -2381,6 +2521,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://sky.money',
+    brandKitLink:
+      'https://makerdao.notion.site/Maker-Brand-ac517c82ff9a43089d0db5bb2ee045a4',
     logo: {
       icon: {
         light: [
@@ -2395,6 +2537,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'sui',
     name: 'Sui (SUI)',
+    brandKitLink: 'https://live.standards.site/sui-media-kit',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -2414,6 +2557,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://thegraph.com',
+    brandKitLink: 'https://thegraph.com/brand/',
     logo: {
       icon: {
         light: [
@@ -2444,6 +2588,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'tron',
     name: 'Tron (TRX)',
+    brandKitLink: 'https://tron.network/resources/',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -2463,6 +2608,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.worldlibertyfinancial.com',
+    brandKitLink: 'https://worldlibertyfinancial.com/brand',
     logo: {
       icon: {
         light: [
@@ -2480,6 +2626,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://zksync.io',
+    brandKitLink: 'https://www.zksync.io/brand',
     logo: {
       icon: {
         light: [
@@ -2497,6 +2644,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://simpleswap.io',
+    brandKitLink: 'https://simpleswap.to/about.php#press-kit',
     logo: {
       icon: {
         light: [
@@ -2514,6 +2662,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://zora.co',
+    brandKitLink: 'https://brandfetch.com/zora.bg?view=library',
     logo: {
       icon: {
         light: [
@@ -2548,6 +2697,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: ['defi'],
     websiteLink: 'https://jup.ag',
+    brandKitLink:
+      'https://github.com/jup-ag/docs/raw/main/static/files/brand-kit/jupiter-brand-kit.zip',
     logo: {
       icon: {
         light: [
@@ -2565,6 +2716,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://www.fireblocks.com',
+    brandKitLink: 'https://www.fireblocks.com/brandkit',
     logo: {
       icon: {
         light: [
@@ -2599,6 +2751,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: ' https://de.fi',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/1K7urRSWuUUeaDT2LXRovvk6KNwGQ28GQ',
     logo: {
       icon: {
         light: [
@@ -2616,6 +2770,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://debank.com',
+    brandKitLink: 'https://github.com/DeBankDeFi/logo/tree/master/DeBank',
     logo: {
       icon: {
         light: [
@@ -2650,6 +2805,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://firstdigitallabs.com',
+    brandKitLink: 'https://www.firstdigitallabs.com/brand-assets',
     logo: {
       icon: {
         light: [
@@ -2667,6 +2823,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://globaldollar.com',
+    brandKitLink: 'https://globaldollar.com/brand',
     logo: {
       icon: {
         light: [
@@ -2684,6 +2841,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://makerdao.com',
+    brandKitLink:
+      'https://makerdao.notion.site/Maker-Brand-ac517c82ff9a43089d0db5bb2ee045a4',
     logo: {
       icon: {
         light: [
@@ -2701,6 +2860,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://www.paypal.com/pyusd',
+    brandKitLink:
+      'https://newsroom.paypal-corp.com/download/PayPal+Media+Assets+2025+%282%29.zip',
     logo: {
       icon: {
         light: [
@@ -2718,6 +2879,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://ripple.com/solutions/stablecoin',
+    brandKitLink: 'https://ripple.com/media-kit/',
     logo: {
       icon: {
         light: [
@@ -2735,6 +2897,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://www.circle.com/en/usdc',
+    brandKitLink: 'https://www.circle.com/pressroom#brandkit',
     logo: {
       icon: {
         light: [
@@ -2752,6 +2915,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://www.worldlibertyfinancial.com',
+    brandKitLink: 'https://worldlibertyfinancial.com/brand',
     logo: {
       icon: {
         light: [
@@ -2766,6 +2930,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'alchemy',
     name: 'Alchemy',
+    brandKitLink: 'https://www.alchemy.com/brand',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     logo: {
@@ -2782,6 +2947,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'alchemy-ventures',
     name: 'Alchemy Ventures',
+    brandKitLink: 'https://www.alchemy.com/brand',
     mainCategory: 'investors',
     secondaryCategories: [],
     logo: {
@@ -2801,6 +2967,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'crypto-banks',
     secondaryCategories: [],
     websiteLink: 'https://www.anchorage.com',
+    brandKitLink: 'https://www.anchorage.com/press-kit',
     logo: {
       icon: {
         light: [
@@ -2818,6 +2985,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.angle.money',
+    brandKitLink: 'https://github.com/AngleProtocol/angle-assets',
     logo: {
       icon: {
         light: [
@@ -2940,6 +3108,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.cyfrin.io',
+    brandKitLink: 'https://www.cyfrin.io/branding',
     logo: {
       icon: {
         light: [
@@ -2957,6 +3126,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://curve.fi',
+    brandKitLink: 'https://resources.curve.finance/glossary-branding/branding/',
     logo: {
       icon: {
         light: [
@@ -2995,6 +3165,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://cryptoapis.io',
+    brandKitLink: 'https://brandfetch.com/cryptoapis.io',
     logo: {
       icon: {
         light: [
@@ -3012,6 +3183,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'payments',
     secondaryCategories: [],
     websiteLink: 'https://www.crossmint.io',
+    brandKitLink:
+      'https://crossmint.notion.site/Crossmint-Brand-Assets-4c70854d2aec477789e3868b9390d3f2',
     logo: {
       icon: {
         light: [
@@ -3033,6 +3206,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://swap.cow.fi',
+    brandKitLink:
+      'https://cownation.notion.site/CoW-DAO-Brand-Kit-dad6212f182f49d38683e8410bfb37d2',
     logo: {
       icon: {
         light: [
@@ -3050,6 +3225,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.convexfinance.com',
+    brandKitLink:
+      'https://docs.convexfinance.com/convexfinanceintegration/convex-branding',
     logo: {
       icon: {
         light: [
@@ -3084,6 +3261,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://www.euler.finance',
+    brandKitLink: 'https://www.euler.finance/branding/Euler_Brand_Assets.zip',
     logo: {
       icon: {
         light: [
@@ -3118,6 +3296,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.coingecko.com/en/api',
+    brandKitLink: 'https://brand.coingecko.com/resources/brand-kit',
     logo: {
       icon: {
         light: [
@@ -3135,6 +3314,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://www.coinbase.com',
+    brandKitLink: 'https://www.coinbase.com/en-fr/press',
     logo: {
       icon: {
         light: [
@@ -3152,6 +3332,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://code4rena.com',
+    brandKitLink: 'https://github.com/code-423n4/media-kit',
     logo: {
       icon: {
         light: [
@@ -3186,6 +3367,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://chain.link',
+    brandKitLink: 'https://chain.link/brand-assets',
     logo: {
       icon: {
         light: [
@@ -3203,6 +3385,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.chainalysis.com',
+    brandKitLink: 'https://www.chainalysis.com/press/',
     logo: {
       icon: {
         light: [
@@ -3220,6 +3403,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.certik.com',
+    brandKitLink: 'https://www.certik.com/company/about',
     logo: {
       icon: {
         light: [
@@ -3237,6 +3421,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.celestia.org',
+    brandKitLink:
+      'https://company-223625.frontify.com/d/JoSwaZS4Mjpj/guidelines#/basics/logos',
     logo: {
       icon: {
         light: [
@@ -3254,6 +3440,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: [],
     websiteLink: 'https://www.bnbchain.org',
+    brandKitLink: 'https://www.bnbchain.org/en/brand-guidelines',
     logo: {
       icon: {
         light: [
@@ -3271,6 +3458,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://blur.io',
+    brandKitLink: 'https://docs.blur.foundation/brand-assets',
     logo: {
       icon: {
         light: [
@@ -3288,6 +3476,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://blast.io/en',
+    brandKitLink: 'https://brandkit.blast.io/',
     logo: {
       icon: {
         light: [
@@ -3305,6 +3494,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'payments',
     secondaryCategories: [],
     websiteLink: 'https://bitpay.com',
+    brandKitLink:
+      'https://drive.usercontent.google.com/download?id=1kjok0Pta78dWGoQYdNpW-dz5dJs7EB_g&export=download&authuser=0',
     logo: {
       icon: {
         light: [
@@ -3322,6 +3513,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://www.bitget.com',
+    brandKitLink: 'https://www.bitget.com/en-CA/media-kit',
     logo: {
       icon: {
         light: [
@@ -3339,6 +3531,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://www.binance.us/en',
+    brandKitLink: 'https://brandfetch.com/binance.us',
     logo: {
       icon: {
         light: [
@@ -3356,6 +3549,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://beefy.com',
+    brandKitLink: 'https://beefy.com/media-kit/',
     logo: {
       icon: {
         light: [
@@ -3373,6 +3567,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://www.backpack.app',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/1aUyUTIJT2N1Z4IggWQauBoeM6uVJzTzZ',
     logo: {
       icon: {
         light: [
@@ -3390,6 +3586,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://axelar.network',
+    brandKitLink: 'https://brandfetch.com/axelar.network',
     logo: {
       icon: {
         light: [
@@ -3407,6 +3604,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://axieinfinity.com',
+    brandKitLink:
+      'https://skymavis.notion.site/Axie-Ronin-Media-Kit-114c48ae3fdd80a39b6ecc0950ea19d0',
     logo: {
       icon: {
         light: [
@@ -3424,6 +3623,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.arweave.org',
+    brandKitLink: 'https://www.arweave.org/brand-kit',
     logo: {
       icon: {
         light: [
@@ -3476,6 +3676,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://tether.to',
+    brandKitLink: 'https://tether.to/en/media',
     logo: {
       icon: {
         light: [
@@ -3493,6 +3694,8 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://multisender.app',
+    brandKitLink:
+      'https://static.multisender.app/brandkit/multisender-brand-assets.zip',
     logo: {
       icon: {
         light: [
