@@ -60,7 +60,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'aptos',
     name: 'Aptos (APT)',
-    symbol: 'APT',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -77,7 +76,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'arbitrum',
     name: 'Arbitrum (ARB)',
-    symbol: 'ARB',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://arbitrum.foundation',
@@ -95,7 +93,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'bitcoin',
     name: 'Bitcoin (BTC)',
-    symbol: 'BTC',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -112,7 +109,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'hedera',
     name: 'Hedera (HBAR)',
-    symbol: 'HBAR',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -129,7 +125,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'optimism-ethereum',
     name: 'Optimism (OP)',
-    symbol: 'OP',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.optimism.io',
@@ -301,7 +296,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'ethereum-name-service',
     name: 'Ethereum Name Service (ENS)',
-    symbol: 'ENS',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['nft'],
     websiteLink: 'https://ens.domains',
@@ -387,7 +381,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'gmx',
     name: 'GMX',
-    symbol: 'GMX',
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://gmx.io',
@@ -1234,7 +1227,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'uniswap',
     name: 'Uniswap (UNI)',
-    symbol: 'UNI',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://uniswap.org/blog/uni',
@@ -1355,7 +1347,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'merlin-chain',
     name: 'Merlin Chain (MERL)',
-    symbol: 'MERL',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://merlinchain.io',
@@ -1463,7 +1454,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'iota',
     name: 'IOTA',
-    symbol: 'IOTA',
     mainCategory: 'chains',
     secondaryCategories: [],
     logo: {
@@ -1480,7 +1470,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'ondo-finance',
     name: 'Ondo',
-    symbol: 'ONDO',
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://ondo.foundation',
@@ -1498,7 +1487,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'pendle',
     name: 'Pendle',
-    symbol: 'PENDLE',
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://pendle.finance',
@@ -1825,7 +1813,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'nft_eth_0xed5af388653567af2f388e6224dc7c4b3241c544',
     name: 'Azuki (AZUKI)',
-    symbol: 'AZUKI',
     mainCategory: 'nft',
     secondaryCategories: [],
     websiteLink: 'http://www.azuki.com',
@@ -1843,7 +1830,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'nft_eth_0x282bdd42f4eb70e7a9d9f40c8fea0825b7f68c5d',
     name: 'CryptoPunks V1',
-    symbol: 'WPV1',
     mainCategory: 'nft',
     secondaryCategories: [],
     websiteLink: 'https://www.v1punks.io',
@@ -1861,7 +1847,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'nft_eth_0x8a90cab2b38dba80c64b7734e58ee1db38b8992e',
     name: 'Doodles (DOODLE)',
-    symbol: 'DOODLE',
     mainCategory: 'nft',
     secondaryCategories: [],
     websiteLink: 'https://www.doodles.app',
@@ -1952,7 +1937,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'astar',
     name: 'Astar (ASTR)',
-    symbol: 'ASTR',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens', 'chains'],
     websiteLink: 'https://astar.network',
@@ -1970,7 +1954,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'aster',
     name: 'Aster',
-    symbol: 'ASTER',
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.asterdex.com',
@@ -1988,7 +1971,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'basic-attention-token',
     name: 'Basic Attention Token (BAT)',
-    symbol: 'BAT',
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://basicattentiontoken.org',
@@ -2006,7 +1988,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'onbeam',
     name: 'Beam (BEAM)',
-    symbol: 'BEAM',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.onbeam.com',
@@ -2024,7 +2005,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'berachain',
     name: 'Berachain (BERA)',
-    symbol: 'BERA',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://berachain.com',
@@ -2042,7 +2022,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'bittensor',
     name: 'Bittensor (TAO)',
-    symbol: 'TAO',
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://bittensor.com',
@@ -2060,7 +2039,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'cardano',
     name: 'Cardano (ADA)',
-    symbol: 'ADA',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -2077,7 +2055,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'cow-protocol',
     name: 'CoW Protocol (COW)',
-    symbol: 'COW',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://cow.fi',
@@ -2095,7 +2072,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'nft_eth_0x06012c8cf97bead5deae237070f9587f8e7a266d',
     name: 'CryptoKitties (CKITTY)',
-    symbol: 'CKITTY',
     mainCategory: 'nft',
     secondaryCategories: [],
     websiteLink: 'https://www.cryptokitties.co',
@@ -2113,7 +2089,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'dogwifhat',
     name: 'dogwifhat (WIF)',
-    symbol: 'WIF',
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://dogwifhat.us',
@@ -2131,7 +2106,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'eigencloud',
     name: 'Eigen Layer (EIGEN)',
-    symbol: 'EIGEN',
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.eigenlayer.xyz',
@@ -2166,7 +2140,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'ether-fi-ethfi',
     name: 'ether.fi (ETHFI)',
-    symbol: 'ETHFI',
     mainCategory: 'defi',
     secondaryCategories: ['crypto-banks', 'tokens'],
     websiteLink: 'https://www.ether.fi',
@@ -2200,7 +2173,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'falcon-finance-ff',
     name: 'Falcon Finance (FF)',
-    symbol: 'FF',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://falcon.finance',
@@ -2218,7 +2190,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'fartcoin',
     name: 'Fartcoin',
-    symbol: 'FARTCOIN',
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://fart.dev',
@@ -2236,7 +2207,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'floki-inu',
     name: 'FLOKI',
-    symbol: 'FLOKI',
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://floki.com',
@@ -2254,7 +2224,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'gala',
     name: 'Gala (GALA)',
-    symbol: 'GALA',
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://gala.com',
@@ -2272,7 +2241,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'gnosis-gno',
     name: 'Gnosis (GNO)',
-    symbol: 'GNO',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://gnosis.io',
@@ -2290,7 +2258,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'hyperliquid',
     name: 'Hyperliquid (HYPE)',
-    symbol: 'HYPE',
     mainCategory: 'chains',
     secondaryCategories: ['tokens', 'exchanges'],
     websiteLink: 'https://hyperliquid.xyz',
@@ -2308,7 +2275,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'integral',
     name: 'Integral (ITGR)',
-    symbol: 'ITGR',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://integral.link',
@@ -2326,7 +2292,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'jito',
     name: 'Jito (JTO)',
-    symbol: 'JTO',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.jito.network',
@@ -2344,7 +2309,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'layerzero',
     name: 'LayerZero (ZRO)',
-    symbol: 'ZRO',
     mainCategory: 'chains',
     secondaryCategories: ['tokens', 'infrastructure-tools'],
     websiteLink: 'https://layerzero.foundation',
@@ -2362,7 +2326,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'nft_eth_0x524cab2ec69124574082676e6f654a18df49a048',
     name: 'Lil Pudgys (LP)',
-    symbol: 'LP',
     mainCategory: 'nft',
     secondaryCategories: [],
     websiteLink: 'https://www.pudgypenguins.com',
@@ -2380,7 +2343,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'mantle',
     name: 'Mantle (MNT)',
-    symbol: 'MNT',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://group.mantle.xyz',
@@ -2398,7 +2360,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'metaplex',
     name: 'Metaplex (MPLX)',
-    symbol: 'MPLX',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.metaplex.com',
@@ -2416,7 +2377,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'shiba-inu',
     name: 'Shiba Inu (SHIB)',
-    symbol: 'SHIB',
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://shibatoken.com',
@@ -2434,7 +2394,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'sky',
     name: 'Sky (SKY)',
-    symbol: 'SKY',
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://sky.money',
@@ -2452,7 +2411,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'sui',
     name: 'Sui (SUI)',
-    symbol: 'SUI',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -2502,7 +2460,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'tron',
     name: 'Tron (TRX)',
-    symbol: 'TRX',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     logo: {
@@ -2519,7 +2476,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'world-liberty-financial-wlfi',
     name: 'World Liberty Financial (WLFI)',
-    symbol: 'WLFI',
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.worldlibertyfinancial.com',
@@ -2690,7 +2646,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'euro-coin',
     name: 'EURC',
-    symbol: 'EURC',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://www.circle.com',
@@ -2708,7 +2663,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'first-digital-usd',
     name: 'First Digital USD (FDUSD)',
-    symbol: 'FDUSD',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://firstdigitallabs.com',
@@ -2726,7 +2680,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'global-dollar-usdg',
     name: 'Global Dollar (USDG)',
-    symbol: 'USDG',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://globaldollar.com',
@@ -2744,7 +2697,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'dai',
     name: 'Dai (DAI)',
-    symbol: 'DAI',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://makerdao.com',
@@ -2762,7 +2714,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'paypal-usd',
     name: 'PayPal USD (PYUSD)',
-    symbol: 'PYUSD',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://www.paypal.com/pyusd',
@@ -2780,7 +2731,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'ripple-usd',
     name: 'Ripple USD (RLUSD)',
-    symbol: 'RLUSD',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://ripple.com/solutions/stablecoin',
@@ -2798,7 +2748,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'usdc',
     name: 'USDC',
-    symbol: 'USDC',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://www.circle.com/en/usdc',
@@ -2816,7 +2765,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'usd1',
     name: 'World Liberty Financial USD (USD1)',
-    symbol: 'USD1',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://www.worldlibertyfinancial.com',
@@ -2883,7 +2831,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'angle',
     name: 'Angle (ANGLE)',
-    symbol: 'ANGLE',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.angle.money',
@@ -2901,7 +2848,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'aave',
     name: 'Aave (AAVE)',
-    symbol: 'AAVE',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://aave.com',
@@ -2973,7 +2919,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'aragon',
     name: 'Aragon (ANT)',
-    symbol: 'ANT',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://aragon.org',
@@ -3118,7 +3063,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'convex-finance',
     name: 'Convex Finance (CVX)',
-    symbol: 'CVX',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.convexfinance.com',
@@ -3136,7 +3080,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'compound',
     name: 'Compound (COMP)',
-    symbol: 'COMP',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://compound.finance',
@@ -3256,7 +3199,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'chainlink',
     name: 'Chainlink (LINK)',
-    symbol: 'LINK',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://chain.link',
@@ -3308,7 +3250,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'celestia',
     name: 'Celestia (TIA)',
-    symbol: 'TIA',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.celestia.org',
@@ -3360,7 +3301,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'blast',
     name: 'Blast (BLAST)',
-    symbol: 'BLAST',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://blast.io/en',
@@ -3429,7 +3369,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'beefy-finance',
     name: 'Beefy (BIFI)',
-    symbol: 'BIFI',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://beefy.com',
@@ -3464,7 +3403,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'axelar',
     name: 'Axelar (AXL)',
-    symbol: 'AXL',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://axelar.network',
@@ -3482,7 +3420,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'axie-infinity',
     name: 'Axie Infinity (AXS)',
-    symbol: 'AXS',
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://axieinfinity.com',
@@ -3518,7 +3455,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'trueusd',
     name: 'TrueUSD (TUSD)',
-    symbol: 'TUSD',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://tusd.io',
@@ -3536,7 +3472,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'usdd',
     name: 'Decentralized USD (USDD)',
-    symbol: 'USDD',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://usdd.io',
@@ -3554,7 +3489,6 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'usdt',
     name: 'Tether USD (USDT)',
-    symbol: 'USDT',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://tether.to',

@@ -95,11 +95,10 @@ export default function ApiDocsPage() {
                       Introduction
                     </h2>
                     <p className="mb-6 text-neutral-600 dark:text-neutral-400">
-                      The Crypto Logos API provides access to 576+
-                      cryptocurrency and blockchain project logos in SVG format.
-                      This RESTful API allows you to fetch logos, filter by
-                      category, search by name, and retrieve category
-                      information.
+                      The Crypto Logos API provides access to the major
+                      cryptocurrency and blockchain project logos. This RESTful
+                      API allows you to fetch logos, filter by category, search
+                      by name, and retrieve category information.
                     </p>
 
                     {/* Base URL */}
@@ -232,8 +231,8 @@ export default function ApiDocsPage() {
                           specific results
                         </li>
                         <li>
-                          The API returns SVG URLs that can be directly used in
-                          your application
+                          The API returns image URLs that can be directly used
+                          in your application
                         </li>
                         <li>
                           Responses include both light and dark variants when
