@@ -10,7 +10,8 @@
     "serve": "next build; next start",
     "lint": "eslint",
     "format": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "clean-logos": "tsx scripts/clean-unused-logos.ts"
   },
   "dependencies": {
     "@next/third-parties": "^16.1.4",
