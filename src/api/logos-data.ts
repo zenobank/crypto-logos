@@ -3707,4 +3707,1639 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'lyra',
+    name: 'Lyra',
+    mainCategory: 'payments',
+    secondaryCategories: ['defi', 'services', 'nft'],
+    websiteLink: 'https://paywithlyra.com/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lyra_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lyra_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/lyra_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lyra_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'infinite',
+    name: 'Infinite',
+    mainCategory: 'stablecoins',
+    secondaryCategories: ['payments', 'infrastructure-tools'],
+    websiteLink: 'https://infinite.dev',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/infinite_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/infinite_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/infinite_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/infinite_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'helicarrier-prev-buycoins',
+    name: 'Helicarrier (prev Buycoins)',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: ['payments', 'exchanges', 'defi'],
+    websiteLink: 'https://helicarrier.studio',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/helicarrier-prev-buycoins_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/helicarrier-prev-buycoins_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/helicarrier-prev-buycoins_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/helicarrier-prev-buycoins_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quantstamp',
+    name: 'Quantstamp',
+    mainCategory: 'services',
+    secondaryCategories: ['infrastructure-tools'],
+    websiteLink: 'https://quantstamp.com',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quantstamp_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/quantstamp_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/quantstamp_text.txt',
+            format: 'txt',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/quantstamp_text.txt',
+            format: 'txt',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'request-network',
+    name: 'Request Network',
+    mainCategory: 'payments',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://request.network',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/request-network_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/request-network_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/request-network_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/request-network_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coco-wallet',
+    name: 'Coco Wallet',
+    mainCategory: 'wallets',
+    secondaryCategories: ['payments', 'defi'],
+    websiteLink: 'https://cocowallet.app',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coco-wallet_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/coco-wallet_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/coco-wallet_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/coco-wallet_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sfox',
+    name: 'SFOX',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: ['services'],
+    websiteLink: 'https://sfox.com',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sfox_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sfox_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/sfox_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sfox_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ruvo',
+    name: 'Ruvo',
+    mainCategory: 'defi',
+    secondaryCategories: ['payments', 'crypto-banks'],
+    websiteLink: 'https://ruvo.com/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ruvo_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ruvo_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/ruvo_text.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ruvo_text.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blindpay',
+    name: 'BlindPay',
+    mainCategory: 'payments',
+    secondaryCategories: ['services', 'defi'],
+    websiteLink: 'https://blindpay.com/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blindpay_icon.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/blindpay_icon.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/blindpay_text.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/blindpay_text.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'axiom',
+    name: 'Axiom',
+    mainCategory: 'defi',
+    secondaryCategories: ['services', 'payments'],
+    websiteLink: 'https://axiom.trade',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/axiom_icon.jpg',
+            format: 'jpg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/axiom_icon.jpg',
+            format: 'jpg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/axiom_text.jpg',
+            format: 'jpg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/axiom_text.jpg',
+            format: 'jpg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blaze',
+    name: 'Blaze',
+    mainCategory: 'payments',
+    secondaryCategories: ['services', 'defi'],
+    websiteLink: 'https://blaze.money',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blaze_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/blaze_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/blaze_text.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/blaze_text.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polar',
+    name: 'Polar',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: ['payments', 'investors', 'defi'],
+    websiteLink: 'https://www.polarfi.com',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polar_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/polar_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/polar_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/polar_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'theya',
+    name: 'Theya',
+    mainCategory: 'defi',
+    secondaryCategories: ['wallets', 'payments', 'crypto-banks'],
+    websiteLink: 'https://www.theya.us/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/theya_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/theya_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/theya_text.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/theya_text.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'littio',
+    name: 'Littio',
+    mainCategory: 'defi',
+    secondaryCategories: ['payments'],
+    websiteLink: 'https://www.littio.co/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/littio_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/littio_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/littio_text.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/littio_text.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'koywe',
+    name: 'Koywe',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: ['services', 'payments'],
+    websiteLink: 'https://koywe.com',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/koywe_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/koywe_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/koywe_text.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/koywe_text.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'primevault',
+    name: 'PrimeVault',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: ['payments', 'defi'],
+    websiteLink: 'https://www.primevault.com',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/primevault_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/primevault_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/primevault_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/primevault_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hype',
+    name: 'Hype',
+    mainCategory: 'defi',
+    secondaryCategories: ['payments', 'tokens'],
+    websiteLink: 'https://www.hype.meme/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hype_icon',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hype_icon',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/hype_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hype_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rio',
+    name: 'Rio',
+    mainCategory: 'defi',
+    secondaryCategories: ['payments', 'services'],
+    websiteLink: 'https://www.rio.trade',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rio_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/rio_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/rio_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/rio_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cypher',
+    name: 'Cypher',
+    mainCategory: 'defi',
+    secondaryCategories: ['payments'],
+    websiteLink: 'https://cypherhq.io/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cypher_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/cypher_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/cypher_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/cypher_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pluto-markets',
+    name: 'Pluto.markets',
+    mainCategory: 'defi',
+    secondaryCategories: ['payments'],
+    websiteLink: 'https://pluto.markets/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pluto-markets_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pluto-markets_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/pluto-markets_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pluto-markets_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinrule',
+    name: 'Coinrule',
+    mainCategory: 'defi',
+    secondaryCategories: ['services'],
+    websiteLink: 'https://coinrule.com/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinrule_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/coinrule_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/coinrule_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/coinrule_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dolarapp',
+    name: 'DolarApp',
+    mainCategory: 'payments',
+    secondaryCategories: ['services', 'defi'],
+    websiteLink: 'https://www.dolarapp.com/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dolarapp_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dolarapp_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/dolarapp_text.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dolarapp_text.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flux-2',
+    name: 'Flux',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://iflux.app',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flux-2_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/flux-2_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/flux-2_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/flux-2_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'camp',
+    name: 'Camp',
+    mainCategory: 'defi',
+    secondaryCategories: ['infrastructure-tools', 'services'],
+    websiteLink: 'https://nouns.camp',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/camp_icon.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/camp_icon.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/camp_text.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/camp_text.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rainbow',
+    name: 'Rainbow',
+    mainCategory: 'defi',
+    secondaryCategories: ['wallets'],
+    websiteLink: 'https://rainbow.me',
+    brandKitLink:
+      'https://www.figma.com/community/file/1139300796265858893/rainbow-brand-assets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rainbow_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/rainbow_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/rainbow_text.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/rainbow_text.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mudrex',
+    name: 'Mudrex',
+    mainCategory: 'defi',
+    secondaryCategories: ['payments'],
+    websiteLink: 'https://mudrex.com',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mudrex_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mudrex_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/mudrex_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mudrex_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orthogonal',
+    name: 'Orthogonal',
+    mainCategory: 'payments',
+    secondaryCategories: ['infrastructure-tools', 'defi'],
+    websiteLink: 'https://www.orthogonal.com/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orthogonal_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/orthogonal_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/orthogonal_text.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/orthogonal_text.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tokenowl',
+    name: 'TokenOwl',
+    mainCategory: 'defi',
+    secondaryCategories: ['services'],
+    websiteLink: 'https://www.tokenowl.ai/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tokenowl_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tokenowl_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/tokenowl_text',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tokenowl_text',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'poko',
+    name: 'Poko',
+    mainCategory: 'payments',
+    secondaryCategories: ['defi', 'infrastructure-tools', 'services'],
+    websiteLink: 'https://www.pokoapp.xyz',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/poko_icon.jpg',
+            format: 'jpg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/poko_icon.jpg',
+            format: 'jpg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/poko_text.jpg',
+            format: 'jpg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/poko_text.jpg',
+            format: 'jpg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'filta',
+    name: 'Filta',
+    mainCategory: 'nft',
+    secondaryCategories: ['services'],
+    websiteLink: 'http://www.getfilta.com',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/filta_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/filta_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/filta_text.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/filta_text.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lootrush',
+    name: 'LootRush',
+    mainCategory: 'defi',
+    secondaryCategories: ['nft', 'services'],
+    websiteLink: 'https://www.lootrush.com',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lootrush_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lootrush_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/lootrush_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lootrush_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethosx',
+    name: 'EthosX',
+    mainCategory: 'defi',
+    secondaryCategories: ['services', 'tokens'],
+    websiteLink: 'https://www.ethosx.finance/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethosx_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ethosx_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/ethosx_text.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ethosx_text.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'upbanx',
+    name: 'UpBanx',
+    mainCategory: 'services',
+    secondaryCategories: ['crypto-banks', 'payments'],
+    websiteLink: 'https://www.ycombinator.com/companies/upbanx',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/upbanx_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/upbanx_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/upbanx_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/upbanx_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hypertrader',
+    name: 'HyperTrader',
+    mainCategory: 'exchanges',
+    secondaryCategories: ['services'],
+    websiteLink: 'https://gethypertrader.com',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hypertrader_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hypertrader_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/hypertrader_text.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hypertrader_text.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cointracker',
+    name: 'CoinTracker',
+    mainCategory: 'defi',
+    secondaryCategories: ['wallets', 'services'],
+    websiteLink: 'https://www.cointracker.io',
+    brandKitLink: 'https://brand.cointracker.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cointracker_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/cointracker_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/cointracker_text.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/cointracker_text.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hedgehog',
+    name: 'Hedgehog',
+    mainCategory: 'defi',
+    secondaryCategories: ['services', 'crypto-banks'],
+    websiteLink: 'https://hedgehog.app',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hedgehog_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hedgehog_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/hedgehog_text.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hedgehog_text.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'karsa',
+    name: 'Karsa',
+    mainCategory: 'stablecoins',
+    secondaryCategories: ['payments', 'defi', 'services'],
+    websiteLink: 'https://gokarsa.com/',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/karsa_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/karsa_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/karsa_text.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/karsa_text.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quicknode',
+    name: 'Quicknode',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: ['defi', 'services'],
+    websiteLink: 'https://www.quicknode.com',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quicknode_icon.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/quicknode_icon.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/quicknode_text.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/quicknode_text.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'payfura',
+    name: 'Payfura',
+    mainCategory: 'payments',
+    secondaryCategories: ['defi', 'services'],
+    websiteLink: 'https://www.payfura.com',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/payfura_icon.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/payfura_icon.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/payfura_text.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/payfura_text.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidroad',
+    name: 'Solidroad',
+    mainCategory: 'services',
+    secondaryCategories: [],
+    websiteLink: 'https://solidroad.com',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidroad_icon',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/solidroad_icon',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/solidroad_text',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/solidroad_text',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rainmaker',
+    name: 'Rainmaker',
+    mainCategory: 'defi',
+    secondaryCategories: ['wallets'],
+    websiteLink: 'https://www.rainmaker.nyc',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rainmaker_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/rainmaker_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/rainmaker_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/rainmaker_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'globe',
+    name: 'Globe',
+    mainCategory: 'defi',
+    secondaryCategories: ['services'],
+    websiteLink: 'https://globe.exchange',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/globe_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/globe_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/globe_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/globe_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tranch',
+    name: 'Tranch',
+    mainCategory: 'payments',
+    secondaryCategories: ['services'],
+    websiteLink: 'https://www.tranch.com',
+    brandKitLink: 'not found',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tranch_icon.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tranch_icon.webp',
+            format: 'webp',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/tranch_text.webp',
+            format: 'webp',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tranch_text.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
 ];
