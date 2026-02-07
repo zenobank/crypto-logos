@@ -31,22 +31,17 @@ pnpm install
 pnpm dev
 ```
 
-5. Add your SVG file (or use a direct SVG URL).  
-   You have two options for providing the SVG:
+5. Add your logo file
 
-- Option A — Add the .svg file into the repository:  
-  Put your file into: [**`public/library`**](https://github.com/zenobank/crypto-logos/tree/main/public/library).  
-  Example: [**`public/library/logo.svg`**](https://github.com/zenobank/crypto-logos/tree/main/public/library).
+Add the .svg/.png files into the repository:  
+ Put your file into: [**`public/library`**](https://github.com/zenobank/crypto-logos/tree/main/public/library).  
+ Example: [**`public/library/logo.svg`**](https://github.com/zenobank/crypto-logos/tree/main/public/library).
 
 > [!WARNING]
 >
 > - Remember to optimize SVG for web, you can use [SVGOMG](https://jakearchibald.github.io/svgomg/).
 > - When you optimize the SVG, make sure that the `viewBox` is not removed.
 > - The size limit for each .svg is **21kb**.
-
-- Option B — Use an external SVG link:  
-  If you already host the SVG somewhere reliable (CDN / official source), you can keep the logo as a URL in the data file.  
-  This is useful when you don’t want to commit the SVG file into the repo, but keep in mind external links can break later.
 
 6. Add logo metadata (follow the [**`LogoItem`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/models/logos/logo-item.ts) model).  
    Go to the [**`src/api/logos-data.ts`**](https://github.com/zenobank/crypto-logos/tree/main/src/api/logos-data.ts) and add the information about your logo, following the structure.  
