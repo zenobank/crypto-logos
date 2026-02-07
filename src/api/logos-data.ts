@@ -3711,7 +3711,6 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
-  // tronscan
   {
     id: 'tronscan',
     name: 'Tronscan',
@@ -3799,6 +3798,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'etherscan',
     name: 'Etherscan',
+    websiteLink: 'https://etherscan.io',
     brandKitLink: 'https://etherscan.io/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -3852,6 +3852,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'bscscan',
     name: 'Bscscan',
+    websiteLink: 'https://bscscan.com',
     brandKitLink: 'https://bscscan.com/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -3905,6 +3906,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'polygonscan',
     name: 'Polygonscan',
+    websiteLink: 'https://polygonscan.com',
     brandKitLink: 'https://polygonscan.com/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -3958,6 +3960,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'basescan',
     name: 'Basescan',
+    websiteLink: 'https://basescan.org',
     brandKitLink: 'https://basescan.org/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4011,6 +4014,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'arbiscan',
     name: 'Arbiscan',
+    websiteLink: 'https://arbiscan.io',
     brandKitLink: 'https://arbiscan.io/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4064,6 +4068,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'lineascan',
     name: 'Lineascan',
+    websiteLink: 'https://lineascan.build',
     brandKitLink: 'https://lineascan.build/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4117,6 +4122,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'blastscan',
     name: 'Blastscan',
+    websiteLink: 'https://blastscan.io',
     brandKitLink: 'https://blastscan.io/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4170,6 +4176,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'optimistic',
     name: 'Optimistic',
+    websiteLink: 'https://optimistic.etherscan.io',
     brandKitLink: 'https://optimistic.etherscan.io/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4223,6 +4230,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'bttcscan',
     name: 'Bttcscan',
+    websiteLink: 'https://bttcscan.com',
     brandKitLink: 'https://bttcscan.com/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4276,6 +4284,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'celoscan',
     name: 'Celoscan',
+    websiteLink: 'https://celoscan.io',
     brandKitLink: 'https://celoscan.io/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4329,6 +4338,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'fraxscan',
     name: 'Fraxscan',
+    websiteLink: 'https://fraxscan.com',
     brandKitLink: 'https://fraxscan.com/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4382,6 +4392,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'gnosisscan',
     name: 'Gnosisscan',
+    websiteLink: 'https://gnosisscan.io',
     brandKitLink: 'https://gnosisscan.io/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4435,6 +4446,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'mantlescan',
     name: 'Mantlescan',
+    websiteLink: 'https://mantlescan.xyz',
     brandKitLink: 'https://mantlescan.xyz/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4488,6 +4500,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'moonbeam',
     name: 'Moonbeam',
+    websiteLink: 'https://moonbeam.moonscan.io',
     brandKitLink: 'https://moonbeam.moonscan.io/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4541,6 +4554,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'moonriver',
     name: 'Moonriver',
+    websiteLink: 'https://moonriver.moonscan.io',
     brandKitLink: 'https://moonriver.moonscan.io/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4594,6 +4608,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'opbnb',
     name: 'Opbnb',
+    websiteLink: 'https://opbnb.bscscan.com',
     brandKitLink: 'https://opbnb.bscscan.com/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4647,6 +4662,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'scrollscan',
     name: 'Scrollscan',
+    websiteLink: 'https://scrollscan.com',
     brandKitLink: 'https://scrollscan.com/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4700,6 +4716,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'taikoscan',
     name: 'Taikoscan',
+    websiteLink: 'https://taikoscan.io',
     brandKitLink: 'https://taikoscan.io/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4753,6 +4770,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'apescan',
     name: 'Apescan',
+    websiteLink: 'https://apescan.io',
     brandKitLink: 'https://apescan.io/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4806,6 +4824,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'sonicscan',
     name: 'Sonicscan',
+    websiteLink: 'https://sonicscan.org',
     brandKitLink: 'https://sonicscan.org/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4859,6 +4878,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'hyperevmscan',
     name: 'Hyperevmscan',
+    websiteLink: 'https://hyperevmscan.io',
     brandKitLink: 'https://hyperevmscan.io/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
@@ -4912,6 +4932,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'seiscan',
     name: 'Seiscan',
+    websiteLink: 'https://seiscan.io',
     brandKitLink: 'https://seiscan.io/brandassets',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
