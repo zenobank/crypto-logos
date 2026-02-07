@@ -3034,21 +3034,21 @@ export const LOGOS_DATA: LogoItem[] = [
       text: {
         light: [
           {
-            url: '/library/aave-Logo-dark.png',
+            url: '/library/aave-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/aave-Logo-dark.svg',
+            url: '/library/aave-icon-dark.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/aave-Logo-light.png',
+            url: '/library/aave-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/aave-Logo-light.svg',
+            url: '/library/aave-icon-light.svg',
             format: 'svg',
           },
         ],
@@ -3806,21 +3806,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/etherscan-logo-light.png',
+            url: '/library/etherscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/etherscan-logo-light.svg',
+            url: '/library/etherscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/etherscan-logo-dark.png',
+            url: '/library/etherscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/etherscan-logo-dark.svg',
+            url: '/library/etherscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -3859,21 +3859,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/bscscan-logo-light.png',
+            url: '/library/bscscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/bscscan-logo-light.svg',
+            url: '/library/bscscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/bscscan-logo-dark.png',
+            url: '/library/bscscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/bscscan-logo-dark.svg',
+            url: '/library/bscscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -3912,21 +3912,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/polygonscan-logo-light.png',
+            url: '/library/polygonscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/polygonscan-logo-light.svg',
+            url: '/library/polygonscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/polygonscan-logo-dark.png',
+            url: '/library/polygonscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/polygonscan-logo-dark.svg',
+            url: '/library/polygonscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -3965,21 +3965,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/basescan-logo-light.png',
+            url: '/library/basescan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/basescan-logo-light.svg',
+            url: '/library/basescan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/basescan-logo-dark.png',
+            url: '/library/basescan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/basescan-logo-dark.svg',
+            url: '/library/basescan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4018,21 +4018,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/arbiscan-logo-light.png',
+            url: '/library/arbiscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/arbiscan-logo-light.svg',
+            url: '/library/arbiscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/arbiscan-logo-dark.png',
+            url: '/library/arbiscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/arbiscan-logo-dark.svg',
+            url: '/library/arbiscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4071,21 +4071,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/lineascan-logo-light.png',
+            url: '/library/lineascan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/lineascan-logo-light.svg',
+            url: '/library/lineascan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/lineascan-logo-dark.png',
+            url: '/library/lineascan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/lineascan-logo-dark.svg',
+            url: '/library/lineascan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4124,21 +4124,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/blastscan-logo-light.png',
+            url: '/library/blastscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/blastscan-logo-light.svg',
+            url: '/library/blastscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/blastscan-logo-dark.png',
+            url: '/library/blastscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/blastscan-logo-dark.svg',
+            url: '/library/blastscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4177,21 +4177,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/optimistic-logo-light.png',
+            url: '/library/optimistic-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/optimistic-logo-light.svg',
+            url: '/library/optimistic-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/optimistic-logo-dark.png',
+            url: '/library/optimistic-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/optimistic-logo-dark.svg',
+            url: '/library/optimistic-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4230,21 +4230,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/bttcscan-logo-light.png',
+            url: '/library/bttcscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/bttcscan-logo-light.svg',
+            url: '/library/bttcscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/bttcscan-logo-dark.png',
+            url: '/library/bttcscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/bttcscan-logo-dark.svg',
+            url: '/library/bttcscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4283,21 +4283,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/celoscan-logo-light.png',
+            url: '/library/celoscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/celoscan-logo-light.svg',
+            url: '/library/celoscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/celoscan-logo-dark.png',
+            url: '/library/celoscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/celoscan-logo-dark.svg',
+            url: '/library/celoscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4336,21 +4336,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/fraxscan-logo-light.png',
+            url: '/library/fraxscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/fraxscan-logo-light.svg',
+            url: '/library/fraxscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/fraxscan-logo-dark.png',
+            url: '/library/fraxscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/fraxscan-logo-dark.svg',
+            url: '/library/fraxscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4389,21 +4389,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/gnosisscan-logo-light.png',
+            url: '/library/gnosisscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/gnosisscan-logo-light.svg',
+            url: '/library/gnosisscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/gnosisscan-logo-dark.png',
+            url: '/library/gnosisscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/gnosisscan-logo-dark.svg',
+            url: '/library/gnosisscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4442,21 +4442,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/mantlescan-logo-light.png',
+            url: '/library/mantlescan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/mantlescan-logo-light.svg',
+            url: '/library/mantlescan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/mantlescan-logo-dark.png',
+            url: '/library/mantlescan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/mantlescan-logo-dark.svg',
+            url: '/library/mantlescan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4495,21 +4495,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/moonbeam-logo-light.png',
+            url: '/library/moonbeam-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/moonbeam-logo-light.svg',
+            url: '/library/moonbeam-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/moonbeam-logo-dark.png',
+            url: '/library/moonbeam-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/moonbeam-logo-dark.svg',
+            url: '/library/moonbeam-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4548,21 +4548,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/moonriver-logo-light.png',
+            url: '/library/moonriver-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/moonriver-logo-light.svg',
+            url: '/library/moonriver-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/moonriver-logo-dark.png',
+            url: '/library/moonriver-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/moonriver-logo-dark.svg',
+            url: '/library/moonriver-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4601,21 +4601,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/opbnb-logo-light.png',
+            url: '/library/opbnb-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/opbnb-logo-light.svg',
+            url: '/library/opbnb-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/opbnb-logo-dark.png',
+            url: '/library/opbnb-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/opbnb-logo-dark.svg',
+            url: '/library/opbnb-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4654,21 +4654,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/scrollscan-logo-light.png',
+            url: '/library/scrollscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/scrollscan-logo-light.svg',
+            url: '/library/scrollscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/scrollscan-logo-dark.png',
+            url: '/library/scrollscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/scrollscan-logo-dark.svg',
+            url: '/library/scrollscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4707,21 +4707,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/taikoscan-logo-light.png',
+            url: '/library/taikoscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/taikoscan-logo-light.svg',
+            url: '/library/taikoscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/taikoscan-logo-dark.png',
+            url: '/library/taikoscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/taikoscan-logo-dark.svg',
+            url: '/library/taikoscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4760,21 +4760,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/apescan-logo-light.png',
+            url: '/library/apescan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/apescan-logo-light.svg',
+            url: '/library/apescan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/apescan-logo-dark.png',
+            url: '/library/apescan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/apescan-logo-dark.svg',
+            url: '/library/apescan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4813,21 +4813,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/sonicscan-logo-light.png',
+            url: '/library/sonicscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/sonicscan-logo-light.svg',
+            url: '/library/sonicscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/sonicscan-logo-dark.png',
+            url: '/library/sonicscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/sonicscan-logo-dark.svg',
+            url: '/library/sonicscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4866,21 +4866,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/hyperevmscan-logo-light.png',
+            url: '/library/hyperevmscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/hyperevmscan-logo-light.svg',
+            url: '/library/hyperevmscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/hyperevmscan-logo-dark.png',
+            url: '/library/hyperevmscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/hyperevmscan-logo-dark.svg',
+            url: '/library/hyperevmscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4919,21 +4919,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/seiscan-logo-light.png',
+            url: '/library/seiscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/seiscan-logo-light.svg',
+            url: '/library/seiscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/seiscan-logo-dark.png',
+            url: '/library/seiscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/seiscan-logo-dark.svg',
+            url: '/library/seiscan-icon-dark.svg',
             format: 'svg',
           },
         ],
