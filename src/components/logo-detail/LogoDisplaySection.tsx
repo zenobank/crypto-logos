@@ -34,14 +34,16 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
         <div className="flex items-center gap-4 max-sm:flex-col">
           {/* Light icon on a light background */}
           <div className="flex flex-col items-center gap-3 max-sm:w-full">
-            <div className="relative flex aspect-square h-78 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 p-9 max-lg:h-54 max-sm:h-auto max-sm:w-full dark:border-zinc-300 dark:bg-zinc-100">
-              <CopyUrlButton assets={iconLightAssets} variant="light" />
-              <DownloadIconButton
-                assets={iconLightAssets}
-                logoName={logo.name}
-                variant="light"
-              />
-              <CopyButton assets={iconLightAssets} variant="light" />
+            <div className="group relative flex aspect-square h-78 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 p-9 max-lg:h-54 max-sm:h-auto max-sm:w-full dark:border-zinc-300 dark:bg-zinc-100">
+              <div className="pointer-events-none absolute inset-0 z-10 opacity-0 transition-opacity duration-200 group-hover:pointer-events-auto group-hover:opacity-100">
+                <CopyUrlButton assets={iconLightAssets} variant="light" />
+                <DownloadIconButton
+                  assets={iconLightAssets}
+                  logoName={logo.name}
+                  variant="light"
+                />
+                <CopyButton assets={iconLightAssets} variant="light" />
+              </div>
               <Image
                 className="max-h-full max-w-full object-contain"
                 src={iconLight.url}
@@ -57,14 +59,16 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
 
           {/* Dark icon on a dark background */}
           <div className="flex flex-col items-center gap-3 max-sm:w-full">
-            <div className="relative flex aspect-square h-78 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 p-9 max-lg:h-54 max-sm:h-auto max-sm:w-full dark:bg-zinc-900">
-              <CopyUrlButton assets={iconDarkAssets} variant="dark" />
-              <DownloadIconButton
-                assets={iconDarkAssets}
-                logoName={logo.name}
-                variant="dark"
-              />
-              <CopyButton assets={iconDarkAssets} variant="dark" />
+            <div className="group relative flex aspect-square h-78 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 p-9 max-lg:h-54 max-sm:h-auto max-sm:w-full dark:bg-zinc-900">
+              <div className="pointer-events-none absolute inset-0 z-10 opacity-0 transition-opacity duration-200 group-hover:pointer-events-auto group-hover:opacity-100">
+                <CopyUrlButton assets={iconDarkAssets} variant="dark" />
+                <DownloadIconButton
+                  assets={iconDarkAssets}
+                  logoName={logo.name}
+                  variant="dark"
+                />
+                <CopyButton assets={iconDarkAssets} variant="dark" />
+              </div>
               <Image
                 className="max-h-full max-w-full object-contain"
                 src={iconDark.url}
@@ -87,14 +91,16 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
           <div className="flex items-center gap-4 max-sm:flex-col">
             {/* Light wordmark on a light background */}
             <div className="flex flex-col items-center gap-3 max-sm:w-full">
-              <div className="relative flex h-24 w-78 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 px-6 max-lg:h-20 max-lg:w-54 max-sm:h-24 max-sm:w-full dark:border-zinc-300 dark:bg-zinc-100">
-                <CopyUrlButton assets={textLightAssets} variant="light" />
-                <DownloadIconButton
-                  assets={textLightAssets}
-                  logoName={logo.name}
-                  variant="light"
-                />
-                <CopyButton assets={textLightAssets} variant="light" />
+              <div className="group relative flex h-24 w-78 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 px-6 max-lg:h-20 max-lg:w-54 max-sm:h-24 max-sm:w-full dark:border-zinc-300 dark:bg-zinc-100">
+                <div className="pointer-events-none absolute inset-0 z-10 opacity-0 transition-opacity duration-200 group-hover:pointer-events-auto group-hover:opacity-100">
+                  <CopyUrlButton assets={textLightAssets} variant="light" />
+                  <DownloadIconButton
+                    assets={textLightAssets}
+                    logoName={logo.name}
+                    variant="light"
+                  />
+                  <CopyButton assets={textLightAssets} variant="light" />
+                </div>
                 <Image
                   className="max-h-full max-w-full object-contain"
                   src={textLight!.url}
@@ -111,14 +117,16 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
             {/* Dark wordmark on a dark background */}
             {textDarkAssets && (
               <div className="flex flex-col items-center gap-3 max-sm:w-full">
-                <div className="relative flex h-24 w-78 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 px-6 max-lg:h-20 max-lg:w-54 max-sm:h-24 max-sm:w-full dark:bg-zinc-900">
-                  <CopyUrlButton assets={textDarkAssets} variant="dark" />
-                  <DownloadIconButton
-                    assets={textDarkAssets}
-                    logoName={logo.name}
-                    variant="dark"
-                  />
-                  <CopyButton assets={textDarkAssets} variant="dark" />
+                <div className="group relative flex h-24 w-78 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 px-6 max-lg:h-20 max-lg:w-54 max-sm:h-24 max-sm:w-full dark:bg-zinc-900">
+                  <div className="pointer-events-none absolute inset-0 z-10 opacity-0 transition-opacity duration-200 group-hover:pointer-events-auto group-hover:opacity-100">
+                    <CopyUrlButton assets={textDarkAssets} variant="dark" />
+                    <DownloadIconButton
+                      assets={textDarkAssets}
+                      logoName={logo.name}
+                      variant="dark"
+                    />
+                    <CopyButton assets={textDarkAssets} variant="dark" />
+                  </div>
                   <Image
                     className="max-h-full max-w-full object-contain"
                     src={textDark!.url}
