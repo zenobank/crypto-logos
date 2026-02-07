@@ -3752,44 +3752,44 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/solscan-icon-light.png',
-            format: 'png',
-          },
-          {
             url: '/library/solscan-icon-light.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/solscan-icon-light.png',
+            format: 'png',
           },
         ],
         dark: [
           {
-            url: '/library/solscan-icon-dark.png',
-            format: 'png',
-          },
-          {
             url: '/library/solscan-icon-dark.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/solscan-icon-dark.png',
+            format: 'png',
           },
         ],
       },
       text: {
         light: [
           {
-            url: '/library/solscan-text-light.png',
-            format: 'png',
-          },
-          {
             url: '/library/solscan-text-light.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/solscan-text-light.png',
+            format: 'png',
           },
         ],
         dark: [
           {
-            url: '/library/solscan-text-dark.png',
-            format: 'png',
-          },
-          {
             url: '/library/solscan-text-dark.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/solscan-text-dark.png',
+            format: 'png',
           },
         ],
       },
