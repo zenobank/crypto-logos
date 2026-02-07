@@ -287,6 +287,10 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/dune-analytics-icon-light.png',
             format: 'png',
           },
+          {
+            url: '/library/dune-analytics-icon-light.svg',
+            format: 'svg',
+          },
         ],
       },
     },
@@ -3702,6 +3706,1257 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/multisender-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  // tronscan
+  {
+    id: 'tronscan',
+    name: 'Tronscan',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://tronscan.org',
+    brandKitLink: 'https://tronscan.org/branding',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tronscan-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/tronscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/tronscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solscan',
+    name: 'Solscan',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://solscan.io',
+    brandKitLink: 'https://solscan.io/branding',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solscan-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/solscan-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/solscan-icon-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/solscan-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/solscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/solscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/solscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/solscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'etherscan',
+    name: 'Etherscan',
+    brandKitLink: 'https://etherscan.io/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/etherscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/etherscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/etherscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/etherscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/etherscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/etherscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/etherscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/etherscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bscscan',
+    name: 'Bscscan',
+    brandKitLink: 'https://bscscan.com/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bscscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/bscscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bscscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/bscscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bscscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/bscscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bscscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/bscscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polygonscan',
+    name: 'Polygonscan',
+    brandKitLink: 'https://polygonscan.com/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polygonscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/polygonscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/polygonscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/polygonscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/polygonscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/polygonscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/polygonscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/polygonscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'basescan',
+    name: 'Basescan',
+    brandKitLink: 'https://basescan.org/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/basescan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/basescan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/basescan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/basescan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/basescan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/basescan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/basescan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/basescan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arbiscan',
+    name: 'Arbiscan',
+    brandKitLink: 'https://arbiscan.io/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arbiscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/arbiscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/arbiscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/arbiscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/arbiscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/arbiscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/arbiscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/arbiscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lineascan',
+    name: 'Lineascan',
+    brandKitLink: 'https://lineascan.build/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lineascan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/lineascan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lineascan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/lineascan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/lineascan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/lineascan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lineascan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/lineascan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blastscan',
+    name: 'Blastscan',
+    brandKitLink: 'https://blastscan.io/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blastscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/blastscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/blastscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/blastscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/blastscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/blastscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/blastscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/blastscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'optimistic',
+    name: 'Optimistic',
+    brandKitLink: 'https://optimistic.etherscan.io/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/optimistic-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/optimistic-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/optimistic-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/optimistic-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/optimistic-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/optimistic-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/optimistic-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/optimistic-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bttcscan',
+    name: 'Bttcscan',
+    brandKitLink: 'https://bttcscan.com/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bttcscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/bttcscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bttcscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/bttcscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bttcscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/bttcscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bttcscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/bttcscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'celoscan',
+    name: 'Celoscan',
+    brandKitLink: 'https://celoscan.io/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/celoscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/celoscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/celoscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/celoscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/celoscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/celoscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/celoscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/celoscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fraxscan',
+    name: 'Fraxscan',
+    brandKitLink: 'https://fraxscan.com/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fraxscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/fraxscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fraxscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/fraxscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/fraxscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/fraxscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fraxscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/fraxscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gnosisscan',
+    name: 'Gnosisscan',
+    brandKitLink: 'https://gnosisscan.io/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gnosisscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/gnosisscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/gnosisscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/gnosisscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/gnosisscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/gnosisscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/gnosisscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/gnosisscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mantlescan',
+    name: 'Mantlescan',
+    brandKitLink: 'https://mantlescan.xyz/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mantlescan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/mantlescan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mantlescan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/mantlescan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/mantlescan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/mantlescan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mantlescan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/mantlescan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moonbeam',
+    name: 'Moonbeam',
+    brandKitLink: 'https://moonbeam.moonscan.io/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moonbeam-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/moonbeam-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/moonbeam-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/moonbeam-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/moonbeam-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/moonbeam-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/moonbeam-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/moonbeam-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moonriver',
+    name: 'Moonriver',
+    brandKitLink: 'https://moonriver.moonscan.io/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moonriver-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/moonriver-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/moonriver-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/moonriver-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/moonriver-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/moonriver-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/moonriver-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/moonriver-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'opbnb',
+    name: 'Opbnb',
+    brandKitLink: 'https://opbnb.bscscan.com/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/opbnb-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/opbnb-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/opbnb-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/opbnb-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/opbnb-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/opbnb-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/opbnb-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/opbnb-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'scrollscan',
+    name: 'Scrollscan',
+    brandKitLink: 'https://scrollscan.com/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/scrollscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/scrollscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/scrollscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/scrollscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/scrollscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/scrollscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/scrollscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/scrollscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'taikoscan',
+    name: 'Taikoscan',
+    brandKitLink: 'https://taikoscan.io/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/taikoscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/taikoscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/taikoscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/taikoscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/taikoscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/taikoscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/taikoscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/taikoscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'apescan',
+    name: 'Apescan',
+    brandKitLink: 'https://apescan.io/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/apescan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/apescan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/apescan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/apescan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/apescan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/apescan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/apescan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/apescan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sonicscan',
+    name: 'Sonicscan',
+    brandKitLink: 'https://sonicscan.org/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sonicscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/sonicscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sonicscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/sonicscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/sonicscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/sonicscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sonicscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/sonicscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hyperevmscan',
+    name: 'Hyperevmscan',
+    brandKitLink: 'https://hyperevmscan.io/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hyperevmscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/hyperevmscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hyperevmscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/hyperevmscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/hyperevmscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/hyperevmscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hyperevmscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/hyperevmscan-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'seiscan',
+    name: 'Seiscan',
+    brandKitLink: 'https://seiscan.io/brandassets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/seiscan-logo-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/seiscan-logo-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/seiscan-logo-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/seiscan-logo-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/seiscan-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/seiscan-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/seiscan-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/seiscan-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
