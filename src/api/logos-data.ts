@@ -4983,4 +4983,58 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'litecoin',
+    name: 'Litecoin',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://litecoin.com',
+    brandKitLink: 'https://litecoin.com/resources',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/litecoin-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/litecoin-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/litecoin-icon-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/litecoin-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/litecoin-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/litecoin-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/litecoin-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/litecoin-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
 ];
