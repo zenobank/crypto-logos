@@ -4985,7 +4985,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'litecoin',
-    name: 'Litecoin',
+    name: 'Litecoin (LTC)',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://litecoin.com',
