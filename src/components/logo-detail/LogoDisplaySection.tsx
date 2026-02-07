@@ -1,6 +1,7 @@
 // components
 import { Image } from '@/components/ui/image';
 import CopyButton from './CopyButton';
+import CopyUrlButton from './CopyUrlButton';
 import DownloadIconButton from './DownloadIconButton';
 
 // models
@@ -33,8 +34,13 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
         <div className="flex items-center gap-4 max-sm:flex-col">
           {/* Light icon on a light background */}
           <div className="flex flex-col items-center gap-3 max-sm:w-full">
-            <div className="relative flex aspect-square h-78 max-lg:h-54 max-sm:h-auto max-sm:w-full items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 p-9 dark:border-zinc-300 dark:bg-zinc-100">
-              <DownloadIconButton assets={iconLightAssets} logoName={logo.name} variant="light" />
+            <div className="relative flex aspect-square h-78 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 p-9 max-lg:h-54 max-sm:h-auto max-sm:w-full dark:border-zinc-300 dark:bg-zinc-100">
+              <CopyUrlButton assets={iconLightAssets} variant="light" />
+              <DownloadIconButton
+                assets={iconLightAssets}
+                logoName={logo.name}
+                variant="light"
+              />
               <CopyButton assets={iconLightAssets} variant="light" />
               <Image
                 className="max-h-full max-w-full object-contain"
@@ -51,8 +57,13 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
 
           {/* Dark icon on a dark background */}
           <div className="flex flex-col items-center gap-3 max-sm:w-full">
-            <div className="relative flex aspect-square h-78 max-lg:h-54 max-sm:h-auto max-sm:w-full items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 p-9 dark:bg-zinc-900">
-              <DownloadIconButton assets={iconDarkAssets} logoName={logo.name} variant="dark" />
+            <div className="relative flex aspect-square h-78 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 p-9 max-lg:h-54 max-sm:h-auto max-sm:w-full dark:bg-zinc-900">
+              <CopyUrlButton assets={iconDarkAssets} variant="dark" />
+              <DownloadIconButton
+                assets={iconDarkAssets}
+                logoName={logo.name}
+                variant="dark"
+              />
               <CopyButton assets={iconDarkAssets} variant="dark" />
               <Image
                 className="max-h-full max-w-full object-contain"
@@ -76,8 +87,13 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
           <div className="flex items-center gap-4 max-sm:flex-col">
             {/* Light wordmark on a light background */}
             <div className="flex flex-col items-center gap-3 max-sm:w-full">
-              <div className="relative flex h-24 w-78 max-lg:h-20 max-lg:w-54 max-sm:w-full max-sm:h-24 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 px-6 dark:border-zinc-300 dark:bg-zinc-100">
-                <DownloadIconButton assets={textLightAssets} logoName={logo.name} variant="light" />
+              <div className="relative flex h-24 w-78 items-center justify-center rounded-2xl border border-zinc-200 bg-zinc-50 px-6 max-lg:h-20 max-lg:w-54 max-sm:h-24 max-sm:w-full dark:border-zinc-300 dark:bg-zinc-100">
+                <CopyUrlButton assets={textLightAssets} variant="light" />
+                <DownloadIconButton
+                  assets={textLightAssets}
+                  logoName={logo.name}
+                  variant="light"
+                />
                 <CopyButton assets={textLightAssets} variant="light" />
                 <Image
                   className="max-h-full max-w-full object-contain"
@@ -95,8 +111,13 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
             {/* Dark wordmark on a dark background */}
             {textDarkAssets && (
               <div className="flex flex-col items-center gap-3 max-sm:w-full">
-                <div className="relative flex h-24 w-78 max-lg:h-20 max-lg:w-54 max-sm:w-full max-sm:h-24 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 px-6 dark:bg-zinc-900">
-                  <DownloadIconButton assets={textDarkAssets} logoName={logo.name} variant="dark" />
+                <div className="relative flex h-24 w-78 items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 px-6 max-lg:h-20 max-lg:w-54 max-sm:h-24 max-sm:w-full dark:bg-zinc-900">
+                  <CopyUrlButton assets={textDarkAssets} variant="dark" />
+                  <DownloadIconButton
+                    assets={textDarkAssets}
+                    logoName={logo.name}
+                    variant="dark"
+                  />
                   <CopyButton assets={textDarkAssets} variant="dark" />
                   <Image
                     className="max-h-full max-w-full object-contain"
