@@ -12,13 +12,13 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_zenobank.png',
+            url: '/library/zenobank-icon-light.png',
             format: 'png',
           },
         ],
         dark: [
           {
-            url: '/library/icon_dark_zenobank.png',
+            url: '/library/zenobank-icon-dark.png',
             format: 'png',
           },
         ],
@@ -26,13 +26,13 @@ export const LOGOS_DATA: LogoItem[] = [
       text: {
         light: [
           {
-            url: '/library/text_light_zenobank.png',
+            url: '/library/zenobank-text-light.png',
             format: 'png',
           },
         ],
         dark: [
           {
-            url: '/library/text_dark_zenobank.png',
+            url: '/library/zenobank-text-dark.png',
             format: 'png',
           },
         ],
@@ -50,7 +50,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_ethena-usde.png',
+            url: '/library/ethena-usde-icon-light.png',
             format: 'png',
           },
         ],
@@ -68,7 +68,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_aptos.png',
+            url: '/library/aptos-icon-light.png',
             format: 'png',
           },
         ],
@@ -86,7 +86,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_arbitrum.png',
+            url: '/library/arbitrum-icon-light.png',
             format: 'png',
           },
         ],
@@ -102,7 +102,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_bitcoin.png',
+            url: '/library/bitcoin-icon-light.png',
             format: 'png',
           },
         ],
@@ -119,7 +119,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_hedera.png',
+            url: '/library/hedera-icon-light.png',
             format: 'png',
           },
         ],
@@ -137,7 +137,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_optimism-ethereum.png',
+            url: '/library/optimism-ethereum-icon-light.png',
             format: 'png',
           },
         ],
@@ -156,7 +156,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_solana.png',
+            url: '/library/solana-icon-light.png',
             format: 'png',
           },
         ],
@@ -173,7 +173,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_tezos.png',
+            url: '/library/tezos-icon-light.png',
             format: 'png',
           },
         ],
@@ -189,7 +189,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_thorchain.png',
+            url: '/library/thorchain-icon-light.png',
             format: 'png',
           },
         ],
@@ -207,7 +207,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_cobo.png',
+            url: '/library/cobo-icon-light.png',
             format: 'png',
           },
         ],
@@ -225,11 +225,11 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_carbon-perpetuals.svg',
+            url: '/library/carbon-perpetuals-icon-light.svg',
             format: 'svg',
           },
           {
-            url: '/library/icon_light_carbon-perpetuals.png',
+            url: '/library/carbon-perpetuals-icon-light.png',
             format: 'png',
           },
         ],
@@ -248,7 +248,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_decentraland.png',
+            url: '/library/decentraland-icon-light.png',
             format: 'png',
           },
         ],
@@ -266,7 +266,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_depay.png',
+            url: '/library/depay-icon-light.png',
             format: 'png',
           },
         ],
@@ -284,7 +284,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_dune-analytics.png',
+            url: '/library/dune-analytics-icon-light.png',
             format: 'png',
           },
         ],
@@ -302,7 +302,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_dydx.png',
+            url: '/library/dydx-icon-light.png',
             format: 'png',
           },
         ],
@@ -320,7 +320,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_ethereum-name-service.png',
+            url: '/library/ethereum-name-service-icon-light.png',
             format: 'png',
           },
         ],
@@ -338,7 +338,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_farcaster.png',
+            url: '/library/farcaster-icon-light.png',
             format: 'png',
           },
         ],
@@ -356,7 +356,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_gate.png',
+            url: '/library/gate-icon-light.png',
             format: 'png',
           },
         ],
@@ -374,7 +374,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_geckoterminal.png',
+            url: '/library/geckoterminal-icon-light.png',
             format: 'png',
           },
         ],
@@ -392,7 +392,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_gemini.png',
+            url: '/library/gemini-icon-light.png',
             format: 'png',
           },
         ],
@@ -411,7 +411,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_gmx.png',
+            url: '/library/gmx-icon-light.png',
             format: 'png',
           },
         ],
@@ -430,7 +430,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_huobi.png',
+            url: '/library/huobi-icon-light.png',
             format: 'png',
           },
         ],
@@ -448,7 +448,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_kucoin.png',
+            url: '/library/kucoin-icon-light.png',
             format: 'png',
           },
         ],
@@ -466,7 +466,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_kwenta.png',
+            url: '/library/kwenta-icon-light.png',
             format: 'png',
           },
         ],
@@ -484,11 +484,11 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_kyberswap.svg',
+            url: '/library/kyberswap-icon-light.svg',
             format: 'svg',
           },
           {
-            url: '/library/icon_light_kyberswap.png',
+            url: '/library/kyberswap-icon-light.png',
             format: 'png',
           },
         ],
@@ -507,7 +507,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_lido.png',
+            url: '/library/lido-icon-light.png',
             format: 'png',
           },
         ],
@@ -526,7 +526,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_liquity.png',
+            url: '/library/liquity-icon-light.png',
             format: 'png',
           },
         ],
@@ -543,7 +543,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_m1-capital.png',
+            url: '/library/m1-capital-icon-light.png',
             format: 'png',
           },
         ],
@@ -561,7 +561,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_manifold.png',
+            url: '/library/manifold-icon-light.png',
             format: 'png',
           },
         ],
@@ -580,7 +580,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_maple-finance.png',
+            url: '/library/maple-finance-icon-light.png',
             format: 'png',
           },
         ],
@@ -598,7 +598,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_metamask.png',
+            url: '/library/metamask-icon-light.png',
             format: 'png',
           },
         ],
@@ -617,7 +617,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_moonpay.png',
+            url: '/library/moonpay-icon-light.png',
             format: 'png',
           },
         ],
@@ -635,7 +635,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_moralis.png',
+            url: '/library/moralis-icon-light.png',
             format: 'png',
           },
         ],
@@ -653,7 +653,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_morpho.png',
+            url: '/library/morpho-icon-light.png',
             format: 'png',
           },
         ],
@@ -670,7 +670,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_mpcvault.png',
+            url: '/library/mpcvault-icon-light.png',
             format: 'png',
           },
         ],
@@ -687,7 +687,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_nfts2me.png',
+            url: '/library/nfts2me-icon-light.png',
             format: 'png',
           },
         ],
@@ -706,11 +706,11 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_op-mainnet.svg',
+            url: '/library/op-mainnet-icon-light.svg',
             format: 'svg',
           },
           {
-            url: '/library/icon_light_op-mainnet.png',
+            url: '/library/op-mainnet-icon-light.png',
             format: 'png',
           },
         ],
@@ -728,7 +728,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_paradigm.png',
+            url: '/library/paradigm-icon-light.png',
             format: 'png',
           },
         ],
@@ -746,7 +746,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_phantom.png',
+            url: '/library/phantom-icon-light.png',
             format: 'png',
           },
         ],
@@ -763,7 +763,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_pinata.png',
+            url: '/library/pinata-icon-light.png',
             format: 'png',
           },
         ],
@@ -781,7 +781,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_polygon.png',
+            url: '/library/polygon-icon-light.png',
             format: 'png',
           },
         ],
@@ -800,7 +800,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_privy.png',
+            url: '/library/privy-icon-light.png',
             format: 'png',
           },
         ],
@@ -818,7 +818,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_Quantstamp.png',
+            url: '/library/quantstamp-icon-light.png',
             format: 'png',
           },
         ],
@@ -836,7 +836,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_rabby-wallet.png',
+            url: '/library/rabby-wallet-icon-light.png',
             format: 'png',
           },
         ],
@@ -855,7 +855,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_rainbowkit.png',
+            url: '/library/rainbowkit-icon-light.png',
             format: 'png',
           },
         ],
@@ -872,7 +872,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_rareskills.png',
+            url: '/library/rareskills-icon-light.png',
             format: 'png',
           },
         ],
@@ -890,7 +890,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_rarible.png',
+            url: '/library/rarible-icon-light.png',
             format: 'png',
           },
         ],
@@ -908,7 +908,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_raydium.png',
+            url: '/library/raydium-icon-light.png',
             format: 'png',
           },
         ],
@@ -927,7 +927,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_trader-joe.png',
+            url: '/library/trader-joe-icon-light.png',
             format: 'png',
           },
         ],
@@ -944,7 +944,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_remix.png',
+            url: '/library/remix-icon-light.png',
             format: 'png',
           },
         ],
@@ -962,7 +962,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_rhinofi.png',
+            url: '/library/rhinofi-icon-light.png',
             format: 'png',
           },
         ],
@@ -980,7 +980,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_safe1.png',
+            url: '/library/safe1-icon-light.png',
             format: 'png',
           },
         ],
@@ -999,7 +999,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_sherlock.png',
+            url: '/library/sherlock-icon-light.png',
             format: 'png',
           },
         ],
@@ -1016,7 +1016,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_solana-ventures.png',
+            url: '/library/solana-ventures-icon-light.png',
             format: 'png',
           },
         ],
@@ -1034,7 +1034,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_solidity.png',
+            url: '/library/solidity-icon-light.png',
             format: 'png',
           },
         ],
@@ -1051,7 +1051,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_spark.png',
+            url: '/library/spark-icon-light.png',
             format: 'png',
           },
         ],
@@ -1069,7 +1069,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_sphere.png',
+            url: '/library/sphere-icon-light.png',
             format: 'png',
           },
         ],
@@ -1088,7 +1088,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_squid.png',
+            url: '/library/squid-icon-light.png',
             format: 'png',
           },
         ],
@@ -1106,7 +1106,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_stealthex.png',
+            url: '/library/stealthex-icon-light.png',
             format: 'png',
           },
         ],
@@ -1123,7 +1123,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_stellar.png',
+            url: '/library/stellar-icon-light.png',
             format: 'png',
           },
         ],
@@ -1141,11 +1141,11 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_sushi.svg',
+            url: '/library/sushi-icon-light.svg',
             format: 'svg',
           },
           {
-            url: '/library/icon_light_sushi.png',
+            url: '/library/sushi-icon-light.png',
             format: 'png',
           },
         ],
@@ -1163,7 +1163,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_synthetix.png',
+            url: '/library/synthetix-icon-light.png',
             format: 'png',
           },
         ],
@@ -1181,7 +1181,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_tangible.png',
+            url: '/library/tangible-icon-light.png',
             format: 'png',
           },
         ],
@@ -1200,7 +1200,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_tenderly.png',
+            url: '/library/tenderly-icon-light.png',
             format: 'png',
           },
         ],
@@ -1218,7 +1218,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_thirdweb.png',
+            url: '/library/thirdweb-icon-light.png',
             format: 'png',
           },
         ],
@@ -1236,7 +1236,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_tradingview.png',
+            url: '/library/tradingview-icon-light.png',
             format: 'png',
           },
         ],
@@ -1254,7 +1254,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_trezor.png',
+            url: '/library/trezor-icon-light.png',
             format: 'png',
           },
         ],
@@ -1272,7 +1272,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_turnkey.png',
+            url: '/library/turnkey-icon-light.png',
             format: 'png',
           },
         ],
@@ -1291,7 +1291,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_uma-subgraph.png',
+            url: '/library/uma-subgraph-icon-light.png',
             format: 'png',
           },
         ],
@@ -1310,7 +1310,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_uniswap.png',
+            url: '/library/uniswap-icon-light.png',
             format: 'png',
           },
         ],
@@ -1328,7 +1328,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_velodrome.png',
+            url: '/library/velodrome-icon-light.png',
             format: 'png',
           },
         ],
@@ -1346,7 +1346,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_web3-js.png',
+            url: '/library/web3-js-icon-light.png',
             format: 'png',
           },
         ],
@@ -1364,7 +1364,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_yearn.png',
+            url: '/library/yearn-icon-light.png',
             format: 'png',
           },
         ],
@@ -1382,7 +1382,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_beethoven-x.png',
+            url: '/library/beethoven-x-icon-light.png',
             format: 'png',
           },
         ],
@@ -1401,7 +1401,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_lifi.png',
+            url: '/library/lifi-icon-light.png',
             format: 'png',
           },
         ],
@@ -1420,7 +1420,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_matcha.png',
+            url: '/library/matcha-icon-light.png',
             format: 'png',
           },
         ],
@@ -1437,7 +1437,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_merlin-chain.png',
+            url: '/library/merlin-chain-icon-light.png',
             format: 'png',
           },
         ],
@@ -1454,7 +1454,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_mexc.png',
+            url: '/library/mexc-icon-light.png',
             format: 'png',
           },
         ],
@@ -1470,11 +1470,11 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_nest.svg',
+            url: '/library/nest-icon-light.svg',
             format: 'svg',
           },
           {
-            url: '/library/icon_light_nest.png',
+            url: '/library/nest-icon-light.png',
             format: 'png',
           },
         ],
@@ -1492,7 +1492,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_okx.png',
+            url: '/library/okx-icon-light.png',
             format: 'png',
           },
         ],
@@ -1509,11 +1509,11 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_privex.svg',
+            url: '/library/privex-icon-light.svg',
             format: 'svg',
           },
           {
-            url: '/library/icon_light_privex.png',
+            url: '/library/privex-icon-light.png',
             format: 'png',
           },
         ],
@@ -1531,7 +1531,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_avalanche.png',
+            url: '/library/avalanche-icon-light.png',
             format: 'png',
           },
         ],
@@ -1548,7 +1548,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_iota.png',
+            url: '/library/iota-icon-light.png',
             format: 'png',
           },
         ],
@@ -1567,7 +1567,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_ondo-finance.png',
+            url: '/library/ondo-finance-icon-light.png',
             format: 'png',
           },
         ],
@@ -1585,7 +1585,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_pendle.png',
+            url: '/library/pendle-icon-light.png',
             format: 'png',
           },
         ],
@@ -1603,7 +1603,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_tether-gold.png',
+            url: '/library/tether-gold-icon-light.png',
             format: 'png',
           },
         ],
@@ -1620,7 +1620,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_vechain.png',
+            url: '/library/vechain-icon-light.png',
             format: 'png',
           },
         ],
@@ -1637,7 +1637,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_a16z.png',
+            url: '/library/a16z-icon-light.png',
             format: 'png',
           },
         ],
@@ -1654,7 +1654,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_pantera-capital.png',
+            url: '/library/pantera-capital-icon-light.png',
             format: 'png',
           },
         ],
@@ -1673,7 +1673,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_biconomy-io.png',
+            url: '/library/biconomy-io-icon-light.png',
             format: 'png',
           },
         ],
@@ -1691,7 +1691,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_bitgo.png',
+            url: '/library/bitgo-icon-light.png',
             format: 'png',
           },
         ],
@@ -1710,7 +1710,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_guardarian.png',
+            url: '/library/guardarian-icon-light.png',
             format: 'png',
           },
         ],
@@ -1727,7 +1727,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_impersonator.png',
+            url: '/library/impersonator-icon-light.png',
             format: 'png',
           },
         ],
@@ -1746,7 +1746,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_lightning-network.png',
+            url: '/library/lightning-network-icon-light.png',
             format: 'png',
           },
         ],
@@ -1763,7 +1763,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_liquifi.png',
+            url: '/library/liquifi-icon-light.png',
             format: 'png',
           },
         ],
@@ -1781,7 +1781,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_mercuryo.png',
+            url: '/library/mercuryo-icon-light.png',
             format: 'png',
           },
         ],
@@ -1800,7 +1800,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_reap.png',
+            url: '/library/reap-icon-light.png',
             format: 'png',
           },
         ],
@@ -1818,7 +1818,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_solflare.png',
+            url: '/library/solflare-icon-light.png',
             format: 'png',
           },
         ],
@@ -1835,7 +1835,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_vaultody.png',
+            url: '/library/vaultody-icon-light.png',
             format: 'png',
           },
         ],
@@ -1853,7 +1853,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_walletconnect.png',
+            url: '/library/walletconnect-icon-light.png',
             format: 'png',
           },
         ],
@@ -1872,7 +1872,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_zerion.png',
+            url: '/library/zerion-icon-light.png',
             format: 'png',
           },
         ],
@@ -1889,11 +1889,11 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_ganache.svg',
+            url: '/library/ganache-icon-light.svg',
             format: 'svg',
           },
           {
-            url: '/library/icon_light_ganache.png',
+            url: '/library/ganache-icon-light.png',
             format: 'png',
           },
         ],
@@ -1910,7 +1910,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_azuki.jpeg',
+            url: '/library/azuki-icon-light.jpeg',
             format: 'jpg',
           },
         ],
@@ -1927,7 +1927,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_crypto-punks.png',
+            url: '/library/crypto-punks-icon-light.png',
             format: 'png',
           },
         ],
@@ -1944,13 +1944,13 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_doodles.png',
+            url: '/library/doodles-icon-light.png',
             format: 'png',
           },
         ],
         dark: [
           {
-            url: '/library/icon_light_doodles.svg',
+            url: '/library/doodles-icon-light.svg',
             format: 'svg',
           },
         ],
@@ -1969,7 +1969,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_magic-eden.png',
+            url: '/library/magic-eden-icon-light.png',
             format: 'png',
           },
         ],
@@ -1986,7 +1986,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_milady.jpeg',
+            url: '/library/milady-icon-light.jpeg',
             format: 'jpg',
           },
         ],
@@ -2004,7 +2004,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_opensea.png',
+            url: '/library/opensea-icon-light.png',
             format: 'png',
           },
         ],
@@ -2022,7 +2022,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_algorand.png',
+            url: '/library/algorand-icon-light.png',
             format: 'png',
           },
         ],
@@ -2040,7 +2040,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_astar.png',
+            url: '/library/astar-icon-light.png',
             format: 'png',
           },
         ],
@@ -2058,7 +2058,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_aster.png',
+            url: '/library/aster-icon-light.png',
             format: 'png',
           },
         ],
@@ -2075,7 +2075,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_basic-attention-token.png',
+            url: '/library/basic-attention-token-icon-light.png',
             format: 'png',
           },
         ],
@@ -2093,7 +2093,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_onbeam.png',
+            url: '/library/onbeam-icon-light.png',
             format: 'png',
           },
         ],
@@ -2111,7 +2111,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_berachain.png',
+            url: '/library/berachain-icon-light.png',
             format: 'png',
           },
         ],
@@ -2130,7 +2130,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_bittensor.png',
+            url: '/library/bittensor-icon-light.png',
             format: 'png',
           },
         ],
@@ -2147,7 +2147,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_cardano.png',
+            url: '/library/cardano-icon-light.png',
             format: 'png',
           },
         ],
@@ -2166,7 +2166,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_cow-protocol.png',
+            url: '/library/cow-protocol-icon-light.png',
             format: 'png',
           },
         ],
@@ -2183,7 +2183,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_crypto-kitties.png',
+            url: '/library/crypto-kitties-icon-light.png',
             format: 'png',
           },
         ],
@@ -2201,7 +2201,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_dogwifhat.png',
+            url: '/library/dogwifhat-icon-light.png',
             format: 'png',
           },
         ],
@@ -2220,7 +2220,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_eigencloud.png',
+            url: '/library/eigencloud-icon-light.png',
             format: 'png',
           },
         ],
@@ -2239,7 +2239,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_ethena.png',
+            url: '/library/ethena-icon-light.png',
             format: 'png',
           },
         ],
@@ -2257,7 +2257,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_ether-fi-ethfi.png',
+            url: '/library/ether-fi-ethfi-icon-light.png',
             format: 'png',
           },
         ],
@@ -2274,7 +2274,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_ethereum.png',
+            url: '/library/ethereum-icon-light.png',
             format: 'png',
           },
         ],
@@ -2292,7 +2292,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_falcon-finance-ff.png',
+            url: '/library/falcon-finance-ff-icon-light.png',
             format: 'png',
           },
         ],
@@ -2309,7 +2309,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_fartcoin.png',
+            url: '/library/fartcoin-icon-light.png',
             format: 'png',
           },
         ],
@@ -2326,7 +2326,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_floki-inu.png',
+            url: '/library/floki-inu-icon-light.png',
             format: 'png',
           },
         ],
@@ -2345,7 +2345,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_gala.png',
+            url: '/library/gala-icon-light.png',
             format: 'png',
           },
         ],
@@ -2363,7 +2363,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_gnosis-gno.png',
+            url: '/library/gnosis-gno-icon-light.png',
             format: 'png',
           },
         ],
@@ -2381,7 +2381,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_hyperliquid.png',
+            url: '/library/hyperliquid-icon-light.png',
             format: 'png',
           },
         ],
@@ -2399,7 +2399,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_integral.png',
+            url: '/library/integral-icon-light.png',
             format: 'png',
           },
         ],
@@ -2417,7 +2417,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_jito.png',
+            url: '/library/jito-icon-light.png',
             format: 'png',
           },
         ],
@@ -2436,7 +2436,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_layerzero.png',
+            url: '/library/layerzero-icon-light.png',
             format: 'png',
           },
         ],
@@ -2454,7 +2454,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_lil-pudgys.png',
+            url: '/library/lil-pudgys-icon-light.png',
             format: 'png',
           },
         ],
@@ -2473,7 +2473,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_mantle.png',
+            url: '/library/mantle-icon-light.png',
             format: 'png',
           },
         ],
@@ -2491,7 +2491,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_metaplex.png',
+            url: '/library/metaplex-icon-light.png',
             format: 'png',
           },
         ],
@@ -2508,7 +2508,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_shiba-inu.png',
+            url: '/library/shiba-inu-icon-light.png',
             format: 'png',
           },
         ],
@@ -2527,7 +2527,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_sky.png',
+            url: '/library/sky-icon-light.png',
             format: 'png',
           },
         ],
@@ -2544,7 +2544,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_sui.png',
+            url: '/library/sui-icon-light.png',
             format: 'png',
           },
         ],
@@ -2562,7 +2562,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_the-graph.png',
+            url: '/library/the-graph-icon-light.png',
             format: 'png',
           },
         ],
@@ -2578,7 +2578,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_toncoin.png',
+            url: '/library/toncoin-icon-light.png',
             format: 'png',
           },
         ],
@@ -2595,7 +2595,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_tron.png',
+            url: '/library/tron-icon-light.png',
             format: 'png',
           },
         ],
@@ -2613,7 +2613,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_world-liberty-financial-wlfi.png',
+            url: '/library/world-liberty-financial-wlfi-icon-light.png',
             format: 'png',
           },
         ],
@@ -2631,7 +2631,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_zksync.png',
+            url: '/library/zksync-icon-light.png',
             format: 'png',
           },
         ],
@@ -2649,7 +2649,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_simpleswap.png',
+            url: '/library/simpleswap-icon-light.png',
             format: 'png',
           },
         ],
@@ -2667,7 +2667,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_zora.png',
+            url: '/library/zora-icon-light.png',
             format: 'png',
           },
         ],
@@ -2684,7 +2684,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_kraken.png',
+            url: '/library/kraken-icon-light.png',
             format: 'png',
           },
         ],
@@ -2703,7 +2703,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_jupiter.png',
+            url: '/library/jupiter-icon-light.png',
             format: 'png',
           },
         ],
@@ -2721,7 +2721,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_fireblocks.png',
+            url: '/library/fireblocks-icon-light.png',
             format: 'png',
           },
         ],
@@ -2738,7 +2738,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_ethers-js.png',
+            url: '/library/ethers-js-icon-light.png',
             format: 'png',
           },
         ],
@@ -2757,7 +2757,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_defi.png',
+            url: '/library/defi-icon-light.png',
             format: 'png',
           },
         ],
@@ -2775,7 +2775,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_debank.png',
+            url: '/library/debank-icon-light.png',
             format: 'png',
           },
         ],
@@ -2792,7 +2792,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_euro-coin.png',
+            url: '/library/euro-coin-icon-light.png',
             format: 'png',
           },
         ],
@@ -2810,7 +2810,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_first-digital-usd.png',
+            url: '/library/first-digital-usd-icon-light.png',
             format: 'png',
           },
         ],
@@ -2828,7 +2828,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_global-dollar-usdg.png',
+            url: '/library/global-dollar-usdg-icon-light.png',
             format: 'png',
           },
         ],
@@ -2847,7 +2847,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_dai.png',
+            url: '/library/dai-icon-light.png',
             format: 'png',
           },
         ],
@@ -2866,7 +2866,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_paypal-usd.png',
+            url: '/library/paypal-usd-icon-light.png',
             format: 'png',
           },
         ],
@@ -2884,7 +2884,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_ripple-usd.png',
+            url: '/library/ripple-usd-icon-light.png',
             format: 'png',
           },
         ],
@@ -2902,7 +2902,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_usdc.png',
+            url: '/library/usdc-icon-light.png',
             format: 'png',
           },
         ],
@@ -2920,7 +2920,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_usd1.png',
+            url: '/library/usd1-icon-light.png',
             format: 'png',
           },
         ],
@@ -2937,7 +2937,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_alchemy.png',
+            url: '/library/alchemy-icon-light.png',
             format: 'png',
           },
         ],
@@ -2954,7 +2954,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_alchemy-ventures.png',
+            url: '/library/alchemy-ventures-icon-light.png',
             format: 'png',
           },
         ],
@@ -2972,7 +2972,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_anchorage.png',
+            url: '/library/anchorage-icon-light.png',
             format: 'png',
           },
         ],
@@ -2990,7 +2990,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_angle.png',
+            url: '/library/angle-icon-light.png',
             format: 'png',
           },
         ],
@@ -3061,7 +3061,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_foundry-anvil.png',
+            url: '/library/foundry-anvil-icon-light.png',
             format: 'png',
           },
         ],
@@ -3078,7 +3078,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_aragon.png',
+            url: '/library/aragon-icon-light.png',
             format: 'png',
           },
         ],
@@ -3095,7 +3095,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_binance.png',
+            url: '/library/binance-icon-light.png',
             format: 'png',
           },
         ],
@@ -3113,7 +3113,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_cyfrin.png',
+            url: '/library/cyfrin-icon-light.png',
             format: 'png',
           },
         ],
@@ -3131,11 +3131,11 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_curve-finance.svg',
+            url: '/library/curve-finance-icon-light.svg',
             format: 'svg',
           },
           {
-            url: '/library/icon_light_curve-finance.png',
+            url: '/library/curve-finance-icon-light.png',
             format: 'png',
           },
         ],
@@ -3152,7 +3152,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_crypto-dot-com.png',
+            url: '/library/crypto-dot-com-icon-light.png',
             format: 'png',
           },
         ],
@@ -3170,7 +3170,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_crypto-apis.png',
+            url: '/library/crypto-apis-icon-light.png',
             format: 'png',
           },
         ],
@@ -3189,11 +3189,11 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_crossmint.svg',
+            url: '/library/crossmint-icon-light.svg',
             format: 'svg',
           },
           {
-            url: '/library/icon_light_crossmint.png',
+            url: '/library/crossmint-icon-light.png',
             format: 'png',
           },
         ],
@@ -3212,7 +3212,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_cowswap.png',
+            url: '/library/cowswap-icon-light.png',
             format: 'png',
           },
         ],
@@ -3231,7 +3231,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_convex-finance.png',
+            url: '/library/convex-finance-icon-light.png',
             format: 'png',
           },
         ],
@@ -3248,7 +3248,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_compound.png',
+            url: '/library/compound-icon-light.png',
             format: 'png',
           },
         ],
@@ -3266,7 +3266,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_euler.png',
+            url: '/library/euler-icon-light.png',
             format: 'png',
           },
         ],
@@ -3283,7 +3283,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_coinsdo.png',
+            url: '/library/coinsdo-icon-light.png',
             format: 'png',
           },
         ],
@@ -3301,7 +3301,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_coingecko-api.webp',
+            url: '/library/coingecko-api-icon-light.webp',
             format: 'webp',
           },
         ],
@@ -3319,7 +3319,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_coinbase.png',
+            url: '/library/coinbase-icon-light.png',
             format: 'png',
           },
         ],
@@ -3337,7 +3337,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_code4rena.png',
+            url: '/library/code4rena-icon-light.png',
             format: 'png',
           },
         ],
@@ -3354,7 +3354,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_changenow.png',
+            url: '/library/changenow-icon-light.png',
             format: 'png',
           },
         ],
@@ -3372,7 +3372,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_chainlink.png',
+            url: '/library/chainlink-icon-light.png',
             format: 'png',
           },
         ],
@@ -3390,7 +3390,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_chainalysis.webp',
+            url: '/library/chainalysis-icon-light.webp',
             format: 'webp',
           },
         ],
@@ -3408,7 +3408,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_certik.png',
+            url: '/library/certik-icon-light.png',
             format: 'png',
           },
         ],
@@ -3427,7 +3427,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_celestia.png',
+            url: '/library/celestia-icon-light.png',
             format: 'png',
           },
         ],
@@ -3445,7 +3445,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_bnb-chain.png',
+            url: '/library/bnb-chain-icon-light.png',
             format: 'png',
           },
         ],
@@ -3463,7 +3463,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_blur.png',
+            url: '/library/blur-icon-light.png',
             format: 'png',
           },
         ],
@@ -3481,7 +3481,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_blast.png',
+            url: '/library/blast-icon-light.png',
             format: 'png',
           },
         ],
@@ -3500,7 +3500,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_bitpay.png',
+            url: '/library/bitpay-icon-light.png',
             format: 'png',
           },
         ],
@@ -3518,7 +3518,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_bitget.png',
+            url: '/library/bitget-icon-light.png',
             format: 'png',
           },
         ],
@@ -3536,7 +3536,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_binance-us.png',
+            url: '/library/binance-us-icon-light.png',
             format: 'png',
           },
         ],
@@ -3554,7 +3554,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_beefy-finance.png',
+            url: '/library/beefy-finance-icon-light.png',
             format: 'png',
           },
         ],
@@ -3573,7 +3573,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_backpack.png',
+            url: '/library/backpack-icon-light.png',
             format: 'png',
           },
         ],
@@ -3591,7 +3591,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_axelar.png',
+            url: '/library/axelar-icon-light.png',
             format: 'png',
           },
         ],
@@ -3610,7 +3610,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_axie-infinity.png',
+            url: '/library/axie-infinity-icon-light.png',
             format: 'png',
           },
         ],
@@ -3628,7 +3628,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_arweave.png',
+            url: '/library/arweave-icon-light.png',
             format: 'png',
           },
         ],
@@ -3646,7 +3646,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_trueusd.png',
+            url: '/library/trueusd-icon-light.png',
             format: 'png',
           },
         ],
@@ -3663,7 +3663,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_usdd.png',
+            url: '/library/usdd-icon-light.png',
             format: 'png',
           },
         ],
@@ -3681,7 +3681,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_tether.png',
+            url: '/library/tether-icon-light.png',
             format: 'png',
           },
         ],
@@ -3700,7 +3700,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_multisender.png',
+            url: '/library/multisender-icon-light.png',
             format: 'png',
           },
         ],
