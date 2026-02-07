@@ -1901,7 +1901,7 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'nft_eth_0xed5af388653567af2f388e6224dc7c4b3241c544',
+    id: 'azuki',
     name: 'Azuki (AZUKI)',
     mainCategory: 'nft',
     secondaryCategories: [],
@@ -1910,7 +1910,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_nft_eth_0xed5af388653567af2f388e6224dc7c4b3241c544.jpeg',
+            url: '/library/icon_light_azuki.jpeg',
             format: 'jpg',
           },
         ],
@@ -1918,8 +1918,8 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'nft_eth_0x282bdd42f4eb70e7a9d9f40c8fea0825b7f68c5d',
-    name: 'CryptoPunks V1',
+    id: 'crypto-punks',
+    name: 'CryptoPunks (PUNK)',
     mainCategory: 'nft',
     secondaryCategories: [],
     websiteLink: 'https://www.v1punks.io',
@@ -1927,7 +1927,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_nft_eth_0x282bdd42f4eb70e7a9d9f40c8fea0825b7f68c5d.png',
+            url: '/library/icon_light_crypto-punks.png',
             format: 'png',
           },
         ],
@@ -1935,7 +1935,7 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'nft_eth_0x8a90cab2b38dba80c64b7734e58ee1db38b8992e',
+    id: 'doodles',
     name: 'Doodles (DOODLE)',
     mainCategory: 'nft',
     secondaryCategories: [],
@@ -1977,7 +1977,7 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'nft_eth_0x5af0d9827e0c53e4799bb226655a1de152a425a5',
+    id: 'milady',
     name: 'Milady (MIL)',
     mainCategory: 'nft',
     secondaryCategories: [],
@@ -1986,7 +1986,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_nft_eth_0x5af0d9827e0c53e4799bb226655a1de152a425a5.jpeg',
+            url: '/library/icon_light_milady.jpeg',
             format: 'jpg',
           },
         ],
@@ -2174,7 +2174,7 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'nft_eth_0x06012c8cf97bead5deae237070f9587f8e7a266d',
+    id: 'crypto-kitties',
     name: 'CryptoKitties (CKITTY)',
     mainCategory: 'nft',
     secondaryCategories: [],
@@ -2183,7 +2183,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_nft_eth_0x06012c8cf97bead5deae237070f9587f8e7a266d.png',
+            url: '/library/icon_light_crypto-kitties.png',
             format: 'png',
           },
         ],
@@ -2444,7 +2444,7 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'nft_eth_0x524cab2ec69124574082676e6f654a18df49a048',
+    id: 'lil-pudgys',
     name: 'Lil Pudgys (LP)',
     mainCategory: 'nft',
     secondaryCategories: [],
@@ -2454,7 +2454,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/icon_light_nft_eth_0x524cab2ec69124574082676e6f654a18df49a048.png',
+            url: '/library/icon_light_lil-pudgys.png',
             format: 'png',
           },
         ],
