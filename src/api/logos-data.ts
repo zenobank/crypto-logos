@@ -530,7 +530,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'lido',
     name: 'Lido',
-    mainCategory: 'infrastructure-tools',
+    mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://lido.fi',
     brandKitLink:
@@ -2442,7 +2442,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'jito',
     name: 'Jito (JTO)',
     mainCategory: 'infrastructure-tools',
-    secondaryCategories: ['tokens'],
+    secondaryCategories: ['tokens', 'defi'],
     websiteLink: 'https://www.jito.network',
     brandKitLink: 'https://brandfetch.com/jito.network',
     logo: {
@@ -3615,7 +3615,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'axelar',
     name: 'Axelar (AXL)',
-    mainCategory: 'infrastructure-tools',
+    mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://axelar.network',
     brandKitLink: 'https://brandfetch.com/axelar.network',
@@ -3933,7 +3933,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'polygonscan',
-    name: 'Polygonscan',
+    name: 'Polygon Scan',
     websiteLink: 'https://polygonscan.com',
     brandKitLink: 'https://polygonscan.com/brandassets',
     mainCategory: 'infrastructure-tools',
@@ -4202,8 +4202,8 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'optimistic',
-    name: 'Optimistic',
+    id: 'optimisticscan',
+    name: 'Optimisticscan',
     websiteLink: 'https://optimistic.etherscan.io',
     brandKitLink: 'https://optimistic.etherscan.io/brandassets',
     mainCategory: 'infrastructure-tools',
@@ -4212,21 +4212,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/optimistic-icon-light.png',
+            url: '/library/optimisticscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/optimistic-icon-light.svg',
+            url: '/library/optimisticscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/optimistic-icon-dark.png',
+            url: '/library/optimisticscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/optimistic-icon-dark.svg',
+            url: '/library/optimisticscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4234,21 +4234,21 @@ export const LOGOS_DATA: LogoItem[] = [
       text: {
         light: [
           {
-            url: '/library/optimistic-text-light.png',
+            url: '/library/optimisticscan-text-light.png',
             format: 'png',
           },
           {
-            url: '/library/optimistic-text-light.svg',
+            url: '/library/optimisticscan-text-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/optimistic-text-dark.png',
+            url: '/library/optimisticscan-text-dark.png',
             format: 'png',
           },
           {
-            url: '/library/optimistic-text-dark.svg',
+            url: '/library/optimisticscan-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -4634,8 +4634,8 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'opbnb',
-    name: 'Opbnb',
+    id: 'opbnbscan',
+    name: 'Opbnb Scan',
     websiteLink: 'https://opbnb.bscscan.com',
     brandKitLink: 'https://opbnb.bscscan.com/brandassets',
     mainCategory: 'infrastructure-tools',
@@ -4644,21 +4644,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/opbnb-icon-light.png',
+            url: '/library/opbnbscan-icon-light.png',
             format: 'png',
           },
           {
-            url: '/library/opbnb-icon-light.svg',
+            url: '/library/opbnbscan-icon-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/opbnb-icon-dark.png',
+            url: '/library/opbnbscan-icon-dark.png',
             format: 'png',
           },
           {
-            url: '/library/opbnb-icon-dark.svg',
+            url: '/library/opbnbscan-icon-dark.svg',
             format: 'svg',
           },
         ],
@@ -4666,21 +4666,21 @@ export const LOGOS_DATA: LogoItem[] = [
       text: {
         light: [
           {
-            url: '/library/opbnb-text-light.png',
+            url: '/library/opbnbscan-text-light.png',
             format: 'png',
           },
           {
-            url: '/library/opbnb-text-light.svg',
+            url: '/library/opbnbscan-text-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/opbnb-text-dark.png',
+            url: '/library/opbnbscan-text-dark.png',
             format: 'png',
           },
           {
-            url: '/library/opbnb-text-dark.svg',
+            url: '/library/opbnbscan-text-dark.svg',
             format: 'svg',
           },
         ],
