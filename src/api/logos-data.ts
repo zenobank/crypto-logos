@@ -630,8 +630,44 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
+            url: '/library/metamask-icon-light.svg',
+            format: 'svg',
+          },
+          {
             url: '/library/metamask-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/metamask-icon-dark.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/metamask-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/metamask-text-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/metamask-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/metamask-text-dark.png',
+            format: 'png',
+          },
+          {
+            url: '/library/metamask-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
