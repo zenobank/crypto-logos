@@ -218,8 +218,8 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'carbon-perpetuals',
     name: 'Carbon',
     brandKitLink:
-      'https://switcheo.notion.site/Carbon-Media-Kit-819ec0d0ed7e45389da48ffd3dbfa6a2',
-    mainCategory: 'exchanges',
+      'https://docs.carbon.inc/additional-information/brand-and-media-kit',
+    mainCategory: 'defi',
     secondaryCategories: [],
     logo: {
       icon: {
@@ -230,6 +230,34 @@ export const LOGOS_DATA: LogoItem[] = [
           },
           {
             url: '/library/carbon-perpetuals-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/carbon-perpetuals-icon-dark.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/carbon-perpetuals-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/carbon-perpetuals-text-light.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/carbon-perpetuals-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/carbon-perpetuals-text-dark.png',
             format: 'png',
           },
         ],
