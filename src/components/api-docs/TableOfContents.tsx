@@ -3,13 +3,8 @@
 import { ReactNode, useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
-// components
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from '@/components/ui/accordion';
+import { ChevronDownIcon } from 'lucide-react';
+import * as AccordionPrimitive from '@radix-ui/react-accordion';
 
 // custom models
 interface TocItem {
@@ -97,20 +92,27 @@ export default function TableOfContents() {
     <>
       {/* Mobile Accordion */}
       <div className="sticky top-12.5 z-20 mb-6 bg-white/80 backdrop-blur-sm lg:hidden dark:bg-neutral-900/40">
-        <Accordion
+        <AccordionPrimitive.Root
           type="single"
           collapsible
           className="border-b border-neutral-200 bg-transparent dark:border-neutral-800"
         >
-          <AccordionItem value="toc" className="border-none">
-            <AccordionTrigger className="px-4 py-3 hover:no-underline">
-              <span className="text-base font-semibold">On this page</span>
-            </AccordionTrigger>
-            <AccordionContent className="px-4 pb-4">
-              <TocLinks activeId={activeId} onItemClick={handleClick} />
-            </AccordionContent>
-          </AccordionItem>
-        </Accordion>
+          <AccordionPrimitive.Item value="toc" className="border-none">
+            <AccordionPrimitive.Header asChild>
+              <div className="flex">
+                <AccordionPrimitive.Trigger className="flex flex-1 items-center justify-between gap-4 px-4 py-3 text-left outline-none hover:no-underline [&[data-state=open]>svg]:rotate-180">
+                  <span className="text-base font-semibold">On this page</span>
+                  <ChevronDownIcon className="size-4 shrink-0 text-muted-foreground transition-transform duration-200" />
+                </AccordionPrimitive.Trigger>
+              </div>
+            </AccordionPrimitive.Header>
+            <AccordionPrimitive.Content className="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down">
+              <div className="px-4 pb-4">
+                <TocLinks activeId={activeId} onItemClick={handleClick} />
+              </div>
+            </AccordionPrimitive.Content>
+          </AccordionPrimitive.Item>
+        </AccordionPrimitive.Root>
       </div>
 
       {/* Desktop Sidebar */}
