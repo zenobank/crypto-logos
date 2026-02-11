@@ -44,7 +44,7 @@ export default function LogosSection({
           <div className="flex items-center gap-2">
             {showCategoryHeader && <BackButton />}
             <Folder className="h-5 w-5" />
-            <span className="text-lg">
+            <h2 className="text-lg">
               <span className="capitalize">
                 {showCategoryHeader && categoryName}
               </span>
@@ -56,7 +56,7 @@ export default function LogosSection({
                   categoryPage={showCategoryHeader}
                 />
               </span>
-            </span>
+            </h2>
           </div>
           <SortDropdown value={sortBy} />
         </div>
