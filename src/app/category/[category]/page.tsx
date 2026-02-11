@@ -15,7 +15,13 @@ import { getLogosQueryParams } from '@/queries/app-queries';
 import LogosSection from '@/components/home/LogosSection';
 
 // constants
-import { CATEGORIES_RESPONSE } from '@/shared/constants/logos-data';
+import {
+  CATEGORIES_RESPONSE,
+  getCategoryLabel,
+} from '@/shared/constants/logos-data';
+
+// models
+import { LogoCategory } from '@/shared/models/logos/logo-category';
 
 // custom models
 interface Props {
@@ -30,10 +36,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category } = await params;
 
   const { total } = getLogos({ category });
-  const categoryName = category.charAt(0).toUpperCase() + category.slice(1);
+  const categoryLabel = getCategoryLabel(category as LogoCategory);
 
-  const title = `${categoryName} Logos - ${total} Free SVG Logos`;
-  const description = `Browse and download the major ${categoryName} logos. Free, high-quality logos for your projects.`;
+  const title = `${categoryLabel} Logos - ${total} Free SVG Logos`;
+  const description = `Browse and download the major ${categoryLabel} logos. Free, high-quality logos for your projects.`;
 
   return {
     title,
@@ -58,12 +64,16 @@ export default async function CategoryPage({ params }: Props) {
 
   // computed
   const { category } = await params;
+  const categoryName = getCategoryLabel(category as LogoCategory);
 
   // prefetch
   await queryClient.prefetchInfiniteQuery(getLogosQueryParams('', category));
 
   return (
     <div className="flex flex-1 flex-col p-6 max-md:p-4">
+      <h1 className="sr-only">
+        {categoryName} Logos - Free SVG and PNG {categoryName} Logos Download
+      </h1>
       <HydrationBoundary state={dehydrate(queryClient)}>
         <LogosSection category={category} showCategoryHeader />
       </HydrationBoundary>
