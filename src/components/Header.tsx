@@ -37,18 +37,18 @@ export default async function Header() {
             className="flex h-fit w-fit cursor-pointer items-center gap-2"
           >
             <Image
-              width={63}
-              height={16}
-              className="h-auto w-16 dark:hidden"
-              src="/images/logo-dark.svg"
-              alt="logo"
+              width={120}
+              height={30}
+              className="h-auto w-28 dark:hidden"
+              src="/library/zenobank-text-light.png"
+              alt="Zenobank logo"
             />
             <Image
-              width={63}
-              height={16}
-              className="hidden h-auto w-16 dark:block"
-              src="/images/logo-light.svg"
-              alt="logo"
+              width={120}
+              height={30}
+              className="hidden h-auto w-28 dark:block"
+              src="/library/zenobank-text-dark.png"
+              alt="Zenobank logo"
             />
           </Link>
         </div>
