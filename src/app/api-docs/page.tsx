@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  alternates: {
+    canonical: '/api-docs',
+  },
 };
 
 const typescriptTypes = `type LogoFileFormat = 'svg'

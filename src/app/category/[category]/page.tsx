@@ -35,16 +35,18 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { category } = await params;
 
-  const { total } = getLogos({ category });
   const categoryLabel = getCategoryLabel(category as LogoCategory);
 
-  const title = `${categoryLabel} Logos - ${total} Free SVG Logos`;
-  const description = `Browse and download the major ${categoryLabel} logos. Free, high-quality logos for your projects.`;
+  const title = `${categoryLabel} Logos - Free PNG and SVG Download`;
+  const description = `Browse and download ${categoryLabel} logos. Free, high-quality crypto logos for your project`;
 
   return {
     title,
     description,
     robots: { index: true, follow: true },
+    alternates: {
+      canonical: `/category/${category}`,
+    },
     openGraph: {
       title,
       description,

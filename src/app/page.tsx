@@ -6,12 +6,16 @@ import LogosSection from '@/components/home/LogosSection';
 const title = 'Crypto Logos - Free PNG and SVG Download';
 
 export async function generateMetadata(): Promise<Metadata> {
-  const description = '';
+  const description =
+    'Download high-quality cryptocurrency logos in SVG and PNG formats. A free library of official assets for Bitcoin, Ethereum, Solana, and thousands more.';
 
   return {
     title,
     description,
     robots: { index: true, follow: true },
+    alternates: {
+      canonical: '/',
+    },
     openGraph: {
       title,
       description,

@@ -22,6 +22,9 @@ export async function generateMetadata(): Promise<Metadata> {
       index: false,
       follow: true,
     },
+    alternates: {
+      canonical: '/favorites',
+    },
     openGraph: {
       title,
       description,
