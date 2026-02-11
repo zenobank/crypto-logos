@@ -87,6 +87,10 @@ export default function ApiDocsPage() {
               <div className="container mx-auto mt-8 mb-6 flex-1 px-6 lg:px-4">
                 <div className="mx-auto flex max-w-6xl flex-col gap-8 lg:flex-row">
                   <article className="markdown min-w-0 flex-1">
+                    <h1 className="mb-8 scroll-mt-20 text-3xl font-bold">
+                      Crypto LogosAPI Documentation
+                    </h1>
+
                     {/* Introduction */}
                     <h2
                       id="introduction"
