@@ -37,11 +37,11 @@ export async function generateMetadata({
 
   const title = searchQuery
     ? `Search "${searchQuery}" in ${categoryName} - Crypto Logos`
-    : `${categoryName} Logos - ${total} Free SVG Logos`;
+    : `${categoryName} Logos - Free PNG and SVG Download`;
 
   const description = searchQuery
     ? `Search results for "${searchQuery}" in ${categoryName} category. Browse ${total} crypto logos in SVG and PNG format.`
-    : `Browse and download ${total} ${categoryName} logos in SVG and PNG format. Free, high-quality SVG and PNG logos for your projects.`;
+    : `Browse and download ${categoryName} Logos. Free, high-quality crypto logos for your project`;
 
   return {
     title,

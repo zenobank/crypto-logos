@@ -59,6 +59,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       index: true,
       follow: true,
     },
+    alternates: {
+      canonical: `/logo/${id}`,
+    },
     openGraph: {
       title,
       description,
