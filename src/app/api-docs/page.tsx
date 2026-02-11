@@ -12,9 +12,12 @@ import CodeBlock from '@/components/api-docs/CodeBlock';
 // constants
 import { API_EXAMPLES } from '@/shared/constants/api-examples';
 
+const title = 'Crypto Logos API Documentation';
+
 export const metadata: Metadata = {
-  title: 'API Documentation - Crypto Logos',
-  description: 'Complete API documentation for the Crypto Logos API endpoints',
+  title,
+  description:
+    'Integrate thousands of high-quality cryptocurrency icons and locos with support for light/dark modes, search, and category filtering',
   robots: {
     index: true,
     follow: true,
@@ -88,7 +91,7 @@ export default function ApiDocsPage() {
                 <div className="mx-auto flex max-w-6xl flex-col gap-8 lg:flex-row">
                   <article className="markdown min-w-0 flex-1">
                     <h1 className="mb-8 scroll-mt-20 text-3xl font-bold">
-                      Crypto LogosAPI Documentation
+                      {title}
                     </h1>
 
                     {/* Introduction */}
