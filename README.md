@@ -37,12 +37,6 @@ Add the .svg/.png files into the repository:
  Put your file into: [**`public/library`**](https://github.com/zenobank/crypto-logos/tree/main/public/library).  
  Example: [**`public/library/logo.svg`**](https://github.com/zenobank/crypto-logos/tree/main/public/library).
 
-> [!WARNING]
->
-> - Remember to optimize SVG for web, you can use [SVGOMG](https://jakearchibald.github.io/svgomg/).
-> - When you optimize the SVG, make sure that the `viewBox` is not removed.
-> - The size limit for each .svg is **21kb**.
-
 6. Add logo metadata (follow the [**`LogoItem`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/models/logos/logo-item.ts) model).  
    Go to the [**`src/api/logos-data.ts`**](https://github.com/zenobank/crypto-logos/tree/main/src/api/logos-data.ts) and add the information about your logo, following the structure.  
    Every logo entry must follow the [**`LogoItem`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/models/logos/logo-item.ts) model, so the app can render it correctly and keep the library consistent.
