@@ -40,8 +40,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const title = `${logo.name} Logo - Crypto Logos`;
-  const description = `Download ${logo.name} logo or embed it to your website or application seamlessly.`;
+  const title = `Download ${logo.name} Logo - Free PNG and SVG Download`;
+  const description = `Free ${logo.name} logo in PNG and SVG format. High-quality crypto logos for your project`;
   const allImages = [
     ...logo.logo.icon.light,
     ...(logo.logo.icon.dark || []),
@@ -91,6 +91,15 @@ export default async function LogoDetailPage({ params }: Props) {
   const logoIconLight = logo.logo.icon.light[0]?.url;
   const logoIconDark = logo.logo.icon.dark?.[0]?.url || logoIconLight;
 
+  const allAssets = [
+    ...logo.logo.icon.light,
+    ...(logo.logo.icon.dark || []),
+    ...(logo.logo.text?.light || []),
+    ...(logo.logo.text?.dark || []),
+  ];
+  const formats = [...new Set(allAssets.map((a) => a.format.toUpperCase()))];
+  const hasText = !!logo.logo.text;
+
   return (
     <div className="mx-auto flex w-full max-w-4xl flex-1 flex-col p-6 max-md:p-4">
       {/* Breadcrumb */}
@@ -109,7 +118,7 @@ export default async function LogoDetailPage({ params }: Props) {
       <div className="mb-6">
         <div className="flex items-center justify-between gap-2">
           <h1 className="mb-3 inline-flex items-center gap-1 text-3xl font-bold">
-            <span>{logo.name}</span>
+            <span>{logo.name} Logo</span>
             <Image
               className="ml-2 inline-block h-8 w-8 dark:hidden"
               src={logoIconLight}
@@ -140,6 +149,16 @@ export default async function LogoDetailPage({ params }: Props) {
           ))}
         </div>
       </div>
+
+      <p className="mb-6 text-sm text-muted-foreground">
+        Download the official {logo.name} logo in {formats.join(', ')} format
+        {formats.length > 1 ? 's' : ''}.{' '}
+        {hasText
+          ? 'Includes wordmark and icon versions.'
+          : 'Ready for seamless integration.'}
+        {logo.brandKitLink && ` Access the official ${logo.name} brand kit.`}
+      </p>
+
       <Separator className="" />
 
       {(logo.websiteLink || logo.brandKitLink) && (
