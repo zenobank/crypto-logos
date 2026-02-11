@@ -1,9 +1,9 @@
-## 🚀 Getting Started
+## Getting Started
 
 You will need:
 
-- [Node.js 20+](https://nodejs.org/en/).
-- [Git](https://git-scm.com/).
+- [Node.js 20+](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
 
 1. [**Fork this repository**](https://github.com/zenobank/crypto-logos/fork) and clone it locally:
 
@@ -13,33 +13,29 @@ git clone https://github.com/zenobank/crypto-logos.git
 
 2. Move into the project folder:
 
-```
+```bash
 cd crypto-logos
 ```
 
 3. Install dependencies:
 
 ```bash
-# Install dependencies:
 pnpm install
 ```
 
 4. Run the development server:
 
 ```bash
-# Run the development server:
 pnpm dev
 ```
 
-5. Add your logo file
+5. Add your logo files
 
-Add the .svg/.png files into the repository:  
- Put your file into: [**`public/library`**](https://github.com/zenobank/crypto-logos/tree/main/public/library).  
- Example: [**`public/library/logo.svg`**](https://github.com/zenobank/crypto-logos/tree/main/public/library).
+Add your `.svg`, `.png`, `.jpg`, or `.webp` files into [**`public/library`**](https://github.com/zenobank/crypto-logos/tree/main/public/library).
 
-6. Add logo metadata (follow the [**`LogoItem`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/models/logos/logo-item.ts) model).  
-   Go to the [**`src/api/logos-data.ts`**](https://github.com/zenobank/crypto-logos/tree/main/src/api/logos-data.ts) and add the information about your logo, following the structure.  
-   Every logo entry must follow the [**`LogoItem`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/models/logos/logo-item.ts) model, so the app can render it correctly and keep the library consistent.
+6. Add logo metadata
+
+Go to [**`src/api/logos-data.ts`**](https://github.com/zenobank/crypto-logos/tree/main/src/api/logos-data.ts) and add the information about your logo following the [**`LogoItem`**](https://github.com/zenobank/crypto-logos/tree/main/src/shared/models/logos/logo-item.ts) model.
 
 - **Data model**:
 
@@ -74,46 +70,52 @@ interface LogoVariantGroup {
 
 > [!NOTE]
 >
-> - `id`: unique key (use lowercase, no spaces, usually the brand name).
-> - `name`: display name (example: `Solana (SOL)`).
-> - `mainCategory`: primary category (example: `chains`).
-> - `secondaryCategories`: extra categories (example: `["tokens"]`).
-> - `websiteLink`: (optional): official website.
-> - `brandKitLink`: (optional): brand guidelines / press kit.
-> - `logo`: logo files users can download:  
->   &nbsp;&nbsp;`icon`: required.  
->   &nbsp;&nbsp;`text`: optional (text logo).  
->   &nbsp;&nbsp; each supports `light` and optionally `dark`.  
->   &nbsp;&nbsp; each variant is an array so you can provide multiple assets (formats/sizes) if needed.
+> - `id`: unique key (lowercase, no spaces, usually the brand name).
+> - `name`: display name (e.g. `Solana (SOL)`).
+> - `mainCategory`: primary category (e.g. `chains`).
+> - `secondaryCategories`: extra categories (e.g. `["tokens"]`).
+> - `websiteLink` (optional): official website.
+> - `brandKitLink` (optional): brand guidelines / press kit.
+> - `logo`: logo files users can download:
+>   - `icon`: required.
+>   - `text`: optional (wordmark logo).
+>   - Each supports `light` and optionally `dark`.
+>   - Each variant is an array so you can provide multiple formats (SVG, PNG, etc.).
 
 - **Simple logo (one icon, light only)**:
 
 ```ts
 {
-  id: 'Id',
-  name: 'Title',
-  mainCategory: 'Main category',
-  secondaryCategories: ['Secondary categories'],
+  id: 'bitcoin',
+  name: 'Bitcoin (BTC)',
+  mainCategory: 'tokens',
+  secondaryCategories: [],
   logo: {
     icon: {
-      light: [{ url: 'https://example.com/icon-light.svg', format: 'svg' }]
+      light: [{ url: '/library/bitcoin-icon-light.svg', format: 'svg' }]
     }
   }
 }
 ```
 
-- **Logo (light & dark mode)**:
+- **Logo with light & dark variants and multiple formats**:
 
 ```ts
 {
-  id: 'Id',
-  name: 'Title',
-  mainCategory: 'Main category',
-  secondaryCategories: ['Secondary categories'],
+  id: 'solana',
+  name: 'Solana (SOL)',
+  mainCategory: 'chains',
+  secondaryCategories: ['tokens'],
   logo: {
     icon: {
-      light: [{ url: 'https://example.com/icon-light.svg', format: 'svg' }],
-      dark: [{ url: 'https://example.com/icon-dark.svg', format: 'svg' }]
+      light: [
+        { url: '/library/solana-icon-light.svg', format: 'svg' },
+        { url: '/library/solana-icon-light.png', format: 'png' }
+      ],
+      dark: [
+        { url: '/library/solana-icon-dark.svg', format: 'svg' },
+        { url: '/library/solana-icon-dark.png', format: 'png' }
+      ]
     }
   }
 }
@@ -123,43 +125,26 @@ interface LogoVariantGroup {
 
 ```ts
 {
-  id: 'Id',
-  name: 'Title',
-  mainCategory: 'Main category',
-  secondaryCategories: ['Secondary categories'],
-  websiteLink: 'https://example.com',
-  brandKitLink: 'https://example.com/brand',
+  id: 'ethereum',
+  name: 'Ethereum (ETH)',
+  mainCategory: 'chains',
+  secondaryCategories: ['tokens', 'defi'],
+  websiteLink: 'https://ethereum.org',
+  brandKitLink: 'https://ethereum.org/assets',
   logo: {
     icon: {
-      light: [{ url: 'https://example.com/icon-light.svg', format: 'svg' }],
-      dark: [{ url: 'https://example.com/icon-dark.svg', format: 'svg' }]
+      light: [
+        { url: '/library/ethereum-icon-light.svg', format: 'svg' },
+        { url: '/library/ethereum-icon-light.png', format: 'png' }
+      ],
+      dark: [
+        { url: '/library/ethereum-icon-dark.svg', format: 'svg' },
+        { url: '/library/ethereum-icon-dark.png', format: 'png' }
+      ]
     },
     text: {
-      light: [{ url: 'https://example.com/text-icon-light.svg', format: 'svg' }],
-      dark: [{ url: 'https://example.com/text-icon-dark.svg', format: 'svg' }]
-    }
-  }
-}
-```
-
-- **Add brand guidelines** (where to find the images, how to use it, colors, fonts...):
-
-```ts
-{
-  id: 'Id',
-  name: 'Title',
-  mainCategory: 'tokens',
-  secondaryCategories: [],
-  websiteLink: 'https://example.com',
-  brandKitLink: 'https://example.com/brand',
-  logo: {
-    icon: {
-      light: [{ url: 'https://example.com/icon-light.svg', format: 'svg' }],
-      dark: [{ url: 'https://example.com/icon-dark.svg', format: 'svg' }]
-    },
-    text: {
-      light: [{ url: 'https://example.com/text-icon-light.svg', format: 'svg' }],
-      dark: [{ url: 'https://example.com/text-icon-dark.svg', format: 'svg' }]
+      light: [{ url: '/library/ethereum-text-light.svg', format: 'svg' }],
+      dark: [{ url: '/library/ethereum-text-dark.svg', format: 'svg' }]
     }
   }
 }
@@ -168,5 +153,6 @@ interface LogoVariantGroup {
 > [!NOTE]
 >
 > - You can add multiple categories to the same logo, for example: `secondaryCategories: ['chains', 'tokens']`.
+> - You can provide multiple formats per variant (SVG, PNG, JPG, WebP) so users can download the one they need.
 
-And create a pull request with your logo ✨.
+And create a pull request with your logo.
