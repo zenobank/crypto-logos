@@ -1,0 +1,101 @@
+# Crypto Logos
+
+Free, open-source library of high-quality cryptocurrency and blockchain logos. Browse, search, and download logos in SVG, PNG, JPG, and WebP formats with light/dark mode variants.
+
+Crypto Logos is a web platform and REST API for accessing crypto and blockchain logos. It provides crypto logos available in multiple formats and color variants (light and dark mode). The project is open source and community-driven — anyone can contribute logos via pull requests on GitHub.
+
+## Pages
+
+- [Home](https://cryptologos.zenobank.io/): Browse all logos with infinite scroll, search, and category filtering.
+- [Search](https://cryptologos.zenobank.io/search): Search logos by name with optional category and sort filters.
+- [API Documentation](https://cryptologos.zenobank.io/api-docs): REST API reference for programmatic access to logos.
+- [Favorites](https://cryptologos.zenobank.io/favorites): Save and manage favorite logos (client-side, no account needed).
+
+### Categories
+
+Logos are organized into categories such as chains, tokens, stablecoins, DeFi, NFT, exchanges, wallets, and more. Browse all categories at [cryptologos.zenobank.io](https://cryptologos.zenobank.io/) or query them via the `/api/categories` endpoint.
+
+## API
+
+Base URL: `https://cryptologos.zenobank.io`
+
+### GET /api/logos
+
+Returns a paginated list of logos. Supports filtering and search.
+
+Query parameters:
+- `category` (string): Filter by category (e.g., `chains`, `tokens`, `defi`)
+- `search` (string): Search logos by name (case-insensitive)
+- `sortBy` (string): Sort order — `name-asc` or `name-desc`
+- `limit` (number): Number of results per page
+- `skip` (number): Number of results to skip (for pagination)
+
+Response format:
+```json
+{
+  "data": [
+    {
+      "id": "ethereum",
+      "name": "Ethereum (ETH)",
+      "websiteLink": "https://ethereum.org",
+      "logo": {
+        "icon": {
+          "light": [{ "url": "/library/ethereum-icon-light.svg", "format": "svg" }],
+          "dark": [{ "url": "/library/ethereum-icon-dark.svg", "format": "svg" }]
+        },
+        "text": {
+          "light": [{ "url": "/library/ethereum-text-light.svg", "format": "svg" }]
+        }
+      },
+      "mainCategory": { "id": "chains", "name": "chains" },
+      "secondaryCategories": [{ "id": "tokens", "name": "tokens" }]
+    }
+  ],
+  "total": 100
+}
+```
+
+### GET /api/categories
+
+Returns all categories with logo counts.
+
+Response format:
+```json
+{
+  "data": [
+    { "id": "chains", "name": "chains", "count": 30 },
+    { "id": "tokens", "name": "tokens", "count": 50 }
+  ],
+  "total": 13
+}
+```
+
+## Logo Data Model
+
+Each logo includes:
+- **id**: Unique identifier (lowercase, no spaces)
+- **name**: Display name (e.g., "Solana (SOL)")
+- **mainCategory**: Primary category
+- **secondaryCategories**: Additional categories
+- **logo.icon**: Icon variant with light (required) and dark (optional) mode assets
+- **logo.text**: Wordmark/text variant (optional) with light and dark mode assets
+- **websiteLink**: Official website (optional)
+- **brandKitLink**: Brand guidelines URL (optional)
+
+Supported formats: SVG, PNG, JPG, WebP.
+
+## Contributing
+
+The project is open source at [github.com/zenobank/crypto-logos](https://github.com/zenobank/crypto-logos). To add a logo:
+
+1. Fork the repository
+2. Add image files to `public/library/` following the naming convention: `{id}-{variant}-{mode}.{format}` (e.g., `bitcoin-icon-light.svg`)
+3. Add metadata to `src/api/logos-data.ts`
+4. Submit a pull request
+
+## Tech Stack
+
+- Next.js 16 (React 19) with TypeScript
+- Tailwind CSS 4
+- TanStack React Query
+- Deployed on Vercel
