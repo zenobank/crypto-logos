@@ -7,7 +7,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'crypto-banks',
     secondaryCategories: ['payments'],
     websiteLink: 'https://zenobank.io',
-    brandKitLink: 'https://cryptologos.zenobank.io/',
+    brandKitLink: 'https://docs.zenobank.io/brand-assets',
     logo: {
       icon: {
         light: [
