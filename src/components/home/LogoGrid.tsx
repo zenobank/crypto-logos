@@ -24,17 +24,15 @@ export default function LogoGrid({
   isLoading,
   EmptyState,
 }: Props) {
-  // helpers
-  function getCompositeKey(logo: LogoItemsResponse) {
-    return JSON.stringify({
-      id: logo.id,
-      name: logo.name,
-      mainCategoryId: logo.mainCategory.id,
-      brandKitLink: logo.brandKitLink,
-    });
-  }
+  // Deduplicate logos by id (pagination can return overlapping items)
+  const seen = new Set<string>();
+  const uniqueLogos = logos.filter((logo) => {
+    if (seen.has(logo.id)) return false;
+    seen.add(logo.id);
+    return true;
+  });
 
-  if (logos.length === 0 && !isLoading) {
+  if (uniqueLogos.length === 0 && !isLoading) {
     return EmptyState ? (
       <>{EmptyState}</>
     ) : (
@@ -50,8 +48,8 @@ export default function LogoGrid({
   return (
     <div className="relative">
       <div className="grid grid-cols-[repeat(auto-fill,minmax(15rem,1fr))] gap-4 px-3">
-        {logos.map((logo) => (
-          <LogoCard key={getCompositeKey(logo)} logo={logo} />
+        {uniqueLogos.map((logo) => (
+          <LogoCard key={logo.id} logo={logo} />
         ))}
 
         {/* Loading skeletons */}
