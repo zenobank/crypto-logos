@@ -2,7 +2,7 @@
 import LogoAsset from '@/shared/models/logos/logo-asset';
 
 interface LogoVariantGroup {
-  light: LogoAsset[];
+  light?: LogoAsset[];
   dark?: LogoAsset[];
 }
 

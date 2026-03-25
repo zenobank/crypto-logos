@@ -14,15 +14,15 @@ interface LogoDisplaySectionProps {
 
 export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
   // computed
-  const iconLightAssets = logo.logo.icon.light;
-  const iconDarkAssets = logo.logo.icon.dark || logo.logo.icon.light;
+  const iconLightAssets = logo.logo.icon?.light ?? logo.logo.icon?.dark ?? logo.logo.text?.light ?? [];
+  const iconDarkAssets = logo.logo.icon?.dark ?? logo.logo.icon?.light ?? logo.logo.text?.dark ?? [];
   const textLightAssets = logo.logo.text?.light;
   const textDarkAssets = logo.logo.text?.dark || logo.logo.text?.light;
   const hasWordmark = Boolean(textLightAssets?.[0]);
 
   // Display assets (first one for preview)
   const iconLight = iconLightAssets[0];
-  const iconDark = logo.logo.icon.dark?.[0] || iconLight;
+  const iconDark = logo.logo.icon?.dark?.[0] ?? iconLight;
   const textLight = textLightAssets?.[0];
   const textDark = logo.logo.text?.dark?.[0] || textLight;
 

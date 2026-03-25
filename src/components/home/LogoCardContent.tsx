@@ -38,14 +38,14 @@ export default function LogoCardContent({
     const variant =
       showWordmark && hasWordmark ? logo.logo.text : logo.logo.icon;
     if (!variant) {
-      return logo.logo.icon.light[0];
+      return logo.logo.icon?.light?.[0] ?? logo.logo.icon?.dark?.[0] ?? logo.logo.text?.light?.[0] ?? logo.logo.text?.dark?.[0]!;
     }
 
     // Try to get dark variant for a dark theme, fallback to light
     if (isDarkTheme && variant.dark?.[0]) {
       return variant.dark[0];
     }
-    return variant.light?.[0] ?? variant.dark![0];
+    return variant.light?.[0] ?? variant.dark?.[0]!;
   }
 
   return (

@@ -117,7 +117,7 @@ export default function CopyLogoPopover({
     const variant =
       showWordmark && hasWordmark ? logo.logo.text : logo.logo.icon;
     if (!variant) {
-      return logo.logo.icon.light.map((asset) => ({
+      return (logo.logo.icon?.light ?? logo.logo.icon?.dark ?? logo.logo.text?.light ?? []).map((asset) => ({
         asset,
         theme: 'light' as const,
       }));
@@ -126,7 +126,7 @@ export default function CopyLogoPopover({
     const result: Array<{ asset: LogoAsset; theme: 'light' | 'dark' }> = [];
 
     // Add light variants
-    variant.light.forEach((asset) => {
+    (variant.light ?? []).forEach((asset) => {
       result.push({ asset, theme: 'light' });
     });
 
@@ -145,18 +145,18 @@ export default function CopyLogoPopover({
     const variant =
       showWordmark && hasWordmark ? logo.logo.text : logo.logo.icon;
     if (!variant) {
-      return logo.logo.icon.light[0];
+      return logo.logo.icon?.light?.[0] ?? logo.logo.icon?.dark?.[0] ?? logo.logo.text?.light?.[0] ?? logo.logo.text?.dark?.[0]!;
     }
 
     // Try to get dark variant for a dark theme, fallback to light
     const themeAssets =
       isDarkTheme && variant.dark && variant.dark.length > 0
         ? variant.dark
-        : variant.light;
+        : (variant.light ?? variant.dark ?? []);
 
     // Prefer SVG if available, otherwise return first asset
     return (
-      themeAssets.find((asset) => asset.format === 'svg') || themeAssets[0]
+      themeAssets.find((asset) => asset.format === 'svg') ?? themeAssets[0]
     );
   }
 

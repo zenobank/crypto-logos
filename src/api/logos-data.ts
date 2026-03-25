@@ -252,7 +252,13 @@ export const LOGOS_DATA: LogoItem[] = [
     websiteLink: 'https://www.bybit.com/en/bybit-pay',
     logo: {
       icon: {
-        dark: [
+        light: [
+          {
+            url: '/library/bybit-pay-icon-light.png',
+            format: 'png',
+          },
+        ],
+                dark: [
           {
             url: '/library/bybit-pay-icon-dark.png',
             format: 'png',

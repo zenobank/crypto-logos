@@ -2,7 +2,7 @@
 import LogoVariantGroup from '@/shared/models/logos/logo-variant-group';
 
 interface LogoDownloadableFiles {
-  icon: LogoVariantGroup;
+  icon?: LogoVariantGroup;
   text?: LogoVariantGroup;
 }
 

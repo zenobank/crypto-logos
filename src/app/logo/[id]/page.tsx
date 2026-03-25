@@ -43,8 +43,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `Download ${logo.name} Logo - Free PNG and SVG Download`;
   const description = `Free ${logo.name} logo in PNG and SVG format. High-quality crypto logos for your project`;
   const allImages = [
-    ...logo.logo.icon.light,
-    ...(logo.logo.icon.dark || []),
+    ...(logo.logo.icon?.light || []),
+    ...(logo.logo.icon?.dark || []),
     ...(logo.logo.text?.light || []),
     ...(logo.logo.text?.dark || []),
   ];
@@ -88,12 +88,14 @@ export default async function LogoDetailPage({ params }: Props) {
 
   // computed
   const allCategories = [logo.mainCategory, ...logo.secondaryCategories];
-  const logoIconLight = logo.logo.icon.light[0]?.url;
-  const logoIconDark = logo.logo.icon.dark?.[0]?.url || logoIconLight;
+  const logoIconLight =
+    logo.logo.icon?.light?.[0]?.url ?? logo.logo.icon?.dark?.[0]?.url ?? logo.logo.text?.light?.[0]?.url ?? logo.logo.text?.dark?.[0]?.url ?? '';
+  const logoIconDark =
+    logo.logo.icon?.dark?.[0]?.url ?? logoIconLight;
 
   const allAssets = [
-    ...logo.logo.icon.light,
-    ...(logo.logo.icon.dark || []),
+    ...(logo.logo.icon?.light || []),
+    ...(logo.logo.icon?.dark || []),
     ...(logo.logo.text?.light || []),
     ...(logo.logo.text?.dark || []),
   ];

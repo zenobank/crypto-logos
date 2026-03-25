@@ -47,8 +47,8 @@ export default function LogoDetailDownloads({
   logo,
 }: LogoDetailDownloadsProps) {
   // computed
-  const iconLight = logo.logo.icon.light;
-  const iconDark = logo.logo.icon.dark;
+  const iconLight = logo.logo.icon?.light;
+  const iconDark = logo.logo.icon?.dark;
   const hasWordmark = Boolean(logo.logo.text?.light?.[0]);
   const textLight = logo.logo.text?.light;
   const textDark = logo.logo.text?.dark;
@@ -61,7 +61,7 @@ export default function LogoDetailDownloads({
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <DownloadCard
             title="Light Version"
-            assets={iconLight}
+            assets={iconLight ?? []}
             logoName={logo.name}
             type="icon"
             variant="light"

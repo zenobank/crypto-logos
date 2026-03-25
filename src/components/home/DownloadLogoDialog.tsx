@@ -31,8 +31,8 @@ export default function DownloadLogoDialog({
 }: DownloadLogoDialogProps) {
   // computed
   const hasWordmark = Boolean(logo.logo.text?.light?.[0]);
-  const hasDarkIcon = Boolean(logo.logo.icon.dark?.[0]);
-  const hasMultipleFormats = logo.logo.icon.light.length > 1;
+  const hasDarkIcon = Boolean(logo.logo.icon?.dark?.[0]);
+  const hasMultipleFormats = (logo.logo.icon?.light?.length ?? 0) > 1;
 
   // Check if there's only one image: single icon.light, no dark, no text, no multiple formats
   const hasOnlyOneImage = !hasDarkIcon && !hasWordmark && !hasMultipleFormats;
@@ -42,7 +42,7 @@ export default function DownloadLogoDialog({
     e.preventDefault();
     e.stopPropagation();
 
-    const asset = logo.logo.icon.light[0];
+    const asset = logo.logo.icon?.light?.[0] ?? logo.logo.icon?.dark?.[0] ?? logo.logo.text?.light?.[0];
     if (asset) {
       downloadLogo(asset.url, `${logo.id}-icon-light.${asset.format}`);
     }
@@ -73,8 +73,8 @@ export default function DownloadLogoDialog({
             <DownloadSection
               title="Icon only"
               logoName={logo.id}
-              lightAssets={logo.logo.icon.light}
-              darkAssets={logo.logo.icon.dark}
+              lightAssets={logo.logo.icon?.light ?? []}
+              darkAssets={logo.logo.icon?.dark}
               filePrefix="icon"
             />
 
@@ -82,7 +82,7 @@ export default function DownloadLogoDialog({
               <DownloadSection
                 title="With wordmark"
                 logoName={logo.id}
-                lightAssets={logo.logo.text.light}
+                lightAssets={logo.logo.text.light ?? []}
                 darkAssets={logo.logo.text.dark}
                 filePrefix="wordmark"
               />
