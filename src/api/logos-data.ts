@@ -284,6 +284,44 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'defined',
+    name: 'Defined',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://defined.fi',
+    brandKitLink: 'https://docs.defined.fi/brand-assets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defined-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/defined-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/defined-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/defined-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'depay',
     name: 'DePay',
     mainCategory: 'payments',
