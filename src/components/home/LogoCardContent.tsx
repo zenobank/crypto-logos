@@ -28,7 +28,7 @@ export default function LogoCardContent({
   const { resolvedTheme } = useTheme();
 
   // computed
-  const hasWordmark = Boolean(logo.logo.text?.light?.[0]);
+  const hasWordmark = Boolean(logo.logo.text?.light?.[0] || logo.logo.text?.dark?.[0]);
   const isDarkTheme = resolvedTheme === 'dark';
   const currentLogo = getCurrentLogo();
 
@@ -45,7 +45,7 @@ export default function LogoCardContent({
     if (isDarkTheme && variant.dark?.[0]) {
       return variant.dark[0];
     }
-    return variant.light[0];
+    return variant.light?.[0] ?? variant.dark![0];
   }
 
   return (
