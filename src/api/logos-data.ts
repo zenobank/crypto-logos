@@ -1675,6 +1675,31 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'zinli',
+    name: 'Zinli',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.zinli.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zinli-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/zinli-text-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'lyra',
     name: 'Lyra',
     mainCategory: 'payments',
