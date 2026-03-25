@@ -1840,6 +1840,39 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'revolut',
+    name: 'Revolut',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: ['payments'],
+    websiteLink: 'https://revolut.com',
+    brandKitLink:
+      'https://developer.revolut.com/docs/resources/marketing-assets-guidelines/open-banking-logo-guidelines',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/revolut-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/revolut-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/revolut-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'reental',
     name: 'Reental',
     mainCategory: 'defi',
