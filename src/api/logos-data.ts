@@ -495,6 +495,31 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'gate-pay',
+    name: 'Gate Pay',
+    mainCategory: 'payments',
+    secondaryCategories: ['exchanges'],
+    websiteLink: 'https://www.gate.io/gatepay',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gate-pay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/gate-pay-text-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'geckoterminal',
     name: 'GeckoTerminal',
     mainCategory: 'infrastructure-tools',
@@ -1614,6 +1639,694 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/yearn-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lyra',
+    name: 'Lyra',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lyra-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'infinite',
+    name: 'Infinite',
+    mainCategory: 'payments',
+    secondaryCategories: ['stablecoins'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/infinite-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'helicarrier',
+    name: 'Helicarrier',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: ['payments'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/helicarrier-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quantstamp',
+    name: 'Quantstamp',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quantstamp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'request-network',
+    name: 'Request Network',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/request-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coco-wallet',
+    name: 'Coco Wallet',
+    mainCategory: 'wallets',
+    secondaryCategories: ['stablecoins'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coco-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sfox',
+    name: 'SFOX',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sfox-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ruvo',
+    name: 'Ruvo',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: ['payments'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ruvo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blindpay',
+    name: 'BlindPay',
+    mainCategory: 'payments',
+    secondaryCategories: ['stablecoins'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blindpay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'axiom',
+    name: 'Axiom',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/axiom-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blaze',
+    name: 'Blaze',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blaze-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polar',
+    name: 'Polar',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: ['payments'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polar-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'theya',
+    name: 'Theya',
+    mainCategory: 'wallets',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/theya-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'littio',
+    name: 'Littio',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: ['stablecoins'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/littio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'koywe',
+    name: 'Koywe',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/koywe-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'primevault',
+    name: 'PrimeVault',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: ['stablecoins'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/primevault-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hype',
+    name: 'Hype',
+    mainCategory: 'exchanges',
+    secondaryCategories: ['defi'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hype-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rio',
+    name: 'Rio',
+    mainCategory: 'payments',
+    secondaryCategories: ['stablecoins'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cypher',
+    name: 'Cypher',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: ['stablecoins'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cypher-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pluto-markets',
+    name: 'Pluto.markets',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pluto-markets-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinrule',
+    name: 'Coinrule',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinrule-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dolarapp',
+    name: 'DolarApp',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: ['payments'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dolarapp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flux',
+    name: 'Flux',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flux-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'camp',
+    name: 'Camp',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/camp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rainbow',
+    name: 'Rainbow',
+    mainCategory: 'wallets',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rainbow-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mudrex',
+    name: 'Mudrex',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mudrex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orthogonal',
+    name: 'Orthogonal',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orthogonal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tokenowl',
+    name: 'TokenOwl',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tokenowl-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'poko',
+    name: 'Poko',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/poko-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'filta',
+    name: 'Filta',
+    mainCategory: 'nft',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/filta-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lootrush',
+    name: 'LootRush',
+    mainCategory: 'nft',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lootrush-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethosx',
+    name: 'EthosX',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethosx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'upbanx',
+    name: 'UpBanx',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/upbanx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hypertrader',
+    name: 'HyperTrader',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hypertrader-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cointracker',
+    name: 'CoinTracker',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cointracker-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hedgehog',
+    name: 'Hedgehog',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hedgehog-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'karsa',
+    name: 'Karsa',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: ['stablecoins'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/karsa-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quicknode',
+    name: 'QuickNode',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quicknode-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'payfura',
+    name: 'Payfura',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/payfura-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidroad',
+    name: 'Solidroad',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidroad-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rainmaker',
+    name: 'Rainmaker',
+    mainCategory: 'defi',
+    secondaryCategories: ['wallets'],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rainmaker-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'globe',
+    name: 'Globe',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/globe-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tranch',
+    name: 'Tranch',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tranch-icon-light.png',
             format: 'png',
           },
         ],
