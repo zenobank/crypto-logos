@@ -1675,6 +1675,24 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'telegram',
+    name: 'Telegram',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://telegram.org',
+    brandKitLink: 'https://t.me/pressbot',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/telegram-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'equito',
     name: 'Equito',
     mainCategory: 'payments',
