@@ -245,6 +245,31 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'bybit-pay',
+    name: 'Bybit Pay',
+    mainCategory: 'payments',
+    secondaryCategories: ['exchanges'],
+    websiteLink: 'https://www.bybit.com/en/bybit-pay',
+    logo: {
+      icon: {
+        dark: [
+          {
+            url: '/library/bybit-pay-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/bybit-pay-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'carbon-perpetuals',
     name: 'Carbon',
     brandKitLink:
@@ -549,6 +574,31 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/kucoin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kucoin-pay',
+    name: 'KuCoin Pay',
+    mainCategory: 'payments',
+    secondaryCategories: ['exchanges'],
+    websiteLink: 'https://www.kucoin.com/kucoin-pay',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kucoin-pay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/kucoin-pay-text-light.png',
             format: 'png',
           },
         ],
