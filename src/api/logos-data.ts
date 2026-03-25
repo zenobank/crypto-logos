@@ -1743,6 +1743,35 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'reental',
+    name: 'Reental',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.reental.co',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/reental-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/reental-text-light.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/reental-text-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'request-network',
     name: 'Request Network',
     mainCategory: 'payments',
