@@ -33893,7 +33893,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/jito-labs-icon-light.png',
+            url: '/library/jito-labs-icon-dark.png',
             format: 'png',
           },
         ],
@@ -33909,6 +33909,10 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/jito-labs-text-dark.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/jito-labs-text-dark.png',
+            format: 'png',
           },
         ],
       },
