@@ -55295,4 +55295,701 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: '3jane',
+    name: '3Jane',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.3jane.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/3jane-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ai-arena',
+    name: 'AI Arena',
+    mainCategory: 'gaming',
+    secondaryCategories: [],
+    websiteLink: 'https://aiarena.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ai-arena-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'andromeda',
+    name: 'Andromeda',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://andromeda.ai/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/andromeda-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'babylon',
+    name: 'Babylon',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://babylonlabs.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/babylon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'citadel-securities',
+    name: 'Citadel Securities',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://www.citadelsecurities.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/citadel-securities-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinswitch',
+    name: 'CoinSwitch',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://coinswitch.co/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinswitch-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'crown',
+    name: 'Crown',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://brl.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/crown-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'divine',
+    name: 'Divine',
+    mainCategory: 'defi',
+    secondaryCategories: ['payments'],
+    websiteLink: 'https://divine.inc/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/divine-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ellipsis-labs',
+    name: 'Ellipsis Labs',
+    mainCategory: 'defi',
+    secondaryCategories: ['exchanges'],
+    websiteLink: 'https://ellipsislabs.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ellipsis-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'etherealize',
+    name: 'Etherealize',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.etherealize.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/etherealize-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'exponential',
+    name: 'Exponential',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://exponential.fi/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/exponential-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'friend-tech',
+    name: 'friend.tech',
+    mainCategory: 'social',
+    secondaryCategories: [],
+    websiteLink: 'https://www.friend.tech/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/friend-tech-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gauntlet',
+    name: 'Gauntlet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://www.gauntlet.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gauntlet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'genesis-digital-assets',
+    name: 'Genesis Digital Assets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://genesisdigitalassets.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/genesis-digital-assets-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gte',
+    name: 'GTE',
+    mainCategory: 'exchanges',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://www.gte.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gte-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'harmonic',
+    name: 'Harmonic',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://harmonic.fun/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/harmonic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'irreducible',
+    name: 'Irreducible',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.irreducible.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/irreducible-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ithaca',
+    name: 'Ithaca',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.ithaca.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ithaca-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kalshi',
+    name: 'Kalshi',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://kalshi.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kalshi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lightspark',
+    name: 'Lightspark',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.lightspark.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lightspark-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'limit-break',
+    name: 'Limit Break',
+    mainCategory: 'gaming',
+    secondaryCategories: [],
+    websiteLink: 'https://limitbreak.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/limit-break-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mad-realities',
+    name: 'Mad Realities',
+    mainCategory: 'social',
+    secondaryCategories: [],
+    websiteLink: 'https://madrealities.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mad-realities-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'matrixport',
+    name: 'Matrixport',
+    mainCategory: 'defi',
+    secondaryCategories: ['exchanges'],
+    websiteLink: 'https://www.matrixport.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/matrixport-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metadao',
+    name: 'MetaDAO',
+    mainCategory: 'defi',
+    secondaryCategories: ['dao'],
+    websiteLink: 'https://metadao.fi/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metadao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'monad',
+    name: 'Monad',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    websiteLink: 'https://www.monad.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/monad-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'n3xt',
+    name: 'N3XT',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://n3xt.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/n3xt-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'noble',
+    name: 'Noble',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: ['stablecoins'],
+    websiteLink: 'https://www.noble.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/noble-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'noise',
+    name: 'Noise',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://noise.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/noise-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nous-research',
+    name: 'Nous Research',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://nousresearch.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nous-research-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'o-1-labs',
+    name: 'O(1) Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://o1labs.org/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/o-1-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'osmosis',
+    name: 'Osmosis',
+    mainCategory: 'defi',
+    secondaryCategories: ['exchanges'],
+    websiteLink: 'https://osmosis.zone/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/osmosis-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'plural',
+    name: 'Plural',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.pluralfinance.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/plural-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sky-mavis',
+    name: 'Sky Mavis',
+    mainCategory: 'gaming',
+    secondaryCategories: [],
+    websiteLink: 'https://skymavis.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sky-mavis-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sorella-labs',
+    name: 'Sorella Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://sorellalabs.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sorella-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'spacemesh',
+    name: 'Spacemesh',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    websiteLink: 'https://spacemesh.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/spacemesh-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'standard-economics',
+    name: 'Standard Economics',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.standardeconomics.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/standard-economics-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'starkware',
+    name: 'Starkware',
+    mainCategory: 'chains',
+    secondaryCategories: ['infrastructure-tools'],
+    websiteLink: 'https://starkware.co/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/starkware-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stripe',
+    name: 'Stripe',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://stripe.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stripe-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'symbiotic',
+    name: 'Symbiotic',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://symbiotic.fi/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/symbiotic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'taxbit',
+    name: 'TaxBit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://taxbit.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/taxbit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zipline',
+    name: 'Zipline',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.zipline.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zipline-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
