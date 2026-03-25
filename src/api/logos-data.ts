@@ -1675,6 +1675,35 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'equito',
+    name: 'Equito',
+    mainCategory: 'payments',
+    secondaryCategories: ['stablecoins'],
+    websiteLink: 'https://www.equito.app',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/equito-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/equito-text-light.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/equito-text-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'wally',
     name: 'Wally',
     mainCategory: 'payments',
