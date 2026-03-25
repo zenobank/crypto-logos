@@ -1276,6 +1276,61 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'tempo',
+    name: 'Tempo',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    websiteLink: 'https://tempo.xyz',
+    brandKitLink:
+      'https://drive.google.com/drive/u/0/folders/1AMbYL6jupt3Em8_K2_2ZBqP8Jd-FJAqE',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tempo-icon-light.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/tempo-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tempo-icon-dark.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/tempo-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/tempo-text-light.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/tempo-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tempo-text-dark.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/tempo-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'thirdweb',
     name: 'thirdweb',
     mainCategory: 'infrastructure-tools',
@@ -3407,6 +3462,44 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/code4rena-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'codex',
+    name: 'Codex',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.codex.io',
+    brandKitLink: 'https://www.codex.io/press-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/codex-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/codex-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/codex-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/codex-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
