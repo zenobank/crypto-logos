@@ -16969,8 +16969,8 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'bloom',
-    name: 'Bloom',
+    id: 'bloom-wallet',
+    name: 'Bloom Wallet',
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://bloomwallet.io/',
