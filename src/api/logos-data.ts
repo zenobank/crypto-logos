@@ -1072,6 +1072,10 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
+            url: '/library/rainbowkit-icon-light.svg',
+            format: 'svg',
+          },
+          {
             url: '/library/rainbowkit-icon-light.png',
             format: 'png',
           },
