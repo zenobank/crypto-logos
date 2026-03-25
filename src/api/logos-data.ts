@@ -56676,4 +56676,22 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'trojan-bot',
+    name: 'Trojan Bot',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://trojan.com',
+    brandKitLink: 'https://docs.trojan.com/additional-info/brand-assets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/trojan-bot-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
