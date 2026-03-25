@@ -216,6 +216,35 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'bybit',
+    name: 'Bybit',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bybit.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bybit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bybit-text-light.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/bybit-text-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'carbon-perpetuals',
     name: 'Carbon',
     brandKitLink:
@@ -1326,43 +1355,13 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/tempo-icon-light.svg',
-            format: 'svg',
-          },
-          {
             url: '/library/tempo-icon-light.png',
             format: 'png',
           },
         ],
         dark: [
           {
-            url: '/library/tempo-icon-dark.svg',
-            format: 'svg',
-          },
-          {
             url: '/library/tempo-icon-dark.png',
-            format: 'png',
-          },
-        ],
-      },
-      text: {
-        light: [
-          {
-            url: '/library/tempo-text-light.svg',
-            format: 'svg',
-          },
-          {
-            url: '/library/tempo-text-light.png',
-            format: 'png',
-          },
-        ],
-        dark: [
-          {
-            url: '/library/tempo-text-dark.svg',
-            format: 'svg',
-          },
-          {
-            url: '/library/tempo-text-dark.png',
             format: 'png',
           },
         ],
@@ -3320,6 +3319,12 @@ export const LOGOS_DATA: LogoItem[] = [
         ],
       },
       text: {
+        light: [
+          {
+            url: '/library/binance-pay-text-light.png',
+            format: 'png',
+          },
+        ],
         dark: [
           {
             url: '/library/binance-pay-text-dark.png',
