@@ -1497,6 +1497,38 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'viem',
+    name: 'viem',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://viem.sh',
+    brandKitLink: 'https://github.com/wevm/viem/tree/main/.github',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/viem-text-light.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/viem-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/viem-text-dark.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/viem-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'web3-js',
     name: 'web3.js',
     mainCategory: 'infrastructure-tools',
