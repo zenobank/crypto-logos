@@ -1675,6 +1675,31 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'wally',
+    name: 'Wally',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.wally.tech',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wally-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/wally-text-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'zinli',
     name: 'Zinli',
     mainCategory: 'payments',
