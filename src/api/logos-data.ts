@@ -1,5 +1,6 @@
 import LogoItem from '@/shared/models/logos/logo-item';
 
+// @ts-expect-error TS2590: Array too large for type inference
 export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'zenobank',
@@ -1912,6 +1913,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/lightning-network-text-light.png',
+            format: 'png',
+          },
+        ],
+      },
     },
   },
   {
@@ -2890,6 +2899,32 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'firedancer',
+    name: 'Firedancer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.firedancer.io',
+    brandKitLink: 'https://docs.firedancer.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/firedancer-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/firedancer-text-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'ethers-js',
     name: 'ethers.js',
     mainCategory: 'infrastructure-tools',
@@ -3257,6 +3292,37 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/binance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'binance-pay',
+    name: 'Binance Pay',
+    mainCategory: 'payments',
+    secondaryCategories: ['exchanges'],
+    websiteLink: 'https://pay.binance.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/binance-pay-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/binance-pay-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/binance-pay-text-dark.png',
             format: 'png',
           },
         ],
@@ -20930,6 +20996,33486 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/coinflex-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+    },
+  },
+
+  {
+    id: 'polymarket',
+    name: 'Polymarket',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polymarket-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alchemy-rollups',
+    name: 'Alchemy Rollups',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alchemy-rollups-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alchemy-node-rpc',
+    name: 'Alchemy Node RPC',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alchemy-node-rpc-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'op-stack',
+    name: 'OP Stack',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/op-stack-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arbitrum-orbit',
+    name: 'Arbitrum Orbit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arbitrum-orbit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zapper',
+    name: 'Zapper',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zapper-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tally',
+    name: 'Tally',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tally-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hyperlane',
+    name: 'Hyperlane',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hyperlane-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'boost',
+    name: 'Boost',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/boost-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/boost-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'spearbit',
+    name: 'Spearbit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/spearbit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alchemy-prices-api',
+    name: 'Alchemy Prices API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alchemy-prices-api-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'superbridge',
+    name: 'Superbridge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/superbridge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'halliday',
+    name: 'Halliday',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/halliday-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockscout',
+    name: 'Blockscout',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockscout-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'decent',
+    name: 'Decent',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/decent-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'parsec-finance',
+    name: 'Parsec Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/parsec-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinflow',
+    name: 'Coinflow',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinflow-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alchemy-gas-manager',
+    name: 'Alchemy Gas Manager',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alchemy-gas-manager-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/alchemy-gas-manager-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockaid',
+    name: 'Blockaid',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockaid-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'trugard',
+    name: 'Trugard',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/trugard-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockradar',
+    name: 'Blockradar',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockradar-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'openfort',
+    name: 'Openfort',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/openfort-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'developer-dao',
+    name: 'Developer DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/developer-dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitzaro',
+    name: 'Bitzaro',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitzaro-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'octane',
+    name: 'Octane',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/octane-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'synfutures',
+    name: 'SynFutures',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/synfutures-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'apillon-embedded-wallet-service',
+    name: 'Apillon Embedded Wallet Service',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/apillon-embedded-wallet-service-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mint-kudos',
+    name: 'Mint Kudos',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mint-kudos-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polygon-zkevm',
+    name: 'Polygon zkEVM',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polygon-zkevm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'goldsky',
+    name: 'Goldsky',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/goldsky-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zettablock',
+    name: 'ZettaBlock',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zettablock-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nftscan',
+    name: 'NFTScan',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nftscan-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'slingshot',
+    name: 'Slingshot',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/slingshot-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'collab-land',
+    name: 'Collab.Land',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/collab-land-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kraken-wallet',
+    name: 'Kraken Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kraken-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hardhat',
+    name: 'Hardhat',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hardhat-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'slither',
+    name: 'Slither',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/slither-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stripe-crypto-onramp',
+    name: 'Stripe Crypto Onramp',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stripe-crypto-onramp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alchemy-bundler',
+    name: 'Alchemy Bundler',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alchemy-bundler-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'apeworx-evm-trace',
+    name: 'ApeWorx EVM Trace',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/apeworx-evm-trace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dora',
+    name: 'Dora',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dora-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'circle-yield',
+    name: 'Circle Yield',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/circle-yield-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stripe-identity',
+    name: 'Stripe Identity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stripe-identity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'manticore',
+    name: 'Manticore',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/manticore-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'okx-wallet',
+    name: 'OKX Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/okx-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinbase-wallet',
+    name: 'Coinbase Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinbase-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lighthouse',
+    name: 'Lighthouse',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lighthouse-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'light-account',
+    name: 'Light Account',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/light-account-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/light-account-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethfiddle',
+    name: 'EthFiddle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethfiddle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lit',
+    name: 'Lit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'draftkings-marketplace',
+    name: 'DraftKings Marketplace',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/draftkings-marketplace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nansen-portfolio',
+    name: 'Nansen Portfolio',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nansen-portfolio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ipfs',
+    name: 'IPFS',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ipfs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'castle',
+    name: 'Castle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/castle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solady',
+    name: 'Solady',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solady-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ens',
+    name: 'ENS',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ens-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'floor',
+    name: 'Floor',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/floor-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'scaffold-eth',
+    name: 'Scaffold-ETH',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/scaffold-eth-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'founders-fund',
+    name: 'Founders Fund',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/founders-fund-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dropspace',
+    name: 'Dropspace',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dropspace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'starkgate',
+    name: 'StarkGate',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/starkgate-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cookbook',
+    name: 'Cookbook',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cookbook-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'create-web3-dapp',
+    name: 'Create Web3 dApp',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/create-web3-dapp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flashbots',
+    name: 'Flashbots',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flashbots-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'delphi-digital',
+    name: 'Delphi Digital',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/delphi-digital-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'juicebox',
+    name: 'Juicebox',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/juicebox-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alchemy-notify',
+    name: 'Alchemy Notify',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alchemy-notify-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alchemy-nft-api',
+    name: 'Alchemy NFT API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alchemy-nft-api-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dexter-lab',
+    name: 'Dexter Lab ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dexter-lab-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nansen',
+    name: 'Nansen',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nansen-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'openzeppelin',
+    name: 'OpenZeppelin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/openzeppelin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'paragraph',
+    name: 'Paragraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/paragraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mirror-world',
+    name: 'Mirror World',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mirror-world-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/mirror-world-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'decentral-games',
+    name: 'Decentral Games',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/decentral-games-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinbase-ventures',
+    name: 'Coinbase Ventures',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinbase-ventures-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'modular-account',
+    name: 'Modular Account',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/modular-account-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/modular-account-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'harpie',
+    name: 'Harpie',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/harpie-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'connext',
+    name: 'Connext',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/connext-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hellomoon',
+    name: 'HelloMoon',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hellomoon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lenster',
+    name: 'Lenster',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lenster-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nethermind',
+    name: 'Nethermind',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nethermind-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fractal-id',
+    name: 'Fractal ID',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fractal-id-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'buidlguidl',
+    name: 'BuidlGuidl',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/buidlguidl-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'taho-wallet',
+    name: 'Taho Wallet (Formerly Tally Ho)',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/taho-wallet-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/taho-wallet-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'conduit',
+    name: 'Conduit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/conduit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'candide',
+    name: 'Candide',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/candide-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alchemy-university',
+    name: 'Alchemy University',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alchemy-university-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mobula',
+    name: 'Mobula',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mobula-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'espresso-sequencer',
+    name: 'Espresso Sequencer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/espresso-sequencer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'radius',
+    name: 'Radius',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/radius-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'trail-of-bits',
+    name: 'Trail of Bits',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/trail-of-bits-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'web3cli',
+    name: 'web3cli',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/web3cli-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blocknative',
+    name: 'Blocknative',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blocknative-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polygon-id',
+    name: 'Polygon ID',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polygon-id-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hyperspace',
+    name: 'Hyperspace',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hyperspace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hop',
+    name: 'Hop',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hop-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'niftygateway',
+    name: 'NiftyGateway',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/niftygateway-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sigma-prime',
+    name: 'Sigma Prime',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sigma-prime-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'x2y2',
+    name: 'X2Y2',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/x2y2-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'helius',
+    name: 'Helius',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/helius-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kamino-finance',
+    name: 'Kamino Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kamino-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'echidna',
+    name: 'Echidna',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/echidna-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'messari',
+    name: 'Messari',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/messari-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rust-ethereum-abi',
+    name: 'Rust Ethereum ABI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rust-ethereum-abi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'speedrun-ethereum',
+    name: 'Speedrun Ethereum',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/speedrun-ethereum-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mintify',
+    name: 'Mintify',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mintify-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bueno',
+    name: 'Bueno',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bueno-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cryptozombies',
+    name: 'CryptoZombies',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptozombies-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'boardroom',
+    name: 'Boardroom',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/boardroom-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'exchange-art',
+    name: 'Exchange Art',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/exchange-art-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'portals-fi',
+    name: 'Portals.fi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/portals-fi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lodestar',
+    name: 'Lodestar',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lodestar-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rattle',
+    name: 'Rattle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rattle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wormhole',
+    name: 'Wormhole',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wormhole-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'snapshot',
+    name: 'Snapshot',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/snapshot-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solbase',
+    name: 'Solbase',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solbase-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mixbytes',
+    name: 'MixBytes',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mixbytes-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gashawk',
+    name: 'GasHawk',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gashawk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'watchpug',
+    name: 'WatchPug',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/watchpug-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vectordao',
+    name: 'VectorDAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vectordao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'seaport',
+    name: 'Seaport',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/seaport-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solmate',
+    name: 'Solmate',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solmate-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sorare',
+    name: 'Sorare',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sorare-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'serpentor',
+    name: 'Serpentor',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/serpentor-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solana-explorer',
+    name: 'Solana Explorer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solana-explorer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'friends-with-benefits',
+    name: 'Friends With Benefits',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/friends-with-benefits-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'superfluid',
+    name: 'Superfluid',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/superfluid-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kevlar',
+    name: 'Kevlar',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kevlar-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'loop-crypto',
+    name: 'Loop Crypto',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/loop-crypto-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gun',
+    name: 'Gun',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gun-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tres-finance',
+    name: 'Tres Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tres-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'soul-wallet',
+    name: 'Soul Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/soul-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zellic',
+    name: 'Zellic',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zellic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cairo',
+    name: 'Cairo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cairo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'opensea-api',
+    name: 'OpenSea API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/opensea-api-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'huffmate',
+    name: 'Huffmate',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/huffmate-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'marinade-finance',
+    name: 'Marinade Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/marinade-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'evm-puzzles',
+    name: 'EVM Puzzles',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/evm-puzzles-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'halborn',
+    name: 'Halborn',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/halborn-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wei-converter',
+    name: 'Wei Converter',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wei-converter-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hacken',
+    name: 'Hacken',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hacken-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'octopus',
+    name: 'Octopus',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/octopus-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wagmi',
+    name: 'Wagmi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wagmi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'otterspace',
+    name: 'Otterspace',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/otterspace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solvm',
+    name: 'Solvm',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solvm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cashmere',
+    name: 'Cashmere',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cashmere-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'secure3',
+    name: 'Secure3',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/secure3-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'radom',
+    name: 'Radom',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/radom-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'origin-dollar',
+    name: 'Origin Dollar',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/origin-dollar-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ownerfy',
+    name: 'Ownerfy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ownerfy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yield-yak',
+    name: 'Yield Yak',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yield-yak-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blocksec',
+    name: 'BlockSec',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blocksec-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stackup',
+    name: 'Stackup',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stackup-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'skiff',
+    name: 'Skiff',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/skiff-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'oxorio',
+    name: 'OXORIO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/oxorio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'router-protocol',
+    name: 'Router Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/router-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'debridge',
+    name: 'deBridge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/debridge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pentacle',
+    name: 'Pentacle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pentacle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'real-vision',
+    name: 'Real Vision',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/real-vision-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solanafm',
+    name: 'SolanaFM',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solanafm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'holograph',
+    name: 'Holograph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/holograph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'planet-ix',
+    name: 'Planet IX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/planet-ix-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pooltogether',
+    name: 'PoolTogether',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pooltogether-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pocket-universe',
+    name: 'Pocket Universe',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pocket-universe-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'silo-finance',
+    name: 'Silo Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/silo-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tensor',
+    name: 'Tensor',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tensor-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unmarshal',
+    name: 'Unmarshal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unmarshal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'infinitism-bundler',
+    name: 'Infinitism Bundler',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/infinitism-bundler-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'starknet-ecosystem',
+    name: 'Starknet Ecosystem',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/starknet-ecosystem-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arbitrary-execution',
+    name: 'Arbitrary Execution',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arbitrary-execution-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nethermind-security',
+    name: 'Nethermind Security',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nethermind-security-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/nethermind-security-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'harvard-blockchain',
+    name: 'Harvard Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/harvard-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'verichains',
+    name: 'Verichains',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/verichains-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stanford-blockchain-club',
+    name: 'Stanford Blockchain Club',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stanford-blockchain-club-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-at-berkeley',
+    name: 'Blockchain at Berkeley',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-at-berkeley-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'miami-university-blockchain-club',
+    name: 'Miami University Blockchain Club',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/miami-university-blockchain-club-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-ucla',
+    name: 'Blockchain UCLA',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-ucla-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sunway-blockchain',
+    name: 'Sunway Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sunway-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sqd',
+    name: 'SQD',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sqd-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'web3auth',
+    name: 'Web3Auth',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/web3auth-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethernow-xyz',
+    name: 'Ethernow.xyz',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethernow-xyz-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'syndica',
+    name: 'Syndica',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/syndica-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'voltaire',
+    name: 'Voltaire',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/voltaire-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sharkteam',
+    name: 'SharkTeam',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sharkteam-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kadena',
+    name: 'Kadena ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kadena-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'codeslaw',
+    name: 'codeslaw',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/codeslaw-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stackup-bundler',
+    name: 'Stackup Bundler',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stackup-bundler-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainaegis',
+    name: 'ChainAegis',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainaegis-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hashlock',
+    name: 'Hashlock',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hashlock-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cyberscope',
+    name: 'Cyberscope',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cyberscope-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'propellerswap',
+    name: 'PropellerSwap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/propellerswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'subquery',
+    name: 'SubQuery',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/subquery-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stardust',
+    name: 'Stardust',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stardust-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'manifold-finance',
+    name: 'Manifold Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/manifold-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'reflexer',
+    name: 'Reflexer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/reflexer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidity-array-generator',
+    name: 'Solidity Array Generator',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidity-array-generator-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'popular-smart-contract-templates',
+    name: 'Popular Smart Contract Templates',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/popular-smart-contract-templates-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chuff',
+    name: 'Chuff',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chuff-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'seth',
+    name: 'Seth',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/seth-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinapi',
+    name: 'CoinAPI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinapi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solhint',
+    name: 'Solhint',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solhint-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defi-prime',
+    name: 'DeFi Prime',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defi-prime-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gnosis-v2',
+    name: 'Gnosis V2',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gnosis-v2-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'enzyme-finance',
+    name: 'Enzyme Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/enzyme-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vyper',
+    name: 'Vyper',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vyper-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hummingbot',
+    name: 'Hummingbot',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hummingbot-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitquery',
+    name: 'Bitquery',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitquery-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'etheno',
+    name: 'Etheno',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/etheno-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eth-abi',
+    name: 'ETH ABI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eth-abi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'step-finance',
+    name: 'Step Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/step-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'upstream-collectives',
+    name: 'Upstream Collectives',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/upstream-collectives-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'roll',
+    name: 'Roll',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/roll-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'besu',
+    name: 'Besu',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/besu-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sourcify',
+    name: 'Sourcify',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sourcify-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'parasol',
+    name: 'Parasol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/parasol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pubdao',
+    name: 'PubDAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pubdao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'openzeppelin-upgrades',
+    name: 'OpenZeppelin Upgrades',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/openzeppelin-upgrades-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xmtp',
+    name: 'XMTP',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xmtp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yakindu',
+    name: 'Yakindu',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yakindu-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'web3-modal',
+    name: 'Web3 Modal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/web3-modal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'teku',
+    name: 'Teku',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/teku-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'apy-vision',
+    name: 'APY Vision',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/apy-vision-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'abitype',
+    name: 'ABIType',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/abitype-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'synpress',
+    name: 'Synpress',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/synpress-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'waffle',
+    name: 'Waffle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/waffle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defi-rate',
+    name: 'DeFi Rate',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defi-rate-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wyre',
+    name: 'Wyre',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wyre-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'transaction-decoder',
+    name: 'Transaction Decoder',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/transaction-decoder-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'consensys-abi-decoder',
+    name: 'ConsenSys ABI Decoder',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/consensys-abi-decoder-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'truffle-verify',
+    name: 'Truffle Verify',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/truffle-verify-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eth-tester',
+    name: 'Eth Tester',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eth-tester-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tayt',
+    name: 'Tayt',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tayt-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zolidity',
+    name: 'Zolidity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zolidity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethersplay',
+    name: 'Ethersplay',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethersplay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'web3j',
+    name: 'web3j',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/web3j-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eth-sdk',
+    name: 'ETH SDK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eth-sdk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'buildspace',
+    name: 'buildspace',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/buildspace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'decurity',
+    name: 'Decurity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/decurity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'splunk',
+    name: 'Splunk',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/splunk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'prbtest',
+    name: 'PRBTest',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/prbtest-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mockthereum',
+    name: 'Mockthereum',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mockthereum-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'openzeppelin-test-helpers',
+    name: 'OpenZeppelin Test Helpers',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/openzeppelin-test-helpers-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'calldata-decoder',
+    name: 'Calldata Decoder',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/calldata-decoder-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solang',
+    name: 'Solang',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solang-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gaterepo',
+    name: 'GateRepo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gaterepo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blocknative-gas-estimator',
+    name: 'Blocknative Gas Estimator',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blocknative-gas-estimator-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'l2beat',
+    name: 'L2BEAT',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/l2beat-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'piedao',
+    name: 'PieDAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/piedao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orbit-db',
+    name: 'Orbit DB',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orbit-db-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidity-coverage',
+    name: 'Solidity Coverage',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidity-coverage-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mythril',
+    name: 'Mythril',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mythril-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nft-analyst-starter-pack',
+    name: 'NFT Analyst Starter Pack',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nft-analyst-starter-pack-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ramp-network',
+    name: 'Ramp Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ramp-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vscode',
+    name: 'VScode',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vscode-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'connectkit',
+    name: 'ConnectKit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/connectkit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'notional',
+    name: 'Notional',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/notional-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'evm2',
+    name: 'EVM2',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/evm2-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sepolia-testnet-explorer',
+    name: 'Sepolia Testnet Explorer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sepolia-testnet-explorer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unit-protocol',
+    name: 'Unit Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unit-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dhedge',
+    name: 'dHEDGE',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dhedge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tenderly-gas-profiler',
+    name: 'Tenderly Gas Profiler',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tenderly-gas-profiler-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethp2p',
+    name: 'ETHP2P',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethp2p-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rattle',
+    name: 'Rattle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rattle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'magna',
+    name: 'Magna',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/magna-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'event-decoder',
+    name: 'Event Decoder',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/event-decoder-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'huff-x-foundry',
+    name: 'Huff x Foundry',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/huff-x-foundry-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'erc721a',
+    name: 'ERC721A',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/erc721a-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'truffle',
+    name: 'Truffle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/truffle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'boring-solidity',
+    name: 'Boring Solidity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/boring-solidity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'drizzle',
+    name: 'Drizzle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/drizzle-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/drizzle-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dune-mev-dashboard',
+    name: 'Dune MEV Dashboard',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dune-mev-dashboard-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rust',
+    name: 'Rust',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rust-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'openzeppelin-defender',
+    name: 'OpenZeppelin Defender',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/openzeppelin-defender-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cream-finance',
+    name: 'Cream Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cream-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'allbridge-core',
+    name: 'Allbridge Core',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/allbridge-core-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'snekmate',
+    name: 'Snekmate',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/snekmate-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'huff',
+    name: 'Huff',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/huff-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hardhat-template',
+    name: 'Hardhat Template',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hardhat-template-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'etherscan-online-decompiler',
+    name: 'Etherscan Online Decompiler ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/etherscan-online-decompiler-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'next-web3-boilerplate',
+    name: 'Next Web3 Boilerplate',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/next-web3-boilerplate-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchair',
+    name: 'Blockchair',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchair-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solend',
+    name: 'Solend',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solend-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'libp2p',
+    name: 'libp2p',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/libp2p-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'typechain',
+    name: 'TypeChain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/typechain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'amarna',
+    name: 'Amarna',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/amarna-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'foundry-rust-template',
+    name: 'Foundry Rust Template',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/foundry-rust-template-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'holders-at',
+    name: 'Holders.at',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/holders-at-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'light-js',
+    name: 'light.js',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/light-js-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'python-evm-assembler',
+    name: 'Python EVM Assembler',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/python-evm-assembler-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'prettier-solidity',
+    name: 'Prettier Solidity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/prettier-solidity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aldrin',
+    name: 'Aldrin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aldrin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'royal',
+    name: 'Royal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/royal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quicknode',
+    name: 'Quicknode',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quicknode-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'abi-parser',
+    name: 'ABI Parser',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/abi-parser-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethplorer',
+    name: 'Ethplorer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethplorer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'opensea-stream-api',
+    name: 'OpenSea Stream API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/opensea-stream-api-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'prbmath',
+    name: 'PRBMath ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/prbmath-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'capstone-disassembler',
+    name: 'Capstone Disassembler',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/capstone-disassembler-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defillama',
+    name: 'DeFiLlama',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defillama-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cantbeevil-license',
+    name: 'CantBeEvil License',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cantbeevil-license-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'daostack',
+    name: 'DAOstack',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/daostack-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dodo',
+    name: 'DODO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dodo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'multis',
+    name: 'Multis',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/multis-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cairo-contracts-wizard',
+    name: 'Cairo Contracts Wizard',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cairo-contracts-wizard-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solc-verify',
+    name: 'Solc Verify',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solc-verify-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'surya',
+    name: 'Surya',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/surya-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethereum-transaction-viewer',
+    name: 'Ethereum Transaction Viewer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethereum-transaction-viewer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chai',
+    name: 'Chai',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lanyard',
+    name: 'Lanyard',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lanyard-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'l2-optimizoooors',
+    name: 'L2 Optimizoooors',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/l2-optimizoooors-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidity-sandbox',
+    name: 'Solidity Sandbox',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidity-sandbox-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'uniswap-v3-core',
+    name: 'Uniswap v3 Core',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/uniswap-v3-core-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethtx',
+    name: 'EthTx',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethtx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flashbots-mev-dashboard',
+    name: 'Flashbots MEV Dashboard',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flashbots-mev-dashboard-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'looksrare',
+    name: 'LooksRare',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/looksrare-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'evmdis',
+    name: 'evmdis',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/evmdis-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yul',
+    name: 'Yul',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yul-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sublime-ethereum',
+    name: 'Sublime Ethereum',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sublime-ethereum-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidity-fuzzing-boilerplate',
+    name: 'Solidity Fuzzing Boilerplate',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidity-fuzzing-boilerplate-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ponto',
+    name: 'Ponto',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ponto-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'brownie',
+    name: 'Brownie',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/brownie-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'saber',
+    name: 'Saber',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/saber-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vscode-solidity-auditor',
+    name: 'VSCode Solidity Auditor',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vscode-solidity-auditor-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hevm',
+    name: 'hevm',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hevm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'port-finance',
+    name: 'Port Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/port-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'web3-scaffold',
+    name: 'Web3 Scaffold',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/web3-scaffold-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'triangle',
+    name: 'Triangle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/triangle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'etherface',
+    name: 'Etherface',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/etherface-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'uniswap-web3-react',
+    name: 'Uniswap Web3 React',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/uniswap-web3-react-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidity-documentation-generator',
+    name: 'Solidity Documentation Generator',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidity-documentation-generator-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinmarketcap-api',
+    name: 'CoinMarketCap API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinmarketcap-api-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethereum-etl',
+    name: 'Ethereum ETL',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethereum-etl-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mythx',
+    name: 'MythX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mythx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'femplate',
+    name: 'Femplate',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/femplate-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kurtosis',
+    name: 'Kurtosis',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kurtosis-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'geth',
+    name: 'Geth',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/geth-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hubble',
+    name: 'Hubble',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hubble-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jet-protocol',
+    name: 'Jet Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jet-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidity-compiler-selector',
+    name: 'Solidity Compiler Selector',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidity-compiler-selector-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sol2uml',
+    name: 'Sol2uml',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sol2uml-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'colony',
+    name: 'Colony',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/colony-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swim-protocol',
+    name: 'Swim Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swim-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'etherspot',
+    name: 'Etherspot',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/etherspot-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethernaut',
+    name: 'Ethernaut',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethernaut-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/ethernaut-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'push-protocol',
+    name: 'Push Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/push-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tulip',
+    name: 'Tulip',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tulip-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'constructor-encoder',
+    name: 'Constructor Encoder',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/constructor-encoder-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cobra',
+    name: 'Cobra',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cobra-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'huff-virtual-machine',
+    name: 'Huff Virtual Machine',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/huff-virtual-machine-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nimbus',
+    name: 'Nimbus',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nimbus-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'erigon',
+    name: 'Erigon',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/erigon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'evm-toolkit',
+    name: 'EVM Toolkit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/evm-toolkit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethereum-vscode-viewer',
+    name: 'Ethereum VSCode Viewer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethereum-vscode-viewer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainlens',
+    name: 'Chainlens',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainlens-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defi-saver',
+    name: 'DeFi Saver',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defi-saver-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'genies',
+    name: 'Genies',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/genies-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethereum-gas-reporter',
+    name: 'Ethereum Gas Reporter',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethereum-gas-reporter-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metamorphic-contract-detector',
+    name: 'Metamorphic Contract Detector',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metamorphic-contract-detector-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jeb-decompiler',
+    name: 'JEB Decompiler',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jeb-decompiler-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'filecoin',
+    name: 'Filecoin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/filecoin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quay',
+    name: 'Quay',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'huff-starter-kit',
+    name: 'Huff Starter Kit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/huff-starter-kit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethlint',
+    name: 'Ethlint',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethlint-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defi-tools',
+    name: 'DeFi Tools',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defi-tools-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'intellij-idea',
+    name: 'IntelliJ IDEA',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/intellij-idea-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'genie',
+    name: 'Genie',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/genie-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '4byte',
+    name: '4Byte',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/4byte-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bittorrent',
+    name: 'BitTorrent',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bittorrent-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/bittorrent-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'money-legos',
+    name: 'Money Legos',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/money-legos-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'prysm',
+    name: 'Prysm',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/prysm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eth-lift',
+    name: 'ETH Lift',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eth-lift-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mev-boost-dashboard',
+    name: 'MEV Boost Dashboard',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mev-boost-dashboard-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'otterscan',
+    name: 'Otterscan',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/otterscan-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidity-flattener',
+    name: 'Solidity Flattener',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidity-flattener-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'whatsabi',
+    name: 'WhatsABI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/whatsabi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'web3-py',
+    name: 'Web3.py',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/web3-py-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethervm-io',
+    name: 'Ethervm.io',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethervm-io-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'creatordao',
+    name: 'CreatorDAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/creatordao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dapp',
+    name: 'dapp',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dapp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sablier',
+    name: 'Sablier',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sablier-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gelato',
+    name: 'Gelato',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gelato-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'semgrep',
+    name: 'Semgrep',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/semgrep-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cega',
+    name: 'Cega',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cega-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethsign',
+    name: 'ethsign',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethsign-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'delegatable',
+    name: 'Delegatable',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/delegatable-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'forge',
+    name: 'Forge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/forge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'frakt',
+    name: 'Frakt',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/frakt-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'optimistic-etherscan',
+    name: 'Optimistic Etherscan',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/optimistic-etherscan-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'foundry-template',
+    name: 'Foundry Template',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/foundry-template-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'friktion',
+    name: 'Friktion',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/friktion-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'instadapp',
+    name: 'InstaDApp',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/instadapp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solcurity',
+    name: 'Solcurity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solcurity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vrgdas',
+    name: 'VRGDAs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vrgdas-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'intellij-solidity-plugin',
+    name: 'IntelliJ Solidity Plugin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/intellij-solidity-plugin-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/intellij-solidity-plugin-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quiver',
+    name: 'Quiver',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quiver-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tenderly-sandbox',
+    name: 'Tenderly Sandbox',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tenderly-sandbox-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eden-network',
+    name: 'Eden Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eden-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bithumb',
+    name: 'Bithumb',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bithumb-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'render-network',
+    name: 'Render Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/render-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'oxygen',
+    name: 'Oxygen',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/oxygen-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'airstack',
+    name: 'Airstack',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/airstack-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'slide-so',
+    name: 'Slide.so',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/slide-so-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'akash-network',
+    name: 'Akash Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/akash-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aurory',
+    name: 'Aurory',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aurory-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bonfida',
+    name: 'Bonfida',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bonfida-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/bonfida-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'star-atlas',
+    name: 'Star Atlas',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/star-atlas-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defi-land',
+    name: 'DeFi Land',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defi-land-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cropper-finance',
+    name: 'Cropper Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cropper-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solrise-finance',
+    name: 'Solrise Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solrise-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'synthetify',
+    name: 'Synthetify',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/synthetify-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'media-network',
+    name: 'Media Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/media-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mercurial-finance',
+    name: 'Mercurial Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mercurial-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'genesysgo',
+    name: 'GenesysGO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/genesysgo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cope',
+    name: 'Cope',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cope-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blowfish',
+    name: 'Blowfish',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blowfish-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coherent',
+    name: 'Coherent',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coherent-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nomad',
+    name: 'Nomad',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nomad-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dapper-labs',
+    name: 'Dapper Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dapper-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stake-dao',
+    name: 'Stake DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stake-dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alfa1',
+    name: 'Alfa1',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alfa1-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'badger-finance',
+    name: 'Badger Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/badger-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hyperlane',
+    name: 'Hyperlane',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hyperlane-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'acentrik',
+    name: 'Acentrik',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/acentrik-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'w3box-test',
+    name: 'W3box Test',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/w3box-test-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'socket-tech',
+    name: 'Socket Tech',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/socket-tech-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jones-dao',
+    name: 'Jones DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jones-dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '3six9',
+    name: '3six9',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/3six9-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'omnia',
+    name: 'OMNIA',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/omnia-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bamboo-relay',
+    name: 'Bamboo Relay',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bamboo-relay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'betarpc',
+    name: 'BetaRPC',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/betarpc-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'curvegrid',
+    name: 'Curvegrid',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/curvegrid-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gme',
+    name: 'GME',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gme-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'icy-tools',
+    name: 'Icy tools',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/icy-tools-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'osl-custody',
+    name: 'OSL Custody',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/osl-custody-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'overhyped',
+    name: 'OverHyped',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/overhyped-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'trader-xyz',
+    name: 'trader.xyz',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/trader-xyz-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ooki',
+    name: 'Ooki',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ooki-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'immutablex',
+    name: 'ImmutableX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/immutablex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'funfair',
+    name: 'Funfair',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/funfair-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'frontier-wallet',
+    name: 'Frontier Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/frontier-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fractional',
+    name: 'Fractional',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fractional-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'foundation',
+    name: 'Foundation',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/foundation-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dapp-pocket',
+    name: 'Dapp Pocket',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dapp-pocket-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'context',
+    name: 'Context',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/context-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bridgesplit',
+    name: 'Bridgesplit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bridgesplit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sudoswap',
+    name: 'Sudoswap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sudoswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'reservoir',
+    name: 'Reservoir',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/reservoir-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'capture-the-ether',
+    name: 'Capture the Ether',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/capture-the-ether-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kevm',
+    name: 'KEVM',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kevm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'token-terminal',
+    name: 'Token Terminal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/token-terminal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'maian',
+    name: 'Maian',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/maian-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'damn-vulnerable-defi',
+    name: 'Damn Vulnerable DeFi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/damn-vulnerable-defi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'paradigm-ctf',
+    name: 'Paradigm CTF',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/paradigm-ctf-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polygon-smart-contracts',
+    name: 'Polygon Smart Contracts',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polygon-smart-contracts-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swarm',
+    name: 'Swarm',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swarm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'learnweb3',
+    name: 'LearnWeb3',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/learnweb3-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ceramic',
+    name: 'Ceramic',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ceramic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pyth-network',
+    name: 'Pyth Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pyth-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'avail',
+    name: 'Avail',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/avail-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hashlips-nft-smart-contracts',
+    name: 'HashLips NFT Smart Contracts',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hashlips-nft-smart-contracts-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yearn-smart-contracts',
+    name: 'Yearn Smart Contracts',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yearn-smart-contracts-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'synthetix-smart-contracts',
+    name: 'Synthetix Smart Contracts',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/synthetix-smart-contracts-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nft-minter',
+    name: 'NFT Minter',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nft-minter-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hello-world',
+    name: 'Hello World',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hello-world-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nft-explorer',
+    name: 'NFT Explorer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nft-explorer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rpc-benchmarking-tool',
+    name: 'RPC Benchmarking Tool',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rpc-benchmarking-tool-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nft-drop-finder',
+    name: 'NFT Drop Finder',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nft-drop-finder-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polygon-smart-contract-tutorial',
+    name: 'Polygon Smart Contract Tutorial',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polygon-smart-contract-tutorial-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nft-gallery-template',
+    name: 'NFT Gallery Template',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nft-gallery-template-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nft-marketplace',
+    name: 'NFT Marketplace',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nft-marketplace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fractal',
+    name: 'Fractal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fractal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solanart',
+    name: 'Solanart',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solanart-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solsea',
+    name: 'Solsea',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solsea-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/solsea-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'digitaleyes',
+    name: 'DigitalEyes',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/digitaleyes-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'formfunction',
+    name: 'FormFunction',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/formfunction-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alpha-art',
+    name: 'Alpha Art',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alpha-art-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'makersplace',
+    name: 'MakersPlace',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/makersplace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mintable',
+    name: 'Mintable',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mintable-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'howrare-is',
+    name: 'HowRare.is',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/howrare-is-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nft-evening',
+    name: 'NFT Evening',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nft-evening-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nftgo',
+    name: 'NFTgo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nftgo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'scour',
+    name: 'Scour',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/scour-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moonrank',
+    name: 'Moonrank',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moonrank-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solrarity',
+    name: 'SolRarity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solrarity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solanafloor',
+    name: 'SolanaFloor',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solanafloor-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solsniper',
+    name: 'Solsniper',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solsniper-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rarity-sniper',
+    name: 'Rarity Sniper',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rarity-sniper-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'superteamdao',
+    name: 'SuperteamDAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/superteamdao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nfteyez',
+    name: 'NFTeyez',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nfteyez-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitdegree',
+    name: 'BitDegree',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitdegree-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ayzd',
+    name: 'Ayzd',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ayzd-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'compass-art',
+    name: 'Compass Art',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/compass-art-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ninjalerts',
+    name: 'Ninjalerts',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ninjalerts-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cryptoslam',
+    name: 'CryptoSlam',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptoslam-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'matrica',
+    name: 'Matrica',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/matrica-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solswatch',
+    name: 'SolsWatch',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solswatch-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tiexo',
+    name: 'Tiexo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tiexo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metablocks',
+    name: 'Metablocks',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metablocks-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockasset',
+    name: 'BlockAsset',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockasset-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nina',
+    name: 'Nina',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nina-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'grapes',
+    name: 'Grapes',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/grapes-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'socool',
+    name: 'SoCool',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/socool-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitspawn',
+    name: 'Bitspawn',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitspawn-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moonly',
+    name: 'Moonly',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moonly-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'transpose',
+    name: 'Transpose',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/transpose-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainsafe',
+    name: 'Chainsafe',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainsafe-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'replit',
+    name: 'Replit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/replit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metaschool',
+    name: 'Metaschool',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metaschool-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'novel',
+    name: 'Novel',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/novel-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sound-sdk',
+    name: 'Sound SDK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sound-sdk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moralis-unity-sdk',
+    name: 'Moralis Unity SDK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moralis-unity-sdk-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/moralis-unity-sdk-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainsafe-unity-sdk',
+    name: 'ChainSafe Unity SDK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainsafe-unity-sdk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solhint-for-intellij',
+    name: 'Solhint for IntelliJ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solhint-for-intellij-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solhint-prettier-plugin',
+    name: 'Solhint-Prettier Plugin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solhint-prettier-plugin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'git-hooks',
+    name: 'Git Hooks',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/git-hooks-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'husky-for-git-hooks',
+    name: 'Husky for Git Hooks',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/husky-for-git-hooks-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'darkblocks',
+    name: 'Darkblocks',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/darkblocks-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hypermint',
+    name: 'Hypermint',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hypermint-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solvent',
+    name: 'Solvent',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solvent-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'honey-finance',
+    name: 'Honey Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/honey-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nftfi',
+    name: 'NFTfi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nftfi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arcade',
+    name: 'Arcade',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arcade-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'benddao',
+    name: 'BendDAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/benddao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jpegd',
+    name: 'jpegd',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jpegd-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'renft',
+    name: 'reNFT',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/renft-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'llamalend',
+    name: 'LlamaLend',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/llamalend-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flipside',
+    name: 'Flipside',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flipside-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'shroomdk',
+    name: 'ShroomDK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/shroomdk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jump-crypto',
+    name: 'Jump Crypto',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jump-crypto-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arcade2earn',
+    name: 'Arcade2Earn',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arcade2earn-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'spindl',
+    name: 'Spindl',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/spindl-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'multicoin-capital',
+    name: 'Multicoin Capital',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/multicoin-capital-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polychain-capital',
+    name: 'Polychain Capital',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polychain-capital-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defiance-capital',
+    name: 'Defiance Capital',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defiance-capital-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mechanism-capital',
+    name: 'Mechanism Capital',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mechanism-capital-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'the-spartan-group',
+    name: 'The Spartan Group',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/the-spartan-group-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tribe-capital',
+    name: 'Tribe Capital',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tribe-capital-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dragonfly',
+    name: 'Dragonfly',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dragonfly-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'founders-inc',
+    name: 'Founders Inc',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/founders-inc-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fjlabs',
+    name: 'FjLabs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fjlabs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'south-park-commons',
+    name: 'South Park Commons',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/south-park-commons-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chapter-one',
+    name: 'Chapter One',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chapter-one-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polygon-ventures',
+    name: 'Polygon Ventures',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polygon-ventures-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pine-loans',
+    name: 'Pine Loans',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pine-loans-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'supermojo',
+    name: 'Supermojo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/supermojo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'balloon',
+    name: 'Balloon',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/balloon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bailout',
+    name: 'Bailout',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bailout-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zharta',
+    name: 'Zharta',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zharta-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'renfter',
+    name: 'Renfter',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/renfter-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'furion',
+    name: 'Furion',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/furion-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pawnspace',
+    name: 'PawnSpace',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pawnspace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'assetmantle',
+    name: 'AssetMantle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/assetmantle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fluid',
+    name: 'Fluid',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fluid-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kyoko',
+    name: 'Kyoko',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kyoko-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fungify',
+    name: 'Fungify',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fungify-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defrag',
+    name: 'Defrag',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defrag-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'taker',
+    name: 'Taker',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/taker-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'astaria',
+    name: 'Astaria',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/astaria-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pawnfi',
+    name: 'Pawnfi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pawnfi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pwn',
+    name: 'PWN',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pwn-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'soldex',
+    name: 'Soldex',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/soldex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orb',
+    name: 'Orb',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orb-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bluesky',
+    name: 'Bluesky',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bluesky-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'entre',
+    name: 'Entre',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/entre-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dscvr',
+    name: 'DSCVR',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dscvr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'minds',
+    name: 'MINDS',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/minds-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'status-im',
+    name: 'Status.IM',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/status-im-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'phaver',
+    name: 'Phaver',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/phaver-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'niche-club',
+    name: 'Niche Club',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/niche-club-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'revel-xyz',
+    name: 'Revel.xyz',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/revel-xyz-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'near',
+    name: 'Near',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/near-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cosmos',
+    name: 'Cosmos',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cosmos-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quicknode-nft-api',
+    name: 'Quicknode NFT API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quicknode-nft-api-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nftport',
+    name: 'NFTPort',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nftport-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moralis-nft-api',
+    name: 'Moralis NFT API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moralis-nft-api-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockspan-nft-api',
+    name: 'Blockspan NFT API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockspan-nft-api-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'venly-nft-api',
+    name: 'Venly NFT API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/venly-nft-api-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/venly-nft-api-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ankr-nft-api',
+    name: 'Ankr NFT API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ankr-nft-api-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinbase-nft-api',
+    name: 'Coinbase NFT API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinbase-nft-api-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/coinbase-nft-api-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rarible-mulitchain-sdk',
+    name: 'Rarible Mulitchain SDK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rarible-mulitchain-sdk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mnemonic',
+    name: 'Mnemonic',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mnemonic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tatum',
+    name: 'Tatum',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tatum-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'center',
+    name: 'Center',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/center-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chaos-labs',
+    name: 'Chaos Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chaos-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pytest-cobra',
+    name: 'Pytest Cobra',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pytest-cobra-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/pytest-cobra-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'infura',
+    name: 'Infura',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/infura-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '0xcert',
+    name: '0xCert',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/0xcert-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'autograph',
+    name: 'Autograph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/autograph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nba-topshot',
+    name: 'NBA TopShot',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nba-topshot-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nfl-all-day',
+    name: 'NFL All Day',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nfl-all-day-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'socios',
+    name: 'Socios ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/socios-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rara',
+    name: 'RARA',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rara-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tape',
+    name: 'Tape',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tape-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'socketccan',
+    name: 'Socketccan',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/socketccan-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orangedao',
+    name: 'OrangeDAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orangedao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'whalemap',
+    name: 'Whalemap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/whalemap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'enzyme',
+    name: 'Enzyme',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/enzyme-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainshot',
+    name: 'ChainShot',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainshot-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rarity-tools',
+    name: 'rarity.tools',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rarity-tools-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nonfungible',
+    name: 'NonFungible',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nonfungible-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dex-screener',
+    name: 'DEX Screener',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dex-screener-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lunarcrush',
+    name: 'LunarCrush',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lunarcrush-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hedgehog',
+    name: 'Hedgehog',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hedgehog-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solana-beach',
+    name: 'Solana Beach',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solana-beach-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinalyze',
+    name: 'Coinalyze',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinalyze-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'revoke-cash',
+    name: 'revoke.cash',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/revoke-cash-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'crew',
+    name: 'CREW³',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/crew-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainsightanalytics',
+    name: 'ChainsightAnalytics',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainsightanalytics-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nftnerds',
+    name: 'NFTNerds',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nftnerds-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'token-metrics',
+    name: 'Token Metrics',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/token-metrics-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cryptoquant',
+    name: 'CryptoQuant',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptoquant-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'what-sminting-live',
+    name: 'What’sMinting.Live',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/what-sminting-live-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinmetrics',
+    name: 'CoinMetrics',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinmetrics-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'layerswap',
+    name: 'Layerswap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/layerswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dexguru',
+    name: 'DEXGuru',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dexguru-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fees-wtf',
+    name: 'fees.wtf',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fees-wtf-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bundlr',
+    name: 'Bundlr',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bundlr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'filebase',
+    name: 'Filebase',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/filebase-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ionian',
+    name: 'Ionian',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ionian-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cryptokitties',
+    name: 'CryptoKitties',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptokitties-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defi-kingdoms',
+    name: 'DeFi Kingdoms',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defi-kingdoms-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'layer-3',
+    name: 'Layer 3',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/layer-3-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fabric',
+    name: 'Fabric',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fabric-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nf-td',
+    name: 'NF.td',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nf-td-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'launchcaster',
+    name: 'Launchcaster',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/launchcaster-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lore',
+    name: 'Lore',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lore-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'beanstalk',
+    name: 'Beanstalk',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/beanstalk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lava-network',
+    name: 'Lava Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lava-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'spruce',
+    name: 'Spruce ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/spruce-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sismo',
+    name: 'Sismo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sismo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'spectral-finance',
+    name: 'Spectral Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/spectral-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'phi',
+    name: 'Phi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/phi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'passport-xyz',
+    name: 'Passport XYZ (aka Gitcoin Passport)',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/passport-xyz-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/passport-xyz-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gateway',
+    name: 'Gateway',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gateway-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orange-protocol',
+    name: 'Orange Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orange-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'krebit',
+    name: 'Krebit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/krebit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'brightid',
+    name: 'BrightID',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/brightid-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sourcecred',
+    name: 'SourceCred',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sourcecred-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coordinape',
+    name: 'Coordinape',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coordinape-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'noox',
+    name: 'Noox',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/noox-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'degenscore',
+    name: 'DegenScore',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/degenscore-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rabbit-hole',
+    name: 'Rabbit Hole',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rabbit-hole-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cyberconnect',
+    name: 'CyberConnect',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cyberconnect-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'disco',
+    name: 'Disco',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/disco-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orbis-club',
+    name: 'Orbis Club',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orbis-club-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'verite',
+    name: 'Verite',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/verite-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'verida',
+    name: 'Verida',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/verida-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'spring',
+    name: 'Spring',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/spring-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kycdao',
+    name: 'kycDAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kycdao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'guild',
+    name: 'Guild',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/guild-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mimic',
+    name: 'Mimic',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mimic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'odos-xyz',
+    name: 'ODOS.xyz',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/odos-xyz-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zero-hash',
+    name: 'Zero Hash',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zero-hash-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitci',
+    name: 'Bitci',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitci-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mud',
+    name: 'Mud',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mud-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'holonym',
+    name: 'Holonym',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/holonym-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'karma',
+    name: 'Karma',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/karma-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metopia',
+    name: 'Metopia',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metopia-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sourc3',
+    name: 'SOURC3',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sourc3-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'repute-x',
+    name: 'Repute X',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/repute-x-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pnthn',
+    name: 'PNTHN',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pnthn-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'masa',
+    name: 'Masa',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/masa-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'popula',
+    name: 'Popula',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/popula-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'neighbourhoods-network',
+    name: 'Neighbourhoods Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/neighbourhoods-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ormi',
+    name: 'Ormi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ormi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'violet',
+    name: 'Violet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/violet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'underdog-protocol',
+    name: 'Underdog Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/underdog-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'iden3',
+    name: 'iden3',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/iden3-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rocifi',
+    name: 'RociFi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rocifi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dework',
+    name: 'DeWork',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dework-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wonderverse',
+    name: 'Wonderverse',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wonderverse-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'outdid',
+    name: 'OutDID',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/outdid-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'charmverse',
+    name: 'Charmverse',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/charmverse-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '0xstation',
+    name: '0xStation',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/0xstation-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kleoverse',
+    name: 'Kleoverse',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kleoverse-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yat',
+    name: 'Yat',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yat-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'proof-of-humanity',
+    name: 'Proof of Humanity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/proof-of-humanity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wiw',
+    name: 'WIW',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wiw-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rss3',
+    name: 'RSS3',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rss3-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'interface',
+    name: 'Interface',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/interface-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'daohaus',
+    name: 'DAOhaus',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/daohaus-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethereum-world',
+    name: 'Ethereum World',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethereum-world-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'commonwealth',
+    name: 'Commonwealth',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/commonwealth-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bankless-academy',
+    name: 'Bankless Academy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bankless-academy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'humandao-academy',
+    name: 'HumanDAO Academy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/humandao-academy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'third-academy',
+    name: 'Third Academy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/third-academy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'developer-dao-academy',
+    name: 'Developer DAO Academy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/developer-dao-academy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metana-web3-bootcamp',
+    name: 'Metana - Web3 bootcamp',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metana-web3-bootcamp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gala-games',
+    name: 'Gala Games',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gala-games-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'splinterlands',
+    name: 'Splinterlands',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/splinterlands-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vulcan-forged',
+    name: 'Vulcan Forged',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vulcan-forged-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'faraland',
+    name: 'Faraland',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/faraland-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ufo-gaming',
+    name: 'UFO Gaming',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ufo-gaming-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blocksec-phalcon',
+    name: 'BlockSec Phalcon',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blocksec-phalcon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ziion-linux-distro',
+    name: 'Ziion Linux distro ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ziion-linux-distro-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidity-visual-auditor',
+    name: 'Solidity Visual Auditor ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidity-visual-auditor-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'elliptic',
+    name: 'Elliptic ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/elliptic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'erc-20-verifier',
+    name: 'ERC-20 Verifier ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/erc-20-verifier-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cipher-trace',
+    name: 'Cipher Trace ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cipher-trace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'scribble',
+    name: 'Scribble ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/scribble-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'scsvs',
+    name: 'SCSVS',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/scsvs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'misttrack',
+    name: 'MistTrack ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/misttrack-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swc-registry',
+    name: 'SWC Registry ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swc-registry-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alpha-homora',
+    name: 'Alpha Homora',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alpha-homora-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pickle-finance',
+    name: 'Pickle Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pickle-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'idle-finance',
+    name: 'Idle Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/idle-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'akropolis',
+    name: 'Akropolis',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/akropolis-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quarry',
+    name: 'Quarry',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quarry-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'francium',
+    name: 'Francium',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/francium-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zeta-markets',
+    name: 'Zeta Markets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zeta-markets-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jpool',
+    name: 'JPool',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jpool-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'katana',
+    name: 'Katana',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/katana-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'larix',
+    name: 'Larix',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/larix-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'apricot-finance',
+    name: 'Apricot Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/apricot-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'drift',
+    name: 'Drift',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/drift-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'atrix',
+    name: 'Atrix',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/atrix-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '01',
+    name: '01',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/01-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lifinity',
+    name: 'Lifinity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lifinity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'crema-finance',
+    name: 'Crema Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/crema-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'saros',
+    name: 'Saros',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/saros-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'penguin',
+    name: 'Penguin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/penguin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'parrot-protocol',
+    name: 'Parrot Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/parrot-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ratio-finance',
+    name: 'Ratio Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ratio-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'abracadabra',
+    name: 'Abracadabra',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/abracadabra-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mimo',
+    name: 'Mimo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mimo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gearbox',
+    name: 'Gearbox',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gearbox-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'b-protocol',
+    name: 'B.Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/b-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stakewise',
+    name: 'StakeWise',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stakewise-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'revest-finance',
+    name: 'Revest Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/revest-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nftx',
+    name: 'NFTX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nftx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'opyn',
+    name: 'Opyn',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/opyn-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'thetanuts-finance',
+    name: 'Thetanuts Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/thetanuts-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'opium',
+    name: 'Opium',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/opium-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arrakis-finance',
+    name: 'Arrakis Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arrakis-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'insurace',
+    name: 'InsurAce',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/insurace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tidal-finance',
+    name: 'Tidal Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tidal-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '0vix',
+    name: '0vix',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/0vix-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hundred-finance',
+    name: 'Hundred Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hundred-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cvi-finance',
+    name: 'CVI Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cvi-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'proxy',
+    name: 'Proxy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/proxy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rekt',
+    name: 'Rekt',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rekt-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zeromev',
+    name: 'zeromev',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zeromev-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/zeromev-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'token-unlocks',
+    name: 'Token Unlocks',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/token-unlocks-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'openbb',
+    name: 'OpenBB',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/openbb-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eigenphi-hq',
+    name: 'EigenPhi HQ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eigenphi-hq-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flipside-crypto',
+    name: 'Flipside Crypto',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flipside-crypto-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'okotoki',
+    name: 'Okotoki',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/okotoki-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'laevitas',
+    name: 'Laevitas',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/laevitas-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'santiment',
+    name: 'Santiment',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/santiment-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tradinglite',
+    name: 'TradingLite',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tradinglite-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defisafety',
+    name: 'DeFiSafety',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defisafety-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nexus-mutual',
+    name: 'Nexus Mutual',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nexus-mutual-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rotki',
+    name: 'Rotki',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rotki-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hopr-network',
+    name: 'Hopr Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hopr-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidity-finance',
+    name: 'Solidity Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidity-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coin-particle',
+    name: 'Coin Particle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coin-particle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stakedao-academy',
+    name: 'StakeDAO academy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stakedao-academy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rage-trade',
+    name: 'Rage Trade',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rage-trade-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'deri-protocol',
+    name: 'Deri Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/deri-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'futureswap',
+    name: 'FutureSwap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/futureswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'shell-protocol',
+    name: 'Shell Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/shell-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yield-protocol',
+    name: 'Yield Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yield-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tenderize',
+    name: 'Tenderize',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tenderize-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hegic',
+    name: 'Hegic',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hegic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dopex',
+    name: 'Dopex',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dopex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'plutosdao',
+    name: 'PlutosDAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/plutosdao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pika-protocol',
+    name: 'Pika Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pika-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rubicon',
+    name: 'Rubicon',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rubicon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sonne-finance',
+    name: 'Sonne Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sonne-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tarot',
+    name: 'Tarot',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tarot-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dforce',
+    name: 'dForce',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dforce-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lyra',
+    name: 'Lyra',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lyra-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polynomial-protocol',
+    name: 'Polynomial Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polynomial-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'reaper-farm',
+    name: 'Reaper Farm',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/reaper-farm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'switchboard',
+    name: 'Switchboard',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/switchboard-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'seda',
+    name: 'SEDA',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/seda-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polygon-faucet',
+    name: 'Polygon Faucet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polygon-faucet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hakka-finance',
+    name: 'Hakka Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hakka-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'erasure',
+    name: 'Erasure',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/erasure-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'saddle-finance',
+    name: 'Saddle Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/saddle-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ease',
+    name: 'ease',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ease-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'superchain-faucet',
+    name: 'Superchain Faucet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/superchain-faucet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bumper-finance',
+    name: 'Bumper Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bumper-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'optimism-eth-faucet',
+    name: 'Optimism ETH Faucet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/optimism-eth-faucet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sol-faucet',
+    name: 'Sol Faucet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sol-faucet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'paradigm-faucet',
+    name: 'Paradigm Faucet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/paradigm-faucet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'slowmist',
+    name: 'Slowmist',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/slowmist-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainsecurity',
+    name: 'ChainSecurity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainsecurity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'consensys-diligence',
+    name: 'Consensys Diligence',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/consensys-diligence-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'devp2p-wire-protocol',
+    name: 'DEVp2p Wire Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/devp2p-wire-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nightfall-3',
+    name: 'Nightfall 3',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nightfall-3-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coincap',
+    name: 'Coincap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coincap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinlayer',
+    name: 'Coinlayer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinlayer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mai',
+    name: 'Mai',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'torum',
+    name: 'Torum',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/torum-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ime-lab',
+    name: 'iMe Lab',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ime-lab-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dappkit',
+    name: 'Dappkit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dappkit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quicknode-sdk',
+    name: 'Quicknode SDK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quicknode-sdk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gnosis-protocol',
+    name: 'Gnosis Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gnosis-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xata',
+    name: 'Xata',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xata-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jito-labs',
+    name: 'Jito Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.jito.wtf',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jito-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/jito-labs-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/jito-labs-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eigenphi',
+    name: 'EigenPhi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eigenphi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'webaverse',
+    name: 'Webaverse',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/webaverse-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'omi-group',
+    name: 'OMI Group',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/omi-group-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polkadot',
+    name: 'Polkadot',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polkadot-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'presearch',
+    name: 'Presearch',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/presearch-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '0x-explorer',
+    name: '0x Explorer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/0x-explorer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'evmdasm',
+    name: 'evmdasm',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/evmdasm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'binary-ninja-ebpf',
+    name: 'Binary Ninja eBPF',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/binary-ninja-ebpf-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'handshake',
+    name: 'Handshake',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/handshake-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arcana-network',
+    name: 'Arcana Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arcana-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'openzeppelin-relay',
+    name: 'OpenZeppelin Relay',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/openzeppelin-relay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'openzeppelin-gas-station-network',
+    name: 'OpenZeppelin Gas Station Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/openzeppelin-gas-station-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'graphql',
+    name: 'GraphQL',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/graphql-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'premint',
+    name: 'Premint',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/premint-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'd-cent',
+    name: 'D’CENT',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/d-cent-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'crabada',
+    name: 'Crabada',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/crabada-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nftrade',
+    name: 'NFTrade',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nftrade-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sweatcoin',
+    name: 'SweatCoin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sweatcoin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stepn',
+    name: 'STEPN',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stepn-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sepior',
+    name: 'Sepior',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sepior-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'snowflake',
+    name: 'Snowflake',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/snowflake-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'goki',
+    name: 'Goki',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/goki-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainjet',
+    name: 'Chainjet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainjet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vela-exchange',
+    name: 'Vela Exchange',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vela-exchange-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'delysium',
+    name: 'Delysium',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/delysium-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'trustwallet',
+    name: 'TrustWallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/trustwallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ankr-sdk',
+    name: 'Ankr SDK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ankr-sdk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nakamoto-games',
+    name: 'Nakamoto Games',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nakamoto-games-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'star-atlas-dao',
+    name: 'Star Atlas DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/star-atlas-dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'getblock',
+    name: 'GetBlock',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/getblock-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'safary',
+    name: 'Safary',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/safary-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'heroic-story',
+    name: 'Heroic Story',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/heroic-story-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'token-flow',
+    name: 'Token Flow',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/token-flow-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metacrafters',
+    name: 'Metacrafters',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metacrafters-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metagame',
+    name: 'MetaGame',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metagame-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'float',
+    name: 'FLOAT',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/float-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'incred',
+    name: 'InCred',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/incred-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'trinsic',
+    name: 'Trinsic',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/trinsic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jolocom',
+    name: 'Jolocom',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jolocom-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ont-id',
+    name: 'ONT ID',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ont-id-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'veramo',
+    name: 'Veramo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/veramo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zcloak-network',
+    name: 'zCloak Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zcloak-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'humanbound',
+    name: 'Humanbound',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/humanbound-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quadrata',
+    name: 'Quadrata',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quadrata-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dappback',
+    name: 'DappBack',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dappback-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dequest',
+    name: 'DeQuest',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dequest-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'acqr',
+    name: 'ACQR',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/acqr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xhashtag',
+    name: 'xHashtag',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xhashtag-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hashkey-did',
+    name: 'HashKey DID',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hashkey-did-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mysterium-network',
+    name: 'Mysterium Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mysterium-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gnosis-chain',
+    name: 'Gnosis Chain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gnosis-chain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'deeper-network',
+    name: 'Deeper Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/deeper-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kelvpn',
+    name: 'KelVPN',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kelvpn-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'syndicate-dao',
+    name: 'Syndicate DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/syndicate-dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'move',
+    name: 'Move',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/move-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'haskell',
+    name: 'Haskell',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/haskell-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'go',
+    name: 'Go',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/go-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'augur',
+    name: 'Augur',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/augur-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'copper',
+    name: 'Copper',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/copper-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metacartel',
+    name: 'MetaCartel',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metacartel-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cabin-dao',
+    name: 'Cabin DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cabin-dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'seedclub',
+    name: 'SeedClub',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/seedclub-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nftfy',
+    name: 'Nftfy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nftfy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unitbox',
+    name: 'UNITBOX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unitbox-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vera',
+    name: 'Vera',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vera-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mumbai-faucet',
+    name: 'Mumbai Faucet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mumbai-faucet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wallet-guard',
+    name: 'Wallet Guard ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wallet-guard-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinledger',
+    name: 'CoinLedger',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinledger-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cyberbrokers',
+    name: 'Cyberbrokers',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cyberbrokers-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gamma-io',
+    name: 'Gamma.io',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gamma-io-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'forever-fc',
+    name: 'FOREVER FC',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/forever-fc-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'earnifi',
+    name: 'Earnifi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/earnifi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dustland-runner',
+    name: 'Dustland Runner',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dustland-runner-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'roverx',
+    name: 'RoverX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/roverx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hodl-my-moon',
+    name: 'Hodl My Moon',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hodl-my-moon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'crazy-defense-heroes',
+    name: 'Crazy Defense Heroes',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/crazy-defense-heroes-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '4everland',
+    name: '4EVERLAND',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/4everland-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'recap',
+    name: 'Recap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/recap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'anima',
+    name: 'Anima',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/anima-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nftpay',
+    name: 'NFTpay',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nftpay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alium-finance',
+    name: 'Alium Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alium-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cred-protocol',
+    name: 'Cred Protocol ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cred-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'colyseus-arena',
+    name: 'Colyseus Arena',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/colyseus-arena-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockhead',
+    name: 'Blockhead',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockhead-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xcockpit',
+    name: 'Xcockpit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xcockpit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'spinamp',
+    name: 'Spinamp',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/spinamp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'anchain-ai',
+    name: 'AnChain.AI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/anchain-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'subbi',
+    name: 'Subbi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/subbi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'awaken-tax',
+    name: 'Awaken Tax',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/awaken-tax-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unidex',
+    name: 'UniDex',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unidex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'brand-connector',
+    name: 'Brand Connector',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/brand-connector-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'brand-extender',
+    name: 'Brand Extender',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/brand-extender-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cyan',
+    name: 'Cyan',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cyan-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mesha',
+    name: 'mesha',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mesha-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dual-finance',
+    name: 'Dual Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dual-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'reveel',
+    name: 'Reveel',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/reveel-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mayan-finance',
+    name: 'Mayan Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mayan-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pier-wallet',
+    name: 'pier wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pier-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ubik-capital',
+    name: 'Ubik Capital',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ubik-capital-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'niftykit',
+    name: 'NiftyKit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/niftykit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rain',
+    name: 'Rain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rbx',
+    name: 'RBX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rbx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mintworld',
+    name: 'MintWorld',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mintworld-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orbiter-finance',
+    name: 'Orbiter Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orbiter-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'starknet-react',
+    name: 'StarkNet React',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/starknet-react-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'apibara',
+    name: 'Apibara',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/apibara-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chibi-clash',
+    name: 'Chibi Clash',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chibi-clash-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethrank',
+    name: 'ETHRank',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethrank-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gatekeep-xyz',
+    name: 'gatekeep.xyz',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gatekeep-xyz-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'givestation',
+    name: 'GiveStation',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/givestation-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'heymint',
+    name: 'HeyMint',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/heymint-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'heymint-launchpad',
+    name: 'HeyMint Launchpad',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/heymint-launchpad-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'evm-gas-puzzles',
+    name: 'EVM Gas Puzzles',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/evm-gas-puzzles-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinbrain',
+    name: 'CoinBrain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinbrain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'angry-dynomites-lab',
+    name: 'Angry Dynomites Lab',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/angry-dynomites-lab-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wen-moon-market',
+    name: 'Wen Moon Market',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wen-moon-market-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mailchain',
+    name: 'Mailchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mailchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pawswap',
+    name: 'PawSwap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pawswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'violet-verse',
+    name: 'Violet Verse',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/violet-verse-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sol-incinerator',
+    name: 'Sol-Incinerator',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sol-incinerator-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'shardeum',
+    name: 'Shardeum',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/shardeum-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sqwid',
+    name: 'Sqwid',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sqwid-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hashmail',
+    name: 'hashmail',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hashmail-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'betdex-exchange',
+    name: 'BetDEX Exchange',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/betdex-exchange-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'boss-track',
+    name: 'Boss Track',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/boss-track-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'esf-tools',
+    name: 'ESF Tools',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/esf-tools-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'footprint-analytics',
+    name: 'Footprint Analytics',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/footprint-analytics-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ghostmarket',
+    name: 'GhostMarket',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ghostmarket-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'woop-pay',
+    name: 'Woop Pay',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/woop-pay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'maxity',
+    name: 'Maxity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/maxity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nefture-security',
+    name: 'Nefture Security',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nefture-security-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'forgivenet',
+    name: 'forgivenet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/forgivenet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'walletchat',
+    name: 'WalletChat',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/walletchat-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wally',
+    name: 'Wally',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wally-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dmail-network',
+    name: 'Dmail Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dmail-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'traxed',
+    name: 'Traxed',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/traxed-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xdefi-wallet',
+    name: 'XDEFI Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xdefi-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'clear-evm-wallet',
+    name: 'Clear EVM Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/clear-evm-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '0xsplits',
+    name: '0xSplits',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/0xsplits-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nalikes-studio',
+    name: 'Nalikes Studio ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nalikes-studio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nusa',
+    name: 'Nusa',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nusa-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'militereum',
+    name: 'Militereum',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/militereum-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'myetherwallet',
+    name: 'myEtherWallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/myetherwallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fjord-foundry',
+    name: 'Fjord Foundry',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fjord-foundry-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zenland',
+    name: 'Zenland',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zenland-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aisports-cryptodfs',
+    name: 'aiSports\' CryptoDFS',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aisports-cryptodfs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eth-calldata-decoder',
+    name: 'ETH Calldata Decoder',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eth-calldata-decoder-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eth-explorers-extensions',
+    name: 'ETH Explorers Extensions',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eth-explorers-extensions-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethernal',
+    name: 'Ethernal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethernal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-cuties-universe',
+    name: 'Blockchain Cuties Universe',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-cuties-universe-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bracketx',
+    name: 'BracketX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bracketx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'narval',
+    name: 'Narval',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/narval-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'allium',
+    name: 'Allium',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/allium-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ackee-blockchain',
+    name: 'Ackee Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ackee-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kyve',
+    name: 'KYVE',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kyve-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'transak',
+    name: 'Transak',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/transak-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'utopia',
+    name: 'Utopia',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/utopia-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tixhive',
+    name: 'TixHive',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tixhive-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'croskull-nft',
+    name: 'CroSkull NFT',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/croskull-nft-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bulla-network',
+    name: 'Bulla Network ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bulla-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'web3mq',
+    name: 'Web3MQ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/web3mq-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tokensfarm',
+    name: 'TokensFarm',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tokensfarm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'db3-network',
+    name: 'db3 network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/db3-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'double-protocol',
+    name: 'Double Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/double-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'curio',
+    name: 'Curio',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/curio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'onemint',
+    name: 'OneMint',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/onemint-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'diagonal-finance',
+    name: 'Diagonal Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/diagonal-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unleash-nfts',
+    name: 'Unleash NFTs ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unleash-nfts-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitbond-token-tool',
+    name: 'Bitbond Token Tool',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitbond-token-tool-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'anycall',
+    name: 'anyCall',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/anycall-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'verse',
+    name: 'Verse',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/verse-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'request-finance',
+    name: 'Request Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/request-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'portrait',
+    name: 'Portrait',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/portrait-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainstack',
+    name: 'Chainstack',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainstack-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kado',
+    name: 'Kado',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kado-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'safestake',
+    name: 'SafeStake',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/safestake-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'galaxia-studios',
+    name: 'Galaxia Studios',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/galaxia-studios-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wasabi',
+    name: 'Wasabi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wasabi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'the-cronosverse',
+    name: 'The CronosVerse',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/the-cronosverse-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hexagate',
+    name: 'Hexagate',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hexagate-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'beosin',
+    name: 'Beosin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/beosin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'relay',
+    name: 'Relay',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/relay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'opencord',
+    name: 'Opencord',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/opencord-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'web3-antivirus',
+    name: 'Web3 Antivirus',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/web3-antivirus-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metaradar-io',
+    name: 'Metaradar.io',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metaradar-io-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/metaradar-io-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ebisu-s-bay',
+    name: 'Ebisu\'s Bay',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ebisu-s-bay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockbucket',
+    name: 'BlockBucket ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockbucket-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'oceanpoint',
+    name: 'Oceanpoint ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/oceanpoint-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unlock',
+    name: 'Unlock ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unlock-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'etherspot-sdk',
+    name: 'Etherspot SDK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/etherspot-sdk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ambire-wallet',
+    name: 'Ambire Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ambire-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'suberra',
+    name: 'Suberra',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/suberra-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bls-wallet',
+    name: 'BLS Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bls-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'threatslayer',
+    name: 'ThreatSlayer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/threatslayer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nfttrack',
+    name: 'NFTTrack',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nfttrack-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xdao',
+    name: 'XDAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xdao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitwave',
+    name: 'Bitwave',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitwave-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vvs-finance',
+    name: 'VVS Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vvs-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'webstudio',
+    name: 'Webstudio',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/webstudio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'qbein',
+    name: 'QBEIN',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/qbein-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nftrai',
+    name: 'NFTrai',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nftrai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'copperx',
+    name: 'Copperx',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/copperx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fiat24',
+    name: 'Fiat24',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fiat24-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gateway-fm',
+    name: 'Gateway.fm',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gateway-fm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vezgo',
+    name: 'Vezgo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vezgo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'apespace',
+    name: 'ApeSpace',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/apespace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ivorypay',
+    name: 'Ivorypay',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ivorypay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'plena-finance',
+    name: 'Plena Finance ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/plena-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dapplooker',
+    name: 'DappLooker',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dapplooker-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tweetscout',
+    name: 'TweetScout',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tweetscout-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'autominter',
+    name: 'AutoMinter',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/autominter-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'narfex',
+    name: 'Narfex',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/narfex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bored-candy-city',
+    name: 'Bored Candy City',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bored-candy-city-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hypernative',
+    name: 'Hypernative',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hypernative-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nodereal',
+    name: 'NodeReal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nodereal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'iq-wiki',
+    name: 'IQ.WIKI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/iq-wiki-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'onramper',
+    name: 'Onramper',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/onramper-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'whaleportal',
+    name: 'Whaleportal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/whaleportal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'scamsniffer',
+    name: 'ScamSniffer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/scamsniffer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'shellboxes',
+    name: 'ShellBoxes',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/shellboxes-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mojito',
+    name: 'Mojito',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mojito-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'starton',
+    name: 'Starton',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/starton-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'croswap',
+    name: 'CroSwap ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/croswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'highlight',
+    name: 'Highlight',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/highlight-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'franklin',
+    name: 'Franklin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/franklin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coingape',
+    name: 'Coingape ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coingape-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'memebook',
+    name: 'MemeBook',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/memebook-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alty',
+    name: 'Alty',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alty-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tide',
+    name: 'Tide',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tide-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'neptune-mutual',
+    name: 'Neptune Mutual',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/neptune-mutual-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'armors',
+    name: 'Armors',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/armors-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainnodes',
+    name: 'Chainnodes',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainnodes-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lync',
+    name: 'LYNC',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lync-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'contango',
+    name: 'Contango',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/contango-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dm3',
+    name: 'dm3 ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dm3-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rarimo-nft-checkout',
+    name: 'Rarimo NFT Checkout ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rarimo-nft-checkout-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xtoken-terminal',
+    name: 'xToken Terminal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xtoken-terminal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cryptoworth',
+    name: 'Cryptoworth',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptoworth-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blaize-security',
+    name: 'Blaize.Security',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blaize-security-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fluvi-wallet',
+    name: 'Fluvi Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fluvi-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wert',
+    name: 'Wert',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wert-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainbase',
+    name: 'Chainbase ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainbase-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'squads',
+    name: 'Squads',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/squads-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'meson',
+    name: 'Meson',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/meson-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'whal3s',
+    name: 'Whal3s',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/whal3s-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'multiverse-c2c',
+    name: 'Multiverse C2C',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/multiverse-c2c-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'superb',
+    name: 'Superb',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/superb-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dsla',
+    name: 'DSLA',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dsla-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'common-ground',
+    name: 'Common Ground',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/common-ground-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'weavedb',
+    name: 'WeaveDB',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/weavedb-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hologram',
+    name: 'Hologram',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hologram-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eluvio-live',
+    name: 'Eluvio Live',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eluvio-live-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'launchifi',
+    name: 'Launchifi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/launchifi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'forest-knight',
+    name: 'Forest Knight',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/forest-knight-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'desciworld',
+    name: 'DeSciWorld',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/desciworld-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tokenscript',
+    name: 'TokenScript',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tokenscript-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'udlink',
+    name: 'UDlink',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/udlink-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nextme',
+    name: 'Nextme',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nextme-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'brawler-bearz',
+    name: 'Brawler Bearz',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/brawler-bearz-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'br-finance',
+    name: 'Brú Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/br-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'liker-land',
+    name: 'Liker Land',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/liker-land-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'furucombo',
+    name: 'Furucombo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/furucombo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stationx-network',
+    name: 'StationX.network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stationx-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'punk-domains',
+    name: 'Punk Domains',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/punk-domains-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mellow-protocol',
+    name: 'Mellow Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mellow-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'karatdao',
+    name: 'KaratDAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/karatdao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'link3',
+    name: 'Link3',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/link3-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockpour',
+    name: 'Blockpour',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockpour-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'caveworld',
+    name: 'CaveWorld',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/caveworld-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'skymass',
+    name: 'SkyMass',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/skymass-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tombala',
+    name: 'Tombala',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tombala-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flare-network',
+    name: 'Flare Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flare-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bebop',
+    name: 'Bebop',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bebop-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cronos-accelerator-program',
+    name: 'Cronos Accelerator Program',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cronos-accelerator-program-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'onmeta',
+    name: 'Onmeta',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/onmeta-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'minero',
+    name: 'Minero',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/minero-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hashleap',
+    name: 'HashLeap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hashleap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'daedalus-wallet',
+    name: 'Daedalus Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/daedalus-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'planet-mojo',
+    name: 'Planet Mojo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/planet-mojo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unchained',
+    name: 'Unchained',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unchained-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'robot-framework-solidity-testing-toolkit',
+    name: 'Robot Framework Solidity Testing Toolkit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/robot-framework-solidity-testing-toolkit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dolpin',
+    name: 'Dolpin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dolpin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'loozr',
+    name: 'Loozr',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/loozr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nft-price-floor',
+    name: 'NFT Price Floor',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nft-price-floor-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kalos',
+    name: 'KALOS',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kalos-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sentio',
+    name: 'Sentio',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sentio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'intract-gate3',
+    name: 'Intract Gate3',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/intract-gate3-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'herodotus-dev',
+    name: 'Herodotus.dev',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/herodotus-dev-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flooredape',
+    name: 'flooredApe',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flooredape-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'may-social',
+    name: 'MAY.Social',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/may-social-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'haha-wallet',
+    name: 'HaHa Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/haha-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'simplehash',
+    name: 'SimpleHash',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/simplehash-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kromatika-finance',
+    name: 'Kromatika Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kromatika-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ledgermail',
+    name: 'LedgerMail',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ledgermail-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jamit',
+    name: 'Jamit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jamit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'projection-finance',
+    name: 'Projection Finance ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/projection-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'menthol-protocol',
+    name: 'Menthol Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/menthol-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'emerald-city-dao',
+    name: 'Emerald City DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/emerald-city-dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'syndr',
+    name: 'Syndr',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/syndr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sunflower-land',
+    name: 'Sunflower Land',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sunflower-land-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alpha-quark',
+    name: 'Alpha Quark',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alpha-quark-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stakely-multicoin-faucet',
+    name: 'Stakely Multicoin Faucet ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stakely-multicoin-faucet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'carbonable',
+    name: 'Carbonable',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/carbonable-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metronome-synth',
+    name: 'Metronome Synth',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metronome-synth-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'attarius-network',
+    name: 'Attarius Network ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/attarius-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'crypto-for-charity',
+    name: 'Crypto for Charity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/crypto-for-charity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'global-coin-research',
+    name: 'Global Coin Research (GCR)',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/global-coin-research-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'outerbridge',
+    name: 'Outerbridge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/outerbridge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'airswift',
+    name: 'Airswift',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/airswift-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fortress-wallet',
+    name: 'Fortress Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fortress-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rockx',
+    name: 'RockX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rockx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eggrypto',
+    name: 'EGGRYPTO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eggrypto-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'holoframe',
+    name: 'Holoframe',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/holoframe-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'galactic-gecko-space-garage',
+    name: 'Galactic Gecko Space Garage',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/galactic-gecko-space-garage-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'catapult',
+    name: 'Catapult',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/catapult-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dcap',
+    name: 'DCAP',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dcap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metasleuth',
+    name: 'MetaSleuth',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metasleuth-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sphereone',
+    name: 'SphereOne',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sphereone-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pulley',
+    name: 'Pulley',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pulley-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'faraway-land',
+    name: 'Faraway Land',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/faraway-land-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'goplus-token-security-api',
+    name: 'GoPlus Token Security API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/goplus-token-security-api-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'thx-network',
+    name: 'THX Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/thx-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'carrier',
+    name: 'Carrier',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/carrier-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hexens-cyber-security',
+    name: 'Hexens Cyber Security',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hexens-cyber-security-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tokentag',
+    name: 'TokenTag',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tokentag-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '3xpl',
+    name: '3xpl',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/3xpl-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'daobox',
+    name: 'DAObox',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/daobox-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bond-protocol',
+    name: 'Bond Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bond-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'walletos',
+    name: 'walletOS',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/walletos-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sepolia-faucet',
+    name: 'Sepolia Faucet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sepolia-faucet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'altr',
+    name: 'Altr',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/altr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'smithydao',
+    name: 'SmithyDao',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/smithydao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rubydex',
+    name: 'RubyDex',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rubydex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'red-team',
+    name: 'Red Team',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/red-team-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mini-royale-nations',
+    name: 'Mini Royale: Nations ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mini-royale-nations-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'supraoracles',
+    name: 'SupraOracles',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/supraoracles-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'memetools',
+    name: 'MemeTools',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/memetools-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solsplits',
+    name: 'SolSplits',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solsplits-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'noxx',
+    name: 'Noxx',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/noxx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dropstab',
+    name: 'DropsTab',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dropstab-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metamorph',
+    name: 'Metamorph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metamorph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lore',
+    name: 'Lore',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lore-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'liminal',
+    name: 'Liminal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/liminal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'peckshield',
+    name: 'PeckShield',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/peckshield-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lockon',
+    name: 'LOCKON',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lockon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gami',
+    name: 'GAMI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gami-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pocket-portal',
+    name: 'Pocket Portal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pocket-portal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'icrosschain',
+    name: 'iCrosschain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/icrosschain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'team-omega',
+    name: 'Team Omega',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/team-omega-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tevaera',
+    name: 'Tevaera',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tevaera-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'canvas-connect',
+    name: 'Canvas Connect',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/canvas-connect-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stella-fantasy',
+    name: 'Stella Fantasy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stella-fantasy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yup',
+    name: 'Yup',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yup-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'reddio',
+    name: 'Reddio',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/reddio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'camelot-guardian',
+    name: 'Camelot Guardian',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/camelot-guardian-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blocksurvey',
+    name: 'BlockSurvey',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blocksurvey-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metavisor',
+    name: 'Metavisor',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metavisor-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'antfarm-finance',
+    name: 'Antfarm Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/antfarm-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '1-country',
+    name: '1.country',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/1-country-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'contractreader',
+    name: 'ContractReader ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/contractreader-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mbd-boulevard',
+    name: 'MBD Boulevard',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mbd-boulevard-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'relic-protocol',
+    name: 'Relic Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/relic-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'parcl',
+    name: 'Parcl',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/parcl-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orbofi-ai',
+    name: 'Orbofi AI ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orbofi-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'spheraheads',
+    name: 'SpheraHeads',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/spheraheads-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'interport-finance',
+    name: 'Interport Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/interport-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ei8hts',
+    name: 'ei8hts',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ei8hts-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pheasant-network',
+    name: 'Pheasant Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pheasant-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'epigeon',
+    name: 'Epigeon',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/epigeon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ottersec',
+    name: 'OtterSec',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ottersec-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/ottersec-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'firefly',
+    name: 'Firefly',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/firefly-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'inspex-explorer',
+    name: 'Inspex Explorer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/inspex-explorer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mest',
+    name: 'Mest',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mest-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'okcontract',
+    name: 'OKcontract',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/okcontract-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metachat',
+    name: 'MetaChat',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metachat-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'melegaswap',
+    name: 'MelegaSwap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/melegaswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'statemind',
+    name: 'Statemind',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/statemind-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinbase-wallet-sdk',
+    name: 'Coinbase Wallet SDK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinbase-wallet-sdk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tweed',
+    name: 'Tweed',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tweed-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockus',
+    name: 'Blockus',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockus-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'skandha',
+    name: 'Skandha',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/skandha-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aa-bundler',
+    name: 'AA-bundler',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aa-bundler-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'liteflow',
+    name: 'Liteflow',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/liteflow-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/liteflow-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rpclist',
+    name: 'RPCList',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rpclist-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '5ire',
+    name: '5ire',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/5ire-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mo-me-nt',
+    name: 'MO:ME:NT',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mo-me-nt-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xion-global',
+    name: 'Xion Global',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xion-global-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dauth-network',
+    name: 'DAuth Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dauth-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'parallel',
+    name: 'Parallel',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/parallel-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'meeds',
+    name: 'Meeds',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/meeds-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ambisafe',
+    name: 'Ambisafe',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ambisafe-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dagora',
+    name: 'Dagora',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dagora-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'texas-blockchain',
+    name: 'Texas Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/texas-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'oregon-blockchain',
+    name: 'Oregon Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/oregon-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-georgia-tech',
+    name: 'Blockchain @ Georgia Tech ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-georgia-tech-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hbs-blockchain-and-crypto-club',
+    name: 'HBS Blockchain and Crypto Club',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hbs-blockchain-and-crypto-club-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rutgers-blockchain',
+    name: 'Rutgers Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rutgers-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-at-columbia',
+    name: 'Blockchain at Columbia',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-at-columbia-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-at-san-diego',
+    name: 'Blockchain at San Diego',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-at-san-diego-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-at-virginia-tech',
+    name: 'Blockchain at Virginia Tech',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-at-virginia-tech-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mit-sloan-blockchain-club',
+    name: 'MIT Sloan Blockchain Club',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mit-sloan-blockchain-club-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-at-ucsb',
+    name: 'Blockchain At UCSB',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-at-ucsb-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'carnegie-mellon-blockchain',
+    name: 'Carnegie Mellon Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/carnegie-mellon-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'penn-blockchain',
+    name: 'Penn Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/penn-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'princeton-blockchain-club',
+    name: 'Princeton Blockchain Club',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/princeton-blockchain-club-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-at-asu',
+    name: 'Blockchain at ASU',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-at-asu-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cornell-blockchain',
+    name: 'Cornell Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cornell-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'umn-blockchain',
+    name: 'UMN Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/umn-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'michigan-blockchain',
+    name: 'Michigan Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/michigan-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-at-davis',
+    name: 'Blockchain at Davis',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-at-davis-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'illini-blockchain',
+    name: 'ILLINI BLOCKCHAIN',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/illini-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'graduate-blockchain-society-at-mccombs',
+    name: 'Graduate Blockchain Society at McCombs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/graduate-blockchain-society-at-mccombs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cal-poly-blockchain',
+    name: 'Cal Poly Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cal-poly-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-at-uci',
+    name: 'Blockchain at UCI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-at-uci-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'boiler-blockchain',
+    name: 'Boiler Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/boiler-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yale-blockchain-club',
+    name: 'Yale Blockchain Club',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yale-blockchain-club-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'assetux',
+    name: 'Assetux',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/assetux-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidcheck',
+    name: 'Solidcheck',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidcheck-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sanr-app',
+    name: 'SanR.app',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sanr-app-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'carv',
+    name: 'CARV',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/carv-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'delio',
+    name: 'Delio',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/delio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'taskon',
+    name: 'TaskOn',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/taskon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockpi-network',
+    name: 'BlockPI Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockpi-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bulb',
+    name: 'BULB',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bulb-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fina-cash',
+    name: 'Fina.Cash',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fina-cash-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'deform',
+    name: 'DeForm',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/deform-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hashstack',
+    name: 'Hashstack',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hashstack-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ryo',
+    name: 'RYO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ryo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'onfinality',
+    name: 'OnFinality',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/onfinality-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solana-compass',
+    name: 'Solana Compass',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solana-compass-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'buidler-component',
+    name: 'BUIDLer Component',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/buidler-component-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'etherspot-transactionkit',
+    name: 'Etherspot TransactionKit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/etherspot-transactionkit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'simplefx',
+    name: 'SimpleFX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/simplefx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'transit-swap',
+    name: 'Transit Swap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/transit-swap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gumball-protocol',
+    name: 'GumBall Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gumball-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'benji-bananas',
+    name: 'Benji Bananas',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/benji-bananas-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wam',
+    name: 'Wam',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wam-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arc8-by-gamee',
+    name: 'Arc8 by Gamee',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arc8-by-gamee-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mafiafoot',
+    name: 'Mafiafoot',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mafiafoot-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'beamer',
+    name: 'Beamer ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/beamer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nested',
+    name: 'Nested',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nested-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'position-exchange',
+    name: 'Position Exchange',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/position-exchange-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dex-finance',
+    name: 'DEX Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dex-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wardenswap',
+    name: 'WardenSwap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wardenswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hyper-jump',
+    name: 'Hyper Jump',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hyper-jump-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'biswap',
+    name: 'Biswap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/biswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'everrise',
+    name: 'EverRise',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/everrise-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gains-network',
+    name: 'Gains Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gains-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'elkfinance',
+    name: 'ElkFinance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/elkfinance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aave-subgraph',
+    name: 'Aave Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aave-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'teahouse',
+    name: 'Teahouse',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/teahouse-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'firebird-finance',
+    name: 'Firebird Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/firebird-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'umbra',
+    name: 'Umbra',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/umbra-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'clipper',
+    name: 'Clipper  ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/clipper-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'loopring-subgraph',
+    name: 'Loopring Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/loopring-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'compound-v2-subgraph',
+    name: 'Compound V2 Subgraph ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/compound-v2-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lido-subgraph',
+    name: 'Lido Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lido-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'snapshot-subgraph',
+    name: 'Snapshot Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/snapshot-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'spice-ai',
+    name: 'Spice AI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/spice-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yearn-subgraph',
+    name: 'Yearn Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yearn-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rocket-pool-subgraph',
+    name: 'Rocket Pool Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rocket-pool-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'convex-subgraph',
+    name: 'Convex Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/convex-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sarcophagus',
+    name: 'Sarcophagus',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sarcophagus-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'airswap-subgraph',
+    name: 'AirSwap Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/airswap-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'livepeer-subgraph',
+    name: 'Livepeer Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/livepeer-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'endaoment-subgraph',
+    name: 'Endaoment Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/endaoment-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'juicebox-subgraph',
+    name: 'Juicebox Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/juicebox-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'freename',
+    name: 'Freename',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/freename-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hop-protocol-subgraph',
+    name: 'Hop Protocol Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hop-protocol-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'connext-subgraph',
+    name: 'Connext Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/connext-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ens-subgraph',
+    name: 'ENS Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ens-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pooltogether-subgraph',
+    name: 'PoolTogether Subgraph ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pooltogether-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'curve-subgraph',
+    name: 'Curve Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/curve-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'enzyme-subgraph',
+    name: 'Enzyme Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/enzyme-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'synthetix-subgraph',
+    name: 'Synthetix Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/synthetix-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sushiswap-subgraph',
+    name: 'SushiSwap Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sushiswap-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'uniswap-v3-subgraph',
+    name: 'Uniswap V3 Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/uniswap-v3-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'graph-network-subgraph',
+    name: 'Graph Network Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/graph-network-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'foundation-subgraph',
+    name: 'Foundation Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/foundation-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'opensea-subgraph',
+    name: 'OpenSea Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/opensea-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'webacy',
+    name: 'Webacy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/webacy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'particle-network',
+    name: 'Particle Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/particle-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jumptask',
+    name: 'JumpTask',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jumptask-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'enso',
+    name: 'Enso',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/enso-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moox-protocol',
+    name: 'Moox Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moox-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solarplex',
+    name: 'Solarplex',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solarplex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nillaconnect',
+    name: 'NillaConnect',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nillaconnect-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ovio',
+    name: 'OviO ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ovio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zeeverse',
+    name: 'Zeeverse',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zeeverse-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kodadot',
+    name: 'KodaDot',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kodadot-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'culture-vault',
+    name: 'Culture Vault',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/culture-vault-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'avnu',
+    name: 'AVNU',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/avnu-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'owlto-finance',
+    name: 'Owlto Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/owlto-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bybarter',
+    name: 'ByBarter',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bybarter-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'protico',
+    name: 'Protico',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/protico-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'questflow',
+    name: 'Questflow',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/questflow-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinspect',
+    name: 'Coinspect',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinspect-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'q-xyz',
+    name: 'Q.xyz',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/q-xyz-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'playgrounds',
+    name: 'Playgrounds',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/playgrounds-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xade-finance',
+    name: 'Xade Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xade-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xangle',
+    name: 'Xangle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xangle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lodestar-finance',
+    name: 'Lodestar Finance ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lodestar-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'omniscia-io',
+    name: 'Omniscia.io',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/omniscia-io-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'thirdwork',
+    name: 'Thirdwork',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/thirdwork-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dapprovals',
+    name: 'dApprovals',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dapprovals-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'timeswap',
+    name: 'Timeswap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/timeswap-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/timeswap-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defimoon',
+    name: 'DeFimoon',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defimoon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'perion-dao',
+    name: 'Perion DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/perion-dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kuma-wallet',
+    name: 'Kuma Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kuma-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'openocean',
+    name: 'OpenOcean',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/openocean-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'upyo',
+    name: 'UPYO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/upyo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dropchain-labs',
+    name: 'DropChain Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dropchain-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mini-arena',
+    name: 'Mini Arena ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mini-arena-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'verilog-solutions',
+    name: 'Verilog Solutions',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/verilog-solutions-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bootnode',
+    name: 'BootNode',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bootnode-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bubblemaps',
+    name: 'Bubblemaps',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bubblemaps-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidityscan',
+    name: 'SolidityScan',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidityscan-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'panoptic',
+    name: 'Panoptic',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/panoptic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gray-market',
+    name: 'Gray Market',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gray-market-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'martian-wallet',
+    name: 'Martian Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/martian-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ankr-liquid-staking',
+    name: 'Ankr Liquid Staking ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ankr-liquid-staking-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'davos-protocol',
+    name: 'Davos Protocol ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/davos-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polybase',
+    name: 'Polybase ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polybase-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mooar',
+    name: 'MOOAR',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mooar-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'seam-social',
+    name: 'Seam Social',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/seam-social-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swappin-gifts',
+    name: 'Swappin.gifts',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swappin-gifts-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metalaunch',
+    name: 'Metalaunch',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metalaunch-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'altme-wallet',
+    name: 'Altme Wallet ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/altme-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sweep-n-flip',
+    name: 'Sweep n\' Flip',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sweep-n-flip-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hermes-protocol',
+    name: 'Hermes Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hermes-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'holyheld',
+    name: 'Holyheld',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/holyheld-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cyvers',
+    name: 'Cyvers',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cyvers-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flowx',
+    name: 'FlowX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flowx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'everyname',
+    name: 'Everyname',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/everyname-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swipelux',
+    name: 'Swipelux ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swipelux-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'raid-guild',
+    name: 'Raid Guild',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/raid-guild-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mintera',
+    name: 'Mintera ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mintera-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'better-fan',
+    name: 'Better Fan',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/better-fan-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dexcheck',
+    name: 'DexCheck',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dexcheck-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'team-finance',
+    name: 'Team Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/team-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'toros-finance',
+    name: 'Toros Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/toros-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vaultka',
+    name: 'Vaultka',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vaultka-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'global-ledger',
+    name: 'Global Ledger',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/global-ledger-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'veno-finance',
+    name: 'Veno Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/veno-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'u-today',
+    name: 'U.Today',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/u-today-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'midao',
+    name: 'Midao',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/midao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fabwelt',
+    name: 'Fabwelt',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fabwelt-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'paragons-dao',
+    name: 'Paragons DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/paragons-dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'altitude',
+    name: 'Altitude',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/altitude-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinmate',
+    name: 'Coinmate',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinmate-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dimo',
+    name: 'DIMO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dimo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'space-id',
+    name: 'SPACE ID',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/space-id-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tezos-sdk-for-unity',
+    name: 'Tezos SDK for Unity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tezos-sdk-for-unity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cryptoflies',
+    name: 'Cryptoflies',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptoflies-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'avata',
+    name: 'Avata',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/avata-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mfl',
+    name: 'MFL',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mfl-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'miniorange',
+    name: 'miniOrange',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/miniorange-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xdc-network',
+    name: 'XDC Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xdc-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'remox',
+    name: 'Remox',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/remox-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'electron-zkbridge',
+    name: 'Electron zkBridge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/electron-zkbridge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pentas',
+    name: 'Pentas',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pentas-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wanchain-bridge',
+    name: 'Wanchain Bridge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wanchain-bridge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'monsterra',
+    name: 'Monsterra  ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/monsterra-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'innmind',
+    name: 'InnMind',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/innmind-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dailycoin',
+    name: 'DailyCoin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dailycoin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zkbob-private-wallet',
+    name: 'zkBob Private Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zkbob-private-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'transfi',
+    name: 'TransFi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/transfi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'paima-engine',
+    name: 'Paima Engine',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/paima-engine-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'smplr',
+    name: 'SMPLR',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/smplr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arsenal',
+    name: 'Arsenal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arsenal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'trendx',
+    name: 'Trendx',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/trendx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'detask',
+    name: 'DeTask',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/detask-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'safeheron',
+    name: 'Safeheron',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/safeheron-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hashex',
+    name: 'HashEx',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hashex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '0xguard',
+    name: '0xGuard',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/0xguard-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wireshape-tcpr',
+    name: 'Wireshape TCPR',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wireshape-tcpr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rugdog',
+    name: 'Rugdog',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rugdog-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'foxify',
+    name: 'Foxify',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/foxify-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tokenlon',
+    name: 'Tokenlon',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tokenlon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'linkko',
+    name: 'Linkko',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/linkko-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'drpc',
+    name: 'DRPC',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/drpc-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ottobots',
+    name: 'OttoBots',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ottobots-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mantra',
+    name: 'MANTRA',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mantra-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'uncx-network',
+    name: 'UNCX Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/uncx-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'streamr',
+    name: 'Streamr',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/streamr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'angelblock-protocol',
+    name: 'AngelBlock Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/angelblock-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '3num',
+    name: '3NUM',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/3num-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'smartcredit-io',
+    name: 'SmartCredit.io',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/smartcredit-io-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainaware-ai',
+    name: 'ChainAware.ai',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainaware-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pocketpay-finance',
+    name: 'PocketPay Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pocketpay-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xpla',
+    name: 'XPLA  ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xpla-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'origin-ether',
+    name: 'Origin Ether',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/origin-ether-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'envelop',
+    name: 'Envelop ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/envelop-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quicksilver',
+    name: 'Quicksilver',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quicksilver-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gondi',
+    name: 'Gondi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gondi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tokensoft',
+    name: 'Tokensoft',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tokensoft-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'horizondex',
+    name: 'HorizonDEX ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/horizondex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cryptolock',
+    name: 'CryptoLock',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptolock-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orderly-network',
+    name: 'Orderly Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orderly-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stellaswap',
+    name: 'StellaSwap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stellaswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wiremin',
+    name: 'WireMin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wiremin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'r-planet',
+    name: 'R-Planet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/r-planet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wigoswap',
+    name: 'WigoSwap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wigoswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'meld',
+    name: 'Meld',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/meld-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'optix',
+    name: 'Optix',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/optix-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'presail',
+    name: 'Presail',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/presail-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metatrust-labs',
+    name: 'MetaTrust Labs ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metatrust-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'piratepets',
+    name: 'PiratePets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/piratepets-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nftgators',
+    name: 'NFTgators',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nftgators-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'marsnext',
+    name: 'MarsNext',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/marsnext-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'droidex',
+    name: 'Droidex',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/droidex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tableland',
+    name: 'Tableland',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tableland-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'smartstate',
+    name: 'SmartState',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/smartstate-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'galaxia-explorer',
+    name: 'Galaxia Explorer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/galaxia-explorer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fcon-dex',
+    name: 'FCON DEX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fcon-dex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'caddi',
+    name: 'Caddi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/caddi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dexwin',
+    name: 'DexWin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dexwin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'carbon-heavy',
+    name: 'Carbon Heavy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/carbon-heavy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alto-bundler',
+    name: 'Alto bundler',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alto-bundler-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'soquest',
+    name: 'SoQuest',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/soquest-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainlight',
+    name: 'ChainLight',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainlight-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nimbus',
+    name: 'Nimbus',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nimbus-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'racefi',
+    name: 'RaceFi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/racefi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hope-money',
+    name: 'hope.money',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hope-money-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xcall-service',
+    name: 'xCall Service',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xcall-service-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'inx-one',
+    name: 'INX One',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/inx-one-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'block-consult',
+    name: 'Block Consult',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/block-consult-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'asterizm',
+    name: 'Asterizm',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/asterizm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'oncyber-io',
+    name: 'oncyber.io ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/oncyber-io-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wombat-exchange',
+    name: 'Wombat Exchange',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wombat-exchange-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'egemoney',
+    name: 'EgeMoney',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/egemoney-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ascion',
+    name: 'Ascion',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ascion-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'earn-network',
+    name: 'Earn Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/earn-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bunzz',
+    name: 'Bunzz',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bunzz-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tokentraxx',
+    name: 'TokenTraxx',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tokentraxx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'banxa',
+    name: 'Banxa',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/banxa-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'snapchain',
+    name: 'Snapchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/snapchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'saga',
+    name: 'Saga',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/saga-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vistara',
+    name: 'Vistara',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vistara-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sovereign-labs',
+    name: 'Sovereign Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sovereign-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stackr',
+    name: 'Stackr',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stackr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rollkit',
+    name: 'Rollkit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rollkit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dymension',
+    name: 'Dymension',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dymension-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'astria',
+    name: 'Astria',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/astria-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mercle',
+    name: 'Mercle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mercle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainsight',
+    name: 'Chainsight',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainsight-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yoki-finance',
+    name: 'Yoki Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yoki-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '300dao',
+    name: '300DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/300dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'softstack',
+    name: 'softstack',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/softstack-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stark',
+    name: 'STARK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stark-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bydfi',
+    name: 'BYDFi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bydfi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-app-factory',
+    name: 'Blockchain App Factory',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-app-factory-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cg-meta-game',
+    name: 'CG Meta Game',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cg-meta-game-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bloxroute-labs',
+    name: 'bloXroute Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bloxroute-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bright-union',
+    name: 'Bright Union',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bright-union-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sprintcheckout',
+    name: 'Sprintcheckout',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sprintcheckout-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swing',
+    name: 'Swing',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swing-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metchain',
+    name: 'METCHAIN',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'heroswap',
+    name: 'HeroSwap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/heroswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'snark',
+    name: 'SNARK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/snark-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bulletproofs',
+    name: 'Bulletproofs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bulletproofs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'groth16',
+    name: 'Groth16',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/groth16-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'plonk',
+    name: 'PLONK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/plonk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'plonky2',
+    name: 'Plonky2',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/plonky2-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'west-coast-nft',
+    name: 'West Coast NFT',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/west-coast-nft-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'oak',
+    name: 'Oak',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/oak-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'povio',
+    name: 'Povio',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/povio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rezolut',
+    name: 'Rezolut',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rezolut-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'airfoil',
+    name: 'Airfoil',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/airfoil-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'risc-zero',
+    name: 'Risc Zero',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/risc-zero-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockless',
+    name: 'Blockless',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockless-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ingonmaya',
+    name: 'Ingonmaya',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ingonmaya-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'axiom',
+    name: 'Axiom',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/axiom-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nil-foundation',
+    name: '=nil; Foundation',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nil-foundation-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polymer',
+    name: 'Polymer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polymer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bonsai',
+    name: 'Bonsai',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bonsai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'decimal',
+    name: 'Decimal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/decimal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pulsar-finance',
+    name: 'Pulsar Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pulsar-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'optionblitz',
+    name: 'OptionBlitz',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/optionblitz-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'envio',
+    name: 'Envio',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/envio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'veax',
+    name: 'Veax',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/veax-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainspot',
+    name: 'Chainspot',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainspot-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'consola-finance',
+    name: 'consola.finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/consola-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'concordex',
+    name: 'Concordex',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/concordex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fabwelt-studios',
+    name: 'Fabwelt Studios',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fabwelt-studios-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'composable-security',
+    name: 'Composable Security',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/composable-security-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jia',
+    name: 'Jia',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jia-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'frigg',
+    name: 'Frigg',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/frigg-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dexstar',
+    name: 'DexStar',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dexstar-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'credix',
+    name: 'Credix',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/credix-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polytrade-finance',
+    name: 'Polytrade Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polytrade-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'citadao',
+    name: 'CitaDAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/citadao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'honeybricks',
+    name: 'HoneyBricks',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/honeybricks-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fabrica',
+    name: 'Fabrica',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fabrica-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'locksmith-wallet',
+    name: 'Locksmith Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/locksmith-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pessimistic',
+    name: 'Pessimistic',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pessimistic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aesirx-business-suite',
+    name: 'AesirX Business Suite',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aesirx-business-suite-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kazm',
+    name: 'KAZM',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kazm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'beam-cash',
+    name: 'Beam Cash',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/beam-cash-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'expand-network',
+    name: 'expand.network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/expand-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bolide-finance',
+    name: 'Bolide Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bolide-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bizzllet',
+    name: 'Bizzllet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bizzllet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mozaic',
+    name: 'Mozaic',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mozaic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'q-blockchain',
+    name: 'Q Blockchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/q-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'outposts',
+    name: 'Outposts',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/outposts-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'resonance-security',
+    name: 'Resonance Security',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/resonance-security-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/resonance-security-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainide',
+    name: 'ChainIDE',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainide-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mt-pelerin',
+    name: 'Mt Pelerin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mt-pelerin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swissborg',
+    name: 'SwissBorg',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swissborg-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dock',
+    name: 'Dock',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dock-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chiyo',
+    name: 'Chiyo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chiyo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sollas',
+    name: 'Sollas',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sollas-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'onramp-money',
+    name: 'Onramp.money',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/onramp-money-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'minterest',
+    name: 'Minterest',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/minterest-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hyper-oracle',
+    name: 'Hyper Oracle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hyper-oracle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ziion',
+    name: 'ZIION',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ziion-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jumper-exchange',
+    name: 'Jumper.Exchange',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jumper-exchange-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bonusblock',
+    name: 'BonusBlock',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bonusblock-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockfence',
+    name: 'Blockfence',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockfence-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fileverse',
+    name: 'Fileverse ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fileverse-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'one-tap-by-qorbi-world',
+    name: 'One Tap by Qorbi World',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/one-tap-by-qorbi-world-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tegro',
+    name: 'Tegro',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tegro-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'denet-storage',
+    name: 'DeNet Storage',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/denet-storage-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cube3-ai',
+    name: 'CUBE3.AI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cube3-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'br1-infinite',
+    name: 'BR1: INFINITE',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/br1-infinite-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dark-frontiers',
+    name: 'Dark Frontiers',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dark-frontiers-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'crypto-tax-calculator',
+    name: 'Crypto Tax Calculator',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/crypto-tax-calculator-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fibrous',
+    name: 'Fibrous',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fibrous-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yaudit-dev',
+    name: 'yAudit.dev',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yaudit-dev-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'myrkle',
+    name: 'Myrkle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/myrkle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'earnpark',
+    name: 'EarnPark',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/earnpark-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'loaded-lions-mane-city',
+    name: 'Loaded Lions: Mane City',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/loaded-lions-mane-city-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rock-n-block',
+    name: 'Rock\'n\'Block',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rock-n-block-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coineasy',
+    name: 'CoinEasy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coineasy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vaults-fyi',
+    name: 'Vaults.fyi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vaults-fyi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '1delta',
+    name: '1delta',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/1delta-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'auditbase',
+    name: 'AuditBase',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/auditbase-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'guarda-wallet',
+    name: 'Guarda Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/guarda-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wildchain',
+    name: 'Wildchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wildchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'time-token-finance',
+    name: 'TIME Token Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/time-token-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dinari-dshares',
+    name: 'Dinari dShares',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dinari-dshares-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xircus-web3-protocol',
+    name: 'Xircus Web3 Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xircus-web3-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'areon-network',
+    name: 'Areon Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/areon-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gosh',
+    name: 'GOSH',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gosh-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wizarre',
+    name: 'Wizarre',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wizarre-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '0xscore',
+    name: '0xScore',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/0xscore-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'backpac-rpc-layer',
+    name: 'Backpac RPC Layer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/backpac-rpc-layer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'failsafe',
+    name: 'FailSafe',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/failsafe-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'siren',
+    name: 'Siren',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/siren-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aura',
+    name: 'Aura',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aura-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quillaudits',
+    name: 'QuillAudits',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quillaudits-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cointracker',
+    name: 'CoinTracker',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cointracker-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quillcheck',
+    name: 'QuillCheck',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quillcheck-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tectonic-finance',
+    name: 'Tectonic Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tectonic-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cryptofonts',
+    name: 'Cryptofonts',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptofonts-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'salus',
+    name: 'Salus',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/salus-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'safeswap',
+    name: 'SafeSwap ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/safeswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '0xgraph',
+    name: '0xgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/0xgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cometh',
+    name: 'Cometh',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cometh-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solpad',
+    name: 'Solpad',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solpad-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'imintify',
+    name: 'iMintify',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/imintify-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'outlier-ventures-copy',
+    name: 'Outlier Ventures copy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/outlier-ventures-copy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xeo-oasis-of-universe',
+    name: 'XEO - Oasis of Universe',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xeo-oasis-of-universe-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sifi',
+    name: 'Sifi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sifi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'osnap',
+    name: 'oSnap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/osnap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vektor',
+    name: 'Vektor',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vektor-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ercx',
+    name: 'ERCx',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ercx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'boomfi',
+    name: 'BoomFi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/boomfi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'slashtoken',
+    name: 'SlashToken',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/slashtoken-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'centic',
+    name: 'Centic',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/centic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cellardao-society',
+    name: 'CellarDAO Society',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cellardao-society-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'innovator-chain',
+    name: 'Innovator Chain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/innovator-chain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sub-7-security',
+    name: 'Sub 7 Security',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sub-7-security-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'loreum',
+    name: 'Loreum',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/loreum-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'college-dao',
+    name: 'College DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/college-dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nearchos',
+    name: 'Nearchos',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nearchos-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solve3',
+    name: 'Solve3',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solve3-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rivo-xyz',
+    name: 'Rivo.xyz',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rivo-xyz-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mecarreira',
+    name: 'meCarreira',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mecarreira-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'smartmuv',
+    name: 'SmartMuv',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/smartmuv-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'invariant',
+    name: 'Invariant',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/invariant-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alephium-bridge',
+    name: 'Alephium Bridge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alephium-bridge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'deepdao',
+    name: 'DeepDAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/deepdao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zeeve',
+    name: 'Zeeve',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zeeve-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dexe-dao-studio',
+    name: 'DeXe DAO Studio',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dexe-dao-studio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zkswap-finance',
+    name: 'zkSwap Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zkswap-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'circular-protocol',
+    name: 'Circular Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/circular-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'entendre-finance',
+    name: 'Entendre Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/entendre-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'compound-v3-subgraph',
+    name: 'Compound v3 Subgraph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/compound-v3-subgraph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pandatool',
+    name: 'PandaTool',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pandatool-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'up-vs-down',
+    name: 'Up Vs. Down ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/up-vs-down-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polyhedra-network',
+    name: 'Polyhedra Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polyhedra-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blizzard-fund',
+    name: 'Blizzard Fund',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blizzard-fund-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'obs-world',
+    name: 'OBS World',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/obs-world-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rehide',
+    name: 'Rehide',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rehide-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'apillon',
+    name: 'Apillon',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/apillon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'marginly',
+    name: 'Marginly',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/marginly-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'oku-trade',
+    name: 'Oku Trade',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/oku-trade-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hela',
+    name: 'HeLa',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hela-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'synaps',
+    name: 'Synaps',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/synaps-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nomis',
+    name: 'Nomis',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nomis-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'world-challenge-game',
+    name: 'World Challenge Game',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/world-challenge-game-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sharpe',
+    name: 'Sharpe ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sharpe-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flitpay',
+    name: 'Flitpay',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flitpay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainspect',
+    name: 'Chainspect',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainspect-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'securr',
+    name: 'Securr',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/securr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'daobase',
+    name: 'DAOBase',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/daobase-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kaza',
+    name: 'Kaza',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kaza-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'global-crypto-press',
+    name: 'Global Crypto Press',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/global-crypto-press-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metasoccer',
+    name: 'MetaSoccer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metasoccer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'toolblox',
+    name: 'Toolblox',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/toolblox-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'scalebit',
+    name: 'ScaleBit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/scalebit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'spaceseven',
+    name: 'Spaceseven',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/spaceseven-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aioz-w3s',
+    name: 'AIOZ W3S',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aioz-w3s-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cobo-argus',
+    name: 'Cobo Argus',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cobo-argus-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mangrove',
+    name: 'Mangrove',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mangrove-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'openux',
+    name: 'OpenUX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/openux-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'frens-on-chain',
+    name: 'Frens On Chain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/frens-on-chain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'umbria-network',
+    name: 'Umbria Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/umbria-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dmany',
+    name: 'Dmany',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dmany-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'super',
+    name: 'Super',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/super-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polyzoa',
+    name: 'Polyzoa',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polyzoa-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flood',
+    name: 'Flood',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flood-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'birdeye-so',
+    name: 'Birdeye.so',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/birdeye-so-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'altfins',
+    name: 'altFINS',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/altfins-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'utid',
+    name: 'ĀutID',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/utid-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'acurast',
+    name: 'Acurast',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/acurast-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metacrm',
+    name: 'MetaCRM',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metacrm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cede-store',
+    name: 'Cede.store',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cede-store-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aarc',
+    name: 'Aarc',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aarc-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'web3asy',
+    name: 'Web3asy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/web3asy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bonadocs',
+    name: 'Bonadocs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bonadocs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'veridise',
+    name: 'Veridise',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/veridise-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kroma',
+    name: 'Kroma',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kroma-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'omnihub',
+    name: 'OmniHub',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/omnihub-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'least-authority',
+    name: 'Least Authority',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/least-authority-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockply',
+    name: 'Blockply',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockply-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'print3r',
+    name: 'PRINT3R',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/print3r-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jiffyscan',
+    name: 'JiffyScan',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jiffyscan-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'polkaswap',
+    name: 'Polkaswap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/polkaswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchainx-tech',
+    name: 'BlockchainX Tech',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchainx-tech-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'symbiote',
+    name: 'Symbiote',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/symbiote-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'freebitcoins-com',
+    name: 'FreeBitcoins.com',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/freebitcoins-com-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'greedy-world',
+    name: 'Greedy World',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/greedy-world-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'start',
+    name: 'START',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/start-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wow-earn-chain',
+    name: 'WOW EARN CHAIN',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wow-earn-chain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'credshields',
+    name: 'Credshields',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/credshields-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quex-tech',
+    name: 'Quex Tech',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quex-tech-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockapex',
+    name: 'BlockApex',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockapex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'agorapp',
+    name: 'AgorApp',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/agorapp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinrotator',
+    name: 'CoinRotator',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinrotator-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'droomdroom',
+    name: 'DroomDroom',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/droomdroom-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'the-kingfisher',
+    name: 'The Kingfisher',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/the-kingfisher-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fringe-finance',
+    name: 'Fringe Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fringe-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'earntv',
+    name: 'EarnTV (ETV)',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/earntv-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinpedia',
+    name: 'Coinpedia',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinpedia-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stargazer',
+    name: 'Stargazer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stargazer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cryptorank',
+    name: 'CryptoRank',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptorank-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quick-intel',
+    name: 'Quick Intel',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quick-intel-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'imeta-technologies',
+    name: 'iMeta Technologies',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/imeta-technologies-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'oort',
+    name: 'OORT',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/oort-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'elementerra',
+    name: 'Elementerra',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/elementerra-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'avatr',
+    name: 'Avatr',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/avatr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cult-dao',
+    name: 'Cult DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cult-dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unilend-finance',
+    name: 'UniLend Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unilend-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swoop-exchange',
+    name: 'Swoop Exchange',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swoop-exchange-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'itheum',
+    name: 'Itheum',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/itheum-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'c3-io',
+    name: 'c3.io',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/c3-io-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dappad',
+    name: 'Dappad',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dappad-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dapplabs',
+    name: 'DappLabs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dapplabs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orby-network',
+    name: 'Orby Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orby-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '3x-education',
+    name: '3x Education',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/3x-education-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'singularity',
+    name: 'Singularity',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/singularity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nftbooks',
+    name: 'NFTBOOKS ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nftbooks-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'datacurve',
+    name: 'DataCurve',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/datacurve-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'circular-protocol',
+    name: 'Circular Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/circular-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hash0x',
+    name: 'Hash0x',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hash0x-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'empire-crypto-trading',
+    name: 'Empire Crypto Trading',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/empire-crypto-trading-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sorted-wallet',
+    name: 'Sorted Wallet ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sorted-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'degate',
+    name: 'DeGate',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/degate-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'headquarters',
+    name: 'Headquarters (HQ.xyz)',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/headquarters-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'otoco',
+    name: 'OtoCo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/otoco-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'startmail',
+    name: 'StartMail',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/startmail-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hype',
+    name: 'Hype',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hype-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hackquest',
+    name: 'HackQuest',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hackquest-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'runtime-verification',
+    name: 'Runtime Verification',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/runtime-verification-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'curia-governance-dashboard',
+    name: 'Curia Governance Dashboard',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/curia-governance-dashboard-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-payments-for-salesforce',
+    name: 'Blockchain Payments for Salesforce',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-payments-for-salesforce-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yard-hub-web3-growth-camp',
+    name: 'yard[hub] web3 Growth Camp',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yard-hub-web3-growth-camp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'superchain-dev-console',
+    name: 'Superchain Dev Console',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/superchain-dev-console-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'osnap',
+    name: 'oSnap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/osnap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pulse-domains',
+    name: 'Pulse Domains',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pulse-domains-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jasper-vault',
+    name: 'Jasper Vault',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jasper-vault-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'walletkit',
+    name: 'WalletKit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/walletkit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'legato',
+    name: 'Legato',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/legato-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'minu-swap',
+    name: 'Minu Swap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/minu-swap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rubyscore',
+    name: 'RubyScore',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rubyscore-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'createmytoken',
+    name: 'CreateMyToken',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/createmytoken-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'autoair-ai',
+    name: 'AutoAir AI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/autoair-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'retro-bridge',
+    name: 'Retro Bridge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/retro-bridge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'trustblock',
+    name: 'Trustblock',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/trustblock-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sociogram',
+    name: 'Sociogram',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sociogram-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wildcard',
+    name: 'Wildcard',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wildcard-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainstack-subgraphs',
+    name: 'Chainstack Subgraphs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainstack-subgraphs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainstack-faucet',
+    name: 'Chainstack Faucet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainstack-faucet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'glider',
+    name: 'Glider',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/glider-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nownodes',
+    name: 'NOWNodes',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nownodes-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xy-finance',
+    name: 'XY Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xy-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'virgo-wallet',
+    name: 'Virgo Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/virgo-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'signal21',
+    name: 'Signal21',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/signal21-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitpowr',
+    name: 'Bitpowr',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitpowr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kriya',
+    name: 'Kriya',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kriya-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'venly-gaming-sdk',
+    name: 'Venly Gaming SDK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/venly-gaming-sdk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yldr',
+    name: 'YLDR',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yldr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defi-protection',
+    name: 'DeFi Protection',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defi-protection-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'opencover',
+    name: 'OpenCover',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/opencover-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'audita',
+    name: 'Audita',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/audita-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zkme',
+    name: 'zkMe',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zkme-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rankfi',
+    name: 'RankFi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rankfi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'goat-protocol',
+    name: 'Goat Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/goat-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'multisig-plugin',
+    name: 'Multisig Plugin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/multisig-plugin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cold-storage-plugin',
+    name: 'Cold Storage Plugin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cold-storage-plugin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'multi-owner-plugin',
+    name: 'Multi-Owner Plugin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/multi-owner-plugin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'session-key-plugin',
+    name: 'Session Key Plugin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/session-key-plugin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'increment-finance',
+    name: 'Increment Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/increment-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'noves',
+    name: 'Noves',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/noves-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinbase-pay',
+    name: 'Coinbase Pay',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinbase-pay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitoro',
+    name: 'Bitoro',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitoro-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'box',
+    name: '.box',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/box-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'symbiosis',
+    name: 'Symbiosis',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/symbiosis-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'guardian',
+    name: 'Guardian',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/guardian-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fordefi',
+    name: 'Fordefi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fordefi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swapspace',
+    name: 'SwapSpace',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swapspace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'web3-onboard',
+    name: 'Web3 Onboard',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/web3-onboard-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blob-archive-api',
+    name: 'Blob Archive API ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blob-archive-api-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'monethic-io',
+    name: 'Monethic.io',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/monethic-io-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fintopio',
+    name: 'Fintopio',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fintopio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'into',
+    name: 'INTO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/into-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'isme',
+    name: 'ISME',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/isme-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'foundation-capital',
+    name: 'Foundation Capital',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/foundation-capital-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'advix-com',
+    name: 'Advix.com',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/advix-com-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swapin',
+    name: 'Swapin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swapin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coin-parliament',
+    name: 'Coin Parliament',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coin-parliament-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'define-protocol',
+    name: 'Define Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/define-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'filet-finance',
+    name: 'Filet Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/filet-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xstar',
+    name: 'XSTAR',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xstar-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'oriole-insights',
+    name: 'Oriole Insights',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/oriole-insights-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'clip-finance',
+    name: 'Clip Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/clip-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'evmtools',
+    name: 'evmtools',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/evmtools-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'shade-protocol',
+    name: 'Shade Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/shade-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fungiple',
+    name: 'FungIPle',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fungiple-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'distrikt',
+    name: 'distrikt',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/distrikt-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'denarii-labs',
+    name: 'Denarii Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/denarii-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinbase-smart-wallet',
+    name: 'Coinbase Smart Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinbase-smart-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'simple-account',
+    name: 'Simple Account',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/simple-account-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kernel-v2-1',
+    name: 'Kernel v2.1',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kernel-v2-1-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alchemy-smart-wallets',
+    name: 'Alchemy Smart Wallets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alchemy-smart-wallets-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/alchemy-smart-wallets-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pimlico-paymaster',
+    name: 'Pimlico Paymaster',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pimlico-paymaster-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arka',
+    name: 'Arka',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arka-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'helixbox-bridge',
+    name: 'Helixbox Bridge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/helixbox-bridge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'slerftools',
+    name: 'SlerfTools',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/slerftools-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'biconomy-paymaster',
+    name: 'Biconomy Paymaster',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/biconomy-paymaster-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'biconomy-v2',
+    name: 'Biconomy v2',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/biconomy-v2-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'safe-core',
+    name: 'Safe CORE',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/safe-core-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mosaia',
+    name: 'Mosaia',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mosaia-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'astrochain',
+    name: 'Astrochain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/astrochain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainsafe-marketplace-toolkit',
+    name: 'ChainSafe Marketplace Toolkit ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainsafe-marketplace-toolkit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'acctual',
+    name: 'Acctual',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/acctual-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mural',
+    name: 'Mural',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mural-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'movebit',
+    name: 'MoveBit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/movebit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tonbit',
+    name: 'TonBit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tonbit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ambcrypto',
+    name: 'AMBCrypto',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ambcrypto-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'smolrefuel',
+    name: 'SmolRefuel',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/smolrefuel-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'trakx',
+    name: 'Trakx',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/trakx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rise-in',
+    name: 'Rise In',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rise-in-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinfabrik',
+    name: 'CoinFabrik ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinfabrik-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'open-dollar',
+    name: 'Open Dollar',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/open-dollar-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kulipa',
+    name: 'Kulipa',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kulipa-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'easybit',
+    name: 'EasyBit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/easybit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zokyo',
+    name: 'Zokyo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zokyo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'primexbt',
+    name: 'PrimeXBT',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/primexbt-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aark',
+    name: 'Aark',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aark-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cropbytes-farms',
+    name: 'CropBytes Farms ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cropbytes-farms-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'evo-exchange',
+    name: 'Evo Exchange',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/evo-exchange-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'namespace',
+    name: 'Namespace',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/namespace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lunar-capital',
+    name: 'Lunar Capital',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lunar-capital-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quai-network',
+    name: 'Quai Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quai-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'degen-wallet',
+    name: 'Degen Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/degen-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'soulbound',
+    name: 'Soulbound',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/soulbound-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'koi-finance',
+    name: 'Koi Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/koi-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solnames',
+    name: 'Solnames',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solnames-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'drops',
+    name: 'Drops',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/drops-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'n-suite',
+    name: 'N Suite',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/n-suite-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'formo',
+    name: 'Formo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/formo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'playa3ull-games',
+    name: 'PLAYA3ULL GAMES',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/playa3ull-games-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'transporter',
+    name: 'Transporter',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/transporter-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'precipitate-protocol',
+    name: 'Precipitate Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/precipitate-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mass',
+    name: 'Mass',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mass-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'garden',
+    name: 'Garden',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/garden-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'strkfarm',
+    name: 'STRKFarm',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/strkfarm-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'minipay',
+    name: 'MiniPay',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/minipay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'honeycomb-protocol',
+    name: 'Honeycomb Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/honeycomb-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'apply-torque',
+    name: 'Apply Torque',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/apply-torque-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'evmole',
+    name: 'EVMole',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/evmole-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quillshield',
+    name: 'QuillShield',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quillshield-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'reclaim-protocol',
+    name: 'Reclaim Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/reclaim-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'the-sender',
+    name: 'The Sender',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/the-sender-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'crypto-valley-exchange',
+    name: 'Crypto Valley Exchange',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/crypto-valley-exchange-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dipdup',
+    name: 'DipDup',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dipdup-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'claimr',
+    name: 'claimr',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/claimr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'webhash',
+    name: 'WebHash',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/webhash-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dexed',
+    name: 'Dexed',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dexed-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'estforkingdom',
+    name: 'EstforKingdom',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/estforkingdom-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainge',
+    name: 'Chainge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'horizon-protocol',
+    name: 'Horizon Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/horizon-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'walletx',
+    name: 'WalletX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/walletx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tokenhunters',
+    name: 'TokenHunters',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tokenhunters-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'trident',
+    name: 'Trident',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/trident-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'erpc',
+    name: 'eRPC',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/erpc-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unergy',
+    name: 'Unergy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unergy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alta',
+    name: 'ALTA',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alta-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockai',
+    name: 'BlockAI (BAI)',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'storx-tech',
+    name: 'StorX.tech',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/storx-tech-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'singapore-blockchain-innovation-programme',
+    name: 'Singapore Blockchain Innovation Programme',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/singapore-blockchain-innovation-programme-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'borg-security',
+    name: 'Borg Security',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/borg-security-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cryptorobotics',
+    name: 'CryptoRobotics',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptorobotics-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ink-finance',
+    name: 'Ink Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ink-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solsniffer',
+    name: 'Solsniffer',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solsniffer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hedgey',
+    name: 'Hedgey',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hedgey-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'governance-by-grape',
+    name: 'Governance by Grape',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/governance-by-grape-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ligma-node',
+    name: 'Ligma Node',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ligma-node-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'seif-finance',
+    name: 'SEIF FINANCE',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/seif-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dmission',
+    name: 'DMission',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dmission-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'insightx',
+    name: 'InsightX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/insightx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockpit',
+    name: 'Blockpit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockpit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pivot',
+    name: 'Pivot',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pivot-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dedge-security',
+    name: 'Dedge Security',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dedge-security-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ix-swap',
+    name: 'IX Swap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ix-swap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'catoff',
+    name: 'Catoff',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/catoff-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'joba-network',
+    name: 'Joba Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/joba-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'volboost',
+    name: 'VOLBOOST',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/volboost-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cur8',
+    name: 'Cur8',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cur8-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nobby-game',
+    name: 'Nobby Game',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nobby-game-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solglyph',
+    name: 'SolGlyph',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solglyph-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'butter-network',
+    name: 'Butter Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/butter-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'takeprofit',
+    name: 'TakeProfit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/takeprofit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tifo',
+    name: 'TIFO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tifo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'belong',
+    name: 'Belong',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/belong-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'turnmycoin',
+    name: 'TurnMyCoin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/turnmycoin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'layeronex',
+    name: 'LayerOneX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/layeronex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swapple',
+    name: 'Swapple',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swapple-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chronicle-protocol',
+    name: 'Chronicle Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chronicle-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moongate',
+    name: 'Moongate',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moongate-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'enreach',
+    name: 'Enreach',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/enreach-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'galaxia-chronicles',
+    name: 'Galaxia Chronicles',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/galaxia-chronicles-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'venus-protocol',
+    name: 'Venus Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/venus-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'layer-labs',
+    name: 'Layer Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/layer-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solana-tracker',
+    name: 'Solana Tracker',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solana-tracker-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'intersend',
+    name: 'Intersend',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/intersend-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'grinderwiki',
+    name: 'GrinderWiki',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/grinderwiki-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'valuerouter',
+    name: 'ValueRouter',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/valuerouter-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'muon-network',
+    name: 'Muon Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/muon-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'openmesh-network',
+    name: 'Openmesh Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/openmesh-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rebalance-finance',
+    name: 'Rebalance Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rebalance-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'airdropscan',
+    name: 'AirdropScan',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/airdropscan-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'togethercrew',
+    name: 'TogetherCrew',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/togethercrew-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'overtime-markets',
+    name: 'Overtime Markets',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/overtime-markets-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-alpha',
+    name: 'Blockchain Alpha',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockchain-alpha-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'labyrinth',
+    name: 'Labyrinth ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/labyrinth-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sunrise',
+    name: 'Sunrise',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sunrise-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'joinn',
+    name: 'Joinn',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/joinn-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'holder-io',
+    name: 'Holder.io',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/holder-io-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'veda',
+    name: 'Veda',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/veda-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hindsightvip',
+    name: 'HindsightVIP',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hindsightvip-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'matchain',
+    name: 'Matchain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/matchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'matrixnet',
+    name: 'MatrixNET',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/matrixnet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'laso-finance',
+    name: 'Laso Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/laso-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rocko',
+    name: 'Rocko',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rocko-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fireblocks-embedded-wallet',
+    name: 'Fireblocks Embedded Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fireblocks-embedded-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'transient',
+    name: 'Transient',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/transient-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dedge',
+    name: 'dEdge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dedge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nolus',
+    name: 'Nolus',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nolus-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'anycampus',
+    name: 'AnyCampus',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/anycampus-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'codehound',
+    name: 'CodeHound ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/codehound-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cryptopay',
+    name: 'CryptoPay',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptopay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defx',
+    name: 'Defx',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cregis',
+    name: 'Cregis ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cregis-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dzap',
+    name: 'DZap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dzap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'maxbid-pro',
+    name: 'Maxbid Pro',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/maxbid-pro-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'slingshot-dao',
+    name: 'Slingshot DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/slingshot-dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'day1x',
+    name: 'Day1x',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/day1x-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'atlantis-impact-miner',
+    name: 'Atlantis Impact Miner',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/atlantis-impact-miner-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metrom',
+    name: 'Metrom',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metrom-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'capitoday',
+    name: 'Capitoday',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/capitoday-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hakflow',
+    name: 'HAKFLOW',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hakflow-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'madworld',
+    name: 'MadWorld',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/madworld-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zypto-wallet',
+    name: 'Zypto Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zypto-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ave-ai',
+    name: 'Ave AI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ave-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'loop-decoder',
+    name: 'Loop Decoder',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/loop-decoder-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'feed-protocol',
+    name: 'Feed Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/feed-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'crypto-recovery',
+    name: 'Crypto Recovery',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/crypto-recovery-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'amply-finance',
+    name: 'Amply Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/amply-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'duel-duck',
+    name: 'Duel Duck',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/duel-duck-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dedicatednodes-io',
+    name: 'DedicatedNodes.IO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dedicatednodes-io-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'maxapy',
+    name: 'maxAPY',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/maxapy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'emblem-vault',
+    name: 'Emblem Vault',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/emblem-vault-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'morfi',
+    name: 'MorFi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/morfi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'volume-guru',
+    name: 'Volume Guru',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/volume-guru-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '0xequity',
+    name: '0xequity ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/0xequity-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'crosscurve',
+    name: 'CrossCurve',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/crosscurve-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fishcake',
+    name: 'Fishcake',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fishcake-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainport',
+    name: 'ChainPort',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainport-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '20lab',
+    name: '20lab',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/20lab-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hord',
+    name: 'Hord',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hord-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'marketcapof',
+    name: 'MarketCapOf',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/marketcapof-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'usp-blockchain-club',
+    name: 'USP Blockchain Club',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/usp-blockchain-club-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yey-technologies',
+    name: 'YEY Technologies',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yey-technologies-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'memecoin-new',
+    name: 'Memecoin.new',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/memecoin-new-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quicknode-rollups',
+    name: 'QuickNode Rollups',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quicknode-rollups-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nadcab-labs',
+    name: 'Nadcab Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nadcab-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sygnum-web3-recovery',
+    name: 'Sygnum Web3 Recovery',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sygnum-web3-recovery-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kerberus-sentinel3',
+    name: 'Kerberus Sentinel3',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kerberus-sentinel3-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'idos-games-engine',
+    name: 'iDos Games Engine',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/idos-games-engine-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'goldsand',
+    name: 'Goldsand',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/goldsand-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'auditall',
+    name: 'Auditall',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/auditall-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'astrakode-smart-contract-auditor',
+    name: 'AstraKode Smart Contract Auditor',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/astrakode-smart-contract-auditor-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'traceye',
+    name: 'Traceye',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/traceye-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'preon-finance',
+    name: 'Preon Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/preon-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'br-softech',
+    name: 'BR Softech',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/br-softech-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tracehawk',
+    name: 'Tracehawk',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tracehawk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'justaname',
+    name: 'JustaName',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/justaname-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'meme-city',
+    name: 'Meme city',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/meme-city-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dexlab-ai',
+    name: ' DEXLab AI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dexlab-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ezo',
+    name: 'EZO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ezo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pixel-chain-games',
+    name: 'Pixel Chain Games',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pixel-chain-games-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'publicnode',
+    name: 'PublicNode',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/publicnode-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'endless-domains',
+    name: 'Endless Domains ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/endless-domains-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'scv-security',
+    name: 'SCV-Security',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/scv-security-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'router-nitro',
+    name: 'Router Nitro',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/router-nitro-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'messinaone-bridge',
+    name: 'MessinaOne Bridge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/messinaone-bridge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gomining',
+    name: 'GoMining',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gomining-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'midas',
+    name: 'Midas',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/midas-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '0xteam',
+    name: '0xTeam ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/0xteam-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gizmolab-ui',
+    name: 'Gizmolab UI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gizmolab-ui-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'harvest-art',
+    name: 'Harvest.art',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/harvest-art-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'witness-protocol',
+    name: 'WITNESS Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/witness-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ln-exchange',
+    name: 'LN Exchange',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ln-exchange-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'proofivy',
+    name: 'Proofivy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/proofivy-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alldomains',
+    name: 'AllDomains',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alldomains-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'universalx',
+    name: 'UniversalX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/universalx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'starbase',
+    name: 'Starbase',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/starbase-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'verda-ventures',
+    name: 'Verda Ventures',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/verda-ventures-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gasfees-org',
+    name: 'GasFees.org',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gasfees-org-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'playarts',
+    name: 'PlayArts',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/playarts-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'thestandard-io',
+    name: 'TheStandard.io',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/thestandard-io-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'umpc',
+    name: 'uMPC',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/umpc-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'namestone',
+    name: 'NameStone',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/namestone-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eisen',
+    name: 'Eisen',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eisen-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'frankencoin',
+    name: 'Frankencoin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/frankencoin-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nodes-by-intract',
+    name: 'Nodes by Intract',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nodes-by-intract-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vanar',
+    name: 'Vanar',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vanar-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'onchain-industries',
+    name: 'OnChain Industries',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/onchain-industries-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zkcodex',
+    name: 'zkCodex',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zkcodex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'taraxa',
+    name: 'Taraxa',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/taraxa-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'totalsig',
+    name: 'TotalSig',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/totalsig-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'three-sigma',
+    name: 'Three Sigma',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/three-sigma-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cubane',
+    name: 'Cubane',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cubane-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bugblow',
+    name: 'BugBlow',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bugblow-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bemo',
+    name: 'bemo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bemo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'p-link',
+    name: 'P-Link',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/p-link-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lagoon',
+    name: 'Lagoon',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lagoon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hypekols',
+    name: 'Hypekols',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hypekols-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'securedapp',
+    name: 'SecureDApp',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/securedapp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'intract-mints',
+    name: 'Intract Mints',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/intract-mints-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'io-finnet',
+    name: 'io.finnet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/io-finnet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rzlt',
+    name: 'RZLT',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rzlt-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lara-protocol',
+    name: 'Lara Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lara-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yieldfi',
+    name: 'YieldFi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yieldfi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solrip',
+    name: 'SolRIP',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solrip-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'certora',
+    name: 'Certora ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/certora-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tesseractx',
+    name: 'TesseractX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tesseractx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'safe-edges',
+    name: 'Safe Edges',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/safe-edges-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethereum-follow-protocol',
+    name: 'Ethereum Follow Protocol (EFP)',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethereum-follow-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockridge',
+    name: 'BlockRidge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockridge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'estate-slice-nft',
+    name: 'ESTATE SLICE NFT',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/estate-slice-nft-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rad-tv',
+    name: 'Rad TV',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rad-tv-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '4-point-o-labs',
+    name: '4 Point O Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/4-point-o-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wake',
+    name: 'Wake',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wake-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'betterclaimsol',
+    name: 'BetterClaimSol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/betterclaimsol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kwikclaim',
+    name: 'KwikClaim',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kwikclaim-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'miniorange',
+    name: 'miniOrange',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/miniorange-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidity-shield',
+    name: 'Solidity Shield',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidity-shield-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'securewatch',
+    name: 'SecureWatch',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/securewatch-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'securetrace',
+    name: 'SecureTrace',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/securetrace-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'protofire-s-chainlove',
+    name: 'Protofire\'s ChainLove',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/protofire-s-chainlove-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'supra',
+    name: 'Supra',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/supra-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'datawallet',
+    name: 'Datawallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/datawallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nreach',
+    name: 'nReach',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nreach-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'anyalt',
+    name: 'AnyAlt',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/anyalt-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fuzzlib',
+    name: 'fuzzlib',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fuzzlib-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arachne',
+    name: 'Arachne',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arachne-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'perimeter',
+    name: 'Perimeter',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/perimeter-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'null-return',
+    name: 'Null Return',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/null-return-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hiro-platform',
+    name: 'Hiro Platform',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hiro-platform-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ball-e',
+    name: 'Ball-E',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ball-e-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'terminal-3',
+    name: 'Terminal 3',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/terminal-3-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moni-discover',
+    name: 'Moni Discover',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moni-discover-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moni-social-api',
+    name: 'Moni Social API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moni-social-api-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'o7-node',
+    name: 'o7 Node',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/o7-node-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'symbios-games',
+    name: 'Symbios Games',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/symbios-games-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'spinor',
+    name: 'Spinor',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/spinor-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solsniper-com',
+    name: 'SOLSniper.com',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solsniper-com-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'beaconcha-in',
+    name: 'beaconcha.in',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/beaconcha-in-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'almanax',
+    name: 'Almanax',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/almanax-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xbanking-research',
+    name: 'XBANKING Research',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xbanking-research-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bombpixel',
+    name: 'BombPixel',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bombpixel-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'toobit',
+    name: 'Toobit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/toobit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cero-network',
+    name: 'Cero Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cero-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'emmet-finance',
+    name: 'Emmet Finance',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/emmet-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cryptocadet',
+    name: 'CryptoCadet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptocadet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chainaudits',
+    name: 'ChainAudits',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chainaudits-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'treble',
+    name: 'Treble',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/treble-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wallet-master-tools',
+    name: 'Wallet Master Tools',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wallet-master-tools-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hypersonic',
+    name: 'Hypersonic',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hypersonic-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bondi',
+    name: 'Bondi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bondi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'notarychains',
+    name: 'NotaryChains',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/notarychains-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'compound-blue',
+    name: 'Compound Blue',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/compound-blue-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moonopol',
+    name: 'moonopol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moonopol-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mintpark',
+    name: 'Mintpark',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mintpark-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wildcat',
+    name: 'Wildcat',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wildcat-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sentismai',
+    name: 'SentismAI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sentismai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aleno',
+    name: 'Aleno',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aleno-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pluno',
+    name: 'Pluno',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pluno-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fastnode',
+    name: 'Fastnode',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fastnode-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swapped-com',
+    name: 'Swapped.com',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swapped-com-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'powerdex',
+    name: 'PowerDEX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/powerdex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'burnchecker',
+    name: 'Burnchecker',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/burnchecker-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dappbooster',
+    name: 'dAppBooster',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dappbooster-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gtokentool',
+    name: 'GTokenTool',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gtokentool-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arbitragescanner-io',
+    name: 'ArbitrageScanner.io',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arbitragescanner-io-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arbitragescanner-api',
+    name: 'ArbitrageScanner API',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arbitragescanner-api-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'maestro',
+    name: 'Maestro',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/maestro-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'smartnetwork',
+    name: 'SmartNETWORK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/smartnetwork-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dtech',
+    name: 'dTech',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dtech-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eco-portal',
+    name: 'Eco Portal',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eco-portal-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dappify',
+    name: 'Dappify',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dappify-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'shadow-exchange',
+    name: 'Shadow Exchange',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/shadow-exchange-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'uniblock',
+    name: 'Uniblock',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/uniblock-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'triton-one',
+    name: 'Triton One',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/triton-one-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tokentoolbox',
+    name: 'TokenToolbox',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tokentoolbox-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'heyelsa-ai',
+    name: 'HeyElsa AI',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/heyelsa-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ask-libfi',
+    name: 'Ask LibFi',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ask-libfi-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alldomains-bridge',
+    name: 'AllDomains Bridge',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alldomains-bridge-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'motif',
+    name: 'motif',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/motif-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'security-research-labs',
+    name: 'Security Research Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/security-research-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'burner',
+    name: 'Burner',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/burner-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'spheron-network',
+    name: 'Spheron Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/spheron-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sonicxswap',
+    name: 'Sonicxswap',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sonicxswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gate-wallet',
+    name: 'Gate Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gate-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'atok',
+    name: 'Atok',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/atok-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bundle-fren',
+    name: 'Bundle Fren',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bundle-fren-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'walt-id',
+    name: 'walt.id',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/walt-id-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinjar',
+    name: 'CoinJar',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinjar-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aibased',
+    name: 'AiBased',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aibased-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'free-sepolia-faucet',
+    name: 'Free Sepolia Faucet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/free-sepolia-faucet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '0xname',
+    name: '0xNAME',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/0xname-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ascn',
+    name: 'ASCN',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ascn-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lighthouse',
+    name: 'Lighthouse',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lighthouse-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'univoucher',
+    name: 'UniVoucher',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/univoucher-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'white-label-mpc-wallet',
+    name: 'White Label MPC Wallet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/white-label-mpc-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xchangeon',
+    name: 'XchangeOn',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xchangeon-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'octav',
+    name: 'Octav',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/octav-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'decubate-tms',
+    name: 'Decubate TMS',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/decubate-tms-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'baltex',
+    name: 'Baltex',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/baltex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xgram-io',
+    name: 'Xgram.io',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xgram-io-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dalps',
+    name: 'DALPS',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dalps-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orb',
+    name: 'Orb',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orb-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defi-orbit',
+    name: 'DeFi Orbit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defi-orbit-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stork',
+    name: 'Stork',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stork-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'near-intents',
+    name: 'NEAR Intents',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/near-intents-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fomo',
+    name: 'fomo',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fomo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'starknet-earn',
+    name: 'Starknet Earn',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/starknet-earn-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dedaub-tok-in',
+    name: 'Dedaub tok{In}',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dedaub-tok-in-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dedaub-security-suite',
+    name: 'Dedaub Security Suite ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dedaub-security-suite-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/dedaub-security-suite-icon-light.svg',
+            format: 'svg',
           },
         ],
       },
