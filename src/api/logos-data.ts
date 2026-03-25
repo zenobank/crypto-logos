@@ -1873,6 +1873,33 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'revolut-pay',
+    name: 'Revolut Pay',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.revolut.com/revolut-pay',
+    brandKitLink:
+      'https://developer.revolut.com/docs/resources/marketing-assets-guidelines/marketing-guidelines',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/revolut-pay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/revolut-pay-text-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'revolut-business',
     name: 'Revolut Business',
     mainCategory: 'crypto-banks',
