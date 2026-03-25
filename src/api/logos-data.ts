@@ -20259,4 +20259,549 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+
+  {
+    id: 'bitmex',
+    name: 'Bitmex',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bitmex.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitmex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bingx',
+    name: 'BingX',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://bingx.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bingx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitmart',
+    name: 'BitMart',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bitmart.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitmart-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'digifinex',
+    name: 'Digifinex',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.digifinex.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/digifinex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lbank',
+    name: 'LBank',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.lbank.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lbank-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'phemex',
+    name: 'Phemex',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://phemex.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/phemex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'poloniex',
+    name: 'Poloniex',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://poloniex.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/poloniex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitstamp',
+    name: 'Bitstamp',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bitstamp.net',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitstamp-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bigone',
+    name: 'BigONE',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://big.one',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bigone-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitfinex',
+    name: 'Bitfinex',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bitfinex.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitfinex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bkex',
+    name: 'BKEX',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bkex.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bkex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitflyer',
+    name: 'bitFlyer',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://bitflyer.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitflyer-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinex',
+    name: 'CoinEx',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.coinex.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitbank',
+    name: 'Bitbank',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://bitbank.cc',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitbank-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'btcturk-pro',
+    name: 'BtcTurk Pro',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.btcturk.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/btcturk-pro-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitkub',
+    name: 'Bitkub',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bitkub.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitkub-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hitbtc',
+    name: 'HitBTC',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://hitbtc.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hitbtc-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'etorox',
+    name: 'eToroX',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.etoro.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/etorox-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'btc-markets',
+    name: 'BTC Markets',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.btcmarkets.net',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/btc-markets-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitso',
+    name: 'Bitso',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://bitso.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitso-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitpanda-pro',
+    name: 'Bitpanda Pro',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bitpanda.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitpanda-pro-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wazirx',
+    name: 'WazirX',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://wazirx.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wazirx-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'luno',
+    name: 'Luno',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.luno.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/luno-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinlist',
+    name: 'CoinList',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://coinlist.co',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinlist-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nominex',
+    name: 'Nominex',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://nominex.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nominex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kuna-exchange',
+    name: 'Kuna Exchange',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://kuna.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kuna-exchange-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bittrex',
+    name: 'Bittrex',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://bittrex.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bittrex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bibox',
+    name: 'Bibox',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bibox.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bibox-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zbcom',
+    name: 'ZB.COM',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.zb.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zbcom-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cexio',
+    name: 'CEX.IO',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://cex.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cexio-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'btse',
+    name: 'BTSE',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.btse.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/btse-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinflex',
+    name: 'CoinFLEX',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://coinflex.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinflex-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
