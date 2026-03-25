@@ -216,6 +216,31 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'bvnk',
+    name: 'BVNK',
+    mainCategory: 'payments',
+    secondaryCategories: ['stablecoins'],
+    websiteLink: 'https://bvnk.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bvnk-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bvnk-text-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'bybit',
     name: 'Bybit',
     mainCategory: 'exchanges',
@@ -1797,6 +1822,409 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/blindpay-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ventuals',
+    name: 'Ventuals',
+    mainCategory: 'derivatives',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://ventuals.com',
+    brandKitLink: 'https://docs.ventuals.com/community/brand-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ventuals-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ventuals-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/ventuals-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ventuals-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kontigo',
+    name: 'Kontigo',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: ['payments', 'stablecoins'],
+    websiteLink: 'https://kontigo.lat/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kontigo-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/kontigo-text-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alby',
+    name: 'Alby',
+    mainCategory: 'wallets',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://getalby.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alby-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aqua-wallet',
+    name: 'Aqua Wallet',
+    mainCategory: 'wallets',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://aquawallet.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aqua-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bancolibre',
+    name: 'BancoLibre',
+    mainCategory: 'payments',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://bancolibre.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bancolibre-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockstream-app',
+    name: 'Blockstream App',
+    mainCategory: 'wallets',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://blockstream.com/app/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockstream-app-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'breez',
+    name: 'Breez',
+    mainCategory: 'wallets',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://breez.technology/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/breez-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bull-bitcoin',
+    name: 'Bull Bitcoin',
+    mainCategory: 'exchanges',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://www.bullbitcoin.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bull-bitcoin-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cakepay',
+    name: 'Cake Pay',
+    mainCategory: 'payments',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://www.cakepay.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cakepay-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fedi',
+    name: 'Fedi',
+    mainCategory: 'wallets',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://www.fedi.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fedi-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fuji-money',
+    name: 'Fuji Money',
+    mainCategory: 'defi',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://fuji.money/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fuji-money-icon-light.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'geyser',
+    name: 'Geyser',
+    mainCategory: 'social',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://geyser.fund/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/geyser-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'helm-wallet',
+    name: 'Helm Wallet',
+    mainCategory: 'wallets',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://helm-wallet.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/helm-wallet-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lnbits',
+    name: 'LNbits',
+    mainCategory: 'infrastructure',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://lnbits.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lnbits-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ride-the-lightning',
+    name: 'Ride The Lightning',
+    mainCategory: 'infrastructure',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://www.ridethelightning.info/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rtl-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'speed',
+    name: 'Speed',
+    mainCategory: 'payments',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://www.tryspeed.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/speed-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'stashpay',
+    name: 'StashPay',
+    mainCategory: 'payments',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://stashpay.me/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stashpay-icon-light.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'thunderhub',
+    name: 'ThunderHub',
+    mainCategory: 'infrastructure',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://thunderhub.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/thunderhub-icon-light.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tropykus',
+    name: 'Tropykus',
+    mainCategory: 'defi',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://tropykus.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tropykus-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ark-labs',
+    name: 'Ark Labs',
+    mainCategory: 'infrastructure',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://arklabs.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ark-labs-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockstream',
+    name: 'Blockstream',
+    mainCategory: 'infrastructure',
+    secondaryCategories: ['lightning'],
+    websiteLink: 'https://blockstream.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blockstream-icon-light.webp',
+            format: 'webp',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rootstock-labs',
+    name: 'Rootstock Labs',
+    mainCategory: 'infrastructure',
+    secondaryCategories: ['layer-2'],
+    websiteLink: 'https://rootstocklabs.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rootstock-labs-icon-light.svg',
+            format: 'svg',
           },
         ],
       },
@@ -4464,7 +4892,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'changenow',
-    name: 'ChangeNOW API',
+    name: 'ChangeNOW',
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://changenow.io',
@@ -6700,12 +7128,13 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'ankr',
     name: 'Ankr (ANKR)',
     mainCategory: 'tokens',
-    secondaryCategories: [],
+    secondaryCategories: ['infrastructure-tools'],
+    websiteLink: 'https://www.ankr.com',
     logo: {
       icon: {
         light: [
           {
-            url: '/library/ankr-icon-light.png',
+            url: '/library/ankr-nft-api-icon-light.png',
             format: 'png',
           },
         ],
@@ -8658,6 +9087,31 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/dent-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dexscreener',
+    name: 'DEX Screener',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://dexscreener.com/',
+    logo: {
+      icon: {
+        dark: [
+          {
+            url: '/library/dexscreener-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/dexscreener-text-light.png',
             format: 'png',
           },
         ],
@@ -21550,6 +22004,38 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'btcpay',
+    name: 'BTCPay Server',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://btcpayserver.org/',
+    brandKitLink: 'https://github.com/btcpayserver/btcpayserver-media',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/btcpay-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/btcpay-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/btcpay-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'btcturk-pro',
     name: 'BtcTurk Pro',
     mainCategory: 'exchanges',
@@ -22457,22 +22943,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'stripe-crypto-onramp',
-    name: 'Stripe Crypto Onramp',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/stripe-crypto-onramp-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'alchemy-bundler',
     name: 'Alchemy Bundler',
     mainCategory: 'infrastructure-tools',
@@ -22530,22 +23000,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/circle-yield-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'stripe-identity',
-    name: 'Stripe Identity',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/stripe-identity-icon-light.png',
             format: 'png',
           },
         ],
@@ -24018,22 +24472,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/cairo-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'opensea-api',
-    name: 'OpenSea API',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/opensea-api-icon-light.png',
             format: 'png',
           },
         ],
@@ -26603,22 +27041,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/ethplorer-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'opensea-stream-api',
-    name: 'OpenSea Stream API',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/opensea-stream-api-icon-light.png',
             format: 'png',
           },
         ],
@@ -31150,22 +31572,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'ankr-nft-api',
-    name: 'Ankr NFT API',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/ankr-nft-api-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'coinbase-nft-api',
     name: 'Coinbase NFT API',
     mainCategory: 'infrastructure-tools',
@@ -35180,22 +35586,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/trustwallet-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'ankr-sdk',
-    name: 'Ankr SDK',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/ankr-sdk-icon-light.png',
             format: 'png',
           },
         ],
@@ -45988,6 +46378,38 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'boltz',
+    name: 'Boltz Exchange',
+    mainCategory: 'exchanges',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://boltz.exchange/',
+    brandKitLink: 'https://github.com/BoltzExchange/logo',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/boltz-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/boltz-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/boltz-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'bolide-finance',
     name: 'Bolide Finance',
     mainCategory: 'infrastructure-tools',
@@ -49235,38 +49657,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/wildcard-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'chainstack-subgraphs',
-    name: 'Chainstack Subgraphs',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/chainstack-subgraphs-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'chainstack-faucet',
-    name: 'Chainstack Faucet',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/chainstack-faucet-icon-light.png',
             format: 'png',
           },
         ],
@@ -56036,6 +56426,31 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/zipline-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nostr',
+    name: 'Nostr',
+    mainCategory: 'social',
+    secondaryCategories: [],
+    websiteLink: 'https://nostr.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nostr-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/nostr-text-light.png',
             format: 'png',
           },
         ],
