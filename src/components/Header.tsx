@@ -10,6 +10,7 @@ import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import Sidebar from '@/components/sidebar/Sidebar';
 import MenuToggle from '@/components/MenuToggle';
+import HeaderSearchBar from '@/components/HeaderSearchBar';
 
 // constants
 import {
@@ -52,6 +53,9 @@ export default async function Header() {
             />
           </Link>
         </div>
+
+        {/* Search */}
+        <HeaderSearchBar />
 
         {/* Actions */}
         <div className="flex items-center gap-2">
