@@ -1480,6 +1480,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      wordmark: {
+        light: [
+          {
+            url: '/library/tempo-wordmark-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tempo-wordmark-dark.png',
+            format: 'png',
+          },
+        ],
+      },
     },
   },
   {
