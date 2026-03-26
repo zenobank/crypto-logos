@@ -60,6 +60,29 @@ export const LOGOS_DATA: LogoItem[] = [
   },
 
   {
+    id: 'pathusd',
+    name: 'pathUSD',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://tempo.xyz',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pathusd-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pathusd-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'aptos',
     name: 'Aptos (APT)',
     brandKitLink: 'https://aptosnetwork.com/media-kit',
@@ -173,6 +196,52 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/solana-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/solana-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/solana-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solana-foundation',
+    name: 'Solana Foundation',
+    brandKitLink: 'https://solana.org/branding',
+    websiteLink: 'https://solana.org',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solana-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/solana-foundation-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/solana-foundation-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
