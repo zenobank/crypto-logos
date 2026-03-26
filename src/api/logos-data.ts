@@ -2960,6 +2960,51 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'payerurl',
+    name: 'PayerURL',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://payerurl.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/payerurl-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/payerurl-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/payerurl-text-light.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/payerurl-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/payerurl-text-dark.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/payerurl-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'solidroad',
     name: 'Solidroad',
     mainCategory: 'infrastructure-tools',
