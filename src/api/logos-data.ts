@@ -346,6 +346,10 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/carbon-perpetuals-text-dark.png',
             format: 'png',
           },
+          {
+            url: '/library/carbon-perpetuals-text-dark.svg',
+            format: 'svg',
+          },
         ],
       },
     },
@@ -2060,11 +2064,19 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/ventuals-icon-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/ventuals-icon-light.png',
+            format: 'png',
+          },
         ],
         dark: [
           {
             url: '/library/ventuals-icon-dark.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/ventuals-icon-dark.png',
+            format: 'png',
           },
         ],
       },
@@ -2074,11 +2086,19 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/ventuals-text-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/ventuals-text-light.png',
+            format: 'png',
+          },
         ],
         dark: [
           {
             url: '/library/ventuals-text-dark.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/ventuals-text-dark.png',
+            format: 'png',
           },
         ],
       },
@@ -2122,6 +2142,10 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/alby-icon-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/alby-icon-light.png',
+            format: 'png',
+          },
         ],
       },
     },
@@ -2139,6 +2163,10 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/aqua-icon-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/aqua-icon-light.png',
+            format: 'png',
+          },
         ],
       },
     },
@@ -2155,6 +2183,10 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/bancolibre-icon-light.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/bancolibre-icon-light.png',
+            format: 'png',
           },
         ],
       },
@@ -2190,6 +2222,10 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/breez-icon-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/breez-icon-light.png',
+            format: 'png',
+          },
         ],
       },
     },
@@ -2206,6 +2242,10 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/bull-bitcoin-icon-light.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/bull-bitcoin-icon-light.png',
+            format: 'png',
           },
         ],
       },
@@ -2224,6 +2264,10 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/cakepay-icon-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/cakepay-icon-light.png',
+            format: 'png',
+          },
         ],
       },
     },
@@ -2240,6 +2284,10 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/fedi-icon-light.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/fedi-icon-light.png',
+            format: 'png',
           },
         ],
       },
@@ -2275,6 +2323,10 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/geyser-icon-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/geyser-icon-light.png',
+            format: 'png',
+          },
         ],
       },
     },
@@ -2291,6 +2343,10 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/helm-wallet-icon-light.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/helm-wallet-icon-light.png',
+            format: 'png',
           },
         ],
       },
@@ -2309,6 +2365,10 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/lnbits-icon-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/lnbits-icon-light.png',
+            format: 'png',
+          },
         ],
       },
     },
@@ -2326,6 +2386,10 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/rtl-icon-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/rtl-icon-light.png',
+            format: 'png',
+          },
         ],
       },
     },
@@ -2342,6 +2406,10 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/speed-icon-light.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/speed-icon-light.png',
+            format: 'png',
           },
         ],
       },
@@ -2394,6 +2462,10 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/tropykus-icon-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/tropykus-icon-light.png',
+            format: 'png',
+          },
         ],
       },
     },
@@ -2410,6 +2482,10 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/ark-labs-icon-light.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/ark-labs-icon-light.png',
+            format: 'png',
           },
         ],
       },
@@ -2444,6 +2520,10 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/rootstock-labs-icon-light.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/rootstock-labs-icon-light.png',
+            format: 'png',
           },
         ],
       },
@@ -4451,6 +4531,10 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/firedancer-icon-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/firedancer-icon-light.png',
+            format: 'png',
+          },
         ],
       },
       text: {
@@ -5130,11 +5214,19 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/codex-icon-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/codex-icon-light.png',
+            format: 'png',
+          },
         ],
         dark: [
           {
             url: '/library/codex-icon-dark.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/codex-icon-dark.png',
+            format: 'png',
           },
         ],
       },
@@ -5144,11 +5236,19 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/codex-text-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/codex-text-light.png',
+            format: 'png',
+          },
         ],
         dark: [
           {
             url: '/library/codex-text-dark.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/codex-text-dark.png',
+            format: 'png',
           },
         ],
       },
@@ -7399,6 +7499,10 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/ankr-nft-api-icon-light.png',
+            format: 'png',
+          },
+          {
+            url: '/library/ankr-icon-light.png',
             format: 'png',
           },
         ],
@@ -22289,11 +22393,19 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/btcpay-text-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/btcpay-text-light.png',
+            format: 'png',
+          },
         ],
         dark: [
           {
             url: '/library/btcpay-text-dark.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/btcpay-text-dark.png',
+            format: 'png',
           },
         ],
       },
@@ -35415,6 +35527,10 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
+            url: '/library/jito-labs-icon-light.png',
+            format: 'png',
+          },
+          {
             url: '/library/jito-labs-icon-dark.png',
             format: 'png',
           },
@@ -46663,11 +46779,19 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/boltz-text-light.svg',
             format: 'svg',
           },
+          {
+            url: '/library/boltz-text-light.png',
+            format: 'png',
+          },
         ],
         dark: [
           {
             url: '/library/boltz-text-dark.svg',
             format: 'svg',
+          },
+          {
+            url: '/library/boltz-text-dark.png',
+            format: 'png',
           },
         ],
       },
