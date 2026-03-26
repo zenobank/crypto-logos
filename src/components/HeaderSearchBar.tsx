@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useEffect, useState } from 'react';
+import { Suspense, useRef, useEffect, useState } from 'react';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import { Search, X } from 'lucide-react';
 
@@ -8,7 +8,7 @@ import { Search, X } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 
-export default function HeaderSearchBar() {
+function HeaderSearchBarInner() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -78,5 +78,13 @@ export default function HeaderSearchBar() {
         </Badge>
       </div>
     </form>
+  );
+}
+
+export default function HeaderSearchBar() {
+  return (
+    <Suspense>
+      <HeaderSearchBarInner />
+    </Suspense>
   );
 }
