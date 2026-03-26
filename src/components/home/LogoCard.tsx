@@ -5,6 +5,7 @@ import { Card } from '@/components/ui/card';
 import FavoriteToggle from '@/components/FavoriteToggle';
 import LogoCardTags from '@/components/home/LogoCardTags';
 import LogoCardContent from '@/components/home/LogoCardContent';
+import LogoCardActions from '@/components/home/LogoCardActions';
 
 // models
 import type LogoItemsResponse from '@/shared/models/logos/logo-items-response';
@@ -16,7 +17,7 @@ interface Props {
 
 export default function LogoCard({ logo }: Props) {
   return (
-    <Card className="relative min-h-60 gap-0 bg-transparent px-3.5 py-3 transition-colors hover:bg-accent/50">
+    <Card className="group relative min-h-60 gap-0 bg-transparent px-3.5 py-3 transition-colors hover:bg-accent/50">
       {/* Stretched link covers the whole card */}
       <Link
         className="absolute inset-0 z-0"
@@ -24,9 +25,12 @@ export default function LogoCard({ logo }: Props) {
         aria-label={`View ${logo.name}`}
       />
 
-      {/* Top right icons - above the link */}
-      <div className="flex items-center justify-end gap-1">
+      {/* Top bar - favorite left, actions right (hover only) */}
+      <div className="flex items-center justify-between">
         <FavoriteToggle logo={logo} />
+        <div className="opacity-0 transition-opacity group-hover:opacity-100">
+          <LogoCardActions logo={logo} />
+        </div>
       </div>
 
       <LogoCardContent logo={logo}>

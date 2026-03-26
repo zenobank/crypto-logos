@@ -23185,22 +23185,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'apillon-embedded-wallet-service',
-    name: 'Apillon Embedded Wallet Service',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/apillon-embedded-wallet-service-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'mint-kudos',
     name: 'Mint Kudos',
     mainCategory: 'infrastructure-tools',
@@ -44024,22 +44008,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/metalaunch-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'altme-wallet',
-    name: 'Altme Wallet ',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/altme-wallet-icon-light.png',
             format: 'png',
           },
         ],

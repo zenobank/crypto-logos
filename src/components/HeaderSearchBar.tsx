@@ -15,6 +15,7 @@ function HeaderSearchBarInner() {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const isSearchPage = pathname === '/search' || pathname.endsWith('/search');
+  const hasOwnSearchBar = pathname === '/' || isSearchPage || pathname.startsWith('/category/') || pathname === '/favorites';
   const [query, setQuery] = useState(isSearchPage ? (searchParams.get('q') ?? '') : '');
 
   // Sync from URL when on search page
@@ -26,6 +27,8 @@ function HeaderSearchBarInner() {
 
   // Keyboard shortcut (Cmd+K / Ctrl+K)
   useEffect(() => {
+    if (hasOwnSearchBar) return;
+
     function handleKeyDown(e: KeyboardEvent) {
       if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
         e.preventDefault();
@@ -35,7 +38,9 @@ function HeaderSearchBarInner() {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, []);
+  }, [hasOwnSearchBar]);
+
+  if (hasOwnSearchBar) return null;
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
