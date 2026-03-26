@@ -108,6 +108,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/bitcoin-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bitcoin-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
     },
   },
   {
@@ -55437,22 +55451,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/arbitragescanner-io-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'arbitragescanner-api',
-    name: 'ArbitrageScanner API',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/arbitragescanner-api-icon-light.png',
             format: 'png',
           },
         ],
