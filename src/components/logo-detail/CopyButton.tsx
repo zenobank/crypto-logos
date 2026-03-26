@@ -20,24 +20,26 @@ import type LogoAsset from '@/shared/models/logos/logo-asset';
 
 interface CopyButtonProps {
   assets: LogoAsset[];
-  variant: 'light' | 'dark';
+  variant?: 'light' | 'dark';
+  className?: string;
+  iconClassName?: string;
 }
 
-export default function CopyButton({ assets, variant }: CopyButtonProps) {
+export default function CopyButton({ assets, variant, className, iconClassName }: CopyButtonProps) {
   const [open, setOpen] = useState(false);
   const [copied, setCopied] = useState(false);
 
   const isLight = variant === 'light';
 
-  const buttonClass = isLight
+  const buttonClass = className ?? (isLight
     ? 'absolute z-1 top-3 right-3 h-8 w-8 bg-white/80 hover:bg-white/100 shadow-sm'
-    : 'absolute z-1 top-3 right-3 h-8 w-8 bg-zinc-800/80 hover:bg-zinc-800/100 shadow-sm';
+    : 'absolute z-1 top-3 right-3 h-8 w-8 bg-zinc-800/80 hover:bg-zinc-800/100 shadow-sm');
 
-  const iconClass = isLight ? 'h-4 w-4 text-zinc-600' : 'h-4 w-4 text-zinc-400';
+  const iconClass = iconClassName ?? (isLight ? 'h-4 w-4 text-zinc-600' : 'h-4 w-4 text-zinc-400');
 
-  const checkClass = isLight
-    ? 'h-4 w-4 text-green-600'
-    : 'h-4 w-4 text-green-400';
+  const checkClass = iconClassName
+    ? iconClassName.replace(/text-\S+/, 'text-green-500')
+    : (isLight ? 'h-4 w-4 text-green-600' : 'h-4 w-4 text-green-400');
 
   async function handleCopy(asset: LogoAsset) {
     try {

@@ -20,23 +20,27 @@ import type LogoAsset from '@/shared/models/logos/logo-asset';
 interface DownloadIconButtonProps {
   assets: LogoAsset[];
   logoName: string;
-  variant: 'light' | 'dark';
+  variant?: 'light' | 'dark';
+  className?: string;
+  iconClassName?: string;
 }
 
 export default function DownloadIconButton({
   assets,
   logoName,
-  variant,
+  variant = 'light',
+  className,
+  iconClassName,
 }: DownloadIconButtonProps) {
   const isLight = variant === 'light';
 
-  const buttonClass = isLight
+  const buttonClass = className ?? (isLight
     ? 'absolute z-1 top-3 right-12 h-8 w-8 bg-white/80 hover:bg-white/100 shadow-sm'
-    : 'absolute z-1 top-3 right-12 h-8 w-8 bg-zinc-800/80 hover:bg-zinc-800/100 shadow-sm';
+    : 'absolute z-1 top-3 right-12 h-8 w-8 bg-zinc-800/80 hover:bg-zinc-800/100 shadow-sm');
 
-  const iconClass = isLight
+  const iconClass = iconClassName ?? (isLight
     ? 'h-4 w-4 text-zinc-600'
-    : 'h-4 w-4 text-zinc-400';
+    : 'h-4 w-4 text-zinc-400');
 
   function handleDownload(asset: LogoAsset) {
     const fileName = `${logoName.toLowerCase().replace(/\s+/g, '-')}-${variant}.${asset.format}`;
