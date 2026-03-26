@@ -2053,8 +2053,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'ventuals',
     name: 'Ventuals',
-    mainCategory: 'derivatives',
-    secondaryCategories: ['defi'],
+    mainCategory: 'defi',
+    secondaryCategories: [],
     websiteLink: 'https://ventuals.com',
     brandKitLink: 'https://docs.ventuals.com/community/brand-kit',
     logo: {
@@ -2133,7 +2133,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'alby',
     name: 'Alby',
     mainCategory: 'wallets',
-    secondaryCategories: ['lightning'],
+    secondaryCategories: [],
     websiteLink: 'https://getalby.com/',
     logo: {
       icon: {
@@ -2154,7 +2154,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'aqua-wallet',
     name: 'Aqua Wallet',
     mainCategory: 'wallets',
-    secondaryCategories: ['lightning'],
+    secondaryCategories: [],
     websiteLink: 'https://aquawallet.io/',
     logo: {
       icon: {
@@ -2175,7 +2175,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'bancolibre',
     name: 'BancoLibre',
     mainCategory: 'payments',
-    secondaryCategories: ['lightning'],
+    secondaryCategories: [],
     websiteLink: 'https://bancolibre.com/',
     logo: {
       icon: {
@@ -2196,7 +2196,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'blockstream-app',
     name: 'Blockstream App',
     mainCategory: 'wallets',
-    secondaryCategories: ['lightning'],
+    secondaryCategories: [],
     websiteLink: 'https://blockstream.com/app/',
     logo: {
       icon: {
@@ -2213,7 +2213,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'breez',
     name: 'Breez',
     mainCategory: 'wallets',
-    secondaryCategories: ['lightning'],
+    secondaryCategories: [],
     websiteLink: 'https://breez.technology/',
     logo: {
       icon: {
@@ -2234,7 +2234,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'bull-bitcoin',
     name: 'Bull Bitcoin',
     mainCategory: 'exchanges',
-    secondaryCategories: ['lightning'],
+    secondaryCategories: [],
     websiteLink: 'https://www.bullbitcoin.com/',
     logo: {
       icon: {
@@ -2255,7 +2255,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'cakepay',
     name: 'Cake Pay',
     mainCategory: 'payments',
-    secondaryCategories: ['lightning'],
+    secondaryCategories: [],
     websiteLink: 'https://www.cakepay.com/',
     logo: {
       icon: {
@@ -2276,7 +2276,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'fedi',
     name: 'Fedi',
     mainCategory: 'wallets',
-    secondaryCategories: ['lightning'],
+    secondaryCategories: [],
     websiteLink: 'https://www.fedi.xyz/',
     logo: {
       icon: {
@@ -2297,7 +2297,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'fuji-money',
     name: 'Fuji Money',
     mainCategory: 'defi',
-    secondaryCategories: ['lightning'],
+    secondaryCategories: [],
     websiteLink: 'https://fuji.money/',
     logo: {
       icon: {
@@ -2313,8 +2313,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'geyser',
     name: 'Geyser',
-    mainCategory: 'social',
-    secondaryCategories: ['lightning'],
+    mainCategory: 'payments',
+    secondaryCategories: [],
     websiteLink: 'https://geyser.fund/',
     logo: {
       icon: {
@@ -2335,7 +2335,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'helm-wallet',
     name: 'Helm Wallet',
     mainCategory: 'wallets',
-    secondaryCategories: ['lightning'],
+    secondaryCategories: [],
     websiteLink: 'https://helm-wallet.com/',
     logo: {
       icon: {
@@ -2355,8 +2355,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'lnbits',
     name: 'LNbits',
-    mainCategory: 'infrastructure',
-    secondaryCategories: ['lightning'],
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
     websiteLink: 'https://lnbits.com/',
     logo: {
       icon: {
@@ -2376,8 +2376,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'ride-the-lightning',
     name: 'Ride The Lightning',
-    mainCategory: 'infrastructure',
-    secondaryCategories: ['lightning'],
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
     websiteLink: 'https://www.ridethelightning.info/',
     logo: {
       icon: {
@@ -2398,7 +2398,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'speed',
     name: 'Speed',
     mainCategory: 'payments',
-    secondaryCategories: ['lightning'],
+    secondaryCategories: [],
     websiteLink: 'https://www.tryspeed.com/',
     logo: {
       icon: {
@@ -2419,7 +2419,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'stashpay',
     name: 'StashPay',
     mainCategory: 'payments',
-    secondaryCategories: ['lightning'],
+    secondaryCategories: [],
     websiteLink: 'https://stashpay.me/',
     logo: {
       icon: {
@@ -2435,8 +2435,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'thunderhub',
     name: 'ThunderHub',
-    mainCategory: 'infrastructure',
-    secondaryCategories: ['lightning'],
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
     websiteLink: 'https://thunderhub.io/',
     logo: {
       icon: {
@@ -2453,7 +2453,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'tropykus',
     name: 'Tropykus',
     mainCategory: 'defi',
-    secondaryCategories: ['lightning'],
+    secondaryCategories: [],
     websiteLink: 'https://tropykus.com/',
     logo: {
       icon: {
@@ -2473,8 +2473,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'ark-labs',
     name: 'Ark Labs',
-    mainCategory: 'infrastructure',
-    secondaryCategories: ['lightning'],
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
     websiteLink: 'https://arklabs.xyz/',
     logo: {
       icon: {
@@ -2494,8 +2494,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'blockstream',
     name: 'Blockstream',
-    mainCategory: 'infrastructure',
-    secondaryCategories: ['lightning'],
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
     websiteLink: 'https://blockstream.com/',
     logo: {
       icon: {
@@ -2511,8 +2511,8 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'rootstock-labs',
     name: 'Rootstock Labs',
-    mainCategory: 'infrastructure',
-    secondaryCategories: ['layer-2'],
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
     websiteLink: 'https://rootstocklabs.com/',
     logo: {
       icon: {
@@ -4064,6 +4064,20 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/ethereum-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/ethereum-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ethereum-text-dark.png',
             format: 'png',
           },
         ],
@@ -56143,7 +56157,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'ai-arena',
     name: 'AI Arena',
-    mainCategory: 'gaming',
+    mainCategory: 'nft',
     secondaryCategories: [],
     websiteLink: 'https://aiarena.io/',
     logo: {
@@ -56313,7 +56327,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'friend-tech',
     name: 'friend.tech',
-    mainCategory: 'social',
+    mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://www.friend.tech/',
     logo: {
@@ -56466,7 +56480,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'limit-break',
     name: 'Limit Break',
-    mainCategory: 'gaming',
+    mainCategory: 'nft',
     secondaryCategories: [],
     websiteLink: 'https://limitbreak.com/',
     logo: {
@@ -56483,7 +56497,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'mad-realities',
     name: 'Mad Realities',
-    mainCategory: 'social',
+    mainCategory: 'nft',
     secondaryCategories: [],
     websiteLink: 'https://madrealities.xyz/',
     logo: {
@@ -56670,7 +56684,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'sky-mavis',
     name: 'Sky Mavis',
-    mainCategory: 'gaming',
+    mainCategory: 'nft',
     secondaryCategories: [],
     websiteLink: 'https://skymavis.com/',
     logo: {
@@ -56823,7 +56837,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'nostr',
     name: 'Nostr',
-    mainCategory: 'social',
+    mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://nostr.com/',
     logo: {
