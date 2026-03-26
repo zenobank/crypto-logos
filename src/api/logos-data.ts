@@ -56546,7 +56546,7 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'metadao',
     name: 'MetaDAO',
     mainCategory: 'defi',
-    secondaryCategories: ['dao'],
+    secondaryCategories: [],
     websiteLink: 'https://metadao.fi/',
     logo: {
       icon: {
