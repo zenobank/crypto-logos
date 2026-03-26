@@ -208,8 +208,8 @@ export const LOGOS_DATA: LogoItem[] = [
         ],
         dark: [
           {
-            url: '/library/solana-text-dark.png',
-            format: 'png',
+            url: '/library/solana-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
