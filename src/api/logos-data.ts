@@ -220,7 +220,7 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Solana Foundation',
     brandKitLink: 'https://solana.org/branding',
     websiteLink: 'https://solana.org',
-    mainCategory: 'chains',
+    mainCategory: 'investors',
     secondaryCategories: [],
     logo: {
       icon: {
