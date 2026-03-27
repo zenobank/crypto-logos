@@ -62261,6 +62261,346 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'ton-connect',
+    name: 'TON Connect (TON)',
+    mainCategory: 'tokens',
+    secondaryCategories: ['wallets'],
+    websiteLink: 'https://ton.org/en/brand-assets',
+    brandKitLink: 'https://ton.org/en/brand-assets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ton-connect-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ton-connect-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/ton-connect-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ton-connect-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitget-wallet-token',
+    name: 'Bitget Wallet Token (BWB)',
+    mainCategory: 'tokens',
+    secondaryCategories: ['wallets', 'tokens', 'defi'],
+    websiteLink: 'https://web3.bitget.com/en',
+    brandKitLink: 'https://web3.bitget.com/en/docs/resource/brand-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitget-wallet-token-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bitget-wallet-token-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bitget-wallet-token-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bitget-wallet-token-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vfat-io',
+    name: 'vfat.io (VFAT)',
+    mainCategory: 'tokens',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://vfat.io/',
+    brandKitLink: 'https://docs.vfat.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vfat-io-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/vfat-io-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'merkl',
+    name: 'Merkl (ANGLE)',
+    mainCategory: 'tokens',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://merkl.xyz/',
+    brandKitLink: 'https://merkl.xyz/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/merkl-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/merkl-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/merkl-text-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tonkeeper',
+    name: 'Tonkeeper (TON)',
+    mainCategory: 'tokens',
+    secondaryCategories: ['wallets'],
+    websiteLink: 'https://tonkeeper.com/',
+    brandKitLink: 'https://github.com/tonkeeper/tonkeeper-web',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tonkeeper-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'token-pocket',
+    name: 'TokenPocket Token (TPT)',
+    mainCategory: 'tokens',
+    secondaryCategories: ['wallets'],
+    websiteLink: 'https://www.tokenpocket.pro/',
+    brandKitLink: 'https://www.tokenpocket.pro/en/brandkit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/token-pocket-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/token-pocket-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/token-pocket-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/token-pocket-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'worldpay',
+    name: 'Worldpay (WPAY)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.worldpay.com/',
+    brandKitLink: 'https://brandfetch.com/worldpay.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/worldpay-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/worldpay-text-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'worldcoin-wld',
+    name: 'Worldcoin (WLD)',
+    mainCategory: 'tokens',
+    secondaryCategories: ['wallets'],
+    websiteLink: 'https://world.org/',
+    brandKitLink: 'https://world.org/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/worldcoin-wld-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bullish-exchange',
+    name: 'Bullish (BLSH)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bullish.com/',
+    brandKitLink: 'https://www.bullish.com/us/press',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bullish-exchange-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bullish-exchange-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bullish-exchange-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bullish-exchange-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'robinhood',
+    name: 'Robinhood (HOOD)',
+    mainCategory: 'tokens',
+    secondaryCategories: ['wallets'],
+    websiteLink: 'https://robinhood.com/',
+    brandKitLink: 'https://press.robinhood.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/robinhood-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/robinhood-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/robinhood-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'steer',
+    name: 'Steer',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://steer.finance/',
+    brandKitLink: 'https://docs.steer.finance/miscellaneous/brand-assets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/steer-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/steer-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/steer-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/steer-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'fixedfloat',
     name: 'FixedFloat (FF)',
     mainCategory: 'exchanges',
