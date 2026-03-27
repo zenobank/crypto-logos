@@ -105,13 +105,34 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://arbitrum.foundation',
-    brandKitLink: 'https://arbitrum.io/brand-kit',
+    brandKitLink:
+      'https://arbitrumfoundation.notion.site/Arbitrum-Brand-Kit-48751dc5e03240a5872496283f088f79?p=6014e69d7b574f378a50f5ee678495d3&pm=c',
     logo: {
       icon: {
         light: [
           {
-            url: '/library/arbitrum-icon-light.png',
-            format: 'png',
+            url: '/library/arbitrum-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/arbitrum-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/arbitrum-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/arbitrum-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -150,6 +171,45 @@ export const LOGOS_DATA: LogoItem[] = [
         dark: [
           {
             url: '/library/arbitrum-foundation-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arbitrum-orbit',
+    name: 'Arbitrum Orbit',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    websiteLink: 'https://arbitrum.io/orbit',
+    brandKitLink:
+      'https://arbitrumfoundation.notion.site/Arbitrum-Brand-Kit-48751dc5e03240a5872496283f088f79',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arbitrum-orbit-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/arbitrum-orbit-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/arbitrum-orbit-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/arbitrum-orbit-text-dark.svg',
             format: 'svg',
           },
         ],
