@@ -7106,6 +7106,44 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'monero',
+    name: 'Monero (XMR)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.getmonero.org',
+    brandKitLink: 'https://www.getmonero.org/press-kit/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/monero-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/monero-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/monero-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/monero-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'litecoin',
     name: 'Litecoin (LTC)',
     mainCategory: 'chains',
