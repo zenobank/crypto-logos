@@ -8,4 +8,5 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['pathusd', 'stripe', 'tempo'], // pathUSD <-> Stripe <-> Tempo
   ['solana', 'solana-foundation'], // Solana <-> Solana Foundation
   ['trezor', 'trezor-suite'], // Trezor <-> Trezor Suite
+  ['paypal', 'paypal-usd'], // PayPal <-> PayPal USD (PYUSD)
 ];

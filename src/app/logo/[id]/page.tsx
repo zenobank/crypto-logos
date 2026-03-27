@@ -158,7 +158,7 @@ export default async function LogoDetailPage({ params }: Props) {
         {hasText
           ? 'Includes wordmark and icon versions.'
           : 'Ready for seamless integration.'}
-        {logo.brandKitLink && ` Access the official ${logo.name} brand kit.`}
+        {logo.brandKitLink && ` Access the official ${logo.name} brand kit and media kit.`}
       </p>
 
       <Separator className="" />
@@ -187,7 +187,7 @@ export default async function LogoDetailPage({ params }: Props) {
                   rel="noopener noreferrer nofollow"
                 >
                   <ExternalLink className="mr-2 h-4 w-4" />
-                  Brand Kit
+                  Brand Kit and Media Kit
                 </a>
               </Button>
             )}

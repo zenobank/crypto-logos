@@ -4995,18 +4995,61 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'paypal',
+    name: 'PayPal',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.paypal.com',
+    brandKitLink: 'https://newsroom.paypal-corp.com/media-resources',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/paypal-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/paypal-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/paypal-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/paypal-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'paypal-usd',
     name: 'PayPal USD (PYUSD)',
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://www.paypal.com/pyusd',
-    brandKitLink:
-      'https://newsroom.paypal-corp.com/download/PayPal+Media+Assets+2025+%282%29.zip',
+    brandKitLink: 'https://newsroom.paypal-corp.com/media-resources',
     logo: {
       icon: {
         light: [
           {
             url: '/library/paypal-usd-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/paypal-usd-icon-dark.png',
             format: 'png',
           },
         ],
@@ -9416,12 +9459,19 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'PAX Gold (PAXG)',
     mainCategory: 'tokens',
     secondaryCategories: [],
+    websiteLink: 'https://www.paxos.com/pax-gold',
     logo: {
       icon: {
         light: [
           {
-            url: '/library/pax-gold-icon-light.png',
-            format: 'png',
+            url: '/library/pax-gold-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pax-gold-icon-dark.svg',
+            format: 'svg',
           },
         ],
       },
