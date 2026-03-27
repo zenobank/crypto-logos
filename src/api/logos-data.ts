@@ -5374,6 +5374,26 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'png',
           },
         ],
+        dark: [
+          {
+            url: '/library/anchorage-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/anchorage-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/anchorage-text-dark.svg',
+            format: 'svg',
+          },
+        ],
       },
     },
   },
@@ -67776,6 +67796,38 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [{ url: '/library/yzy-icon-light.png', format: 'png' }],
         dark: [{ url: '/library/yzy-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'overnight',
+    name: 'Overnight',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://overnight.fi/',
+    brandKitLink: 'https://docs.overnight.fi/other/brand-assets',
+    logo: {
+      icon: {
+        light: [{ url: '/library/overnight-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/overnight-icon-dark.svg', format: 'svg' }],
+      },
+      text: {
+        light: [{ url: '/library/overnight-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/overnight-text-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'usd-plus',
+    name: 'USD+ (USD+)',
+    mainCategory: 'stablecoins',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://overnight.fi/',
+    brandKitLink: 'https://docs.overnight.fi/other/brand-assets',
+    logo: {
+      icon: {
+        light: [{ url: '/library/usd-plus-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/usd-plus-icon-dark.svg', format: 'svg' }],
       },
     },
   },
