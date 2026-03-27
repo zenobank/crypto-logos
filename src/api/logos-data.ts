@@ -14489,19 +14489,20 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'reown-wallet-beta',
-    name: 'Reown Wallet [BETA]',
-    mainCategory: 'wallets',
+    id: 'reown',
+    name: 'Reown',
+    mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
-    websiteLink: 'https://reown.com',
+    websiteLink: 'https://reown.com/',
+    brandKitLink: 'https://drive.google.com/drive/folders/1CnhBzy82qcEYSu0cBafk-NWatLjTaCW5',
     logo: {
       icon: {
-        light: [
-          {
-            url: '/library/reown-wallet-beta-icon-light.png',
-            format: 'png',
-          },
-        ],
+        light: [{ url: '/library/reown-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/reown-icon-dark.svg', format: 'svg' }],
+      },
+      text: {
+        light: [{ url: '/library/reown-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/reown-text-dark.svg', format: 'svg' }],
       },
     },
   },
@@ -65578,22 +65579,21 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://aminagroup.com',
-    brandKitLink: 'https://aminagroup.com',
     logo: {
       icon: {
         light: [
-          {
-            url: '/library/amina-icon-light.svg',
-            format: 'svg',
-          },
+          { url: '/library/amina-icon-light.png', format: 'png' },
+        ],
+        dark: [
+          { url: '/library/amina-icon-dark.png', format: 'png' },
         ],
       },
       text: {
+        light: [
+          { url: '/library/amina-text-light.svg', format: 'svg' },
+        ],
         dark: [
-          {
-            url: '/library/amina-text-dark.svg',
-            format: 'svg',
-          },
+          { url: '/library/amina-text-dark.svg', format: 'svg' },
         ],
       },
     },
@@ -67810,6 +67810,59 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [{ url: '/library/yzy-icon-light.png', format: 'png' }],
         dark: [{ url: '/library/yzy-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'redotpay',
+    name: 'RedotPay',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.redotpay.com/',
+    brandKitLink: 'https://www.redotpay.com/brand',
+    logo: {
+      icon: {
+        light: [{ url: '/library/redotpay-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/redotpay-icon-dark.png', format: 'png' }],
+      },
+      text: {
+        light: [{ url: '/library/redotpay-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/redotpay-text-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'kast',
+    name: 'Kast',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.kast.xyz/',
+    brandKitLink: 'https://www.kast.xyz/media-kit',
+    logo: {
+      icon: {
+        light: [{ url: '/library/kast-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/kast-icon-dark.svg', format: 'svg' }],
+      },
+      text: {
+        light: [{ url: '/library/kast-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/kast-text-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'deus-finance',
+    name: 'Deus Finance (DEUS)',
+    mainCategory: 'defi',
+    secondaryCategories: ['tokens'],
+    brandKitLink: 'https://docs.deus.finance/brand-assets/logo',
+    logo: {
+      icon: {
+        light: [{ url: '/library/deus-finance-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/deus-finance-icon-dark.svg', format: 'svg' }],
+      },
+      text: {
+        light: [{ url: '/library/deus-finance-text-light.png', format: 'png' }],
+        dark: [{ url: '/library/deus-finance-text-dark.png', format: 'png' }],
       },
     },
   },
