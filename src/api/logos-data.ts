@@ -5902,8 +5902,36 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
+            url: '/library/tether-icon-light.svg',
+            format: 'svg',
+          },
+          {
             url: '/library/tether-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tether-icon-dark.svg',
+            format: 'svg',
+          },
+          {
+            url: '/library/tether-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/tether-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tether-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
