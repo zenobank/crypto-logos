@@ -5163,7 +5163,7 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Anchorage Digital',
     mainCategory: 'crypto-banks',
     secondaryCategories: [],
-    websiteLink: 'https://www.anchorage.com',
+    websiteLink: 'https://www.anchorage.com/',
     brandKitLink: 'https://www.anchorage.com/press-kit',
     logo: {
       icon: {
@@ -5171,6 +5171,26 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/anchorage-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/anchorage-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/anchorage-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/anchorage-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -10990,13 +11010,35 @@ export const LOGOS_DATA: LogoItem[] = [
     id: 'pax-dollar',
     name: 'Pax Dollar (USDP)',
     mainCategory: 'stablecoins',
-    secondaryCategories: [],
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.paxos.com/',
+    brandKitLink: 'https://www.paxos.com/brand-resources',
     logo: {
       icon: {
         light: [
           {
             url: '/library/pax-dollar-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pax-dollar-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/pax-dollar-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pax-dollar-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -62059,6 +62101,158 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/frax-price-index-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ichi',
+    name: 'ICHI (ICHI)',
+    mainCategory: 'tokens',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://ichi.org/',
+    brandKitLink: 'https://docs.ichi.org/home/brand-assets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ichi-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ichi-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/ichi-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ichi-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gamma',
+    name: 'Gamma (GAMMA)',
+    mainCategory: 'tokens',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://gamma.xyz/',
+    brandKitLink: 'https://docs.gamma.xyz/gamma/learn/assets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gamma-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/gamma-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/gamma-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/gamma-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fixedfloat',
+    name: 'FixedFloat (FF)',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://ff.io/',
+    brandKitLink: 'https://ff.io/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fixedfloat-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fixedfloat-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/fixedfloat-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fixedfloat-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'usdg',
+    name: 'Global Dollar (USDG)',
+    mainCategory: 'stablecoins',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://globaldollar.com/',
+    brandKitLink: 'https://globaldollar.com/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/usdg-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/usdg-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/usdg-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/usdg-text-dark.svg',
             format: 'svg',
           },
         ],

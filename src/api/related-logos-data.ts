@@ -9,4 +9,6 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['solana', 'solana-foundation'], // Solana <-> Solana Foundation
   ['trezor', 'trezor-suite'], // Trezor <-> Trezor Suite
   ['paypal', 'paypal-usd'], // PayPal <-> PayPal USD (PYUSD)
+  ['pax-dollar', 'pax-gold', 'usdg'], // Paxos family: USDP <-> PAXG <-> USDG
+  ['ichi', 'gamma'], // ICHI <-> Gamma (DeFi liquidity management)
 ];
