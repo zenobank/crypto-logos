@@ -53097,22 +53097,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'fireblocks-embedded-wallet',
-    name: 'Fireblocks Embedded Wallet',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/fireblocks-embedded-wallet-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'transient',
     name: 'Transient',
     mainCategory: 'infrastructure-tools',
