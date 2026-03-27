@@ -3843,14 +3843,33 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'payments',
     secondaryCategories: [],
     websiteLink: 'https://reap.global',
-    brandKitLink:
-      'https://drive.google.com/drive/folders/14pAxwcqyAY9Os3mJQGPkZCKu0hET0ZnV',
+    brandKitLink: 'https://reap.global/resources/company/newsroom',
     logo: {
       icon: {
         light: [
           {
-            url: '/library/reap-icon-light.png',
-            format: 'png',
+            url: '/library/reap-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/reap-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/reap-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/reap-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
