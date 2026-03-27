@@ -28,10 +28,7 @@ export const metadata: Metadata = {
 };
 
 const typescriptTypes = `type LogoFileFormat = 'svg'
- | 'png'
- | 'jpg'
- | 'webp'
- | 'unknown';
+ | 'png';
  
 enum LogosSortBy {
   NameAsc = 'name-asc',

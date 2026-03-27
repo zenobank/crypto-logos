@@ -1,3 +1,3 @@
-type LogoFileFormat = 'svg' | 'png' | 'jpg' | 'webp' | 'unknown';
+type LogoFileFormat = 'svg' | 'png';
 
 export default LogoFileFormat;

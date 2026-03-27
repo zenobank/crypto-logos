@@ -31,7 +31,7 @@ pnpm dev
 
 5. Add your logo files
 
-Add your `.svg`, `.png`, `.jpg`, or `.webp` files into [**`public/library`**](https://github.com/zenobank/crypto-logos/tree/main/public/library).
+Add your `.svg` or `.png` files into [**`public/library`**](https://github.com/zenobank/crypto-logos/tree/main/public/library).
 
 6. Add logo metadata
 
@@ -55,7 +55,7 @@ interface LogoAsset {
   format: LogoFileFormat;
 }
 
-type LogoFileFormat = 'svg' | 'png' | 'jpg' | 'webp' | 'unknown';
+type LogoFileFormat = 'svg' | 'png';
 
 interface LogoDownloadableFiles {
   icon: LogoVariantGroup;
