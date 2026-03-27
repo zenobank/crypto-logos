@@ -950,6 +950,12 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'png',
           },
         ],
+        dark: [
+          {
+            url: '/library/moonpay-icon-dark.png',
+            format: 'png',
+          },
+        ],
       },
       text: {
         light: [
