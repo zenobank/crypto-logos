@@ -62707,7 +62707,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: ['wallets'],
     websiteLink: 'https://ton.org/en/brand-assets',
-    brandKitLink: 'https://ton.org/en/brand-assets',
     logo: {
       icon: {
         light: [
@@ -63941,7 +63940,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.mapprotocol.io/',
-    brandKitLink: 'https://www.mapprotocol.io/',
     logo: {
       icon: {
         light: [
@@ -65149,7 +65147,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'events',
     secondaryCategories: [],
     websiteLink: 'https://ethcc.io/',
-    brandKitLink: 'https://ethcc.io/',
     logo: {
       icon: {
         light: [
@@ -65185,7 +65182,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'events',
     secondaryCategories: [],
     websiteLink: 'https://ethdenver.com/',
-    brandKitLink: 'https://ethdenver.com/',
     logo: {
       text: {
         dark: [
@@ -65256,7 +65252,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'events',
     secondaryCategories: [],
     websiteLink: 'https://koreablockchainweek.com/',
-    brandKitLink: 'https://koreablockchainweek.com/',
     logo: {
       text: {
         dark: [
@@ -65373,7 +65368,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'events',
     secondaryCategories: [],
     websiteLink: 'https://blockchain-life.com/',
-    brandKitLink: 'https://blockchain-life.com/',
     logo: {
       text: {
         dark: [
@@ -65415,7 +65409,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'events',
     secondaryCategories: [],
     websiteLink: 'https://eblockchainconvention.com/',
-    brandKitLink: 'https://eblockchainconvention.com/',
     logo: {
       icon: {
         light: [
@@ -65505,7 +65498,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: ['defi'],
     websiteLink: 'https://alfred.finance',
-    brandKitLink: 'https://alfred.finance',
     logo: {
       icon: {
         light: [
@@ -65531,7 +65523,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.alpaca.markets',
-    brandKitLink: 'https://www.alpaca.markets',
     logo: {
       icon: {
         light: [
@@ -65644,7 +65635,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://august.com',
-    brandKitLink: 'https://august.com',
     logo: {
       icon: {
         light: [
@@ -65670,7 +65660,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://www.bilira.co',
-    brandKitLink: 'https://www.bilira.co',
     logo: {
       icon: {
         light: [
@@ -65696,7 +65685,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://bitnet.io',
-    brandKitLink: 'https://bitnet.io',
     logo: {
       icon: {
         light: [
@@ -65722,7 +65710,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://bitwyre.com',
-    brandKitLink: 'https://bitwyre.com',
     logo: {
       text: {
         dark: [
@@ -65778,7 +65765,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://caliza.io',
-    brandKitLink: 'https://caliza.io',
     logo: {
       icon: {
         light: [
@@ -65804,7 +65790,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://coinbax.com',
-    brandKitLink: 'https://coinbax.com',
     logo: {
       icon: {
         light: [
@@ -65830,7 +65815,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://coinmena.com',
-    brandKitLink: 'https://coinmena.com',
     logo: {
       icon: {
         light: [
@@ -65856,7 +65840,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://coinmetro.com',
-    brandKitLink: 'https://coinmetro.com',
     logo: {
       icon: {
         light: [
@@ -65882,7 +65865,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://coinspaid.com',
-    brandKitLink: 'https://coinspaid.com',
     logo: {
       text: {
         light: [
@@ -65906,7 +65888,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://confirmo.com',
-    brandKitLink: 'https://confirmo.com',
     logo: {
       text: {
         light: [
@@ -65930,7 +65911,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://dtcpay.com',
-    brandKitLink: 'https://dtcpay.com',
     logo: {
       icon: {
         light: [
@@ -65956,7 +65936,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://equitiestracker.com',
-    brandKitLink: 'https://equitiestracker.com',
     logo: {
       icon: {
         light: [
@@ -65982,7 +65961,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://ergonia.io',
-    brandKitLink: 'https://ergonia.io',
     logo: {
       icon: {
         light: [
@@ -66008,7 +65986,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://facilitapay.com.br',
-    brandKitLink: 'https://facilitapay.com.br',
     logo: {
       icon: {
         light: [
@@ -66034,7 +66011,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://fomopay.com',
-    brandKitLink: 'https://fomopay.com',
     logo: {
       icon: {
         light: [
@@ -66060,7 +66036,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: ['defi'],
     websiteLink: 'https://fuze.finance',
-    brandKitLink: 'https://fuze.finance',
     logo: {
       icon: {
         light: [
@@ -66124,7 +66099,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://hercle.financial',
-    brandKitLink: 'https://hercle.financial',
     logo: {
       icon: {
         light: [
@@ -66188,7 +66162,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: ['defi'],
     websiteLink: 'https://huma.finance',
-    brandKitLink: 'https://huma.finance',
     logo: {
       text: {
         dark: [
@@ -66206,7 +66179,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://itransfr.com',
-    brandKitLink: 'https://itransfr.com',
     logo: {
       icon: {
         light: [
@@ -66232,7 +66204,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://kuantist.com',
-    brandKitLink: 'https://kuantist.com',
     logo: {
       icon: {
         light: [
@@ -66258,7 +66229,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.loopcrypto.xyz',
-    brandKitLink: 'https://www.loopcrypto.xyz',
     logo: {
       text: {
         light: [
@@ -66282,7 +66252,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.liquiditytech.com',
-    brandKitLink: 'https://www.liquiditytech.com',
     logo: {
       text: {
         light: [
@@ -66381,7 +66350,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.meow.com',
-    brandKitLink: 'https://www.meow.com',
     logo: {
       text: {
         light: [
@@ -66405,7 +66373,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://merj.exchange',
-    brandKitLink: 'https://merj.exchange',
     logo: {
       icon: {
         light: [
@@ -66431,7 +66398,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://noah.com',
-    brandKitLink: 'https://noah.com',
     logo: {
       icon: {
         light: [
@@ -66483,7 +66449,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://onramp.money',
-    brandKitLink: 'https://onramp.money',
     logo: {
       icon: {
         light: [
@@ -66547,7 +66512,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: ['defi'],
     websiteLink: 'https://orbi.finance',
-    brandKitLink: 'https://orbi.finance',
     logo: {
       icon: {
         light: [
@@ -66573,7 +66537,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.getorbital.com',
-    brandKitLink: 'https://www.getorbital.com',
     logo: {
       icon: {
         light: [
@@ -66599,7 +66562,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.paribu.com',
-    brandKitLink: 'https://www.paribu.com',
     logo: {
       icon: {
         light: [
@@ -66657,7 +66619,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://pdax.ph',
-    brandKitLink: 'https://pdax.ph',
     logo: {
       text: {
         dark: [
@@ -66675,7 +66636,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: ['defi'],
     websiteLink: 'https://ripe.money',
-    brandKitLink: 'https://ripe.money',
     logo: {
       icon: {
         light: [
@@ -66701,7 +66661,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://riva.money',
-    brandKitLink: 'https://riva.money',
     logo: {
       icon: {
         light: [
@@ -66727,7 +66686,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://sling.money',
-    brandKitLink: 'https://sling.money',
     logo: {
       icon: {
         light: [
@@ -66753,7 +66711,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://solsticelabs.io',
-    brandKitLink: 'https://solsticelabs.io',
     logo: {
       icon: {
         light: [
@@ -66779,7 +66736,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://toku.com',
-    brandKitLink: 'https://toku.com',
     logo: {
       icon: {
         light: [
@@ -66805,7 +66761,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://toposware.com',
-    brandKitLink: 'https://toposware.com',
     logo: {
       text: {
         light: [
@@ -66829,7 +66784,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://trace.finance',
-    brandKitLink: 'https://trace.finance',
     logo: {
       icon: {
         light: [
@@ -66855,7 +66809,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://triple-a.io',
-    brandKitLink: 'https://triple-a.io',
     logo: {
       icon: {
         light: [
@@ -66881,7 +66834,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.velocity.xyz',
-    brandKitLink: 'https://www.velocity.xyz',
     logo: {
       text: {
         dark: [
@@ -66899,7 +66851,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://zodia-custody.com',
-    brandKitLink: 'https://zodia-custody.com',
     logo: {
       icon: {
         light: [
