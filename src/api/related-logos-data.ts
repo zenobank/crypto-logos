@@ -168,6 +168,7 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['uniswap', 'uniswap-v3-core', 'uniswap-v3-subgraph', 'uniswap-web3-react', 'unichain'], // Uniswap
   ['vechain', 'vethor-token', 'veworld-mobile'], // VeChain
   ['venly', 'venly-gaming-sdk', 'venly-nft-api'], // Venly
+  ['viem', 'wagmi'], // Viem / Wagmi
   ['walletconnect', 'walletconnect-token'], // WalletConnect
   ['wanchain', 'wanchain-bridge'], // Wanchain
   ['wemix-3-0', 'wemix-play', 'wemixwallet'], // WEMIX
