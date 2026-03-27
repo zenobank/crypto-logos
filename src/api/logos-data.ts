@@ -4854,6 +4854,12 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'png',
           },
         ],
+        dark: [
+          {
+            url: '/library/usd1-icon-dark.png',
+            format: 'png',
+          },
+        ],
       },
     },
   },
