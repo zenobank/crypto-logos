@@ -25,7 +25,7 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['ampleforth', 'ampleforth-governance-token', 'wrapped-ampleforth'], // Ampleforth
   ['ankr', 'ankr-liquid-staking'], // Ankr
   ['ape-chain', 'apecoin', 'apenft', 'apescan', 'apespace'], // Ape/ApeCoin
-  ['arbitrum', 'arbitrum-nova', 'arbitrum-orbit', 'arbiscan'], // Arbitrum
+  ['arbitrum', 'arbitrum-foundation', 'arbitrum-nova', 'arbitrum-orbit', 'arbiscan'], // Arbitrum
   ['augur', 'reputation-augur-v1', 'reputation-augur-v2'], // Augur
   ['aurora', 'aurora-pass'], // Aurora
   ['badger-dao', 'badger-finance'], // Badger
@@ -170,7 +170,7 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['walletconnect', 'walletconnect-token'], // WalletConnect
   ['wanchain', 'wanchain-bridge'], // Wanchain
   ['wemix-3-0', 'wemix-play', 'wemixwallet'], // WEMIX
-  ['world-liberty-financial-wlfi', 'usd1'], // World Liberty Financial
+  ['world-liberty-financial-wlfi', 'usd1', 'trump', 'official-melania-meme'], // World Liberty Financial / Trump family
   ['worldcoin', 'world-chain'], // Worldcoin
   ['wow-earn', 'wow-earn-chain'], // WOW EARN
   ['xrp', 'xrpl-xrp-network', 'ripple-usd'], // XRP/Ripple
