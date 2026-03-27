@@ -11,4 +11,6 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['paypal', 'paypal-usd'], // PayPal <-> PayPal USD (PYUSD)
   ['pax-dollar', 'pax-gold', 'usdg'], // Paxos family: USDP <-> PAXG <-> USDG
   ['ichi', 'gamma'], // ICHI <-> Gamma (DeFi liquidity management)
+  ['oasis-emerald', 'oasis-sapphire'], // Oasis Emerald <-> Oasis Sapphire
+  ['rootstock', 'rootstock-labs'], // Rootstock chain <-> Rootstock Labs
 ];

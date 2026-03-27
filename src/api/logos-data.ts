@@ -44852,15 +44852,37 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'xdc-network',
-    name: 'XDC Network',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
+    name: 'XDC Network (XDC)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://xdc.org/',
+    brandKitLink: 'https://xdc.org/resources/brand-assets',
     logo: {
       icon: {
         light: [
           {
-            url: '/library/xdc-network-icon-light.png',
-            format: 'png',
+            url: '/library/xdc-network-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/xdc-network-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/xdc-network-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/xdc-network-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -57565,9 +57587,11 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'ethereum-classic',
-    name: 'Ethereum Classic',
-    mainCategory: 'tokens',
-    secondaryCategories: [],
+    name: 'Ethereum Classic (ETC)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://ethereumclassic.org/',
+    brandKitLink: 'https://github.com/ethereumclassic/Media_Kit',
     logo: {
       icon: {
         light: [
@@ -57576,19 +57600,61 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'svg',
           },
         ],
+        dark: [
+          {
+            url: '/library/ethereum-classic-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/ethereum-classic-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ethereum-classic-text-dark.svg',
+            format: 'svg',
+          },
+        ],
       },
     },
   },
   {
     id: 'stacks',
-    name: 'Stacks',
-    mainCategory: 'tokens',
-    secondaryCategories: [],
+    name: 'Stacks (STX)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.stacks.co/',
+    brandKitLink: 'https://www.figma.com/design/afyAaHa2vGCR0KU1BHiske/Stacks-Brand',
     logo: {
       icon: {
         light: [
           {
             url: '/library/stacks-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/stacks-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/stacks-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/stacks-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -57693,14 +57759,36 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'kaia',
-    name: 'Kaia',
-    mainCategory: 'tokens',
-    secondaryCategories: [],
+    name: 'Kaia (KAIA)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.kaia.io/',
+    brandKitLink: 'https://docs.kaia.io/misc/brand/',
     logo: {
       icon: {
         light: [
           {
             url: '/library/kaia-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/kaia-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/kaia-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/kaia-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -57949,14 +58037,36 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'kava',
-    name: 'Kava',
-    mainCategory: 'tokens',
-    secondaryCategories: [],
+    name: 'Kava (KAVA)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://www.kava.io/',
+    brandKitLink: 'https://www.kava.io/branding',
     logo: {
       icon: {
         light: [
           {
             url: '/library/kava-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/kava-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/kava-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/kava-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -58173,14 +58283,36 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'harmony',
-    name: 'Harmony',
-    mainCategory: 'tokens',
-    secondaryCategories: [],
+    name: 'Harmony (ONE)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.harmony.one/',
+    brandKitLink: 'https://github.com/harmony-one/bounties/issues/62',
     logo: {
       icon: {
         light: [
           {
             url: '/library/harmony-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/harmony-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/harmony-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/harmony-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -58429,14 +58561,36 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'waves',
-    name: 'Waves',
-    mainCategory: 'tokens',
-    secondaryCategories: [],
+    name: 'Waves (WAVES)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://waves.tech/',
+    brandKitLink: 'https://brandfetch.com/wavesplatform.com',
     logo: {
       icon: {
         light: [
           {
             url: '/library/waves-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/waves-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/waves-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/waves-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -62253,6 +62407,1934 @@ export const LOGOS_DATA: LogoItem[] = [
         dark: [
           {
             url: '/library/usdg-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ape-chain',
+    name: 'ApeChain (APE)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://apechain.com/',
+    brandKitLink: 'https://live.standards.site/apechain/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ape-chain-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ape-chain-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/ape-chain-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ape-chain-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arbitrum-nova',
+    name: 'Arbitrum Nova (ETH)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://arbitrum.io/',
+    brandKitLink: 'https://arbitrum.io/brand-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arbitrum-nova-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/arbitrum-nova-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/arbitrum-nova-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/arbitrum-nova-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'avalanche-dfk',
+    name: 'DeFi Kingdoms (CRYSTAL)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://defikingdoms.com/',
+    brandKitLink: 'https://brandfetch.com/defikingdoms.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/avalanche-dfk-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/avalanche-dfk-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/avalanche-dfk-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/avalanche-dfk-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bifrost-staking',
+    name: 'Bifrost (BNC)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://bifrost.io/',
+    brandKitLink: 'https://docs.bifrost.io/resources/press-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bifrost-staking-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bifrost-staking-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bifrost-staking-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bifrost-staking-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'botanix',
+    name: 'Botanix (BTC)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://botanixlabs.com/',
+    brandKitLink: 'https://drive.google.com/drive/folders/1hBluSy9mFOQefbKtugRJijxLVW921TRQ',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/botanix-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/botanix-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/botanix-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/botanix-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'conflux',
+    name: 'Conflux (CFX)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://confluxnetwork.org/',
+    brandKitLink: 'https://confluxglobal.notion.site/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/conflux-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/conflux-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/conflux-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/conflux-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cronos-zkevm',
+    name: 'Cronos zkEVM (zkCRO)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://zkevm.cronos.org/',
+    brandKitLink: 'https://docs-zkevm.cronos.org/resources/media-brand-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cronos-zkevm-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/cronos-zkevm-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/cronos-zkevm-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/cronos-zkevm-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dogechain',
+    name: 'Dogechain (DC)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://dogechain.dog/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dogechain-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dogechain-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/dogechain-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dogechain-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'energi',
+    name: 'Energi (NRG)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://energi.world/',
+    brandKitLink: 'https://energi.world/press-and-media-kit/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/energi-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/energi-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/energi-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/energi-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ent',
+    name: 'Entropy Network (ENT)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.entropynetwork.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ent-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ent-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/ent-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ent-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eqbr-vaults',
+    name: 'EQBR Vaults (VAULT)',
+    mainCategory: 'tokens',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://eqbr.com/',
+    brandKitLink: 'https://brandfetch.com/eqbr.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eqbr-vaults-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/eqbr-vaults-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/eqbr-vaults-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/eqbr-vaults-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethereumpow',
+    name: 'EthereumPoW (ETHW)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://ethereumpow.org/',
+    brandKitLink: 'https://github.com/ethereumpow/ETHW-logo',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethereumpow-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ethereumpow-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/ethereumpow-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ethereumpow-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flow-evm',
+    name: 'Flow EVM (FLOW)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://flow.com/upgrade/crescendo/evm',
+    brandKitLink: 'https://flow.com/mediakit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flow-evm-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/flow-evm-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/flow-evm-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/flow-evm-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fogo',
+    name: 'Fogo (FOGO)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://www.fogo.io/',
+    brandKitLink: 'https://www.fogo.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fogo-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fogo-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/fogo-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fogo-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fuse',
+    name: 'Fuse (FUSE)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.fuse.io/',
+    brandKitLink: 'https://www.fuse.io/brand-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fuse-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fuse-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/fuse-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fuse-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hemi',
+    name: 'Hemi (HEMI)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://hemi.xyz/',
+    brandKitLink: 'https://hemi.xyz/brand-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hemi-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hemi-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/hemi-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hemi-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'icp',
+    name: 'Internet Computer (ICP)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://internetcomputer.org/',
+    brandKitLink: 'https://dfinity.frontify.com/d/pD7yZhsmpqos',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/icp-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/icp-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/icp-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/icp-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kcc',
+    name: 'KuCoin Community Chain (KCS)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.kcc.io/',
+    brandKitLink: 'https://docs.kcc.io/disclosure/media-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kcc-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/kcc-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/kcc-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/kcc-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lightlink',
+    name: 'LightLink (LL)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://lightlink.io/',
+    brandKitLink: 'https://lightlink.io/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lightlink-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lightlink-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/lightlink-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lightlink-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'manta-network',
+    name: 'Manta Network (MANTA)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://manta.network/',
+    brandKitLink: 'https://brandfetch.com/manta.network',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/manta-network-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/manta-network-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/manta-network-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/manta-network-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'map-protocol',
+    name: 'MAP Protocol (MAPO)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.mapprotocol.io/',
+    brandKitLink: 'https://www.mapprotocol.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/map-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/map-protocol-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/map-protocol-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/map-protocol-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'megaeth',
+    name: 'MegaETH (MEGA)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.megaeth.com/',
+    brandKitLink: 'https://www.megaeth.com/brand-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/megaeth-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/megaeth-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mode',
+    name: 'Mode (MODE)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://www.mode.network/',
+    brandKitLink: 'https://github.com/mode-network/brandkit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mode-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mode-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/mode-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mode-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'multiversx',
+    name: 'MultiversX (EGLD)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://multiversx.com/',
+    brandKitLink: 'https://multiversx.com/brand-assets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/multiversx-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/multiversx-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/multiversx-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/multiversx-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'neon-evm',
+    name: 'Neon EVM (NEON)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://neonevm.org/',
+    brandKitLink: 'https://neonevm.org/brand-assets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/neon-evm-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/neon-evm-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/neon-evm-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/neon-evm-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'neutron',
+    name: 'Neutron (NTRN)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://www.neutron.org/',
+    brandKitLink: 'https://github.com/neutron-org/brandbook',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/neutron-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/neutron-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/neutron-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/neutron-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nibiru-chain',
+    name: 'Nibiru Chain (NIBI)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://nibiru.fi/',
+    brandKitLink: 'https://nibiru.fi/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nibiru-chain-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/nibiru-chain-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/nibiru-chain-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/nibiru-chain-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'oasis-emerald',
+    name: 'Oasis Emerald (ROSE)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://oasis.net/',
+    brandKitLink: 'https://oasis.net/press-and-media-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/oasis-emerald-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/oasis-emerald-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/oasis-emerald-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/oasis-emerald-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'oasis-sapphire',
+    name: 'Oasis Sapphire (ROSE)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://oasis.net/',
+    brandKitLink: 'https://oasis.net/press-and-media-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/oasis-sapphire-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/oasis-sapphire-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/oasis-sapphire-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/oasis-sapphire-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'plume-mainnet',
+    name: 'Plume (PLUME)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://plume.org/',
+    brandKitLink: 'https://docs.plume.org/plume/community-and-support/brand-assets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/plume-mainnet-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/plume-mainnet-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/plume-mainnet-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/plume-mainnet-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'poly-network',
+    name: 'Poly Network (POLY)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://www.poly.network/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/poly-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/poly-network-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/poly-network-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/poly-network-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'provenance-blockchain',
+    name: 'Provenance Blockchain (HASH)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://provenance.io/',
+    brandKitLink: 'https://provenance.io/presskit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/provenance-blockchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/provenance-blockchain-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/provenance-blockchain-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/provenance-blockchain-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pulsechain',
+    name: 'PulseChain (PLS)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://pulsechain.com/',
+    brandKitLink: 'https://www.gopulsechain.com/media-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pulsechain-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pulsechain-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/pulsechain-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pulsechain-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sami',
+    name: 'Sami (SAMI1)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://sami.one/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sami-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sami-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sei-v2',
+    name: 'Sei (SEI)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.sei.io/',
+    brandKitLink: 'https://docs.sei.io/learn/general-brand-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sei-v2-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sei-v2-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/sei-v2-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sei-v2-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'soneium',
+    name: 'Soneium (ETH)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://soneium.org/',
+    brandKitLink: 'https://soneium.org/en/brand-kit/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/soneium-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/soneium-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/soneium-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/soneium-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sparkr',
+    name: 'SparkR (SPARKR)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://sparkr.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sparkr-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sparkr-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'step-network',
+    name: 'Step Network (FITFI)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://step.network/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/step-network-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/step-network-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/step-network-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/step-network-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'story',
+    name: 'Story (IP)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.story.foundation/',
+    brandKitLink: 'https://www.story.foundation/brand-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/story-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/story-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/story-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/story-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tari',
+    name: 'Tari (XTM)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.tari.com/',
+    brandKitLink: 'https://www.tari.com/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tari-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tari-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/tari-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tari-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'telos',
+    name: 'Telos (TLOS)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://telos.net/',
+    brandKitLink: 'https://telos.net/branding',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/telos-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/telos-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/telos-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/telos-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'terra2',
+    name: 'Terra (LUNA)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.terra.money/',
+    brandKitLink: 'https://docs.terra.money/learn/assets/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/terra2-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/terra2-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/terra2-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/terra2-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unichain',
+    name: 'Unichain (ETH)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://www.unichain.org/',
+    brandKitLink: 'https://www.unichain.org/brand-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unichain-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/unichain-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/unichain-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/unichain-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'venom',
+    name: 'Venom (VENOM)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://venom.foundation/',
+    brandKitLink: 'https://docs.venom.foundation/general/presskit/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/venom-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/venom-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/venom-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/venom-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wemix-3-0',
+    name: 'WEMIX (WEMIX)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.wemix.com/',
+    brandKitLink: 'https://www.wemix.com/brand-assets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wemix-3-0-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/wemix-3-0-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/wemix-3-0-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/wemix-3-0-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'world-chain',
+    name: 'World Chain (WLD)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://world.org/world-chain',
+    brandKitLink: 'https://world.org/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/world-chain-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/world-chain-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/world-chain-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/world-chain-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xdai',
+    name: 'Gnosis Chain (xDAI)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'stablecoins'],
+    websiteLink: 'https://www.gnosis.io/chain',
+    brandKitLink: 'https://github.com/gnosischain/media-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xdai-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/xdai-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/xdai-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/xdai-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'x-layer',
+    name: 'X Layer (OKB)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://web3.okx.com/xlayer',
+    brandKitLink: 'https://www.figma.com/community/file/1574876513242197379/x-layer-brand-guidelines-public',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/x-layer-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/x-layer-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/x-layer-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/x-layer-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xrpl-xrp-network',
+    name: 'XRP Ledger (XRP)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://xrpl.org/',
+    brandKitLink: 'https://xrpl.org/XRPL_Brand_Kit.zip',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xrpl-xrp-network-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/xrpl-xrp-network-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/xrpl-xrp-network-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/xrpl-xrp-network-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zkfair',
+    name: 'ZKFair (ZKF)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://zkfair.io/',
+    brandKitLink: 'https://github.com/ZKFair/zkfair-media-kits',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zkfair-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/zkfair-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/zkfair-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/zkfair-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zircuit',
+    name: 'Zircuit (ZRC)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://www.zircuit.com/',
+    brandKitLink: 'https://www.zircuit.com/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zircuit-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/zircuit-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/zircuit-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/zircuit-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rootstock',
+    name: 'Rootstock (RBTC)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens', 'defi'],
+    websiteLink: 'https://rootstock.io/',
+    brandKitLink: 'https://rootstock.io/brand/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rootstock-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/rootstock-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/rootstock-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/rootstock-text-dark.svg',
             format: 'svg',
           },
         ],
