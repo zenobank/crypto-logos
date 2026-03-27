@@ -31,7 +31,7 @@ export default function ReportButton({ logoId, logoName }: ReportButtonProps) {
 
   return (
     <Button
-      variant="outline"
+      variant="secondary"
       size="sm"
       onClick={handleReport}
       disabled={reported}
