@@ -12212,6 +12212,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/pancakeswap-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pancakeswap-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
