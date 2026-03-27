@@ -8693,12 +8693,168 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Inverse Finance (INV)',
     mainCategory: 'tokens',
     secondaryCategories: [],
+    websiteLink: 'https://www.inverse.finance/',
+    brandKitLink: 'https://www.inverse.finance/brand-assets-2025-v1.1.0.pdf',
     logo: {
       icon: {
         light: [
           {
-            url: '/library/inverse-finance-icon-light.png',
-            format: 'png',
+            url: '/library/inverse-finance-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/inverse-finance-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dola',
+    name: 'Dola (DOLA)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.inverse.finance/',
+    brandKitLink: 'https://www.inverse.finance/brand-assets-2025-v1.1.0.pdf',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dola-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dola-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/dola-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dola-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dola-borrowing-rights',
+    name: 'DOLA Borrowing Rights (DBR)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.inverse.finance/',
+    brandKitLink: 'https://www.inverse.finance/brand-assets-2025-v1.1.0.pdf',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dola-borrowing-rights-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dola-borrowing-rights-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/dola-borrowing-rights-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dola-borrowing-rights-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'inverse-finance-firm',
+    name: "Inverse Finance's FiRM",
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.inverse.finance/',
+    brandKitLink: 'https://www.inverse.finance/brand-assets-2025-v1.1.0.pdf',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/inverse-finance-firm-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/inverse-finance-firm-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'staked-dola',
+    name: 'Staked Dola (sDOLA)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.inverse.finance/sDOLA',
+    brandKitLink: 'https://www.inverse.finance/brand-assets-2025-v1.1.0.pdf',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/staked-dola-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/staked-dola-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'staked-inverse-finance',
+    name: 'Staked Inverse Finance (sINV)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.inverse.finance/',
+    brandKitLink: 'https://www.inverse.finance/brand-assets-2025-v1.1.0.pdf',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/staked-inverse-finance-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/staked-inverse-finance-icon-dark.svg',
+            format: 'svg',
           },
         ],
       },
