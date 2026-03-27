@@ -70,6 +70,16 @@ const nextConfig: NextConfig = {
         destination: '/logo/usdg',
         permanent: true,
       },
+      {
+        source: '/logo/paradigm-ctf',
+        destination: '/logo/paradigm',
+        permanent: true,
+      },
+      {
+        source: '/logo/paradigm-faucet',
+        destination: '/logo/paradigm',
+        permanent: true,
+      },
     ];
   },
   reactCompiler: true,

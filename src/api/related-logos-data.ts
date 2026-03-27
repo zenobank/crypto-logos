@@ -127,7 +127,7 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['optimism-ethereum', 'optimistic-etherscan', 'optimisticscan', 'optimism-eth-faucet', 'op-mainnet', 'op-stack', 'superchain-dev-console', 'superchain-faucet'], // Optimism/OP
   ['origin-dollar', 'origin-ether', 'origin-protocol'], // Origin
   ['orion', 'orion-protocol'], // Orion
-  ['paradigm', 'paradigm-ctf', 'paradigm-faucet'], // Paradigm
+
   ['plume', 'plume-mainnet'], // Plume
   ['polkadot', 'kusama'], // Polkadot/Kusama
   ['polygon', 'polygon-ecosystem-token', 'polygon-faucet', 'polygon-id', 'polygon-smart-contract-tutorial', 'polygon-smart-contracts', 'polygon-ventures', 'polygon-zkevm', 'polygonscan'], // Polygon
