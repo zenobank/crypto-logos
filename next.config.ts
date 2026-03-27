@@ -65,6 +65,11 @@ const nextConfig: NextConfig = {
         destination: '/logo/trojan',
         permanent: true,
       },
+      {
+        source: '/logo/global-dollar-usdg',
+        destination: '/logo/usdg',
+        permanent: true,
+      },
     ];
   },
   reactCompiler: true,

@@ -4958,24 +4958,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'global-dollar-usdg',
-    name: 'Global Dollar (USDG)',
-    mainCategory: 'stablecoins',
-    secondaryCategories: [],
-    websiteLink: 'https://globaldollar.com',
-    brandKitLink: 'https://globaldollar.com/brand',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/global-dollar-usdg-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'dai',
     name: 'Dai (DAI)',
     mainCategory: 'stablecoins',
@@ -57402,12 +57384,33 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'payments',
     secondaryCategories: [],
     websiteLink: 'https://stripe.com/',
+    brandKitLink: 'https://stripe.com/newsroom/information',
     logo: {
       icon: {
         light: [
           {
             url: '/library/stripe-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/stripe-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/stripe-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/stripe-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
