@@ -1698,7 +1698,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'sushi',
-    name: 'Sushi',
+    name: 'SushiSwap',
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://www.sushi.com',
@@ -1710,9 +1710,25 @@ export const LOGOS_DATA: LogoItem[] = [
             url: '/library/sushi-icon-light.svg',
             format: 'svg',
           },
+        ],
+        dark: [
           {
-            url: '/library/sushi-icon-light.png',
-            format: 'png',
+            url: '/library/sushi-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/sushi-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sushi-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
