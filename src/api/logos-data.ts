@@ -14030,6 +14030,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/zengo-wallet-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/zengo-wallet-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
