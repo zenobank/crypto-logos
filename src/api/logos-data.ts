@@ -4399,6 +4399,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/layerzero-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/layerzero-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
