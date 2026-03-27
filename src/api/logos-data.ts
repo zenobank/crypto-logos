@@ -64344,4 +64344,42 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'lemon-cash',
+    name: 'Lemon Cash',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://lemon.me',
+    brandKitLink: 'https://lemon.me/en/media-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lemon-cash-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lemon-cash-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/lemon-cash-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lemon-cash-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
 ];
