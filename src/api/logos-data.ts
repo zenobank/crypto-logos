@@ -14853,16 +14853,37 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'family',
-    name: 'Family',
+    name: 'Family Wallet',
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://family.co',
+    brandKitLink: 'https://family.co/family-press-kit.zip',
     logo: {
       icon: {
         light: [
           {
-            url: '/library/family-icon-light.png',
-            format: 'png',
+            url: '/library/family-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/family-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/family-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/family-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
