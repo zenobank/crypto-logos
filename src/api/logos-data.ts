@@ -66724,4 +66724,563 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'camelot',
+    name: 'Camelot',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://camelot.exchange',
+    logo: {
+      icon: {
+        light: [{ url: '/library/camelot-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/camelot-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'thena',
+    name: 'THENA',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://thena.fi',
+    logo: {
+      icon: {
+        light: [{ url: '/library/thena-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/thena-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'lynex',
+    name: 'Lynex',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://lynex.fi',
+    logo: {
+      icon: {
+        light: [{ url: '/library/lynex-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/lynex-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'kim',
+    name: 'Kim',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://kim.exchange',
+    logo: {
+      icon: {
+        light: [{ url: '/library/kim-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/kim-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'bladeswap',
+    name: 'BladeSwap',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://bladeswap.xyz',
+    logo: {
+      icon: {
+        light: [{ url: '/library/bladeswap-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/bladeswap-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'hercules',
+    name: 'Hercules',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://hercules.exchange',
+    logo: {
+      icon: {
+        light: [{ url: '/library/hercules-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/hercules-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'swapsicle',
+    name: 'Swapsicle',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://swapsicle.io',
+    logo: {
+      icon: {
+        light: [{ url: '/library/swapsicle-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/swapsicle-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'swapr',
+    name: 'Swapr',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://swapr.eth.limo',
+    logo: {
+      icon: {
+        light: [{ url: '/library/swapr-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/swapr-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'zyberswap',
+    name: 'ZyberSwap',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://zyberswap.io',
+    logo: {
+      icon: {
+        light: [{ url: '/library/zyberswap-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/zyberswap-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'synthswap',
+    name: 'SynthSwap',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://synthswap.io',
+    logo: {
+      icon: {
+        light: [{ url: '/library/synthswap-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/synthswap-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'horizon-dex',
+    name: 'Horizon',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://horizondex.io',
+    logo: {
+      icon: {
+        light: [{ url: '/library/horizon-dex-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/horizon-dex-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'henjin',
+    name: 'Henjin',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://henjin.fi',
+    logo: {
+      icon: {
+        light: [{ url: '/library/henjin-icon-light.jpg', format: 'jpg' }],
+        dark: [{ url: '/library/henjin-icon-dark.jpg', format: 'jpg' }],
+      },
+    },
+  },
+  {
+    id: 'fibonacci',
+    name: 'Fibonacci',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://fibonacci.fi',
+    logo: {
+      icon: {
+        light: [{ url: '/library/fibonacci-icon-light.jpg', format: 'jpg' }],
+        dark: [{ url: '/library/fibonacci-icon-dark.jpg', format: 'jpg' }],
+      },
+    },
+  },
+  {
+    id: 'thirdfy',
+    name: 'ThirdFy',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://thirdfy.com',
+    logo: {
+      icon: {
+        light: [{ url: '/library/thirdfy-icon-light.jpg', format: 'jpg' }],
+        dark: [{ url: '/library/thirdfy-icon-dark.jpg', format: 'jpg' }],
+      },
+    },
+  },
+  {
+    id: 'grizzly-finance',
+    name: 'Grizzly Finance',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://grizzly.fi',
+    logo: {
+      icon: {
+        light: [{ url: '/library/grizzly-finance-icon-light.jpg', format: 'jpg' }],
+        dark: [{ url: '/library/grizzly-finance-icon-dark.jpg', format: 'jpg' }],
+      },
+    },
+  },
+  {
+    id: 'scribe-dex',
+    name: 'Scribe DEX',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://scribe.exchange',
+    logo: {
+      icon: {
+        light: [{ url: '/library/scribe-dex-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/scribe-dex-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'ocelex',
+    name: 'Ocelex',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://ocelex.fi',
+    logo: {
+      icon: {
+        light: [{ url: '/library/ocelex-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/ocelex-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'circuit',
+    name: 'Circuit',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://circuit.farm',
+    logo: {
+      icon: {
+        light: [{ url: '/library/circuit-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/circuit-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'supersonic',
+    name: 'SuperSonic',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://supersonic.exchange',
+    logo: {
+      icon: {
+        light: [{ url: '/library/supersonic-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/supersonic-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'tokan-exchange',
+    name: 'Tokan Exchange',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://tokan.exchange',
+    logo: {
+      icon: {
+        light: [{ url: '/library/tokan-exchange-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/tokan-exchange-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'honeypot-finance',
+    name: 'Honeypot Finance',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://honeypot.finance',
+    logo: {
+      icon: {
+        light: [{ url: '/library/honeypot-finance-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/honeypot-finance-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'molten',
+    name: 'Molten',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://molten.finance',
+    logo: {
+      icon: {
+        light: [{ url: '/library/molten-icon-light.jpg', format: 'jpg' }],
+        dark: [{ url: '/library/molten-icon-dark.jpg', format: 'jpg' }],
+      },
+    },
+  },
+  {
+    id: 'planar',
+    name: 'Planar',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://planar.finance',
+    logo: {
+      icon: {
+        light: [{ url: '/library/planar-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/planar-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'trebleswap',
+    name: 'TrebleSwap',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://trebleswap.com',
+    logo: {
+      icon: {
+        light: [{ url: '/library/trebleswap-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/trebleswap-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'w-dex',
+    name: 'W-DEX',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://wdex.finance',
+    logo: {
+      icon: {
+        light: [{ url: '/library/w-dex-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/w-dex-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'amplifi',
+    name: 'Amplifi',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://amplifi.finance',
+    logo: {
+      icon: {
+        light: [{ url: '/library/amplifi-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/amplifi-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'clip-finance',
+    name: 'Clip Finance',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://clip.finance',
+    logo: {
+      icon: {
+        light: [{ url: '/library/clip-finance-icon-light.jpg', format: 'jpg' }],
+        dark: [{ url: '/library/clip-finance-icon-dark.jpg', format: 'jpg' }],
+      },
+    },
+  },
+  {
+    id: 'beefy',
+    name: 'Beefy',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://beefy.com',
+    logo: {
+      icon: {
+        light: [{ url: '/library/beefy-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/beefy-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'velora',
+    name: 'Velora',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://velora.xyz',
+    logo: {
+      icon: {
+        light: [{ url: '/library/velora-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/velora-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'odos',
+    name: 'ODOS',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://odos.xyz',
+    logo: {
+      icon: {
+        light: [{ url: '/library/odos-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/odos-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: '0x',
+    name: '0x',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://0x.org',
+    logo: {
+      icon: {
+        light: [{ url: '/library/0x-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/0x-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'base',
+    name: 'Base',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    websiteLink: 'https://base.org',
+    logo: {
+      icon: {
+        light: [{ url: '/library/base-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/base-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'optimism',
+    name: 'Optimism',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    websiteLink: 'https://optimism.io',
+    logo: {
+      icon: {
+        light: [{ url: '/library/optimism-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/optimism-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'opbnb',
+    name: 'opBNB',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    websiteLink: 'https://opbnb.bnbchain.org',
+    logo: {
+      icon: {
+        light: [{ url: '/library/opbnb-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/opbnb-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'gnosis',
+    name: 'Gnosis',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    websiteLink: 'https://gnosis.io',
+    logo: {
+      icon: {
+        light: [{ url: '/library/gnosis-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/gnosis-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'paladin',
+    name: 'Paladin',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://paladin.vote',
+    logo: {
+      icon: {
+        light: [{ url: '/library/paladin-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/paladin-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'bailsec',
+    name: 'Bailsec',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://bailsec.io',
+    logo: {
+      icon: {
+        light: [{ url: '/library/bailsec-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/bailsec-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'abdk',
+    name: 'ABDK',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://abdk.consulting',
+    logo: {
+      icon: {
+        light: [{ url: '/library/abdk-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/abdk-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'hexens',
+    name: 'Hexens',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://hexens.io',
+    logo: {
+      icon: {
+        light: [{ url: '/library/hexens-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/hexens-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'gu-labs',
+    name: 'GU Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://gulabs.com',
+    logo: {
+      icon: {
+        light: [{ url: '/library/gu-labs-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/gu-labs-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'tycho',
+    name: 'Tycho',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://tycho.build',
+    logo: {
+      icon: {
+        light: [{ url: '/library/tycho-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/tycho-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'reflex',
+    name: 'Reflex',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://reflex.finance',
+    logo: {
+      icon: {
+        light: [{ url: '/library/reflex-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/reflex-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'mev-x',
+    name: 'MEV-X',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://mev-x.io',
+    logo: {
+      icon: {
+        light: [{ url: '/library/mev-x-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/mev-x-icon-dark.svg', format: 'svg' }],
+      },
+    },
+  },
 ];
