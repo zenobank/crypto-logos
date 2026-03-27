@@ -24,6 +24,7 @@ export function getCategoryLabel(category: LogoCategory): string {
     defi: 'DeFi',
     education: 'Education',
     services: 'Services',
+    events: 'Events',
   };
 
   return map[category];

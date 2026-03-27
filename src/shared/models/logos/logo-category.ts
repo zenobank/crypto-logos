@@ -11,4 +11,5 @@ export type LogoCategory =
   | 'payments'
   | 'defi'
   | 'education'
-  | 'services';
+  | 'services'
+  | 'events';
