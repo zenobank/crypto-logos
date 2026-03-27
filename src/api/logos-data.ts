@@ -28789,15 +28789,15 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'coinmarketcap-api',
-    name: 'CoinMarketCap API',
+    id: 'coinmarketcap',
+    name: 'CoinMarketCap',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     logo: {
       icon: {
         light: [
           {
-            url: '/library/coinmarketcap-api-icon-light.png',
+            url: '/library/coinmarketcap-icon-light.png',
             format: 'png',
           },
         ],
