@@ -148,6 +148,44 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'bitcoin-cash',
+    name: 'Bitcoin Cash (BCH)',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://bitcoincash.org',
+    brandKitLink: 'https://bitcoincash.org/graphics/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitcoin-cash-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bitcoin-cash-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bitcoin-cash-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bitcoin-cash-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'hedera',
     name: 'Hedera (HBAR)',
     brandKitLink: 'https://brand.hedera.com/',
