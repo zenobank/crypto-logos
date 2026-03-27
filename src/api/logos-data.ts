@@ -1356,21 +1356,17 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'RainbowKit',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
-    websiteLink: 'https://www.rainbowkit.com',
+    websiteLink: 'https://rainbowkit.com/',
     brandKitLink:
       'https://www.figma.com/community/file/1139300796265858893/rainbow-brand-assets',
     logo: {
       icon: {
-        light: [
-          {
-            url: '/library/rainbowkit-icon-light.svg',
-            format: 'svg',
-          },
-          {
-            url: '/library/rainbowkit-icon-light.png',
-            format: 'png',
-          },
-        ],
+        light: [{ url: '/library/rainbowkit-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/rainbowkit-icon-dark.svg', format: 'svg' }],
+      },
+      text: {
+        light: [{ url: '/library/rainbowkit-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/rainbowkit-text-dark.svg', format: 'svg' }],
       },
     },
   },
@@ -8095,14 +8091,16 @@ export const LOGOS_DATA: LogoItem[] = [
     name: '1inch (1INCH)',
     mainCategory: 'defi',
     secondaryCategories: [],
+    websiteLink: 'https://1inch.com/',
+    brandKitLink: 'https://1inch.com/press-room',
     logo: {
       icon: {
-        light: [
-          {
-            url: '/library/1inch-icon-light.png',
-            format: 'png',
-          },
-        ],
+        light: [{ url: '/library/1inch-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/1inch-icon-dark.svg', format: 'svg' }],
+      },
+      text: {
+        light: [{ url: '/library/1inch-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/1inch-text-dark.svg', format: 'svg' }],
       },
     },
   },
