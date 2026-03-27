@@ -1302,14 +1302,33 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://www.privy.io',
-    brandKitLink:
-      'https://drive.google.com/drive/folders/1Vm-Bs1arm3WgQ4tlzu9trGv6b-fiDQf2',
+    brandKitLink: 'https://www.privy.io/brand-guidelines',
     logo: {
       icon: {
         light: [
           {
             url: '/library/privy-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/privy-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/privy-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/privy-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
