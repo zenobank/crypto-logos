@@ -23248,22 +23248,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'alchemy-node-rpc',
-    name: 'Alchemy Node RPC',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/alchemy-node-rpc-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'op-stack',
     name: 'OP Stack',
     mainCategory: 'infrastructure-tools',
@@ -23373,22 +23357,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/spearbit-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'alchemy-prices-api',
-    name: 'Alchemy Prices API',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/alchemy-prices-api-icon-light.png',
             format: 'png',
           },
         ],
@@ -23793,22 +23761,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/slither-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'alchemy-bundler',
-    name: 'Alchemy Bundler',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/alchemy-bundler-icon-light.png',
             format: 'png',
           },
         ],
@@ -24229,38 +24181,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/juicebox-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'alchemy-notify',
-    name: 'Alchemy Notify',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/alchemy-notify-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'alchemy-nft-api',
-    name: 'Alchemy NFT API',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/alchemy-nft-api-icon-light.png',
             format: 'png',
           },
         ],
