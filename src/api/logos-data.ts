@@ -4850,11 +4850,19 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
+            url: '/library/usd1-icon-light.svg',
+            format: 'svg',
+          },
+          {
             url: '/library/usd1-icon-light.png',
             format: 'png',
           },
         ],
         dark: [
+          {
+            url: '/library/usd1-icon-dark.svg',
+            format: 'svg',
+          },
           {
             url: '/library/usd1-icon-dark.png',
             format: 'png',
@@ -13454,23 +13462,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/cvl-wallet-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'moonpay-account',
-    name: 'MoonPay Account',
-    mainCategory: 'wallets',
-    secondaryCategories: [],
-    websiteLink: 'https://moonpay.com',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/moonpay-account-icon-light.png',
             format: 'png',
           },
         ],
