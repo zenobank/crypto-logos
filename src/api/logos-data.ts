@@ -118,6 +118,45 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'arbitrum-foundation',
+    name: 'Arbitrum Foundation',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    websiteLink: 'https://arbitrum.foundation/',
+    brandKitLink:
+      'https://arbitrumfoundation.notion.site/Arbitrum-Brand-Kit-48751dc5e03240a5872496283f088f79',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arbitrum-foundation-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/arbitrum-foundation-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/arbitrum-foundation-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/arbitrum-foundation-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'bitcoin',
     name: 'Bitcoin (BTC)',
     mainCategory: 'chains',
@@ -4387,6 +4426,43 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/ether-fi-ethfi-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethereum-foundation',
+    name: 'Ethereum Foundation',
+    websiteLink: 'https://ethereum.foundation/',
+    mainCategory: 'education',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethereum-foundation-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ethereum-foundation-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/ethereum-foundation-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ethereum-foundation-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
