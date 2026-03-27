@@ -16,6 +16,7 @@ import RelatedLogos from '@/components/logo-detail/RelatedLogos';
 import ScrollToTop from '@/components/ui/scroll-to-top';
 import { Image } from '@/components/ui/image';
 import FavoriteToggle from '@/components/FavoriteToggle';
+import ReportButton from '@/components/logo-detail/ReportButton';
 
 // custom models
 interface Props {
@@ -209,6 +210,11 @@ export default async function LogoDetailPage({ params }: Props) {
       {/* <Separator className="my-8" /> */}
 
       {/* Links */}
+
+      {/* Report */}
+      <div className="mt-4 flex justify-end">
+        <ReportButton logoId={logo.id} logoName={logo.name} />
+      </div>
 
       {/* Scroll to top */}
       <ScrollToTop />
