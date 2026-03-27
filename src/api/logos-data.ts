@@ -3611,17 +3611,41 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'tether-gold',
-    name: 'Tether Gold',
+    name: 'Tether Gold (XAUT)',
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://gold.tether.to',
-    brandKitLink: 'https://tether.to/en/media/',
+    brandKitLink: 'https://tether.to/ru/media/',
     logo: {
       icon: {
         light: [
           {
+            url: '/library/tether-gold-icon-light.svg',
+            format: 'svg',
+          },
+          {
             url: '/library/tether-gold-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tether-gold-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/tether-gold-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tether-gold-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
