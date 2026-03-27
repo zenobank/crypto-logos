@@ -137,7 +137,10 @@ export default async function LogoDetailPage({ params }: Props) {
               height={32}
             />
           </h1>
-          <FavoriteToggle variant="outline" logo={logo} />
+          <div className="flex items-center gap-1">
+            <ReportButton logoId={logo.id} logoName={logo.name} />
+            <FavoriteToggle variant="outline" logo={logo} />
+          </div>
         </div>
         <div className="flex flex-wrap gap-2">
           {allCategories.map((category) => (
@@ -210,11 +213,6 @@ export default async function LogoDetailPage({ params }: Props) {
       {/* <Separator className="my-8" /> */}
 
       {/* Links */}
-
-      {/* Report */}
-      <div className="mt-4 flex justify-end">
-        <ReportButton logoId={logo.id} logoName={logo.name} />
-      </div>
 
       {/* Scroll to top */}
       <ScrollToTop />

@@ -25809,12 +25809,33 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Wagmi',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
+    websiteLink: 'https://wagmi.sh/',
     logo: {
       icon: {
         light: [
           {
             url: '/library/wagmi-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/wagmi-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/wagmi-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/wagmi-text-dark.svg',
+            format: 'svg',
           },
         ],
       },

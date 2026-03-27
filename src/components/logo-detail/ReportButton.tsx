@@ -31,11 +31,10 @@ export default function ReportButton({ logoId, logoName }: ReportButtonProps) {
 
   return (
     <Button
-      variant="ghost"
+      variant="outline"
       size="sm"
       onClick={handleReport}
       disabled={reported}
-      className="text-muted-foreground"
     >
       <Flag className="mr-2 h-4 w-4" />
       Report Incorrect Data
