@@ -65115,4 +65115,1150 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: '1money',
+    name: '1Money',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://1money.com',
+    brandKitLink: 'https://1money.com/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/1money-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aleo',
+    name: 'Aleo',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://aleo.org',
+    brandKitLink: 'https://aleo.org/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aleo-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/aleo-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/aleo-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/aleo-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alfred',
+    name: 'Alfred',
+    mainCategory: 'tokens',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://alfred.finance',
+    brandKitLink: 'https://alfred.finance',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alfred-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alpaca',
+    name: 'Alpaca',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.alpaca.markets',
+    brandKitLink: 'https://www.alpaca.markets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alpaca-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'amina',
+    name: 'AMINA',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://aminagroup.com',
+    brandKitLink: 'https://aminagroup.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/amina-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aquanow',
+    name: 'Aquanow',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.aquanow.com',
+    brandKitLink: 'https://www.aquanow.com/brand-assets',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aquanow-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/aquanow-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/aquanow-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/aquanow-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'arculus',
+    name: 'Arculus',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.getarculus.com',
+    brandKitLink: 'https://www.getarculus.com/brand',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/arculus-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/arculus-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'august',
+    name: 'August',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://august.com',
+    brandKitLink: 'https://august.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/august-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bilira',
+    name: 'BiLira',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bilira.co',
+    brandKitLink: 'https://www.bilira.co',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bilira-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitnet',
+    name: 'Bitnet',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://bitnet.io',
+    brandKitLink: 'https://bitnet.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitnet-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitwyre',
+    name: 'Bitwyre',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://bitwyre.com',
+    brandKitLink: 'https://bitwyre.com',
+    logo: {
+      text: {
+        dark: [
+          {
+            url: '/library/bitwyre-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bullish',
+    name: 'Bullish',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bullish.com',
+    brandKitLink: 'https://www.bullish.com/us/press',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bullish-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bullish-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bullish-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bullish-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'caliza',
+    name: 'Caliza',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://caliza.io',
+    brandKitLink: 'https://caliza.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/caliza-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinbax',
+    name: 'Coinbax',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://coinbax.com',
+    brandKitLink: 'https://coinbax.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinbax-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinmena',
+    name: 'CoinMENA',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://coinmena.com',
+    brandKitLink: 'https://coinmena.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinmena-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinmetro',
+    name: 'Coinmetro',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://coinmetro.com',
+    brandKitLink: 'https://coinmetro.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinmetro-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'coinspaid',
+    name: 'CoinsPaid',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://coinspaid.com',
+    brandKitLink: 'https://coinspaid.com',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/coinspaid-text-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'confirmo',
+    name: 'Confirmo',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://confirmo.com',
+    brandKitLink: 'https://confirmo.com',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/confirmo-text-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dtcpay',
+    name: 'dtcpay',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://dtcpay.com',
+    brandKitLink: 'https://dtcpay.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dtcpay-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'equitiestracker',
+    name: 'EquitiesTracker',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://equitiestracker.com',
+    brandKitLink: 'https://equitiestracker.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/equitiestracker-icon-light.jpeg',
+            format: 'jpeg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ergonia',
+    name: 'Ergonia',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://ergonia.io',
+    brandKitLink: 'https://ergonia.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ergonia-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'facilita-pay',
+    name: 'Facilita Pay',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://facilitapay.com.br',
+    brandKitLink: 'https://facilitapay.com.br',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/facilita-pay-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fomo-pay',
+    name: 'Fomo Pay',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://fomopay.com',
+    brandKitLink: 'https://fomopay.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fomo-pay-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fuze',
+    name: 'Fuze',
+    mainCategory: 'tokens',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://fuze.finance',
+    brandKitLink: 'https://fuze.finance',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fuze-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'galaxy',
+    name: 'Galaxy',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.galaxy.com',
+    brandKitLink: 'https://brand.galaxy.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/galaxy-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/galaxy-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/galaxy-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/galaxy-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hercle',
+    name: 'Hercle',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://hercle.financial',
+    brandKitLink: 'https://hercle.financial',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hercle-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hifi',
+    name: 'Hifi',
+    mainCategory: 'tokens',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://hifi.finance',
+    brandKitLink: 'https://hifi.finance/branding',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hifi-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hifi-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/hifi-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hifi-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'huma',
+    name: 'Huma',
+    mainCategory: 'tokens',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://huma.finance',
+    brandKitLink: 'https://huma.finance',
+    logo: {
+      text: {
+        dark: [
+          {
+            url: '/library/huma-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'itransfr',
+    name: 'iTransfr',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://itransfr.com',
+    brandKitLink: 'https://itransfr.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/itransfr-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kuantist',
+    name: 'Kuantist',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://kuantist.com',
+    brandKitLink: 'https://kuantist.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kuantist-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'loopcrypto',
+    name: 'Loopcrypto',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.loopcrypto.xyz',
+    brandKitLink: 'https://www.loopcrypto.xyz',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/loopcrypto-text-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ltp',
+    name: 'LTP',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.liquiditytech.com',
+    brandKitLink: 'https://www.liquiditytech.com',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/ltp-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ltp-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'marinade',
+    name: 'Marinade',
+    mainCategory: 'tokens',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://marinade.finance',
+    brandKitLink: 'https://marinade.finance/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/marinade-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/marinade-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/marinade-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/marinade-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'meow',
+    name: 'Meow',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.meow.com',
+    brandKitLink: 'https://www.meow.com',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/meow-text-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'merj',
+    name: 'Merj',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://merj.exchange',
+    brandKitLink: 'https://merj.exchange',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/merj-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'noah',
+    name: 'Noah',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://noah.com',
+    brandKitLink: 'https://noah.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/noah-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nuvei',
+    name: 'Nuvei',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://nuvei.com',
+    brandKitLink: 'https://nuvei.com/press',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nuvei-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'onramp',
+    name: 'Onramp',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://onramp.money',
+    brandKitLink: 'https://onramp.money',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/onramp-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'onre',
+    name: 'OnRe',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://onre.io',
+    brandKitLink: 'https://onre.io/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/onre-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/onre-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/onre-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/onre-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orbi-finance',
+    name: 'Orbi Finance',
+    mainCategory: 'tokens',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://orbi.finance',
+    brandKitLink: 'https://orbi.finance',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orbi-finance-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orbital',
+    name: 'Orbital',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.getorbital.com',
+    brandKitLink: 'https://www.getorbital.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orbital-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/orbital-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'paribu',
+    name: 'Paribu',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.paribu.com',
+    brandKitLink: 'https://www.paribu.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/paribu-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'paxos',
+    name: 'Paxos',
+    mainCategory: 'stablecoins',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://paxos.com',
+    brandKitLink: 'https://paxos.com/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/paxos-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/paxos-text-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pdax',
+    name: 'PDAX',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://pdax.ph',
+    brandKitLink: 'https://pdax.ph',
+    logo: {
+      text: {
+        dark: [
+          {
+            url: '/library/pdax-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ripe-money',
+    name: 'Ripe.Money',
+    mainCategory: 'tokens',
+    secondaryCategories: ['defi'],
+    websiteLink: 'https://ripe.money',
+    brandKitLink: 'https://ripe.money',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ripe-money-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'riva-money',
+    name: 'Riva Money',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://riva.money',
+    brandKitLink: 'https://riva.money',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/riva-money-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sling-money',
+    name: 'Sling Money',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://sling.money',
+    brandKitLink: 'https://sling.money',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sling-money-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solstice-labs',
+    name: 'Solstice Labs',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://solsticelabs.io',
+    brandKitLink: 'https://solsticelabs.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solstice-labs-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'toku',
+    name: 'Toku',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://toku.com',
+    brandKitLink: 'https://toku.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/toku-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'topos',
+    name: 'Topos',
+    mainCategory: 'chains',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://toposware.com',
+    brandKitLink: 'https://toposware.com',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/topos-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/topos-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'trace-finance',
+    name: 'Trace Finance',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://trace.finance',
+    brandKitLink: 'https://trace.finance',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/trace-finance-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'triple-a',
+    name: 'Triple-A',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://triple-a.io',
+    brandKitLink: 'https://triple-a.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/triple-a-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'velocity',
+    name: 'Velocity',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://www.velocity.xyz',
+    brandKitLink: 'https://www.velocity.xyz',
+    logo: {
+      text: {
+        dark: [
+          {
+            url: '/library/velocity-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zodia-custody',
+    name: 'Zodia Custody',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://zodia-custody.com',
+    brandKitLink: 'https://zodia-custody.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zodia-custody-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
 ];

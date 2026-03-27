@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>iTransfr - Global Payments Made Simple | Cross-Border Money Transfer</title>
+    <meta name="title" content="iTransfr - Global Payments Made Simple | Cross-Border Money Transfer" />
+    <meta name="description" content="The stablecoin-powered API and orchestration platform delivering instant payments, FX, wallets, and virtual accounts across 50+ countries" />
+    <meta name="keywords" content="global payments, cross-border payments, stablecoin transfers, business payments, international money transfer, fintech, crypto payments, SWIFT alternative" />
+    <meta name="author" content="iTransfr" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://itransfr.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://itransfr.com/" />
+    <meta property="og:title" content="iTransfr - Global Payments Made Simple | Cross-Border Money Transfer" />
+    <meta property="og:description" content="The stablecoin-powered API and orchestration platform delivering instant payments, FX, wallets, and virtual accounts across 50+ countries" />
+    <meta property="og:image" content="https://itransfr.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="iTransfr Global Payments Platform" />
+    <meta property="og:site_name" content="iTransfr" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://itransfr.com/" />
+    <meta property="twitter:title" content="iTransfr - Global Payments Made Simple | Cross-Border Money Transfer" />
+    <meta property="twitter:description" content="The stablecoin-powered API and orchestration platform delivering instant payments, FX, wallets, and virtual accounts across 50+ countries" />
+    <meta property="twitter:image" content="https://itransfr.com/og-image.png" />
+    <meta property="twitter:image:alt" content="iTransfr Global Payments Platform" />
+    <meta name="twitter:site" content="@itransfr" />
+    <meta name="twitter:creator" content="@itransfr" />
+
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#2563EB" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="iTransfr" />
+    <meta name="application-name" content="iTransfr" />
+    <meta name="msapplication-TileColor" content="#2563EB" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+
+    <!-- Favicon and Icons -->
+    <link rel="icon" href="/itransfr-logo.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/itransfr-logo.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.gpteng.co">
+    
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6572XJK74X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6572XJK74X', {
+        page_path: window.location.pathname,
+        cookie_domain: 'auto',
+        cookie_flags: 'SameSite=None;Secure'
+      });
+    </script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FinancialService",
+      "name": "iTransfr",
+      "description": "Global payments platform for cross-border money transfers using stablecoins and fiat currencies",
+      "url": "https://itransfr.com",
+      "logo": "https://itransfr.com/logo.png",
+      "sameAs": [
+        "https://twitter.com/itransfr",
+        "https://linkedin.com/company/itransfr"
+      ],
+      "serviceType": "International Money Transfer",
+      "areaServed": "Worldwide",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Payment Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cross-Border Payments",
+              "description": "Send and receive payments across borders with real-time speed"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Stablecoin Transfers",
+              "description": "Convert and transfer stablecoins globally"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "OTC Trading",
+              "description": "Over-the-counter trading for large volume transactions"
+            }
+          }
+        ]
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-800-ITRANSFR",
+        "contactType": "customer service",
+        "email": "support@itransfr.com",
+        "availableLanguage": ["English", "Spanish", "Portuguese"]
+      }
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-Cv8XiQ8Q.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-5fhnKame.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+  </body>
+</html>
