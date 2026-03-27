@@ -23438,12 +23438,12 @@ export const LOGOS_DATA: LogoItem[] = [
     websiteLink: 'https://bitso.com',
     logo: {
       icon: {
-        light: [
-          {
-            url: '/library/bitso-icon-light.png',
-            format: 'png',
-          },
-        ],
+        light: [{ url: '/library/bitso-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/bitso-icon-dark.svg', format: 'svg' }],
+      },
+      text: {
+        light: [{ url: '/library/bitso-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/bitso-text-dark.svg', format: 'svg' }],
       },
     },
   },
