@@ -423,7 +423,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://cobo.com',
-    brandKitLink: 'https://brandfetch.com/cobo.com',
     logo: {
       icon: {
         light: [
@@ -844,7 +843,6 @@ export const LOGOS_DATA: LogoItem[] = [
     secondaryCategories: [],
     websiteLink: 'https://www.htx.com',
     brandKitLink:
-      'https://brandfetch.com/htx.gov.sg?view=library&library=default',
     logo: {
       icon: {
         light: [
@@ -1100,7 +1098,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'payments',
     secondaryCategories: [],
     websiteLink: 'https://www.moonpay.com',
-    brandKitLink: 'https://brandfetch.com/moonpay.com',
     logo: {
       icon: {
         light: [
@@ -1284,7 +1281,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: [],
     websiteLink: 'https://polygon.technology',
-    brandKitLink: 'https://brandfetch.com/polygon.technology',
     logo: {
       icon: {
         light: [
@@ -1539,7 +1535,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://safe.global',
-    brandKitLink: 'https://brandfetch.com/safe.global',
     logo: {
       icon: {
         light: [
@@ -1802,17 +1797,17 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
-      wordmark: {
+      text: {
         light: [
           {
-            url: '/library/tempo-wordmark-light.png',
-            format: 'png',
+            url: '/library/tempo-text-light.svg',
+            format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/tempo-wordmark-dark.png',
-            format: 'png',
+            url: '/library/tempo-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -3648,7 +3643,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://www.okx.com',
-    brandKitLink: 'https://brandfetch.com/okx.com',
     logo: {
       icon: {
         light: [
@@ -4047,7 +4041,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://solflare.com',
-    brandKitLink: 'https://brandfetch.com/solflare.com',
     logo: {
       icon: {
         light: [
@@ -4348,7 +4341,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://berachain.com',
-    brandKitLink: 'https://brandfetch.com/berachain.com',
     logo: {
       icon: {
         light: [
@@ -4701,7 +4693,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://integral.link',
-    brandKitLink: 'https://brandfetch.com/integral.link',
     logo: {
       icon: {
         light: [
@@ -4719,7 +4710,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: ['tokens', 'defi'],
     websiteLink: 'https://www.jito.network',
-    brandKitLink: 'https://brandfetch.com/jito.network',
     logo: {
       icon: {
         light: [
@@ -4813,7 +4803,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.metaplex.com',
-    brandKitLink: 'https://brandfetch.com/metaplex.com',
     logo: {
       icon: {
         light: [
@@ -5002,7 +4991,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://zora.co',
-    brandKitLink: 'https://brandfetch.com/zora.bg?view=library',
     logo: {
       icon: {
         light: [
@@ -5639,7 +5627,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://cryptoapis.io',
-    brandKitLink: 'https://brandfetch.com/cryptoapis.io',
     logo: {
       icon: {
         light: [
@@ -6059,7 +6046,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://www.binance.us/en',
-    brandKitLink: 'https://brandfetch.com/binance.us',
     logo: {
       icon: {
         light: [
@@ -6114,7 +6100,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://axelar.network',
-    brandKitLink: 'https://brandfetch.com/axelar.network',
     logo: {
       icon: {
         light: [
@@ -59003,7 +58988,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://waves.tech/',
-    brandKitLink: 'https://brandfetch.com/wavesplatform.com',
     logo: {
       icon: {
         light: [
@@ -62968,7 +62952,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.worldpay.com/',
-    brandKitLink: 'https://brandfetch.com/worldpay.com',
     logo: {
       icon: {
         light: [
@@ -63332,7 +63315,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens', 'defi'],
     websiteLink: 'https://defikingdoms.com/',
-    brandKitLink: 'https://brandfetch.com/defikingdoms.com',
     logo: {
       icon: {
         light: [
@@ -63634,7 +63616,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: ['defi'],
     websiteLink: 'https://eqbr.com/',
-    brandKitLink: 'https://brandfetch.com/eqbr.com',
     logo: {
       icon: {
         light: [
@@ -63976,7 +63957,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'chains',
     secondaryCategories: ['tokens', 'defi'],
     websiteLink: 'https://manta.network/',
-    brandKitLink: 'https://brandfetch.com/manta.network',
     logo: {
       icon: {
         light: [

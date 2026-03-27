@@ -12,6 +12,7 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['pax-dollar', 'pax-gold', 'usdg'], // Paxos family: USDP <-> PAXG <-> USDG
   ['ichi', 'gamma'], // ICHI <-> Gamma (DeFi liquidity management)
   ['oasis-emerald', 'oasis-sapphire'], // Oasis Emerald <-> Oasis Sapphire
+  ['overnight', 'usd-plus'], // Overnight <-> USD+
   ['rootstock', 'rootstock-labs'], // Rootstock chain <-> Rootstock Labs
 
   // Brand families
