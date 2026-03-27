@@ -67852,7 +67852,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'usd-plus',
-    name: 'USD+ (USD+)',
+    name: 'USD+',
     mainCategory: 'stablecoins',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://overnight.fi/',

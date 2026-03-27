@@ -28,6 +28,7 @@ export async function POST(request: Request) {
         body: JSON.stringify({
           chat_id: env.TELEGRAM_GROUP_ID,
           text,
+          disable_web_page_preview: true,
         }),
       },
     );
