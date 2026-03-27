@@ -5962,6 +5962,44 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'usdt0',
+    name: 'USDT0',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://usdt0.to/',
+    brandKitLink: 'https://docs.usdt0.to/resources/mediakit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/usdt0-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/usdt0-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/usdt0-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/usdt0-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'multisender',
     name: 'Multisender',
     mainCategory: 'infrastructure-tools',
