@@ -27666,23 +27666,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'quicknode',
-    name: 'Quicknode',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    websiteLink: 'https://www.quicknode.com',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/quicknode-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'abi-parser',
     name: 'ABI Parser',
     mainCategory: 'infrastructure-tools',
@@ -32135,22 +32118,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'quicknode-nft-api',
-    name: 'Quicknode NFT API',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/quicknode-nft-api-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'nftport',
     name: 'NFTPort',
     mainCategory: 'infrastructure-tools',
@@ -35702,22 +35669,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/dappkit-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'quicknode-sdk',
-    name: 'Quicknode SDK',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/quicknode-sdk-icon-light.png',
             format: 'png',
           },
         ],
@@ -53680,22 +53631,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/memecoin-new-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'quicknode-rollups',
-    name: 'QuickNode Rollups',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/quicknode-rollups-icon-light.png',
             format: 'png',
           },
         ],

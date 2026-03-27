@@ -45,6 +45,21 @@ const nextConfig: NextConfig = {
         destination: '/logo/dexscreener',
         permanent: true,
       },
+      {
+        source: '/logo/quicknode-nft-api',
+        destination: '/logo/quicknode',
+        permanent: true,
+      },
+      {
+        source: '/logo/quicknode-rollups',
+        destination: '/logo/quicknode',
+        permanent: true,
+      },
+      {
+        source: '/logo/quicknode-sdk',
+        destination: '/logo/quicknode',
+        permanent: true,
+      },
     ];
   },
   reactCompiler: true,
