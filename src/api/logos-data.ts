@@ -4398,6 +4398,12 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'png',
           },
         ],
+        dark: [
+          {
+            url: '/library/layerzero-icon-dark.png',
+            format: 'png',
+          },
+        ],
       },
       text: {
         light: [
