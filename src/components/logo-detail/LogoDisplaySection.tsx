@@ -30,7 +30,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
     <div className="space-y-8">
       {/* Icon variants */}
       <div>
-        <h2 className="mb-3 text-xl font-semibold">Icon</h2>
+        <h2 className="mb-3 text-xl font-semibold">{logo.name} Icon</h2>
         <div className="flex items-center gap-4 max-sm:flex-col">
           {/* Light icon on a light background */}
           <div className="flex flex-col items-center gap-3 max-sm:w-full">
@@ -87,7 +87,7 @@ export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
       {/* Wordmark variants */}
       {hasWordmark && textLightAssets && (
         <div>
-          <h2 className="mb-3 text-xl font-semibold">Wordmark</h2>
+          <h2 className="mb-3 text-xl font-semibold">{logo.name} Wordmark</h2>
           <div className="flex items-center gap-4 max-sm:flex-col">
             {/* Light wordmark on a light background */}
             <div className="flex flex-col items-center gap-3 max-sm:w-full">
