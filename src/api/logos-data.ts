@@ -63221,6 +63221,60 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'arbitrum-one',
+    name: 'Arbitrum One',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    websiteLink: 'https://arbitrum.io',
+    brandKitLink: 'https://arbitrumfoundation.notion.site/Arbitrum-One-brand-guidelines-20d0980a7bed43148e7de559ee90aa87',
+    logo: {
+      icon: {
+        light: [{ url: '/library/arbitrum-one-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/arbitrum-one-icon-dark.svg', format: 'svg' }],
+      },
+      text: {
+        light: [{ url: '/library/arbitrum-one-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/arbitrum-one-text-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'arbitrum-dao',
+    name: 'Arbitrum DAO',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://arbitrum.foundation',
+    brandKitLink: 'https://arbitrumfoundation.notion.site/Arbitrum-DAO-brand-guidelines-1fa90457c32680a5b387d8725d3a6d5d',
+    logo: {
+      icon: {
+        light: [{ url: '/library/arbitrum-dao-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/arbitrum-dao-icon-dark.svg', format: 'svg' }],
+      },
+      text: {
+        light: [{ url: '/library/arbitrum-dao-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/arbitrum-dao-text-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'stylus',
+    name: 'Stylus',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://arbitrum.io/stylus',
+    brandKitLink: 'https://arbitrumfoundation.notion.site/Stylus-brand-guidelines-86bc15ab368c4c748f8d7a4e105aa453',
+    logo: {
+      icon: {
+        light: [{ url: '/library/stylus-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/stylus-icon-dark.svg', format: 'svg' }],
+      },
+      text: {
+        light: [{ url: '/library/stylus-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/stylus-text-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
     id: 'avalanche-dfk',
     name: 'DeFi Kingdoms (CRYSTAL)',
     mainCategory: 'chains',
@@ -67756,6 +67810,39 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [{ url: '/library/yzy-icon-light.png', format: 'png' }],
         dark: [{ url: '/library/yzy-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'trump',
+    name: 'OFFICIAL TRUMP (TRUMP)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/trump-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/trump-icon-dark.png', format: 'png' }],
+      },
+      text: {
+        light: [{ url: '/library/trump-text-light.png', format: 'png' }],
+        dark: [{ url: '/library/trump-text-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'coldcard',
+    name: 'Coldcard',
+    mainCategory: 'wallets',
+    secondaryCategories: [],
+    websiteLink: 'https://coldcard.com/',
+    logo: {
+      icon: {
+        light: [{ url: '/library/coldcard-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/coldcard-icon-dark.png', format: 'png' }],
+      },
+      text: {
+        light: [{ url: '/library/coldcard-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/coldcard-text-dark.svg', format: 'svg' }],
       },
     },
   },
