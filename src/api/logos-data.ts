@@ -842,7 +842,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://www.htx.com',
-    brandKitLink:
     logo: {
       icon: {
         light: [
