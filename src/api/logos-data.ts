@@ -15288,6 +15288,43 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'paybis',
+    name: 'Paybis',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://paybis.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/paybis-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/paybis-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/paybis-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/paybis-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'ibvm-wallet',
     name: 'IBVM Wallet',
     mainCategory: 'wallets',
