@@ -1271,6 +1271,43 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'neos-legal',
+    name: 'Neos Legal',
+    mainCategory: 'services',
+    secondaryCategories: [],
+    websiteLink: 'https://neoslegal.co/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/neos-legal-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/neos-legal-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/neos-legal-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/neos-legal-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'rarible',
     name: 'Rarible',
     mainCategory: 'defi',
