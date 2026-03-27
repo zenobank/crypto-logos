@@ -9685,6 +9685,12 @@ export const LOGOS_DATA: LogoItem[] = [
     websiteLink: 'https://dexscreener.com/',
     logo: {
       icon: {
+        light: [
+          {
+            url: '/library/dexscreener-icon-light.png',
+            format: 'png',
+          },
+        ],
         dark: [
           {
             url: '/library/dexscreener-icon-dark.png',
