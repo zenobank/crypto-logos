@@ -55578,11 +55578,316 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Maestro',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
+    websiteLink: 'https://maestrobots.com/',
     logo: {
       icon: {
         light: [
           {
             url: '/library/maestro-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/maestro-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/maestro-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'trojan',
+    name: 'Trojan',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://trojan.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/trojan-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/trojan-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/trojan-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/trojan-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bloom-bot',
+    name: 'Bloom (BLOOM)',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://bloom.bot/',
+    brandKitLink: 'https://docs.bloombot.app/miscellaneous/logos',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bloom-bot-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bloom-bot-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bloom-bot-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bloom-bot-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bonkbot',
+    name: 'BONKbot',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://bonkbot.io/',
+    brandKitLink: 'https://bonkbot.io/brand',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bonkbot-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bonkbot-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bonkbot-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bonkbot-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'banana-gun',
+    name: 'Banana Gun',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://bananagun.io/',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/banana-gun-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/banana-gun-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bullx',
+    name: 'BullX',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://bullx.io/',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/bullx-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bullx-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gmgn',
+    name: 'GMGN',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://gmgn.ai/',
+    brandKitLink: 'https://docs.gmgn.ai/index/gmgn-logo',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gmgn-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/gmgn-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/gmgn-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/gmgn-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fluxbot',
+    name: 'Fluxbot',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://fluxbot.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fluxbot-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fluxbot-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sol-trading-bot',
+    name: 'Sol Trading Bot',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://soltradingbot.com/',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/sol-trading-bot-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sol-trading-bot-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'photon',
+    name: 'Photon',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://photon-sol.tinyastro.io/',
+    brandKitLink: 'https://pies-organization.gitbook.io/photon-trading/photon-on-sol',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/photon-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/photon-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unibot',
+    name: 'Unibot',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://unibot.app/',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/unibot-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/unibot-text-dark.png',
             format: 'png',
           },
         ],
