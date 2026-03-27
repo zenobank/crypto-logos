@@ -5364,7 +5364,7 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Anchorage Digital',
     mainCategory: 'crypto-banks',
     secondaryCategories: [],
-    websiteLink: 'https://www.anchorage.com/',
+    websiteLink: 'https://www.anchorage.com',
     brandKitLink: 'https://www.anchorage.com/press-kit',
     logo: {
       icon: {
@@ -5372,26 +5372,6 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/anchorage-icon-light.png',
             format: 'png',
-          },
-        ],
-        dark: [
-          {
-            url: '/library/anchorage-icon-dark.png',
-            format: 'png',
-          },
-        ],
-      },
-      text: {
-        light: [
-          {
-            url: '/library/anchorage-text-light.svg',
-            format: 'svg',
-          },
-        ],
-        dark: [
-          {
-            url: '/library/anchorage-text-dark.svg',
-            format: 'svg',
           },
         ],
       },
