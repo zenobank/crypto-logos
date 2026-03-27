@@ -66664,6 +66664,43 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'fystack',
+    name: 'Fystack',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://fystack.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fystack-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fystack-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/fystack-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fystack-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'solana-breakpoint',
     name: 'Solana Breakpoint',
     mainCategory: 'events',
