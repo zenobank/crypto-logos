@@ -1226,14 +1226,33 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Paradigm',
     mainCategory: 'investors',
     secondaryCategories: [],
-    websiteLink: 'https://www.paradigm.xyz',
-    brandKitLink: 'https://www.paradigm.co/help/miscellaneous/media-kit',
+    websiteLink: 'https://www.paradigm.xyz/',
     logo: {
       icon: {
         light: [
           {
-            url: '/library/paradigm-icon-light.png',
-            format: 'png',
+            url: '/library/paradigm-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/paradigm-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/paradigm-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/paradigm-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -30831,22 +30850,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'paradigm-ctf',
-    name: 'Paradigm CTF',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/paradigm-ctf-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'polygon-smart-contracts',
     name: 'Polygon Smart Contracts',
     mainCategory: 'infrastructure-tools',
@@ -36098,22 +36101,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/sol-faucet-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'paradigm-faucet',
-    name: 'Paradigm Faucet',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/paradigm-faucet-icon-light.png',
             format: 'png',
           },
         ],
