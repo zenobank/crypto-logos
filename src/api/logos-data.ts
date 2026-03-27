@@ -26454,6 +26454,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/web3auth-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/web3auth-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
