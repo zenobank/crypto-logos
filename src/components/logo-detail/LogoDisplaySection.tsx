@@ -14,8 +14,8 @@ interface LogoDisplaySectionProps {
 
 export default function LogoDisplaySection({ logo }: LogoDisplaySectionProps) {
   // computed
-  const iconLightAssets = logo.logo.icon?.light ?? logo.logo.icon?.dark ?? logo.logo.text?.light ?? [];
-  const iconDarkAssets = logo.logo.icon?.dark ?? logo.logo.icon?.light ?? logo.logo.text?.dark ?? [];
+  const iconLightAssets = logo.logo.icon?.light ?? logo.logo.icon?.dark ?? logo.logo.text?.light ?? logo.logo.text?.dark ?? [];
+  const iconDarkAssets = logo.logo.icon?.dark ?? logo.logo.icon?.light ?? logo.logo.text?.dark ?? logo.logo.text?.light ?? [];
   const textLightAssets = logo.logo.text?.light;
   const textDarkAssets = logo.logo.text?.dark || logo.logo.text?.light;
   const hasWordmark = Boolean(textLightAssets?.[0]);
