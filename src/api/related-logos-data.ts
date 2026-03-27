@@ -6,4 +6,5 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['usdc', 'tether'], // USDC <-> USDT
   ['pathusd', 'stripe', 'tempo'], // pathUSD <-> Stripe <-> Tempo
   ['solana', 'solana-foundation'], // Solana <-> Solana Foundation
+  ['trezor', 'trezor-suite'], // Trezor <-> Trezor Suite
 ];
