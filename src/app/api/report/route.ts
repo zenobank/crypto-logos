@@ -18,7 +18,7 @@ export async function POST(request: Request) {
       return toErrorResponse(400, 'INVALID_BODY', 'logoId and logoName are required strings.');
     }
 
-    const text = `🚩 Report: Incorrect Data\nLogo: ${logoName} (ID: ${logoId})\nPage: ${SERVER_BASE_URL}/logo/${logoId}`;
+    const text = `🚩 Report: Incorrect Data\n${SERVER_BASE_URL}/logo/${logoId}`;
 
     const response = await fetch(
       `https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`,
