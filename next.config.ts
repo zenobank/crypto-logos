@@ -60,6 +60,11 @@ const nextConfig: NextConfig = {
         destination: '/logo/quicknode',
         permanent: true,
       },
+      {
+        source: '/logo/trojan-bot',
+        destination: '/logo/trojan',
+        permanent: true,
+      },
     ];
   },
   reactCompiler: true,
