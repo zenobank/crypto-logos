@@ -2750,12 +2750,32 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Axiom',
     mainCategory: 'defi',
     secondaryCategories: [],
-    websiteLink: 'https://axiom.trade',
+    websiteLink: 'https://axiom.trade/',
     logo: {
       icon: {
         light: [
           {
             url: '/library/axiom-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/axiom-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/axiom-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/axiom-text-dark.png',
             format: 'png',
           },
         ],
@@ -46476,23 +46496,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/ingonmaya-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'axiom',
-    name: 'Axiom',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    websiteLink: 'https://axiom.trade',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/axiom-icon-light.png',
             format: 'png',
           },
         ],
