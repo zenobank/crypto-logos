@@ -3791,6 +3791,12 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'png',
           },
         ],
+        dark: [
+          {
+            url: '/library/lightning-network-icon-dark.png',
+            format: 'png',
+          },
+        ],
       },
       text: {
         light: [
@@ -64812,6 +64818,298 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/lemon-cash-text-dark.svg',
             format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ethcc',
+    name: 'EthCC',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://ethcc.io/',
+    brandKitLink: 'https://ethcc.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ethcc-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'consensus',
+    name: 'Consensus',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://consensus.coindesk.com/',
+    brandKitLink: 'https://consensus.coindesk.com/press/',
+    logo: {
+      text: {
+        dark: [
+          {
+            url: '/library/consensus-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eth-denver',
+    name: 'ETHDenver',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://ethdenver.com/',
+    brandKitLink: 'https://ethdenver.com/',
+    logo: {
+      text: {
+        dark: [
+          {
+            url: '/library/eth-denver-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'paris-blockchain-week',
+    name: 'Paris Blockchain Week',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://www.parisblockchainweek.com/',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/19pIU5Dhdab_M7A3_qm5tjy973zTEf0vq',
+    logo: {
+      icon: {
+        dark: [
+          {
+            url: '/library/paris-blockchain-week-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/paris-blockchain-week-text-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitcoin-2025',
+    name: 'Bitcoin 202X',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://b.tc/conference/',
+    brandKitLink: 'https://b.tc/conference/bitcoin-2025',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitcoin-2025-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bitcoin-2025-text-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'korea-blockchain-week',
+    name: 'Korea Blockchain Week',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://koreablockchainweek.com/',
+    brandKitLink: 'https://koreablockchainweek.com/',
+    logo: {
+      text: {
+        dark: [
+          {
+            url: '/library/korea-blockchain-week-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'permissionless',
+    name: 'Permissionless',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://blockworks.co/event/permissionless',
+    brandKitLink: 'https://blockworks.co/brand-kit',
+    logo: {
+      text: {
+        dark: [
+          {
+            url: '/library/permissionless-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mainnet',
+    name: 'Mainnet',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://messari.io/mainnet',
+    brandKitLink:
+      'https://messari.notion.site/Messari-Brand-Identity-12ad4d6b006e80c4902fc35879e8f37b',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/mainnet-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mainnet-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'devcon',
+    name: 'Devcon',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://devcon.org/',
+    brandKitLink: 'https://devcon.org/Devcon__Devconnect_Presskit.pdf',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/devcon-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/devcon-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'web-summit',
+    name: 'Web Summit',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://websummit.com/',
+    brandKitLink: 'https://vancouver.websummit.com/brand-hub/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/web-summit-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/web-summit-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/web-summit-text-light.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blockchain-life',
+    name: 'Blockchain Life',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://blockchain-life.com/',
+    brandKitLink: 'https://blockchain-life.com/',
+    logo: {
+      text: {
+        dark: [
+          {
+            url: '/library/blockchain-life-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'btc-prague',
+    name: 'BTC Prague',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://btcprague.com/',
+    brandKitLink: 'https://design.btcprague.com/btc-prague',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/btc-prague-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/btc-prague-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'european-blockchain-convention',
+    name: 'European Blockchain Convention',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://eblockchainconvention.com/',
+    brandKitLink: 'https://eblockchainconvention.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/european-blockchain-convention-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/european-blockchain-convention-text-light.png',
+            format: 'png',
           },
         ],
       },
