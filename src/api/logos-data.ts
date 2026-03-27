@@ -9705,6 +9705,12 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'png',
           },
         ],
+        dark: [
+          {
+            url: '/library/dexscreener-text-dark.png',
+            format: 'png',
+          },
+        ],
       },
     },
   },
