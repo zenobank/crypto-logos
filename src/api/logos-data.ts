@@ -66359,6 +66359,43 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'mempool',
+    name: 'Mempool',
+    mainCategory: 'block-explorers',
+    secondaryCategories: [],
+    websiteLink: 'https://mempool.space/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mempool-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mempool-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/mempool-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mempool-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'meow',
     name: 'Meow',
     mainCategory: 'tokens',
