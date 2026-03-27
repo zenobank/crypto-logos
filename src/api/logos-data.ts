@@ -19856,23 +19856,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'binance-wallet-bitcoin',
-    name: 'Binance Wallet (Bitcoin)',
-    mainCategory: 'wallets',
-    secondaryCategories: [],
-    websiteLink: 'https://www.binance.com/en/web3wallet',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/binance-wallet-bitcoin-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'w3-wallet',
     name: 'W3 Wallet',
     mainCategory: 'wallets',
