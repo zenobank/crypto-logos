@@ -40,6 +40,11 @@ const nextConfig: NextConfig = {
         destination: '/logo/coingecko',
         permanent: true,
       },
+      {
+        source: '/logo/dex-screener',
+        destination: '/logo/dexscreener',
+        permanent: true,
+      },
     ];
   },
   reactCompiler: true,

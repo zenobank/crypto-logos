@@ -32505,22 +32505,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'dex-screener',
-    name: 'DEX Screener',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/dex-screener-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'lunarcrush',
     name: 'LunarCrush',
     mainCategory: 'infrastructure-tools',
