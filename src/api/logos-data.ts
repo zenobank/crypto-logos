@@ -12560,23 +12560,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'cryptocom-onchain',
-    name: 'Crypto.com Onchain',
-    mainCategory: 'wallets',
-    secondaryCategories: [],
-    websiteLink: 'https://crypto.com/onchain',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/cryptocom-onchain-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'bifrost-wallet',
     name: 'Bifrost Wallet',
     mainCategory: 'wallets',
