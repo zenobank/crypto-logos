@@ -25,6 +25,21 @@ const nextConfig: NextConfig = {
         destination: '/site.webmanifest',
         permanent: true,
       },
+      {
+        source: '/logo/moralis-nft-api',
+        destination: '/logo/moralis',
+        permanent: true,
+      },
+      {
+        source: '/logo/moralis-unity-sdk',
+        destination: '/logo/moralis',
+        permanent: true,
+      },
+      {
+        source: '/logo/coingecko-api',
+        destination: '/logo/coingecko',
+        permanent: true,
+      },
     ];
   },
   reactCompiler: true,

@@ -31051,26 +31051,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'moralis-unity-sdk',
-    name: 'Moralis Unity SDK',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/moralis-unity-sdk-icon-light.png',
-            format: 'png',
-          },
-          {
-            url: '/library/moralis-unity-sdk-icon-light.svg',
-            format: 'svg',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'chainsafe-unity-sdk',
     name: 'ChainSafe Unity SDK',
     mainCategory: 'infrastructure-tools',
@@ -32072,22 +32052,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/nftport-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'moralis-nft-api',
-    name: 'Moralis NFT API',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/moralis-nft-api-icon-light.png',
             format: 'png',
           },
         ],
