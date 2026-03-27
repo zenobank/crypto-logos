@@ -5363,8 +5363,8 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'coingecko-api',
-    name: 'CoinGecko API',
+    id: 'coingecko',
+    name: 'CoinGecko',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://www.coingecko.com/en/api',
@@ -5373,7 +5373,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/coingecko-api-icon-light.webp',
+            url: '/library/coingecko-icon-light.webp',
             format: 'webp',
           },
         ],
