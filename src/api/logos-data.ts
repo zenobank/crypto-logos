@@ -67507,4 +67507,268 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: '0g',
+    name: '0G',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/0g-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/0g-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'doublezero',
+    name: 'DoubleZero (2Z)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/2z-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/2z-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'aerodrome-finance',
+    name: 'Aerodrome Finance (AERO)',
+    mainCategory: 'defi',
+    secondaryCategories: ['tokens'],
+    logo: {
+      icon: {
+        light: [{ url: '/library/aero-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/aero-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'buildon',
+    name: 'BUILDon (B)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/b-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/b-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'canton',
+    name: 'Canton (CC)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/cc-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/cc-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'deepbook-protocol',
+    name: 'DeepBook Protocol (DEEP)',
+    mainCategory: 'defi',
+    secondaryCategories: ['tokens'],
+    logo: {
+      icon: {
+        light: [{ url: '/library/deep-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/deep-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'eurc',
+    name: 'EURC',
+    mainCategory: 'stablecoins',
+    secondaryCategories: ['tokens'],
+    logo: {
+      icon: {
+        light: [{ url: '/library/eurc-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/eurc-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'humanity-protocol',
+    name: 'Humanity Protocol (H)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/h-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/h-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'memecore',
+    name: 'MemeCore (M)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/m-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/m-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'official-melania-meme',
+    name: 'Official Melania Meme (MELANIA)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/melania-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/melania-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'meteora',
+    name: 'Meteora (MET)',
+    mainCategory: 'defi',
+    secondaryCategories: ['tokens'],
+    logo: {
+      icon: {
+        light: [{ url: '/library/met-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/met-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'myx-finance',
+    name: 'MYX Finance (MYX)',
+    mainCategory: 'defi',
+    secondaryCategories: ['tokens'],
+    logo: {
+      icon: {
+        light: [{ url: '/library/myx-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/myx-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'midnight',
+    name: 'Midnight (NIGHT)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/night-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/night-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'pippin',
+    name: 'Pippin (PIPPIN)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/pippin-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/pippin-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'pump-fun',
+    name: 'Pump.fun (PUMP)',
+    mainCategory: 'defi',
+    secondaryCategories: ['tokens'],
+    logo: {
+      icon: {
+        light: [{ url: '/library/pump-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/pump-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'river',
+    name: 'River (RIVER)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/river-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/river-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'seeker',
+    name: 'Seeker (SKR)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/skr-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/skr-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'united-stables',
+    name: 'United Stables (U)',
+    mainCategory: 'stablecoins',
+    secondaryCategories: ['tokens'],
+    logo: {
+      icon: {
+        light: [{ url: '/library/u-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/u-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'vision',
+    name: 'Vision (VSN)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/vsn-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/vsn-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'onyxcoin',
+    name: 'Onyxcoin (XCN)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/xcn-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/xcn-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'yzy-money',
+    name: 'YZY MONEY (YZY)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/yzy-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/yzy-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'zebec-network',
+    name: 'Zebec Network (ZBCN)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/zbcn-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/zbcn-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
 ];
