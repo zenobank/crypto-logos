@@ -4602,13 +4602,26 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://simpleswap.io',
-    brandKitLink: 'https://simpleswap.to/about.php#press-kit',
     logo: {
       icon: {
         light: [
           {
             url: '/library/simpleswap-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/simpleswap-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/simpleswap-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
