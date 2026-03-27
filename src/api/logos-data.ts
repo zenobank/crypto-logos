@@ -358,6 +358,12 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'png',
           },
         ],
+        dark: [
+          {
+            url: '/library/bvnk-text-dark.svg',
+            format: 'svg',
+          },
+        ],
       },
     },
   },
@@ -642,6 +648,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/gate-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -756,6 +770,14 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/kucoin-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/kucoin-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -1480,6 +1502,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/spark-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/spark-text-dark.png',
             format: 'png',
           },
         ],
@@ -3514,6 +3544,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/okx-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -3603,6 +3641,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/pendle-icon-light.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/pendle-text-dark.png',
             format: 'png',
           },
         ],
@@ -3929,6 +3975,14 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/walletconnect-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/walletconnect-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -4821,6 +4875,14 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/kraken-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/kraken-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -22860,6 +22922,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/bitmart-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -37635,6 +37705,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/rain-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -47413,6 +47491,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/swissborg-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -54280,6 +54366,14 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/midas-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/midas-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -62652,6 +62746,12 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'svg',
           },
         ],
+        dark: [
+          {
+            url: '/library/worldpay-text-dark.svg',
+            format: 'svg',
+          },
+        ],
       },
     },
   },
@@ -65131,6 +65231,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/1money-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -65187,6 +65295,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/alfred-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -65205,6 +65321,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/alpaca-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -65219,6 +65343,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/amina-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/amina-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -65303,6 +65435,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/august-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -65317,6 +65457,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/bilira-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/bilira-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -65336,6 +65484,14 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/bitnet-icon-light.svg',
             format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/bitnet-text-dark.png',
+            format: 'png',
           },
         ],
       },
@@ -65413,6 +65569,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/caliza-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -65428,6 +65592,14 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/coinbax-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/coinbax-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -65449,6 +65621,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/coinmena-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -65463,6 +65643,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/coinmetro-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/coinmetro-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -65484,6 +65672,12 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'svg',
           },
         ],
+        dark: [
+          {
+            url: '/library/coinspaid-text-dark.svg',
+            format: 'svg',
+          },
+        ],
       },
     },
   },
@@ -65499,6 +65693,12 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/confirmo-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/confirmo-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -65521,6 +65721,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/dtcpay-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -65539,6 +65747,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/equitiestracker-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -65553,6 +65769,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/ergonia-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/ergonia-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -65575,6 +65799,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/facilita-pay-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -65593,6 +65825,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/fomo-pay-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -65607,6 +65847,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/fuze-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/fuze-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -65663,6 +65911,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/hercle-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/hercle-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -65741,6 +65997,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/itransfr-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -65755,6 +66019,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/kuantist-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/kuantist-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -65774,6 +66046,12 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/loopcrypto-text-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/loopcrypto-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -65856,6 +66134,12 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'svg',
           },
         ],
+        dark: [
+          {
+            url: '/library/meow-text-dark.svg',
+            format: 'svg',
+          },
+        ],
       },
     },
   },
@@ -65875,6 +66159,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/merj-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -65889,6 +66181,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/noah-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/noah-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -65911,6 +66211,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/nuvei-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -65925,6 +66233,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/onramp-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/onramp-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -65985,6 +66301,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/orbi-finance-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -66029,6 +66353,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/paribu-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -66051,6 +66383,12 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/paxos-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/paxos-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -66091,6 +66429,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/ripe-money-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -66109,6 +66455,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/riva-money-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -66123,6 +66477,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/sling-money-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/sling-money-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -66145,6 +66507,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/solstice-labs-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -66159,6 +66529,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/toku-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/toku-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -66205,6 +66583,14 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        dark: [
+          {
+            url: '/library/trace-finance-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -66219,6 +66605,14 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/triple-a-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/triple-a-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -66255,6 +66649,75 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/zodia-custody-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/zodia-custody-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solana-breakpoint',
+    name: 'Solana Breakpoint',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://solana.com/breakpoint',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solana-breakpoint-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/solana-breakpoint-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'token2049',
+    name: 'TOKEN2049',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://www.token2049.com/',
+    brandKitLink: 'https://www.token2049.com/dubai/brand-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/token2049-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/token2049-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/token2049-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/token2049-text-dark.svg',
             format: 'svg',
           },
         ],

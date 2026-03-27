@@ -6,7 +6,7 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   // Existing groups
   ['usdt', 'usdt0', 'tether-gold'], // Tether family
   ['pathusd', 'stripe', 'tempo'], // pathUSD <-> Stripe <-> Tempo
-  ['solana', 'solana-beach', 'solana-compass', 'solana-explorer', 'solana-foundation', 'solana-tracker', 'solana-ventures', 'solanafloor', 'solanafm'], // Solana
+  ['solana', 'solana-beach', 'solana-breakpoint', 'solana-compass', 'solana-explorer', 'solana-foundation', 'solana-tracker', 'solana-ventures', 'solanafloor', 'solanafm'], // Solana
   ['trezor', 'trezor-suite'], // Trezor
   ['paypal', 'paypal-usd'], // PayPal <-> PayPal USD (PYUSD)
   ['pax-dollar', 'pax-gold', 'usdg'], // Paxos family: USDP <-> PAXG <-> USDG
