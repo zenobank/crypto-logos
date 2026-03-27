@@ -4330,6 +4330,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/hyperliquid-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hyperliquid-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
