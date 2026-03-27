@@ -1646,8 +1646,32 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
+            url: '/library/trezor-icon-light.svg',
+            format: 'svg',
+          },
+          {
             url: '/library/trezor-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/trezor-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/trezor-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/trezor-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
