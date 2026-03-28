@@ -4556,7 +4556,6 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://dogwifhat.us',
-    brandKitLink: 'https://cryptologos.cc/dogwifhat',
     logo: {
       icon: {
         light: [
