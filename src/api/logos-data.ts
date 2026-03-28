@@ -70761,4 +70761,96 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'chivo-wallet',
+    name: 'Chivo Wallet',
+    mainCategory: 'wallets',
+    secondaryCategories: [],
+    websiteLink: 'https://www.chivowallet.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chivo-wallet-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/chivo-wallet-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xcard',
+    name: 'XCard',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.xkard.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xcard-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/xcard-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xhype',
+    name: 'XHype',
+    mainCategory: 'wallets',
+    secondaryCategories: [],
+    websiteLink: 'https://www.xhype.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xhype-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/xhype-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'houdini-swap',
+    name: 'Houdini Swap',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://houdiniswap.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/houdini-swap-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/houdini-swap-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
