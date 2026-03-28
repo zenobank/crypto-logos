@@ -5579,6 +5579,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/binance-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/binance-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
