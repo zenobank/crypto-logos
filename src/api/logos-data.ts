@@ -68119,4 +68119,2512 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'gatetoken',
+    name: 'GateToken (GT)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gatetoken-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/gatetoken-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ainft',
+    name: 'AINFT (NFT)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ainft-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ainft-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sun',
+    name: 'Sun [New] (SUN)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sun-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sun-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'venice-token',
+    name: 'Venice Token (VVV)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/venice-token-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/venice-token-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'terra-classic',
+    name: 'Terra Classic (LUNC)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/terra-classic-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/terra-classic-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'walrus',
+    name: 'Walrus (WAL)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/walrus-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/walrus-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mx-token',
+    name: 'MX Token (MX)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mx-token-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mx-token-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vaulta',
+    name: 'Vaulta (A)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vaulta-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/vaulta-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'horizen',
+    name: 'Horizen (ZEN)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/horizen-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/horizen-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'four',
+    name: 'Four (FORM)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/four-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/four-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'audiera',
+    name: 'Audiera (BEAT)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/audiera-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/audiera-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'awe',
+    name: 'AWE (AWE)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/awe-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/awe-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cheems',
+    name: 'Cheems (CHEEMS)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cheems-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/cheems-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'toshi',
+    name: 'Toshi (TOSHI)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/toshi-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/toshi-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'grass',
+    name: 'Grass (GRASS)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/grass-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/grass-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'beldex',
+    name: 'Beldex (BDX)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/beldex-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/beldex-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'usual-usd',
+    name: 'Usual USD (USD0)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/usual-usd-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/usual-usd-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'usdai',
+    name: 'USDai (USDAI)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/usdai-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/usdai-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fasttoken',
+    name: 'Fasttoken (FTN)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fasttoken-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fasttoken-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ducky',
+    name: 'Ducky (DUCKY)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ducky-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ducky-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'peanut',
+    name: 'Peanut (PEANUT)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/peanut-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/peanut-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'legacy-frax-dollar',
+    name: 'Legacy Frax Dollar (FRAX)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/legacy-frax-dollar-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/legacy-frax-dollar-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ape-and-pepe',
+    name: 'Ape and Pepe (APEPE)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ape-and-pepe-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ape-and-pepe-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wefi',
+    name: 'WeFi (WFI)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wefi-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/wefi-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'undeads-games',
+    name: 'Undeads Games (UDS)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/undeads-games-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/undeads-games-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'comedian',
+    name: 'Comedian (BAN)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/comedian-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/comedian-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '48-club-token',
+    name: '48 Club Token (KOGE)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/48-club-token-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/48-club-token-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yooldo',
+    name: 'Yooldo (ESPORTS)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yooldo-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/yooldo-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ribbita-by-virtuals',
+    name: 'Ribbita by Virtuals (TIBBIR)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ribbita-by-virtuals-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ribbita-by-virtuals-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ausd',
+    name: 'AUSD (AUSD)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ausd-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ausd-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'frax-usd',
+    name: 'Frax USD (FRXUSD)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/frax-usd-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/frax-usd-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sosovalue',
+    name: 'SoSoValue (SOSO)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sosovalue-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sosovalue-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ailey',
+    name: 'Ailey (ALE)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ailey-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ailey-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'slt',
+    name: 'SLT (SLT)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/slt-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/slt-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'impossible-cloud-network',
+    name: 'Impossible Cloud Network (ICNT)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/impossible-cloud-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/impossible-cloud-network-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vicicoin',
+    name: 'ViciCoin (VCNT)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vicicoin-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/vicicoin-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'banana-for-scale',
+    name: 'Banana For Scale (BANANAS31)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/banana-for-scale-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/banana-for-scale-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'keeta',
+    name: 'Keeta (KTA)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/keeta-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/keeta-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zano',
+    name: 'Zano (ZANO)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zano-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/zano-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mnee',
+    name: 'MNEE (MNEE)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mnee-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mnee-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'standx-dusd',
+    name: 'StandX DUSD (DUSD)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/standx-dusd-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/standx-dusd-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'smilek-to-the-bank',
+    name: 'Smilek to the Bank (SMILEK)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/smilek-to-the-bank-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/smilek-to-the-bank-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unifai-network',
+    name: 'UnifAI Network (UAI)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unifai-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/unifai-network-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eur-coinvertible',
+    name: 'EUR CoinVertible (EURCV)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eur-coinvertible-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/eur-coinvertible-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dog',
+    name: 'Dog (Bitcoin) (DOG)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dog-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dog-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cysic',
+    name: 'Cysic (CYS)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cysic-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/cysic-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'usdh',
+    name: 'USDH (USDH)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/usdh-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/usdh-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'world-mobile-token',
+    name: 'World Mobile Token (WMTX)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/world-mobile-token-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/world-mobile-token-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'metya',
+    name: 'MetYa (MY)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/metya-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/metya-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defi-app',
+    name: 'Defi App (HOME)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defi-app-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/defi-app-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nexpace',
+    name: 'NEXPACE (NXPC)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nexpace-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/nexpace-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'non-playable-coin',
+    name: 'Non-Playable Coin (NPC)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/non-playable-coin-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/non-playable-coin-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xpr-network',
+    name: 'XPR Network (XPR)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xpr-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/xpr-network-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'soon',
+    name: 'SOON (SOON)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/soon-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/soon-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kub-coin',
+    name: 'KUB Coin (KUB)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kub-coin-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/kub-coin-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tagger',
+    name: 'Tagger (TAG)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tagger-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tagger-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tronbank',
+    name: 'TronBank (TBK)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tronbank-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tronbank-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pythia',
+    name: 'Pythia (PYTHIA)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pythia-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pythia-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitdca',
+    name: 'BitDCA (BDCA)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitdca-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bitdca-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'multibank-group',
+    name: 'MultiBank Group (MBG)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/multibank-group-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/multibank-group-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'alchemist-ai',
+    name: 'Alchemist AI (ALCH)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/alchemist-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/alchemist-ai-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moca-network',
+    name: 'Moca Network (MOCA)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moca-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/moca-network-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'jelly-my-jelly',
+    name: 'Jelly-My-Jelly (JELLYJELLY)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/jelly-my-jelly-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/jelly-my-jelly-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'frax-share-fxs',
+    name: 'Frax (prev. FXS) (FRAX)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/frax-share-fxs-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/frax-share-fxs-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hashkey-platform-token',
+    name: 'HashKey Platform Token (HSK)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hashkey-platform-token-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hashkey-platform-token-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lumera-health',
+    name: 'Lumera Health (LUR)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lumera-health-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lumera-health-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'geodnet',
+    name: 'GEODNET (GEOD)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/geodnet-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/geodnet-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'paycoin',
+    name: 'Paycoin (PCI)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/paycoin-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/paycoin-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'freysa',
+    name: 'Freysa (FAI)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/freysa-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/freysa-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'anchored-coins-aeur',
+    name: 'Anchored Coins AEUR (AEUR)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/anchored-coins-aeur-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/anchored-coins-aeur-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'burnedfi',
+    name: 'Burnedfi (BURN)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/burnedfi-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/burnedfi-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'law-blocks',
+    name: 'Law Blocks (AI) (LBT)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/law-blocks-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/law-blocks-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eurite',
+    name: 'Eurite (EURI)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eurite-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/eurite-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bitway',
+    name: 'Bitway (BTW)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitway-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bitway-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moo-deng',
+    name: 'Moo Deng (MOODENG)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moo-deng-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/moo-deng-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'whiterock',
+    name: 'WhiteRock (WHITE)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/whiterock-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/whiterock-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vndc',
+    name: 'VNDC (VNDC)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vndc-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/vndc-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'avantis',
+    name: 'Avantis (AVNT)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/avantis-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/avantis-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quantixai',
+    name: 'QuantixAI (QAI)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quantixai-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/quantixai-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'joseon-mun',
+    name: 'Joseon Mun (JSM)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/joseon-mun-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/joseon-mun-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'quack-ai',
+    name: 'Quack AI (Q)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/quack-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/quack-ai-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bsquared-network',
+    name: 'BSquared Network (B2)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bsquared-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bsquared-network-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'straitsx-xusd',
+    name: 'StraitsX XUSD (XUSD)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/straitsx-xusd-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/straitsx-xusd-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ai-rig-complex',
+    name: 'AI Rig Complex (ARC)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ai-rig-complex-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ai-rig-complex-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'storx-network',
+    name: 'StorX Network (SRX)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/storx-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/storx-network-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'peanut-the-squirrel',
+    name: 'Peanut the Squirrel (PNUT)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/peanut-the-squirrel-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/peanut-the-squirrel-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'everlyn-ai',
+    name: 'Everlyn AI (LYN)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/everlyn-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/everlyn-ai-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dusk',
+    name: 'Dusk (DUSK)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dusk-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dusk-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'islm',
+    name: 'ISLM (ISLM)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/islm-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/islm-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tornado-cash',
+    name: 'Tornado Cash (TORN)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tornado-cash-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tornado-cash-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moonbirds',
+    name: 'Moonbirds (BIRB)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moonbirds-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/moonbirds-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ssv-network',
+    name: 'ssv.network (SSV)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ssv-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ssv-network-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ridges-ai',
+    name: 'Ridges AI (SN62)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ridges-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ridges-ai-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aegis-yusd',
+    name: 'Aegis YUSD (YUSD)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aegis-yusd-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/aegis-yusd-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tradoor',
+    name: 'Tradoor (TRADOOR)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tradoor-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tradoor-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ant-fun',
+    name: 'Ant.FUN (ANB)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ant-fun-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ant-fun-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wibegram',
+    name: 'Wibegram (WIBE)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wibegram-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/wibegram-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bora',
+    name: 'BORA (BORA)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bora-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bora-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'aihub',
+    name: 'AIHub (AIH)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aihub-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/aihub-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'atoshi',
+    name: 'Atoshi (ATOS)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/atoshi-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/atoshi-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'glidr',
+    name: 'Glidr (GLIDR)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/glidr-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/glidr-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chia',
+    name: 'Chia (XCH)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chia-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/chia-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vitalum',
+    name: 'Vitalum (VAM)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vitalum-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/vitalum-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pundi-x',
+    name: 'Pundi X (PUNDIX)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pundi-x-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pundi-x-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fulcrom-finance',
+    name: 'Fulcrom Finance (FUL)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fulcrom-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fulcrom-finance-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'definitive',
+    name: 'Definitive (EDGE)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/definitive-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/definitive-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'celo-dollar',
+    name: 'Celo Dollar (CUSD)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/celo-dollar-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/celo-dollar-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'notcoin',
+    name: 'Notcoin (NOT)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/notcoin-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/notcoin-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'deapcoin',
+    name: 'DEAPcoin (DEP)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/deapcoin-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/deapcoin-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pumpmeme',
+    name: 'PumpMeme (PM)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pumpmeme-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pumpmeme-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unipoly',
+    name: 'UNIPOLY (UNP)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unipoly-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/unipoly-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ecomi',
+    name: 'ECOMI (OMI)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ecomi-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ecomi-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'io-net',
+    name: 'io.net (IO)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/io-net-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/io-net-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bedrock',
+    name: 'Bedrock (BR)',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bedrock-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bedrock-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
