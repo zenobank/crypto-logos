@@ -4075,6 +4075,84 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'liquid-network',
+    name: 'Liquid Network',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    websiteLink: 'https://liquid.net/',
+    brandKitLink:
+      'https://design.blockstream.com/styleguide/branding/liquid-network',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/liquid-network-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/liquid-network-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/liquid-network-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/liquid-network-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'elements-blockstream',
+    name: 'Elements Blockstream',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://elementsproject.org/',
+    brandKitLink:
+      'https://design.blockstream.com/styleguide/branding/elements',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/elements-blockstream-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/elements-blockstream-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/elements-blockstream-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/elements-blockstream-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'liquifi',
     name: 'Liquifi',
     mainCategory: 'defi',
