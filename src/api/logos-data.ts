@@ -2006,8 +2006,28 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/velodrome-icon-light.png',
-            format: 'png',
+            url: '/library/velodrome-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/velodrome-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/velodrome-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/velodrome-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -65716,8 +65736,20 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'svg',
           },
         ],
+        dark: [
+          {
+            url: '/library/alfred-icon-light.svg',
+            format: 'svg',
+          },
+        ],
       },
       text: {
+        light: [
+          {
+            url: '/library/alfred-text-light.svg',
+            format: 'svg',
+          },
+        ],
         dark: [
           {
             url: '/library/alfred-text-dark.svg',
@@ -70622,6 +70654,43 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/bedrock-icon-dark.png',
             format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'learning-heroes',
+    name: 'Learning Heroes',
+    mainCategory: 'education',
+    secondaryCategories: [],
+    websiteLink: 'https://www.learningheroes.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/learning-heroes-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/learning-heroes-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/learning-heroes-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/learning-heroes-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
