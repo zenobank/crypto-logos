@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
-import { GoogleTagManager } from '@next/third-parties/google';
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 import {
   dehydrate,
   HydrationBoundary,
@@ -71,6 +71,7 @@ export default async function RootLayout({ children }: Props) {
   return (
     <html lang="en" suppressHydrationWarning>
       <GoogleTagManager gtmId="GTM-PFGGLPVM" />
+      <GoogleAnalytics gaId="G-Y7GVK6DEGJ" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
