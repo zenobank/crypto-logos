@@ -2598,17 +2598,27 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Aqua Wallet',
     mainCategory: 'wallets',
     secondaryCategories: [],
-    websiteLink: 'https://aquawallet.io/',
+    websiteLink: 'https://aqua.net/',
     logo: {
       icon: {
         light: [
           {
-            url: '/library/aqua-icon-light.svg',
-            format: 'svg',
-          },
-          {
             url: '/library/aqua-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/aqua-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/aqua-text-light.svg',
+            format: 'svg',
           },
         ],
       },
