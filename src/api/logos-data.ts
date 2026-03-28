@@ -3860,16 +3860,28 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/pendle-icon-light.png',
-            format: 'png',
+            url: '/library/pendle-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pendle-icon-dark.svg',
+            format: 'svg',
           },
         ],
       },
       text: {
+        light: [
+          {
+            url: '/library/pendle-text-light.svg',
+            format: 'svg',
+          },
+        ],
         dark: [
           {
-            url: '/library/pendle-text-dark.png',
-            format: 'png',
+            url: '/library/pendle-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
