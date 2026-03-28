@@ -86228,6 +86228,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://algebra.finance/',
+    brandKitLink: 'https://docs.algebra.finance/algebra-integral-documentation/overview-faq/brand-assets',
     logo: {
       icon: {
         light: [
@@ -86240,6 +86241,20 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/algebra-finance-icon-dark.png',
             format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/algebra-finance-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/algebra-finance-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
