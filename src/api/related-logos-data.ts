@@ -79,11 +79,11 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['flashbots', 'flashbots-mev-dashboard'], // Flashbots
   ['flipside', 'flipside-crypto'], // Flipside
   ['flow', 'flow-evm', 'flow-wallet'], // Flow
-  ['frax', 'frax-finance-frax-ether', 'frax-price-index', 'frax-price-index-share', 'frax-share', 'fraxscan'], // Frax
+  ['frax', 'frax-finance-frax-ether', 'frax-price-index', 'frax-price-index-share', 'frax-share', 'frax-share-fxs', 'frax-usd', 'fraxscan', 'legacy-frax-dollar'], // Frax
   ['frontier', 'frontier-wallet'], // Frontier
   ['gala', 'gala-games'], // Gala
   ['galaxia-chronicles', 'galaxia-explorer', 'galaxia-studios'], // Galaxia
-  ['gate', 'gate-pay', 'gate-wallet'], // Gate.io
+  ['gate', 'gate-pay', 'gate-wallet', 'gatetoken'], // Gate.io
   ['gemini', 'gemini-dollar'], // Gemini
   ['gnosis-chain', 'gnosis-gno', 'gnosis-protocol', 'gnosis-v2', 'gnosisscan', 'xdai'], // Gnosis
   ['guarda', 'guarda-wallet'], // Guarda
@@ -162,7 +162,7 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['the-graph', 'graph-network-subgraph'], // The Graph
   ['theta-fuel', 'theta-network', 'theta-wallet'], // Theta
   ['thorchain', 'thorwallet'], // THORChain
-  ['tron', 'tronscan'], // Tron
+  ['tron', 'tronscan', 'tronbank', 'sun'], // Tron
   ['trust-wallet', 'trustwallet'], // Trust Wallet
   ['uma', 'uma-subgraph', 'uma-voting-token-v1'], // UMA
   ['uniswap', 'uniswap-v3-core', 'uniswap-v3-subgraph', 'uniswap-web3-react', 'unichain'], // Uniswap
@@ -179,4 +179,6 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['yearn', 'yearn-smart-contracts', 'yearn-subgraph'], // Yearn
   ['ziion', 'ziion-linux-distro'], // ZIION
   ['zypto', 'zypto-wallet'], // Zypto
+  ['terra2', 'terra-classic'], // Terra
+  ['peanut', 'peanut-the-squirrel'], // Peanut memes
 ];

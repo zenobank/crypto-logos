@@ -14,7 +14,7 @@ interface Props {
   limit?: number;
 }
 
-const DEFAULT_LIMIT = 12;
+const DEFAULT_LIMIT = 16;
 export default function RelatedLogos({ logoId, limit = DEFAULT_LIMIT }: Props) {
   const relatedLogos = getRelatedLogos(logoId).slice(0, limit);
 

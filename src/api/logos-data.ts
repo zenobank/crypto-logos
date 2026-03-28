@@ -68165,7 +68165,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'sun',
-    name: 'Sun [New] (SUN)',
+    name: 'Sun (SUN)',
     mainCategory: 'tokens',
     secondaryCategories: [],
     logo: {
