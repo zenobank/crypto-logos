@@ -1034,6 +1034,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/maple-finance-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/maple-finance-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -3769,6 +3783,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/ondo-finance-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ondo-finance-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -4240,6 +4268,20 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/magic-eden-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/magic-eden-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/magic-eden-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -12605,6 +12647,20 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/lighter-icon-light.png',
             format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/lighter-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lighter-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -61644,6 +61700,20 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/nexus-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/nexus-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/nexus-text-dark.svg',
             format: 'svg',
           },
         ],
