@@ -4075,6 +4075,45 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'core-lightning',
+    name: 'Core Lightning (c-lightning)',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://corelightning.org/',
+    brandKitLink:
+      'https://design.blockstream.com/styleguide/branding/core-lightning',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/core-lightning-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/core-lightning-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/core-lightning-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/core-lightning-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'liquid-network',
     name: 'Liquid Network',
     mainCategory: 'chains',
