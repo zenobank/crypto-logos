@@ -28755,22 +28755,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'flashbots-mev-dashboard',
-    name: 'Flashbots MEV Dashboard',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/flashbots-mev-dashboard-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'looksrare',
     name: 'LooksRare',
     mainCategory: 'infrastructure-tools',

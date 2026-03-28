@@ -76,7 +76,6 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['etherscan', 'etherscan-online-decompiler'], // Etherscan
   ['etherspot', 'etherspot-sdk', 'etherspot-transactionkit'], // Etherspot
   ['fabwelt', 'fabwelt-studios'], // Fabwelt
-  ['flashbots', 'flashbots-mev-dashboard'], // Flashbots
   ['flipside', 'flipside-crypto'], // Flipside
   ['flow', 'flow-evm', 'flow-wallet'], // Flow
   ['frax', 'frax-finance-frax-ether', 'frax-price-index', 'frax-price-index-share', 'frax-share', 'frax-share-fxs', 'frax-usd', 'fraxscan', 'legacy-frax-dollar'], // Frax
