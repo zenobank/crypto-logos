@@ -84423,4 +84423,947 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'delphi-ventures',
+    name: 'Delphi Ventures',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://delphiventures.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/delphi-ventures-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/delphi-ventures-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'shima-capital',
+    name: 'Shima Capital',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://shima.capital/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/shima-capital-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/shima-capital-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'okx-ventures',
+    name: 'OKX Ventures',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://www.okx.com/ventures',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/okx-ventures-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/okx-ventures-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'electric-capital',
+    name: 'Electric Capital',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://www.electriccapital.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/electric-capital-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/electric-capital-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '1confirmation',
+    name: '1confirmation',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://www.1confirmation.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/1confirmation-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/1confirmation-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'triton-capital',
+    name: 'Triton Capital',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://www.tritoncapital.xyz',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/triton-capital-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/triton-capital-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hypesphere',
+    name: 'Hypesphere',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://hypersphere.capital',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hypesphere-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hypesphere-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kenetic',
+    name: 'Kenetic',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://www.kenetic.capital/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kenetic-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/kenetic-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'levl',
+    name: 'Levl',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.levl.ch/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/levl-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/levl-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'manteca',
+    name: 'Manteca',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://manteca.dev/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/manteca-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/manteca-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mesh',
+    name: 'Mesh',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.meshpay.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mesh-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mesh-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nillion',
+    name: 'Nillion',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://nillion.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nillion-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/nillion-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'openfx',
+    name: 'OpenFX',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.openfx.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/openfx-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/openfx-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'orda-network',
+    name: 'Orda Network',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://orda.network/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/orda-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/orda-network-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'roma-global',
+    name: 'Roma Global',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://roma.global/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/roma-global-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/roma-global-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sardine',
+    name: 'Sardine',
+    mainCategory: 'services',
+    secondaryCategories: [],
+    websiteLink: 'https://www.sardine.ai',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sardine-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sardine-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sonarx',
+    name: 'SonarX',
+    mainCategory: 'services',
+    secondaryCategories: [],
+    websiteLink: 'https://www.sonarx.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sonarx-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sonarx-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'splits',
+    name: 'Splits',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://splits.org/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/splits-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/splits-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sponge',
+    name: 'Sponge',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://sponge.vip',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sponge-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sponge-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'thunes',
+    name: 'Thunes',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.thunes.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/thunes-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/thunes-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'trm-labs',
+    name: 'TRM',
+    mainCategory: 'services',
+    secondaryCategories: [],
+    websiteLink: 'https://www.trmlabs.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/trm-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/trm-labs-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ubyx',
+    name: 'Ubyx',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://ubyx.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ubyx-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ubyx-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'yellowcard',
+    name: 'Yellowcard',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://yellowcard.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/yellowcard-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/yellowcard-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'zerodev',
+    name: 'ZeroDev',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://zerodev.app',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/zerodev-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/zerodev-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fantasy-top',
+    name: 'Fantasy Top',
+    mainCategory: 'nft',
+    secondaryCategories: [],
+    websiteLink: 'https://fantasy.top/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fantasy-top-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fantasy-top-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dedrift',
+    name: 'dedrift',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.drift.trade',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dedrift-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dedrift-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'seleni',
+    name: 'Seleni',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://www.selinicapital.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/seleni-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/seleni-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'magnus-capital',
+    name: 'Magnus Capital',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://magnuscapital.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/magnus-capital-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/magnus-capital-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dna-fund',
+    name: 'dna.fund',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://dna.fund',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dna-fund-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dna-fund-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'agnostic',
+    name: 'Agnostic',
+    mainCategory: 'services',
+    secondaryCategories: [],
+    websiteLink: 'https://agnostic.tech/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/agnostic-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/agnostic-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'deeznode',
+    name: 'deeznode',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.deeznode.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/deeznode-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/deeznode-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'fuji',
+    name: 'FUJI',
+    mainCategory: 'tokens',
+    secondaryCategories: [],
+    websiteLink: 'https://fujicompany.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/fuji-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/fuji-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dolar-app',
+    name: 'dolar app',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: [],
+    websiteLink: 'https://www.dolarapp.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dolar-app-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dolar-app-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dexcheck-ai',
+    name: 'dexcheck.ai',
+    mainCategory: 'services',
+    secondaryCategories: [],
+    websiteLink: 'https://dexcheck.ai',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dexcheck-ai-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dexcheck-ai-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rune-thorchain',
+    name: 'RUNE (THORChain)',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://thorchain.org',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rune-thorchain-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/rune-thorchain-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'circle',
+    name: 'Circle',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://www.circle.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/circle-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/circle-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'xapo-bank',
+    name: 'xapo bank',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: [],
+    websiteLink: 'https://www.xapobank.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/xapo-bank-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/xapo-bank-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'baanx',
+    name: 'BAANX',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: [],
+    websiteLink: 'https://www.baanx.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/baanx-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/baanx-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'wirex',
+    name: 'wirex',
+    mainCategory: 'crypto-banks',
+    secondaryCategories: [],
+    websiteLink: 'https://www.wirexapp.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/wirex-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/wirex-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gnosis-pay',
+    name: 'Gnosis Pay',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://gnosispay.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gnosis-pay-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/gnosis-pay-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'splits',
+    name: 'Splits',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://splits.org',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/splits-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/splits-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
