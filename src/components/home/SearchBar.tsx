@@ -12,6 +12,7 @@ import useResetStorage from '@/hooks/use-reset-storage';
 // components
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
+import { sendGAEvent } from '@next/third-parties/google';
 
 // custom constants
 const storageKey = 'searchFocus';
@@ -58,6 +59,9 @@ export default function SearchBar() {
 
     const url = params.toString() ? `${basePath}?${params.toString()}` : basePath;
     router.replace(url);
+    if (debouncedSearchQuery) {
+      sendGAEvent('event', 'search', { search_term: debouncedSearchQuery });
+    }
     if (searchWasFocused) {
       inputRef.current?.focus();
     }
