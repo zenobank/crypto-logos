@@ -91185,4 +91185,64 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'barcelona-bitcoin-only',
+    name: 'Barcelona Bitcoin Only',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://bitcoinbarcelona.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/barcelona-bitcoin-only-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/barcelona-bitcoin-only-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: '2140-meetups',
+    name: '2140 Meetups',
+    mainCategory: 'events',
+    secondaryCategories: [],
+    websiteLink: 'https://2140meetups.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/2140-meetups-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/2140-meetups-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/2140-meetups-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/2140-meetups-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
 ];
