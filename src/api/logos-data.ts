@@ -25449,11 +25449,33 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Helius',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
+    websiteLink: 'https://www.helius.dev/',
+    brandKitLink: 'https://www.helius.dev/brand',
     logo: {
       icon: {
         light: [
           {
             url: '/library/helius-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/helius-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/helius-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/helius-text-dark.png',
             format: 'png',
           },
         ],
