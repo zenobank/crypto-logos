@@ -56472,18 +56472,33 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: [],
     websiteLink: 'https://bullx.io/',
+    brandKitLink: 'https://drive.google.com/drive/folders/1OLvey3Lx4ujK0_75Nc4rWWhsKgEqMG5U',
     logo: {
-      text: {
+      icon: {
         light: [
           {
-            url: '/library/bullx-text-light.png',
+            url: '/library/bullx-icon-light.png',
             format: 'png',
           },
         ],
         dark: [
           {
-            url: '/library/bullx-text-dark.png',
+            url: '/library/bullx-icon-dark.png',
             format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bullx-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bullx-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
