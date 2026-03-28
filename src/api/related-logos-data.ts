@@ -34,7 +34,7 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['base-formerly-coinbase-wallet', 'basescan'], // Base
   ['bibox', 'bibox-token'], // Bibox
   ['biconomy', 'biconomy-io', 'biconomy-paymaster', 'biconomy-v2'], // Biconomy
-  ['bifrost-staking', 'bifrost-wallet'], // Bifrost
+  ['bifrost', 'bifrost-wallet'], // Bifrost
   ['binance', 'binance-pay', 'binance-us', 'binance-usd', 'bnb', 'bnb-chain', 'bscscan'], // Binance/BNB
   ['bitcoin', 'bitcoin-cash', 'bitcoin-diamond', 'bitcoin-gold', 'bitcoin-plus', 'bitcoin-sv', 'bitcoincom-wallet', 'wrapped-btc', 'tbtc'], // Bitcoin
   ['bitget', 'bitget-wallet-lite'], // Bitget

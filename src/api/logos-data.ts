@@ -92,8 +92,28 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/aptos-icon-light.png',
-            format: 'png',
+            url: '/library/aptos-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/aptos-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/aptos-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/aptos-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -63523,7 +63543,7 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'bifrost-staking',
+    id: 'bifrost',
     name: 'Bifrost (BNC)',
     mainCategory: 'chains',
     secondaryCategories: ['tokens', 'defi'],

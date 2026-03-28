@@ -80,6 +80,11 @@ const nextConfig: NextConfig = {
         destination: '/logo/paradigm',
         permanent: true,
       },
+      {
+        source: '/logo/bifrost-staking',
+        destination: '/logo/bifrost',
+        permanent: true,
+      },
     ];
   },
   reactCompiler: true,
