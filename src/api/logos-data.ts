@@ -87620,4 +87620,1683 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'stakingverse',
+    name: 'Stakingverse',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://stakingverse.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stakingverse-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/stakingverse-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'eth-strategy',
+    name: 'ETH Strategy',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.ethstrat.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eth-strategy-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/eth-strategy-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'blueshift',
+    name: 'Blueshift',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://blueshift.fi',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/blueshift-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/blueshift-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'charm-finance',
+    name: 'Charm Finance',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.charm.fi/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/charm-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/charm-finance-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'llama-airforce',
+    name: 'Llama Airforce',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://llama.airforce/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/llama-airforce-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/llama-airforce-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'utonic',
+    name: 'UTONIC',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://utonic.org/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/utonic-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/utonic-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defa-by-invoicemate',
+    name: 'Defa By InvoiceMate',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://imdefa.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defa-by-invoicemate-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/defa-by-invoicemate-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tigris-mezo',
+    name: 'Tigris Mezo',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://mezo.org/app',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tigris-mezo-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tigris-mezo-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'affluent',
+    name: 'Affluent',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.affluent.org/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/affluent-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/affluent-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'football-fun',
+    name: 'Football.Fun',
+    mainCategory: 'nft',
+    secondaryCategories: [],
+    websiteLink: 'https://www.football.fun/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/football-fun-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/football-fun-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'superearn',
+    name: 'SuperEarn',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://superearn.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/superearn-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/superearn-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kilo-ex',
+    name: 'KiloEx',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.kiloex.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kilo-ex-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/kilo-ex-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'virtue-money',
+    name: 'Virtue',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://virtue.money/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/virtue-money-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/virtue-money-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bracket-protocol',
+    name: 'Bracket Protocol',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://bracket.fi/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bracket-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bracket-protocol-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'beanstalk-farms',
+    name: 'Beanstalk Farms',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://bean.money/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/beanstalk-farms-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/beanstalk-farms-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'shui-finance',
+    name: 'SHUI',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.shui.finance/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/shui-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/shui-finance-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'liquid-loans',
+    name: 'LiquidLoans',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.liquidloans.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/liquid-loans-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/liquid-loans-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flamingo-finance',
+    name: 'Flamingo',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://flamingo.finance/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flamingo-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/flamingo-finance-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'generic-money',
+    name: 'Generic.Money',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://generic.money/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/generic-money-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/generic-money-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pay-protocol',
+    name: 'Pay Protocol',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://payprotocol.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pay-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pay-protocol-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'whaleex',
+    name: 'WhaleEx',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://whaleex.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/whaleex-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/whaleex-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'chakra-network',
+    name: 'Chakra',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.chakrachain.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/chakra-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/chakra-network-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'vest-markets',
+    name: 'Vest Markets',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://vestmarkets.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/vest-markets-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/vest-markets-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'botanix-stbtc',
+    name: 'Botanix stBTC',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://yield.botanixlabs.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/botanix-stbtc-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/botanix-stbtc-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pico-staked-sol',
+    name: 'Pico Staked SOL',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.pico-sol.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pico-staked-sol-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pico-staked-sol-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lantern-staked-sol',
+    name: 'Lantern Staked SOL',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.lantern.one/stake',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lantern-staked-sol-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lantern-staked-sol-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'icpswap',
+    name: 'ICPSwap',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.icpswap.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/icpswap-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/icpswap-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mugen-finance',
+    name: 'MugenFinance',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.mugenfinance.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mugen-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mugen-finance-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'synatra',
+    name: 'Synatra',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://synatra.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/synatra-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/synatra-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ignition-lst',
+    name: 'Ignition LST',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://ignitionfi.xyz',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ignition-lst-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ignition-lst-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'powercity',
+    name: 'POWERCITY',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://powercity.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/powercity-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/powercity-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'klayswap-protocol',
+    name: 'KlaySwap',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://klayswap.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/klayswap-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/klayswap-protocol-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'citycoins',
+    name: 'CityCoins',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.citycoins.co/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/citycoins-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/citycoins-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'bakery-swap',
+    name: 'BakerySwap',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bakeryswap.org',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bakery-swap-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bakery-swap-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pancake-bunny',
+    name: 'Bunny',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://pancakebunny.finance/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pancake-bunny-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pancake-bunny-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'monday-trade',
+    name: 'Monday Trade',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://monday.trade/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/monday-trade-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/monday-trade-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'dragonswap-kaia',
+    name: 'DragonSwap Kaia',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://dgswap.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/dragonswap-kaia-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/dragonswap-kaia-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'flexa',
+    name: 'Flexa',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://flexa.co',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/flexa-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/flexa-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'anyhedge',
+    name: 'AnyHedge',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://anyhedge.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/anyhedge-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/anyhedge-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'superlend-xyz',
+    name: 'Superlend.xyz',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://superlend.xyz',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/superlend-xyz-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/superlend-xyz-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'keep3r-network',
+    name: 'Keep3r Network',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://keep3r.network/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/keep3r-network-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/keep3r-network-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'qidao',
+    name: 'QiDao',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://www.mai.finance/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/qidao-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/qidao-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'oro-swap',
+    name: 'OroSwap',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.oroswap.org/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/oro-swap-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/oro-swap-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ambient-finance',
+    name: 'Ambient',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://ambient.finance/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ambient-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ambient-finance-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'rooster-protocol',
+    name: 'Rooster Protocol',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://rooster.trade/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rooster-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/rooster-protocol-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'delea-finance',
+    name: 'Delea',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://delea.finance',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/delea-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/delea-finance-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swapscanner',
+    name: 'Swapscanner',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://swapscanner.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swapscanner-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/swapscanner-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'neo-burger',
+    name: 'NeoBurger',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://neoburger.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/neo-burger-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/neo-burger-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solomon-usdv',
+    name: 'Solomon USDv',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://solomonlabs.org/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solomon-usdv-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/solomon-usdv-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sonic-icp',
+    name: 'Sonic ICP',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://sonic.ooo/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sonic-icp-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sonic-icp-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'unslashed-finance',
+    name: 'Unslashed',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://unslashed.finance',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unslashed-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/unslashed-finance-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'credit-smart-chain',
+    name: 'Credit',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://creditsmartchain.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/credit-smart-chain-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/credit-smart-chain-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'syntropia',
+    name: 'Syntropia',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://syntropia.ai/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/syntropia-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/syntropia-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'staq-io',
+    name: 'StaQ',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://staq.io',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/staq-io-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/staq-io-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'singular-v',
+    name: 'SingularV',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.singularv.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/singular-v-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/singular-v-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pools-finance',
+    name: 'Pools Finance',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.pools.finance/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pools-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pools-finance-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'initia-dex',
+    name: 'InitiaDEX',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://app.initia.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/initia-dex-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/initia-dex-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'exactly-protocol',
+    name: 'Exactly',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://exact.ly/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/exactly-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/exactly-protocol-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kea-credit',
+    name: 'Kea Credit',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://kea.credit/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kea-credit-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/kea-credit-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'nirvana-finance',
+    name: 'Nirvana',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://nirvana.finance/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/nirvana-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/nirvana-finance-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hiyield',
+    name: 'HiYield',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.hiyield.xyz/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hiyield-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hiyield-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'milkyway-protocol',
+    name: 'MilkyWay Protocol',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://milkyway.zone/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/milkyway-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/milkyway-protocol-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'everdex',
+    name: 'Everdex',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.everdex.app/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/everdex-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/everdex-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kittenswap-finance',
+    name: 'Kittenswap Finance',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://kittenswap.finance/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kittenswap-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/kittenswap-finance-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'mitosis',
+    name: 'Mitosis',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://mitosis.org/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mitosis-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mitosis-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gammaswap-protocol',
+    name: 'GammaSwap Protocol',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://gammaswap.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gammaswap-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/gammaswap-protocol-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'claystack',
+    name: 'ClayStack',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://claystack.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/claystack-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/claystack-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'usx-capital',
+    name: 'USX.Capital',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://www.usx.capital/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/usx-capital-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/usx-capital-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'the-abyss',
+    name: 'Abyss',
+    mainCategory: 'nft',
+    secondaryCategories: [],
+    websiteLink: 'https://abyss.finance/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/the-abyss-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/the-abyss-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'empiredex',
+    name: 'EmpireDEX',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://app.empiredex.org/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/empiredex-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/empiredex-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'guru-network-dao',
+    name: 'Guru Network DAO',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.guru.network/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/guru-network-dao-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/guru-network-dao-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'tensorplex',
+    name: 'Tensorplex',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://www.tensorplex.ai/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/tensorplex-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/tensorplex-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'sunny-aggregator',
+    name: 'Sunny',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://app.sunny.ag/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/sunny-aggregator-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/sunny-aggregator-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
