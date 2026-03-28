@@ -70716,4 +70716,42 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'strategy',
+    name: 'Strategy (MSTR)',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://www.strategy.com/',
+    brandKitLink: 'https://assets.contentstack.io/v3/assets/bltf8d808d9b8cebd37/blt79a08458ba54e953/67a2752d4bee0bd2ad185711/Media_Kit_-_Strategy.zip',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/strategy-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/strategy-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/strategy-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/strategy-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
 ];
