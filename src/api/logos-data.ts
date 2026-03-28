@@ -18747,23 +18747,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'clear-wallet',
-    name: 'clear-wallet',
-    mainCategory: 'wallets',
-    secondaryCategories: [],
-    websiteLink: 'https://clear-wallet.flashsoft.eu',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/clear-wallet-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'berasig',
     name: 'BeraSig',
     mainCategory: 'wallets',
