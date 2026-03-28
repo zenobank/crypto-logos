@@ -70754,4 +70754,27 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'lunaticoin',
+    name: 'Lunaticoin',
+    mainCategory: 'education',
+    secondaryCategories: [],
+    websiteLink: 'https://lunaticoin.blog/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lunaticoin-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lunaticoin-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
