@@ -82,45 +82,6 @@ interface LogoVariantGroup {
 >   - Each supports `light` and optionally `dark`.
 >   - Each variant is an array so you can provide multiple formats (SVG, PNG, etc.).
 
-- **Simple logo (one icon, light only)**:
-
-```ts
-{
-  id: 'bitcoin',
-  name: 'Bitcoin (BTC)',
-  mainCategory: 'tokens',
-  secondaryCategories: [],
-  logo: {
-    icon: {
-      light: [{ url: '/library/bitcoin-icon-light.svg', format: 'svg' }]
-    }
-  }
-}
-```
-
-- **Logo with light & dark variants and multiple formats**:
-
-```ts
-{
-  id: 'solana',
-  name: 'Solana (SOL)',
-  mainCategory: 'chains',
-  secondaryCategories: ['tokens'],
-  logo: {
-    icon: {
-      light: [
-        { url: '/library/solana-icon-light.svg', format: 'svg' },
-        { url: '/library/solana-icon-light.png', format: 'png' }
-      ],
-      dark: [
-        { url: '/library/solana-icon-dark.svg', format: 'svg' },
-        { url: '/library/solana-icon-dark.png', format: 'png' }
-      ]
-    }
-  }
-}
-```
-
 - **Full example with all properties**:
 
 ```ts
@@ -149,10 +110,5 @@ interface LogoVariantGroup {
   }
 }
 ```
-
-> [!NOTE]
->
-> - You can add multiple categories to the same logo, for example: `secondaryCategories: ['chains', 'tokens']`.
-> - You can provide multiple formats per variant (SVG, PNG, JPG, WebP) so users can download the one they need.
 
 And create a pull request with your logo.

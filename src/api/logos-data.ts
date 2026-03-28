@@ -66556,7 +66556,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'mempool',
     name: 'Mempool',
-    mainCategory: 'block-explorers',
+    mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
     websiteLink: 'https://mempool.space/',
     logo: {
