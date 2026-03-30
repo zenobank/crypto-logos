@@ -91403,4 +91403,328 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'satgo',
+    name: 'SatGo',
+    mainCategory: 'wallets',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/satgo-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/satgo-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'mytonwallet',
+    name: 'MyTonWallet',
+    mainCategory: 'wallets',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/mytonwallet-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/mytonwallet-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'ton-wallet',
+    name: 'TON Wallet',
+    mainCategory: 'wallets',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/ton-wallet-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/ton-wallet-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'vector-wallet',
+    name: 'Vector',
+    mainCategory: 'wallets',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/vector-wallet-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/vector-wallet-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'xaman',
+    name: 'Xaman',
+    mainCategory: 'wallets',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/xaman-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/xaman-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'axal',
+    name: 'Axal',
+    mainCategory: 'wallets',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/axal-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/axal-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'flipx',
+    name: 'FlipX',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/flipx-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/flipx-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'bags-app',
+    name: 'Bags App',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/bags-app-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/bags-app-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'birdeye',
+    name: 'Birdeye',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/birdeye-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/birdeye-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'rhythm',
+    name: 'Rhythm',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/rhythm-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/rhythm-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'mercury-trade',
+    name: 'Mercury',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/mercury-trade-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/mercury-trade-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'based-app',
+    name: 'Based',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/based-app-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/based-app-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'moonshot',
+    name: 'Moonshot',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/moonshot-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/moonshot-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'lootbase',
+    name: 'Lootbase',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/lootbase-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/lootbase-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'sweet',
+    name: 'Sweet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/sweet-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/sweet-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'changelly',
+    name: 'Changelly',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/changelly-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/changelly-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'coinflip',
+    name: 'Coinflip',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/coinflip-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/coinflip-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'airtm',
+    name: 'Airtm',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/airtm-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/airtm-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'stake-casino',
+    name: 'Stake',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/stake-casino-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/stake-casino-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'bc-game',
+    name: 'BC Game',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/bc-game-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/bc-game-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'shuffle',
+    name: 'Shuffle.com',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/shuffle-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/shuffle-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'roobet',
+    name: 'Roobet',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/roobet-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/roobet-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'prerich',
+    name: 'Prerich',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/prerich-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/prerich-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'assetdash',
+    name: 'AssetDash',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/assetdash-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/assetdash-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'dex-screener-app',
+    name: 'DEX',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/dex-screener-app-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/dex-screener-app-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'spot-trading',
+    name: 'Spot Trading',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/spot-trading-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/spot-trading-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
+  {
+    id: 'liquid-app',
+    name: 'Liquid',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [{ url: '/library/liquid-app-icon-light.png', format: 'png' }],
+        dark: [{ url: '/library/liquid-app-icon-dark.png', format: 'png' }],
+      },
+    },
+  },
 ];
