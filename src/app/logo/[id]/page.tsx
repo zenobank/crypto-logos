@@ -165,6 +165,15 @@ export default async function LogoDetailPage({ params }: Props) {
         {logo.brandKitLink && ` Access the official ${logo.name} brand kit and media kit.`}
       </p>
 
+      <a
+        href="https://zenobank.io/?utm_source=crypto-logos&utm_medium=logo-page&utm_campaign=online-store-cta"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mb-6 block rounded-lg border border-border bg-accent/50 px-4 py-3 text-sm font-medium text-foreground transition-colors hover:bg-accent"
+      >
+        Don&apos;t click here if you don&apos;t have an online store
+      </a>
+
       <Separator className="" />
 
       {(logo.websiteLink || logo.brandKitLink) && (
