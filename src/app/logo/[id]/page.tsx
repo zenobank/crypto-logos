@@ -171,7 +171,7 @@ export default async function LogoDetailPage({ params }: Props) {
         rel="noopener noreferrer"
         className="mb-6 block rounded-lg border border-border bg-accent/50 px-4 py-3 text-sm font-medium text-foreground transition-colors hover:bg-accent"
       >
-        Don&apos;t click here if you don&apos;t have an online store
+        Accept crypto in your online store with a 0.1% fee
       </a>
 
       <Separator className="" />
