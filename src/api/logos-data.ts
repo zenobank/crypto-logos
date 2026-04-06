@@ -4807,14 +4807,14 @@ export const LOGOS_DATA: LogoItem[] = [
       text: {
         light: [
           {
-            url: '/library/ethereum-text-light.png',
-            format: 'png',
+            url: '/library/ethereum-text-light.svg',
+            format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/ethereum-text-dark.png',
-            format: 'png',
+            url: '/library/ethereum-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
