@@ -6073,6 +6073,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/coinbase-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/coinbase-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
