@@ -1510,6 +1510,43 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'rango-exchange',
+    name: 'Rango Exchange',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://rango.exchange',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/rango-exchange-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/rango-exchange-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/rango-exchange-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/rango-exchange-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'raydium',
     name: 'Raydium (RAY)',
     mainCategory: 'defi',
