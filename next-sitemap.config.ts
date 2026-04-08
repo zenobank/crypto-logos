@@ -38,6 +38,7 @@ function getCategories() {
 
 const config: IConfig = {
   siteUrl: SERVER_BASE_URL,
+  sitemapSize: 500,
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [
