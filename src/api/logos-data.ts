@@ -24613,22 +24613,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'circle-yield',
-    name: 'Circle Yield',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/circle-yield-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'manticore',
     name: 'Manticore',
     mainCategory: 'infrastructure-tools',
@@ -73204,29 +73188,6 @@ export const LOGOS_DATA: LogoItem[] = [
         dark: [
           {
             url: '/library/justlend-icon-dark.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'circle-usyc',
-    name: 'Circle USYC',
-    mainCategory: 'defi',
-    secondaryCategories: [],
-    websiteLink: 'https://www.circle.com/usyc',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/circle-usyc-icon-light.png',
-            format: 'png',
-          },
-        ],
-        dark: [
-          {
-            url: '/library/circle-usyc-icon-dark.png',
             format: 'png',
           },
         ],
