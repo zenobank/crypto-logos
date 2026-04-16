@@ -58628,22 +58628,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'curve-dao-token',
-    name: 'Curve DAO Token',
-    mainCategory: 'tokens',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/curve-dao-token-icon-light.svg',
-            format: 'svg',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'popcat-sol',
     name: 'Popcat (SOL)',
     mainCategory: 'tokens',
@@ -87348,29 +87332,6 @@ export const LOGOS_DATA: LogoItem[] = [
         dark: [
           {
             url: '/library/accumulated-finance-liquid-staking-icon-dark.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'curve-dex',
-    name: 'Curve DEX',
-    mainCategory: 'defi',
-    secondaryCategories: [],
-    websiteLink: 'https://curve.finance',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/curve-dex-icon-light.png',
-            format: 'png',
-          },
-        ],
-        dark: [
-          {
-            url: '/library/curve-dex-icon-dark.png',
             format: 'png',
           },
         ],

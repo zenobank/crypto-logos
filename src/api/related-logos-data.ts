@@ -58,7 +58,7 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['cow-protocol', 'cowswap'], // CoW Protocol
   ['cronos', 'cronos-accelerator-program', 'cronos-zkevm', 'the-cronosverse', 'crypto-dot-com'], // Cronos/Crypto.com
   ['cryptnox-bridge', 'cryptnox-wallet'], // Cryptnox
-  ['curve-dao-token', 'curve-finance', 'curve-subgraph'], // Curve
+  ['curve-finance', 'curve-subgraph'], // Curve
   ['dedaub-security-suite', 'dedaub-tok-in'], // Dedaub
   ['defi-kingdoms', 'avalanche-dfk'], // DeFi Kingdoms
   ['developer-dao', 'developer-dao-academy'], // Developer DAO

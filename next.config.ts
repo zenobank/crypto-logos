@@ -85,6 +85,16 @@ const nextConfig: NextConfig = {
         destination: '/logo/bifrost',
         permanent: true,
       },
+      {
+        source: '/logo/curve-dao-token',
+        destination: '/logo/curve-finance',
+        permanent: true,
+      },
+      {
+        source: '/logo/curve-dex',
+        destination: '/logo/curve-finance',
+        permanent: true,
+      },
     ];
   },
   reactCompiler: true,
