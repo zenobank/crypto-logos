@@ -1515,7 +1515,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'exchanges',
     secondaryCategories: [],
     websiteLink: 'https://rango.exchange',
-    brandKitLink: 'https://rango.exchange/brandbook',
+    brandKitLink: 'https://github.com/rango-exchange/assets',
     logo: {
       icon: {
         light: [
