@@ -45,4 +45,5 @@ next-env.d.ts
 
 # internal import scripts
 scripts/internal/
+internal-scripts/
 .gstack/
