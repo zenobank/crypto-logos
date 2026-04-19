@@ -95,6 +95,16 @@ const nextConfig: NextConfig = {
         destination: '/logo/curve-finance',
         permanent: true,
       },
+      {
+        source: '/logo/aa-bundler',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/logo/4byte',
+        destination: '/',
+        permanent: true,
+      },
     ];
   },
   reactCompiler: true,

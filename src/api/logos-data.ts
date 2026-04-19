@@ -29770,22 +29770,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: '4byte',
-    name: '4Byte',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/4byte-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'bittorrent',
     name: 'BitTorrent',
     mainCategory: 'infrastructure-tools',
@@ -42752,22 +42736,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/skandha-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'aa-bundler',
-    name: 'AA-bundler',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/aa-bundler-icon-light.png',
             format: 'png',
           },
         ],
