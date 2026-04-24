@@ -103,7 +103,7 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['kraken', 'kraken-wallet'], // Kraken
   ['kucoin', 'kucoin-pay', 'kucoin-web3-wallet', 'kcc'], // KuCoin
   ['kyber-network-crystal', 'kyber-network-crystal-v2', 'kyberswap'], // Kyber
-  ['lido', 'lido-staked-eth'], // Lido
+  ['lido', 'lido-staked-eth', 'lido-wrapped-staked-eth'], // Lido
   ['linea', 'lineascan'], // Linea
   ['liquity', 'liquity-usd'], // Liquity
   ['litecoin', 'litecoin-cash'], // Litecoin
