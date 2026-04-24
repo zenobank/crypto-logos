@@ -49028,6 +49028,43 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'slash',
+    name: 'Slash',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.slash.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/slash-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/slash-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/slash-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/slash-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'slashtoken',
     name: 'SlashToken',
     mainCategory: 'infrastructure-tools',
