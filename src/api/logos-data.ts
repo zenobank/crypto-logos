@@ -9530,12 +9530,33 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'GYEN (GYEN)',
     mainCategory: 'tokens',
     secondaryCategories: [],
+    websiteLink: 'https://stablecoin.z.com/gyen',
     logo: {
       icon: {
         light: [
           {
             url: '/library/gyen-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/gyen-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/gyen-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/gyen-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
