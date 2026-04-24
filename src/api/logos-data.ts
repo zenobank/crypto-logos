@@ -1237,6 +1237,31 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'moneygram',
+    name: 'MoneyGram',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.moneygram.com/',
+    brandKitLink:
+      'https://corporate.moneygram.com/media-assets/?mediatype=Logos',
+    logo: {
+      text: {
+        light: [
+          {
+            url: '/library/moneygram-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/moneygram-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'morpho',
     name: 'Morpho',
     mainCategory: 'defi',
