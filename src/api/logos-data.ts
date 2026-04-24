@@ -92518,4 +92518,41 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'cryptonix',
+    name: 'Cryptonix',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.cryptonix.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptonix-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/cryptonix-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/cryptonix-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/cryptonix-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
 ];
