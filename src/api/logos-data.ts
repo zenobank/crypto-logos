@@ -6209,6 +6209,44 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'usyc',
+    name: 'USYC',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://www.circle.com/usyc',
+    brandKitLink: 'https://www.circle.com/pressroom#brandkit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/usyc-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/usyc-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/usyc-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/usyc-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'usat',
     name: 'USAT (USAT)',
     mainCategory: 'stablecoins',
