@@ -5577,6 +5577,44 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'ripple',
+    name: 'Ripple',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://ripple.com',
+    brandKitLink: 'https://ripple.com/media-kit/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ripple-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ripple-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/ripple-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ripple-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'ripple-usd',
     name: 'Ripple USD (RLUSD)',
     mainCategory: 'stablecoins',
