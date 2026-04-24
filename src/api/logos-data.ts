@@ -92333,4 +92333,41 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'cpay',
+    name: 'CPay',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://cpay.world',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cpay-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/cpay-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/cpay-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/cpay-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
 ];
