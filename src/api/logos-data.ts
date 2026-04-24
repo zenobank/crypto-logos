@@ -7007,8 +7007,8 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'bnb-chain',
-    name: 'BNB Chain (Binance Smart Chain BSC)',
+    id: 'bnb',
+    name: 'BNB - Binance Smart Chain BSC Logo',
     mainCategory: 'chains',
     secondaryCategories: [],
     websiteLink: 'https://www.bnbchain.org/en',
@@ -7017,27 +7017,21 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/bnb-chain-icon-light.png',
-            format: 'png',
-          },
-        ],
-        dark: [
-          {
-            url: '/library/bnb-chain-icon-dark.png',
-            format: 'png',
+            url: '/library/bnb-icon-light.svg',
+            format: 'svg',
           },
         ],
       },
       text: {
         light: [
           {
-            url: '/library/bnb-chain-text-light.svg',
+            url: '/library/bnb-text-light.svg',
             format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/bnb-chain-text-dark.svg',
+            url: '/library/bnb-text-dark.svg',
             format: 'svg',
           },
         ],
@@ -59069,22 +59063,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/xrp-icon-light.svg',
-            format: 'svg',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'bnb',
-    name: 'BNB',
-    mainCategory: 'tokens',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/bnb-icon-light.svg',
             format: 'svg',
           },
         ],
