@@ -92407,4 +92407,41 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'paybito',
+    name: 'PayBito',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://www.paybito.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/paybito-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/paybito-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/paybito-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/paybito-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
