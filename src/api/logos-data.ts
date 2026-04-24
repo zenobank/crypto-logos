@@ -11772,6 +11772,44 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'stable',
+    name: 'Stable',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    websiteLink: 'https://www.stable.xyz/',
+    brandKitLink: 'https://www.stable.xyz/brand-kit',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/stable-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/stable-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/stable-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/stable-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'starknet',
     name: 'Starknet (STRK)',
     mainCategory: 'tokens',
