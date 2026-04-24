@@ -105,7 +105,7 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['kyber-network-crystal', 'kyber-network-crystal-v2', 'kyberswap'], // Kyber
   ['lido', 'lido-dao', 'lido-staked-eth', 'lido-wrapped-staked-eth'], // Lido
   ['linea', 'lineascan'], // Linea
-  ['liquity', 'liquity-usd'], // Liquity
+  ['liquity', 'liquity-usd', 'bold'], // Liquity
   ['litecoin', 'litecoin-cash'], // Litecoin
   ['livepeer', 'livepeer-subgraph'], // Livepeer
   ['loopring', 'loopring-subgraph', 'loopringcoin-v2'], // Loopring

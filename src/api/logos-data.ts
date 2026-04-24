@@ -11732,6 +11732,29 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'bold',
+    name: 'BOLD (BOLD)',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://www.liquity.org/bold',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bold-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bold-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'math',
     name: 'MATH (MATH)',
     mainCategory: 'tokens',
