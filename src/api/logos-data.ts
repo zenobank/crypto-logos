@@ -68749,10 +68749,15 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'EURC',
     mainCategory: 'stablecoins',
     secondaryCategories: ['tokens'],
+    brandKitLink: 'https://www.circle.com/pressroom#brandkit',
     logo: {
       icon: {
-        light: [{ url: '/library/eurc-icon-light.png', format: 'png' }],
-        dark: [{ url: '/library/eurc-icon-dark.png', format: 'png' }],
+        light: [{ url: '/library/eurc-icon-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/eurc-icon-dark.svg', format: 'svg' }],
+      },
+      text: {
+        light: [{ url: '/library/eurc-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/eurc-text-dark.png', format: 'png' }],
       },
     },
   },
