@@ -12,6 +12,7 @@ import sharp from 'sharp';
  *
  * Options:
  *   --apply       Actually write the PNG files (default is dry run)
+ *   --overwrite   Regenerate PNGs even if they already exist
  *   --size=N      Set the output size in pixels (default: 512)
  *   --density=N   Set the SVG rendering density/DPI (default: 300)
  */
@@ -23,6 +24,7 @@ const DEFAULT_DENSITY = 300;
 
 function parseArgs() {
   const applyMode = process.argv.includes('--apply');
+  const overwrite = process.argv.includes('--overwrite');
 
   const sizeArg = process.argv.find((arg) => arg.startsWith('--size='));
   const size = sizeArg ? parseInt(sizeArg.split('=')[1], 10) : DEFAULT_SIZE;
@@ -32,7 +34,7 @@ function parseArgs() {
     ? parseInt(densityArg.split('=')[1], 10)
     : DEFAULT_DENSITY;
 
-  return { applyMode, size, density };
+  return { applyMode, overwrite, size, density };
 }
 
 function getAllSvgFiles(dirPath: string): string[] {
@@ -77,13 +79,13 @@ async function convertSvgToPng(
   size: number,
   density: number,
   apply: boolean,
+  overwrite: boolean,
 ): Promise<ConvertResult> {
   const svgFileName = path.basename(svgPath);
   const pngFileName = path.basename(pngPath);
   const svgSize = fs.statSync(svgPath).size;
 
-  // Check if PNG already exists
-  if (fs.existsSync(pngPath)) {
+  if (!overwrite && fs.existsSync(pngPath)) {
     return {
       svgFile: svgFileName,
       pngFile: pngFileName,
@@ -131,7 +133,7 @@ async function convertSvgToPng(
 }
 
 async function main() {
-  const { applyMode, size, density } = parseArgs();
+  const { applyMode, overwrite, size, density } = parseArgs();
 
   console.log('🔍 Scanning library for SVG files...\n');
 
@@ -149,7 +151,7 @@ async function main() {
 
   for (const svgPath of svgFiles) {
     const pngPath = getPngPath(svgPath);
-    const result = await convertSvgToPng(svgPath, pngPath, size, density, applyMode);
+    const result = await convertSvgToPng(svgPath, pngPath, size, density, applyMode, overwrite);
     results.push(result);
   }
 
@@ -190,6 +192,7 @@ async function main() {
     console.log('   Run with --apply to generate PNG files:\n');
     console.log('   npx tsx scripts/svg-to-png.ts --apply\n');
     console.log('   Options:');
+    console.log('     --overwrite  Regenerate PNGs even if they already exist');
     console.log('     --size=N     Output size in px (default: 512)');
     console.log('     --density=N  SVG render density (default: 300)\n');
     return;
