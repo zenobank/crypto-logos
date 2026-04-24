@@ -26918,12 +26918,33 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Radom',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
+    websiteLink: 'https://www.radom.com/',
     logo: {
       icon: {
         light: [
           {
             url: '/library/radom-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/radom-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/radom-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/radom-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
