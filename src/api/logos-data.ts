@@ -10622,22 +10622,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'lido-dao',
-    name: 'Lido DAO (LDO)',
-    mainCategory: 'defi',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/lido-dao-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'magic-internet-money',
     name: 'Magic Internet Money (MIM)',
     mainCategory: 'tokens',
@@ -44239,22 +44223,6 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/compound-v2-subgraph-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'lido-subgraph',
-    name: 'Lido Subgraph',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/lido-subgraph-icon-light.png',
             format: 'png',
           },
         ],
