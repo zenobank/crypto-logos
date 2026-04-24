@@ -31758,12 +31758,34 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Avail',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
+    websiteLink: 'https://availproject.org/',
+    brandKitLink: 'https://availproject.org/brand',
     logo: {
       icon: {
         light: [
           {
-            url: '/library/avail-icon-light.png',
-            format: 'png',
+            url: '/library/avail-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/avail-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/avail-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/avail-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
