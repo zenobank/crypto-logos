@@ -1,15 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
-    <path fill="url(#telos__a)" fill-rule="evenodd" d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12m0 3a9 9 0 1 0 0-18 9 9 0 0 0 0 18" clip-rule="evenodd"/>
-    <defs>
-        <radialGradient id="telos__a" cx="0" cy="0" r="1" gradientTransform="matrix(0 9 -9 0 12 12)" gradientUnits="userSpaceOnUse">
-            <stop offset=".152" stop-color="#42A0B9"/>
-            <stop offset=".247" stop-color="#70C38D"/>
-            <stop offset=".344" stop-color="#6FC68F"/>
-            <stop offset=".488" stop-color="#3B74CE"/>
-            <stop offset=".66" stop-color="#954494"/>
-            <stop offset=".76" stop-color="#9A4290"/>
-            <stop offset=".871" stop-color="#7256AB"/>
-            <stop offset="1" stop-color="#3D7DC7"/>
-        </radialGradient>
-    </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" class="web3icons" viewBox="0 0 24 24"><path fill="url(#a)" fill-rule="evenodd" d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12m0 3a9 9 0 1 0 0-18 9 9 0 0 0 0 18" clip-rule="evenodd"/><defs><radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(0 9 -9 0 12 12)" gradientUnits="userSpaceOnUse"><stop offset=".152" stop-color="#42a0b9"/><stop offset=".247" stop-color="#70c38d"/><stop offset=".344" stop-color="#6fc68f"/><stop offset=".488" stop-color="#3b74ce"/><stop offset=".66" stop-color="#954494"/><stop offset=".76" stop-color="#9a4290"/><stop offset=".871" stop-color="#7256ab"/><stop offset="1" stop-color="#3d7dc7"/></radialGradient></defs></svg>
