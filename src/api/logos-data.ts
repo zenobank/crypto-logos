@@ -68528,6 +68528,28 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'terrausd',
+    name: 'TerraUSD (UST)',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/terrausd-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/terrausd-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'terra-classic',
     name: 'Terra Classic (LUNC)',
     mainCategory: 'tokens',
