@@ -1829,6 +1829,7 @@ export const LOGOS_DATA: LogoItem[] = [
   {
     id: 'stellar',
     name: 'Stellar (XLM)',
+    websiteLink: 'https://stellar.org',
     brandKitLink: 'https://stellar.org/brand-resources',
     mainCategory: 'chains',
     secondaryCategories: ['tokens'],
@@ -1837,6 +1838,26 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [
           {
             url: '/library/stellar-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/stellar-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/stellar-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/stellar-text-dark.png',
             format: 'png',
           },
         ],
