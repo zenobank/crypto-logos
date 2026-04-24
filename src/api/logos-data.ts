@@ -410,6 +410,28 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'bitcoin-city',
+    name: 'Bitcoin City',
+    mainCategory: 'services',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bitcoin-city-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bitcoin-city-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'bitcoin',
     name: 'Bitcoin (BTC)',
     mainCategory: 'chains',
