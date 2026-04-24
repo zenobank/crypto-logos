@@ -1245,6 +1245,20 @@ export const LOGOS_DATA: LogoItem[] = [
     brandKitLink:
       'https://corporate.moneygram.com/media-assets/?mediatype=Logos',
     logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moneygram-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/moneygram-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
       text: {
         light: [
           {
