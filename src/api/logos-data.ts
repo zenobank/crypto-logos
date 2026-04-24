@@ -73774,29 +73774,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'binance-staked-eth',
-    name: 'Binance staked ETH',
-    mainCategory: 'defi',
-    secondaryCategories: [],
-    websiteLink: 'https://www.binance.com/en/earn/ethereum-staking',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/binance-staked-eth-icon-light.png',
-            format: 'png',
-          },
-        ],
-        dark: [
-          {
-            url: '/library/binance-staked-eth-icon-dark.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'securitize',
     name: 'Securitize',
     mainCategory: 'defi',
@@ -74089,29 +74066,6 @@ export const LOGOS_DATA: LogoItem[] = [
         dark: [
           {
             url: '/library/kinetiq-icon-dark.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
-    id: 'binance-staked-sol',
-    name: 'Binance Staked SOL',
-    mainCategory: 'defi',
-    secondaryCategories: [],
-    websiteLink: 'https://www.binance.com/en/solana-staking',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/binance-staked-sol-icon-light.png',
-            format: 'png',
-          },
-        ],
-        dark: [
-          {
-            url: '/library/binance-staked-sol-icon-dark.png',
             format: 'png',
           },
         ],

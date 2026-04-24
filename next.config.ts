@@ -106,6 +106,16 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/logo/binance-staked-eth',
+        destination: '/logo/binance',
+        permanent: true,
+      },
+      {
+        source: '/logo/binance-staked-sol',
+        destination: '/logo/binance',
+        permanent: true,
+      },
+      {
         source: '/logo/aa-bundler',
         destination: '/',
         permanent: true,
