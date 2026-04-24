@@ -83,6 +83,43 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'aps',
+    name: 'APS',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://aps.money/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/aps-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/aps-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/aps-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/aps-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'aptos',
     name: 'Aptos (APT)',
     brandKitLink: 'https://aptosnetwork.com/media-kit',
