@@ -92555,4 +92555,43 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'oobit',
+    name: 'Oobit',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.oobit.com/',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/1Os4wC8RAhuzLswSFZM6yWgyx_4dJQ5s5',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/oobit-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/oobit-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/oobit-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/oobit-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
 ];
