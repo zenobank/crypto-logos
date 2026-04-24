@@ -1,0 +1,208 @@
+<svg width="58" height="56" viewBox="0 0 58 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#bfinance_clip0)">
+<mask id="bfinance_mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="0" width="123" height="55">
+<path d="M15.0005 0L1.00049 6.92311V13.6923L15.0005 6.76924L29.0004 13.6923L43.0004 6.76924L57.0005 13.6923V6.92311L43.0004 0L29.0004 6.92308L15.0005 0Z" fill="white"/>
+<path d="M15.0005 13.6924L1.00049 20.6154V27.3847L15.0005 20.4615L29.0004 27.3847L43.0004 20.4615L57.0005 27.3847V20.6154L43.0004 13.6924L29.0004 20.6154L15.0005 13.6924Z" fill="white"/>
+<path d="M15.0005 27.3846L1.00049 34.3078V41.0771L15.0005 34.1539L29.0004 41.0771L43.0004 34.1539L57.0005 41.0769V34.3078L43.0004 27.3846L29.0004 34.3078L15.0005 27.3846Z" fill="white"/>
+<path d="M15.0005 41.0771L1.00049 48.0001V54.7694L15.0005 47.8462L29.0004 54.7694L43.0004 47.8462L57.0005 54.7694V48.0001L43.0004 41.0771L29.0004 48.0001L15.0005 41.0771Z" fill="white"/>
+</mask>
+<g mask="url(#bfinance_mask0)">
+<g filter="url(#bfinance_filter0)">
+<ellipse cx="20.636" cy="32.0046" rx="20.636" ry="32.0046" transform="matrix(-0.337925 1.00957 0.850339 0.385596 -7.33936 -7.28506)" fill="#25FE02"/>
+</g>
+<mask id="bfinance_mask1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-38" y="-29" width="101" height="135">
+<path d="M62.4301 78.3272L-0.392546 105.416L-33.8833 41.0555L-37.9081 20.3705L-8.83559 -23.6256L20.7731 -28.8094L44.984 28.2207L62.4301 78.3272Z" fill="url(#bfinance_paint0)"/>
+</mask>
+<g mask="url(#bfinance_mask1)">
+<mask id="bfinance_mask2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-45" y="-34" width="109" height="143">
+<path d="M17.4336 -33.2532C-10.2223 -17.2937 -43.5203 6.51164 -44.9427 7.20033L-1.34032 108.824L63.0377 78.8681L17.4336 -33.2532Z" fill="url(#bfinance_paint1)"/>
+</mask>
+<g mask="url(#bfinance_mask2)">
+<path d="M-18.1411 38.3833C-13.4056 49.5381 0.487199 53.2165 9.37286 48.1061C18.2585 42.9957 28.0024 31.7738 22.9216 19.8057C20.4038 13.8749 23.2866 3.25765 15.8704 -1.24377C8.32094 -5.82606 -3.1056 2.77486 -7.58798 5.3528C-16.4736 10.4632 -22.8766 27.2285 -18.1411 38.3833Z" fill="#02FE85"/>
+<g filter="url(#bfinance_filter1)">
+<path d="M-17.4359 37.8119C-12.3572 49.7752 -1.02765 53.9115 5.87088 49.944C12.7694 45.9764 19.9063 36.2561 14.8276 24.2929C12.3108 18.3645 14.0459 8.41099 7.62047 3.34333C1.0796 -1.81537 -7.63702 5.22618 -11.117 7.2276C-18.0155 11.1951 -22.5146 25.8487 -17.4359 37.8119Z" fill="#02FE85"/>
+</g>
+<g filter="url(#bfinance_filter2)">
+<path d="M-17.2834 38.1742C-11.5911 51.5827 1.98411 55.7143 10.5023 50.8153C19.0205 45.9162 28.0515 34.4282 22.3592 21.0197C19.5384 14.3752 22.8227 2.44876 15.2295 -3.0059C7.49987 -8.55856 -4.06268 0.364807 -8.35971 2.83614C-16.8779 7.73518 -22.9757 24.7658 -17.2834 38.1742Z" fill="#02FE85"/>
+</g>
+<g filter="url(#bfinance_filter3)">
+<path d="M-13.8407 38.127C-4.50297 53.3533 13.5316 60.0418 24.5524 53.7034C35.5732 47.3651 43.9202 32.1106 37.0935 16.0298C33.7105 8.06101 41.3731 -9.09112 31.8657 -15.4024C22.1875 -21.827 2.46438 -9.29581 -3.09507 -6.09843C-14.1159 0.239917 -24.6579 20.4884 -13.8407 38.127Z" fill="#02FE85"/>
+</g>
+<g filter="url(#bfinance_filter4)">
+<path d="M-9.20725 40.8568C-1.85663 58.1716 19.1957 66.1481 29.9708 59.951C40.7459 53.754 48.5536 38.0075 41.2029 20.6927C37.5604 12.1124 37.2498 -0.67078 27.5563 -7.77894C17.6887 -15.0148 -6.80167 -7.22556 -12.2372 -4.09946C-23.0123 2.09758 -16.5579 23.542 -9.20725 40.8568Z" fill="#02FE85"/>
+</g>
+<g filter="url(#bfinance_filter5)">
+<path d="M-1.52015 46.3588C6.07603 64.2521 27.1385 71.3036 38.1593 64.9653C49.1801 58.627 57.1251 42.4255 49.5289 24.5322C45.7646 15.6652 25.2345 11.0007 15.2741 3.6223C5.13477 -3.88861 -8.86102 7.19458 -14.4205 10.392C-25.4413 16.7303 -9.11634 28.4655 -1.52015 46.3588Z" fill="#02FE85"/>
+</g>
+<g filter="url(#bfinance_filter6)">
+<path d="M-8.98553 33.9086C-2.33887 49.5652 17.9062 54.6913 28.927 48.353C39.9477 42.0146 48.3889 26.9818 41.7422 11.3252C38.4485 3.56662 37.3808 -7.53981 27.9795 -13.6013C18.4092 -19.7717 4.28401 -8.99336 -1.27544 -5.79597C-12.2962 0.542368 -15.6322 18.252 -8.98553 33.9086Z" fill="#02FE85"/>
+</g>
+</g>
+</g>
+<mask id="bfinance_mask3" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-20" y="-22" width="122" height="100">
+<path d="M-19.4639 -5.82135C-15.8563 29.8612 -11.2481 75.3795 -11.1897 77.173L101.733 61.9213L93.4589 -21.073L-19.4639 -5.82135Z" fill="url(#bfinance_paint2)"/>
+</mask>
+<g mask="url(#bfinance_mask3)">
+<path d="M39.937 55.5038C52.6733 53.7836 62.1072 39.5556 60.9648 28.0965C59.8223 16.6373 53.1675 2.29563 39.5026 4.14124C32.731 5.05583 23.7453 -1.49381 16.269 5.29919C8.65835 12.2142 12.0787 27.5915 12.655 33.3721C13.7974 44.8312 27.2008 57.224 39.937 55.5038Z" fill="#02FED1"/>
+<g filter="url(#bfinance_filter7)">
+<path d="M39.6874 54.5431C53.3467 52.6983 62.027 40.3911 61.045 30.5413C60.063 20.6914 53.6207 8.46122 39.9615 10.3061C33.1926 11.2203 24.292 5.48977 16.7391 11.481C9.05045 17.5798 12.2512 30.7624 12.7466 35.7312C13.7286 45.5811 26.0282 56.388 39.6874 54.5431Z" fill="#02FED1"/>
+</g>
+<g filter="url(#bfinance_filter8)">
+<path d="M40.1007 54.4871C55.4101 52.4194 65.0162 37.3942 63.8055 25.2505C62.5949 13.1068 55.2299 -2.04947 39.9205 0.0182552C32.334 1.04292 22.1689 -7.2778 13.7584 -0.013116C5.19671 7.38208 9.03668 24.6899 9.64741 30.8158C10.8581 42.9595 24.7913 56.5548 40.1007 54.4871Z" fill="#02FED1"/>
+</g>
+<g filter="url(#bfinance_filter9)">
+<path d="M41.7249 52.8103C60.3296 47.2786 74.416 29.4136 72.999 15.201C71.5821 0.988357 60.4567 -13.0805 42.0962 -10.6007C32.9976 -9.37182 19.757 -23.2823 9.65272 -14.7447C-0.633048 -6.05374 3.80165 12.9926 4.51643 20.1622C5.93337 34.3748 20.1726 59.2184 41.7249 52.8103Z" fill="#02FED1"/>
+</g>
+<g filter="url(#bfinance_filter10)">
+<path d="M47.5191 46.1985C67.2887 43.5284 82.4825 22.9181 81.0972 9.02229C79.7118 -4.87349 67.8844 -18.5004 48.1149 -15.8303C38.3181 -14.5071 25.8943 -18.2037 14.9448 -9.71182C3.79855 -1.06741 8.38217 17.5208 9.08102 24.5306C10.4664 38.4264 27.7496 48.8686 47.5191 46.1985Z" fill="#02FED1"/>
+</g>
+<g filter="url(#bfinance_filter11)">
+<path d="M54.6616 39.6123C75.0916 36.853 90.8124 15.7484 89.3954 1.53577C87.9785 -12.6769 75.7718 -26.5997 55.3418 -23.8404C45.2178 -22.473 32.3845 -26.2368 21.0619 -17.5346C9.53587 -8.67616 14.2526 10.3321 14.9674 17.5016C16.3843 31.7143 34.2316 42.3717 54.6616 39.6123Z" fill="#02FED1"/>
+</g>
+<g filter="url(#bfinance_filter12)">
+<path d="M39.5199 43.9478C57.3961 41.5334 70.9184 20.7257 69.5015 6.51309C68.0845 -7.69954 57.2122 -21.8026 39.336 -19.3882C30.4774 -18.1917 19.3446 -20.5196 9.52551 -12.0205C-0.469984 -3.36878 3.89871 15.6864 4.61348 22.856C6.03043 37.0686 21.6437 46.3622 39.5199 43.9478Z" fill="#02FED1"/>
+</g>
+</g>
+<mask id="bfinance_mask4" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-12" y="-50" width="80" height="126">
+<path d="M-11.1184 65.8897C20.2848 70.2385 54.562 74.97 56.1136 75.307L67.6399 -40.2916L0.407941 -49.7088L-11.1184 65.8897Z" fill="url(#bfinance_paint3)"/>
+</mask>
+<g mask="url(#bfinance_mask4)">
+<path d="M53.0016 24.0111C53.8392 15.9095 47.3451 8.08968 40.8916 7.18572C34.438 6.28177 25.6298 8.37502 24.7311 17.0673C24.2858 21.3748 19.431 26.0005 22.1156 31.5683C24.8484 37.2361 33.7727 37.2844 37.0282 37.7404C43.4817 38.6443 52.1639 32.1127 53.0016 24.0111Z" fill="#02FE85"/>
+<g filter="url(#bfinance_filter13)">
+<path d="M52.4387 24.0308C53.3371 15.342 48.3914 8.34092 43.3811 7.63912C38.3708 6.93732 31.4567 9.29453 30.5584 17.9833C30.1132 22.289 26.0931 27.0295 28.0592 32.4945C30.0607 38.0577 37.0165 37.8307 39.544 38.1848C44.5543 38.8866 51.5404 32.7195 52.4387 24.0308Z" fill="#02FE85"/>
+</g>
+<g filter="url(#bfinance_filter14)">
+<path d="M52.4655 23.7672C53.4723 14.0288 47.2922 6.09266 41.1055 5.22608C34.9189 4.35951 26.4201 6.89651 25.4132 16.6349C24.9143 21.4607 19.4356 26.6377 21.9236 32.8027C24.4563 39.0785 33.5547 39.0066 36.6755 39.4437C42.8622 40.3103 51.4586 33.5055 52.4655 23.7672Z" fill="#02FE85"/>
+</g>
+<g filter="url(#bfinance_filter15)">
+<path d="M50.5613 22.3568C50.1269 10.0984 42.2863 -1.10335 34.2821 -2.22452C26.2778 -3.34568 16.9939 1.54479 15.7863 13.224C15.1879 19.0117 5.69491 25.2298 8.9699 32.6643C12.3037 40.2324 26.9944 41.5867 31.0322 42.1522C39.0364 43.2734 51.0646 36.5574 50.5613 22.3568Z" fill="#02FE85"/>
+</g>
+<g filter="url(#bfinance_filter16)">
+<path d="M48.8583 18.9233C50.1585 6.34777 41.058 -6.82105 33.2322 -7.91722C25.4064 -9.01339 16.2669 -3.62759 14.9667 8.94791C14.3224 15.1797 10.5534 22.3279 13.685 30.2776C16.8728 38.3702 32.7196 44.3183 36.6673 44.8713C44.4931 45.9674 47.5581 31.4988 48.8583 18.9233Z" fill="#02FE85"/>
+</g>
+<g filter="url(#bfinance_filter17)">
+<path d="M46.3337 12.6931C47.6773 -0.302476 38.2862 -12.9677 30.282 -14.0889C22.2777 -15.2101 12.9227 -9.63178 11.579 3.36384C10.9131 9.80381 20.7476 20.9362 23.9424 29.1458C27.1947 37.5028 38.2946 37.2609 42.3323 37.8265C50.3366 38.9476 44.99 25.6888 46.3337 12.6931Z" fill="#02FE85"/>
+</g>
+<g filter="url(#bfinance_filter18)">
+<path d="M46.5966 22.6458C47.7723 11.2747 38.2367 0.0078824 30.2324 -1.11328C22.2282 -2.23445 12.9608 2.49505 11.7851 13.8662C11.2025 19.5012 8.36595 26.0449 11.6597 33.298C15.0126 40.6814 26.0896 40.6609 30.1274 41.2265C38.1316 42.3476 45.4209 34.017 46.5966 22.6458Z" fill="#02FE85"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="bfinance_filter0" x="-35.8797" y="-19.0098" width="97.5636" height="89.7981" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="10.3405" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter1" x="-20.442" y="0.663453" width="37.8151" height="51.5687" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0.41362" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter2" x="-22.3953" y="-7.68986" width="49.4313" height="63.3889" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="1.44767" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter3" x="-22.5097" y="-21.345" width="66.2099" height="81.5667" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2.0681" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter4" x="-29.1209" y="-21.9338" width="84.3706" height="95.1382" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="5.58387" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter5" x="-45.8414" y="-26.6518" width="126.083" height="121.615" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="13.8563" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter6" x="-25.2167" y="-28.2969" width="82.1337" height="92.1203" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="6.41111" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter7" x="10.8393" y="7.88306" width="51.1086" height="47.6947" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0.41362" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter8" x="5.36736" y="-5.91405" width="61.4362" height="63.5064" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="1.44767" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter9" x="-1.18112" y="-21.6689" width="78.4145" height="79.6514" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2.0681" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter10" x="-3.61012" y="-27.3355" width="95.9629" height="85.1203" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="5.58387" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter11" x="-14.3033" y="-51.9051" width="131.5" height="119.667" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="13.8563" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter12" x="-9.77192" y="-32.4819" width="92.1976" height="89.6331" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="6.41111" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter13" x="26.9785" y="6.98036" width="26.109" height="31.8013" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0.271265" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter14" x="19.38" y="3.16886" width="35.0926" height="38.248" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="0.949427" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter15" x="5.57202" y="-5.09336" width="47.7173" height="50.0786" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="1.35632" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter16" x="5.13288" y="-15.38" width="51.1747" height="67.6341" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="3.66208" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter17" x="-6.62787" y="-32.404" width="71.6566" height="88.4716" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="9.08737" result="effect1_foregroundBlur"/>
+</filter>
+<filter id="bfinance_filter18" x="1.68503" y="-9.68295" width="53.42" height="59.4198" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="4.2046" result="effect1_foregroundBlur"/>
+</filter>
+<linearGradient id="bfinance_paint0" x1="3.77151" y1="48.1894" x2="-12.9534" y2="11.8941" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C4C4C4"/>
+<stop offset="0.943414" stop-color="#C4C4C4" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="bfinance_paint1" x1="-7.84069" y1="32.2653" x2="29.3922" y2="12.0531" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C4C4C4"/>
+<stop offset="1" stop-color="#C4C4C4" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="bfinance_paint2" x1="34.713" y1="57.6486" x2="28.9666" y2="-1.20773" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C4C4C4"/>
+<stop offset="1" stop-color="#C4C4C4" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="bfinance_paint3" x1="42.1007" y1="26.1792" x2="0.352548" y2="25.6343" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C4C4C4"/>
+<stop offset="1" stop-color="#C4C4C4" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="bfinance_clip0">
+<rect width="57" height="56" fill="white" transform="translate(0.333496)"/>
+</clipPath>
+</defs>
+</svg>

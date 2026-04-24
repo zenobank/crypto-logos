@@ -237,6 +237,29 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'bfinance',
+    name: 'BFinance',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://bfinance.app/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bfinance-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bfinance-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'bitcoin',
     name: 'Bitcoin (BTC)',
     mainCategory: 'chains',
