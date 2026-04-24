@@ -92774,4 +92774,41 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'coinremitter',
+    name: 'CoinRemitter',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://coinremitter.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/coinremitter-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/coinremitter-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/coinremitter-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/coinremitter-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
 ];
