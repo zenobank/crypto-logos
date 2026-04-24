@@ -4085,6 +4085,43 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'maxelpay',
+    name: 'MaxelPay',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.maxelpay.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/maxelpay-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/maxelpay-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/maxelpay-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/maxelpay-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'matcha',
     name: 'Matcha',
     mainCategory: 'exchanges',
