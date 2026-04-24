@@ -1004,6 +1004,31 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'lido-staked-eth',
+    name: 'Lido Staked ETH (stETH)',
+    mainCategory: 'defi',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://stake.lido.fi',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/1aubFyvG7YVyyVWGf5yDxjtv6CwvAXdJU',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lido-staked-eth-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lido-staked-eth-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'liquity',
     name: 'Liquity (LQTY)',
     mainCategory: 'defi',
