@@ -5984,6 +5984,43 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'relaypay',
+    name: 'RelayPay',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.relaypay.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/relaypay-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/relaypay-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/relaypay-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/relaypay-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'ripple',
     name: 'Ripple',
     mainCategory: 'payments',
