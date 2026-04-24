@@ -65440,22 +65440,22 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/terra2-icon-light.svg',
-            format: 'svg',
+            url: '/library/terra2-icon-light.png',
+            format: 'png',
           },
         ],
         dark: [
           {
-            url: '/library/terra2-icon-dark.svg',
-            format: 'svg',
+            url: '/library/terra2-icon-dark.png',
+            format: 'png',
           },
         ],
       },
       text: {
         light: [
           {
-            url: '/library/terra2-text-light.svg',
-            format: 'svg',
+            url: '/library/terra2-text-light.png',
+            format: 'png',
           },
         ],
         dark: [
