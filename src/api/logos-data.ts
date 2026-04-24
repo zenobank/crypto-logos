@@ -44319,22 +44319,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'curve-subgraph',
-    name: 'Curve Subgraph',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/curve-subgraph-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'enzyme-subgraph',
     name: 'Enzyme Subgraph',
     mainCategory: 'infrastructure-tools',

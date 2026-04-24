@@ -96,6 +96,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/logo/curve-subgraph',
+        destination: '/logo/curve-finance',
+        permanent: true,
+      },
+      {
         source: '/logo/aa-bundler',
         destination: '/',
         permanent: true,
