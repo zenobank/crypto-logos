@@ -84008,6 +84008,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/0xprocessing-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/0xprocessing-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
