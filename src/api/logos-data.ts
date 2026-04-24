@@ -120,6 +120,45 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'arc-network',
+    name: 'Arc Network',
+    mainCategory: 'chains',
+    secondaryCategories: [],
+    websiteLink: 'https://www.arc.network/',
+    brandKitLink:
+      'https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/Brand/Arc/Arc_Logos.zip',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/arc-network-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/arc-network-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/arc-network-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/arc-network-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'arbitrum',
     name: 'Arbitrum (ARB)',
     mainCategory: 'chains',
