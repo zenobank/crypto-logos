@@ -38,9 +38,9 @@ export default function RelatedLogos({ logoId, limit = DEFAULT_LIMIT }: Props) {
               aria-label={`View ${logo.name}`}
             />
             <LogoCardContent logo={logo} loading="lazy">
-              <h3 className="text-center text-sm font-medium break-all">
+              <p className="text-center text-sm font-medium break-all">
                 {logo.name}
-              </h3>
+              </p>
             </LogoCardContent>
           </Card>
         ))}
