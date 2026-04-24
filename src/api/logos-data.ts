@@ -5942,6 +5942,44 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'usat',
+    name: 'USAT (USAT)',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    websiteLink: 'https://usat.io/',
+    brandKitLink: 'https://usat.io/media/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/usat-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/usat-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/usat-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/usat-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'usd1',
     name: 'World Liberty Financial USD (USD1)',
     mainCategory: 'stablecoins',
