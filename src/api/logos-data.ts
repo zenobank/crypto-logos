@@ -373,6 +373,43 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'bithide',
+    name: 'BitHide',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://bithide.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bithide-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bithide-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bithide-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bithide-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'bitcoin',
     name: 'Bitcoin (BTC)',
     mainCategory: 'chains',
@@ -92439,6 +92476,43 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/paybito-text-dark.png',
             format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'kyrrex',
+    name: 'Kyrrex',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://kyrrex.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/kyrrex-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/kyrrex-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/kyrrex-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/kyrrex-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
