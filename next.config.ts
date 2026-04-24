@@ -116,6 +116,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/logo/tangem-wallet',
+        destination: '/logo/tangem',
+        permanent: true,
+      },
+      {
         source: '/logo/aa-bundler',
         destination: '/',
         permanent: true,

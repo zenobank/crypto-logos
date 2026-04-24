@@ -14384,23 +14384,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'tangem-wallet',
-    name: 'Tangem Wallet',
-    mainCategory: 'wallets',
-    secondaryCategories: [],
-    websiteLink: 'https://tangem.com',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/tangem-wallet-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'blackfort-wallet',
     name: 'BlackFort Wallet',
     mainCategory: 'wallets',
@@ -84919,7 +84902,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'tangem',
-    name: 'Tangem',
+    name: 'Tangem Wallet',
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://tangem.com',
