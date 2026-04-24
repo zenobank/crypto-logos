@@ -5587,8 +5587,28 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/ripple-usd-icon-light.png',
-            format: 'png',
+            url: '/library/ripple-usd-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ripple-usd-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/ripple-usd-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ripple-usd-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
