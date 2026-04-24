@@ -1004,6 +1004,31 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'lido-dao',
+    name: 'Lido DAO (LDO)',
+    mainCategory: 'defi',
+    secondaryCategories: ['tokens'],
+    websiteLink: 'https://lido.fi',
+    brandKitLink:
+      'https://drive.google.com/drive/folders/1aubFyvG7YVyyVWGf5yDxjtv6CwvAXdJU',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lido-dao-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lido-dao-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'lido-staked-eth',
     name: 'Lido Staked ETH (stETH)',
     mainCategory: 'defi',

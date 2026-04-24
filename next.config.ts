@@ -101,11 +101,6 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/logo/lido-dao',
-        destination: '/logo/lido',
-        permanent: true,
-      },
-      {
         source: '/logo/lido-subgraph',
         destination: '/logo/lido',
         permanent: true,
