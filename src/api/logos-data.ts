@@ -83826,6 +83826,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/oxapay-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/oxapay-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
     },
   },
   {
@@ -92717,6 +92731,43 @@ export const LOGOS_DATA: LogoItem[] = [
         dark: [
           {
             url: '/library/malum-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lorum',
+    name: 'Lorum',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.lorum.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lorum-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lorum-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/lorum-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lorum-text-dark.png',
             format: 'png',
           },
         ],
