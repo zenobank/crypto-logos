@@ -86080,18 +86080,33 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'stablecoins',
     secondaryCategories: [],
     websiteLink: 'https://www.circle.com',
+    brandKitLink: 'https://www.circle.com/pressroom#brandkit',
     logo: {
       icon: {
         light: [
           {
-            url: '/library/circle-icon-light.png',
-            format: 'png',
+            url: '/library/circle-icon-light.svg',
+            format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/circle-icon-dark.png',
-            format: 'png',
+            url: '/library/circle-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/circle-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/circle-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
