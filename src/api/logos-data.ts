@@ -6783,7 +6783,7 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'BNB Chain',
     mainCategory: 'chains',
     secondaryCategories: [],
-    websiteLink: 'https://www.bnbchain.org',
+    websiteLink: 'https://www.bnbchain.org/en',
     brandKitLink: 'https://www.bnbchain.org/en/brand-guidelines',
     logo: {
       icon: {
@@ -6791,6 +6791,26 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/bnb-chain-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bnb-chain-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bnb-chain-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bnb-chain-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
