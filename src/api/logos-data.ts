@@ -276,6 +276,43 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'bastion',
+    name: 'Bastion',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.bastion.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/bastion-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bastion-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/bastion-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/bastion-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'bfinance',
     name: 'BFinance',
     mainCategory: 'payments',
