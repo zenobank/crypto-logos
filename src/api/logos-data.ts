@@ -5811,6 +5811,29 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'anchor-protocol',
+    name: 'Anchor Protocol',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://anchorprotocol.com',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/anchor-protocol-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/anchor-protocol-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'anchorage',
     name: 'Anchorage Digital',
     mainCategory: 'crypto-banks',
