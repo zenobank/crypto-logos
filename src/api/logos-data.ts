@@ -6928,7 +6928,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'bnb-chain',
-    name: 'BNB Chain',
+    name: 'BNB Chain (Binance Smart Chain BSC)',
     mainCategory: 'chains',
     secondaryCategories: [],
     websiteLink: 'https://www.bnbchain.org/en',
