@@ -2072,6 +2072,43 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'unifold',
+    name: 'Unifold',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://unifold.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/unifold-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/unifold-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/unifold-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/unifold-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'uniswap',
     name: 'Uniswap (UNI)',
     mainCategory: 'defi',
