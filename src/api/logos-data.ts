@@ -1551,20 +1551,20 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Rango Exchange',
     mainCategory: 'exchanges',
     secondaryCategories: [],
-    websiteLink: 'https://rango.exchange',
-    brandKitLink: 'https://rango.exchange/brandbook',
+    websiteLink: 'https://rango.exchange/',
+    brandKitLink: 'https://github.com/rango-exchange/assets',
     logo: {
       icon: {
         light: [
           {
-            url: '/library/rango-exchange-icon-light.png',
-            format: 'png',
+            url: '/library/rango-exchange-icon-light.svg',
+            format: 'svg',
           },
         ],
         dark: [
           {
-            url: '/library/rango-exchange-icon-dark.png',
-            format: 'png',
+            url: '/library/rango-exchange-icon-dark.svg',
+            format: 'svg',
           },
         ],
       },
@@ -1577,8 +1577,8 @@ export const LOGOS_DATA: LogoItem[] = [
         ],
         dark: [
           {
-            url: '/library/rango-exchange-text-dark.svg',
-            format: 'svg',
+            url: '/library/rango-exchange-text-dark.png',
+            format: 'png',
           },
         ],
       },
