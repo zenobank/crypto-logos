@@ -989,14 +989,33 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'defi',
     secondaryCategories: ['tokens'],
     websiteLink: 'https://www.liquity.org',
-    brandKitLink:
-      'https://uploads-ssl.webflow.com/5fd883457ba5da4c3822b02c/6011885fae7ee22bd6732e34_liquity_press_kit.pdf',
+    brandKitLink: 'https://docs.liquity.org/v2-documentation/brand-assets',
     logo: {
       icon: {
         light: [
           {
             url: '/library/liquity-icon-light.png',
             format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/liquity-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/liquity-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/liquity-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
