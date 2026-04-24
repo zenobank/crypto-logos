@@ -92700,4 +92700,27 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'malum',
+    name: 'Malum',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://malum.co',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/malum-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/malum-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
