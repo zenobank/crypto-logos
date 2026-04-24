@@ -4847,6 +4847,29 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'eldorado',
+    name: 'El Dorado',
+    mainCategory: 'exchanges',
+    secondaryCategories: [],
+    websiteLink: 'https://eldorado.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/eldorado-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/eldorado-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'ethena',
     name: 'Ethena (ENA)',
     mainCategory: 'tokens',
