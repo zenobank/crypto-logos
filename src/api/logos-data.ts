@@ -1181,6 +1181,43 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
+    id: 'mucho-finance',
+    name: 'Mucho Finance',
+    mainCategory: 'defi',
+    secondaryCategories: [],
+    websiteLink: 'https://mucho.finance/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/mucho-finance-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mucho-finance-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/mucho-finance-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/mucho-finance-text-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
     id: 'morpho',
     name: 'Morpho',
     mainCategory: 'defi',

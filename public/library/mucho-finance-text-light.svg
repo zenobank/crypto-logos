@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 32" fill="none">
+  <text
+    x="0"
+    y="24"
+    font-family="'JetBrains Mono', 'Fira Code', ui-monospace, monospace"
+    font-size="22"
+    font-weight="700"
+    letter-spacing="-0.04em"
+    style="text-transform: lowercase;">
+    <tspan fill="#111827">(mucho)</tspan>
+    <tspan fill="#F6931A" dx="6">finance</tspan>
+  </text>
+</svg>
