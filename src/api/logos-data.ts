@@ -10947,6 +10947,7 @@ export const LOGOS_DATA: LogoItem[] = [
     mainCategory: 'tokens',
     secondaryCategories: [],
     websiteLink: 'https://www.paxos.com/pax-gold',
+    brandKitLink: 'https://www.paxos.com/brand-resources',
     logo: {
       icon: {
         light: [
@@ -10958,6 +10959,20 @@ export const LOGOS_DATA: LogoItem[] = [
         dark: [
           {
             url: '/library/pax-gold-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/pax-gold-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pax-gold-text-dark.svg',
             format: 'svg',
           },
         ],
