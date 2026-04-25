@@ -93504,4 +93504,40 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'brz',
+    name: 'Brazilian Digital Token (BRZ)',
+    mainCategory: 'stablecoins',
+    secondaryCategories: [],
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/brz-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/brz-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/brz-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/brz-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
