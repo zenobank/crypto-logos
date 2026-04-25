@@ -71,6 +71,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/logo/paxos-gold',
+        destination: '/logo/pax-gold',
+        permanent: true,
+      },
+      {
         source: '/logo/paradigm-ctf',
         destination: '/logo/paradigm',
         permanent: true,

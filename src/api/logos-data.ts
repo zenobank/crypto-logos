@@ -74049,29 +74049,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'paxos-gold',
-    name: 'Paxos Gold',
-    mainCategory: 'defi',
-    secondaryCategories: [],
-    websiteLink: 'https://www.paxos.com/pax-gold',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/paxos-gold-icon-light.png',
-            format: 'png',
-          },
-        ],
-        dark: [
-          {
-            url: '/library/paxos-gold-icon-dark.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'steakhouse-financial',
     name: 'Steakhouse Financial',
     mainCategory: 'defi',
