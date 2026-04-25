@@ -85854,7 +85854,7 @@ export const LOGOS_DATA: LogoItem[] = [
   },
   {
     id: 'trm-labs',
-    name: 'TRM',
+    name: 'TRM Labs',
     mainCategory: 'services',
     secondaryCategories: [],
     websiteLink: 'https://www.trmlabs.com',
