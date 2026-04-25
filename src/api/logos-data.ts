@@ -26755,8 +26755,28 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/superfluid-icon-light.png',
-            format: 'png',
+            url: '/library/superfluid-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/superfluid-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/superfluid-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/superfluid-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
