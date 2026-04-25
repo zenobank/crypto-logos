@@ -87381,6 +87381,20 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [
+          {
+            url: '/library/agora-finance-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/agora-finance-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
     },
   },
   {
@@ -92852,6 +92866,43 @@ export const LOGOS_DATA: LogoItem[] = [
           {
             url: '/library/crypto-pay-text-dark.png',
             format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'x402',
+    name: 'x402',
+    mainCategory: 'payments',
+    secondaryCategories: ['infrastructure-tools'],
+    websiteLink: 'https://www.x402.org/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/x402-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/x402-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/x402-text-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/x402-text-dark.svg',
+            format: 'svg',
           },
         ],
       },
