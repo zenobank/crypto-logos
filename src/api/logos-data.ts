@@ -41369,6 +41369,7 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'Wert',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
+    websiteLink: 'https://wert.io',
     logo: {
       icon: {
         light: [
