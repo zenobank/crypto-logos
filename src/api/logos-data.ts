@@ -92871,41 +92871,4 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
-  {
-    id: 'x402',
-    name: 'x402',
-    mainCategory: 'payments',
-    secondaryCategories: ['infrastructure-tools'],
-    websiteLink: 'https://www.x402.org/',
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/x402-icon-light.png',
-            format: 'png',
-          },
-        ],
-        dark: [
-          {
-            url: '/library/x402-icon-dark.png',
-            format: 'png',
-          },
-        ],
-      },
-      text: {
-        light: [
-          {
-            url: '/library/x402-text-light.svg',
-            format: 'svg',
-          },
-        ],
-        dark: [
-          {
-            url: '/library/x402-text-dark.svg',
-            format: 'svg',
-          },
-        ],
-      },
-    },
-  },
 ];
