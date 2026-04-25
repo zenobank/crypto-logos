@@ -37,7 +37,7 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['bifrost', 'bifrost-wallet'], // Bifrost
   ['binance', 'binance-pay', 'binance-us', 'binance-usd', 'bnb', 'bscscan'], // Binance/BNB
   ['bitcoin', 'bitcoin-cash', 'bitcoin-diamond', 'bitcoin-gold', 'bitcoin-plus', 'bitcoin-sv', 'bitcoincom-wallet', 'wrapped-btc', 'tbtc'], // Bitcoin
-  ['bitget', 'bitget-wallet-lite'], // Bitget
+  ['bitget', 'bitget-wallet'], // Bitget
   ['bitso', 'bitso-web3-wallet'], // Bitso
   ['blast', 'blastscan'], // Blast
   ['blocknative', 'blocknative-gas-estimator'], // Blocknative

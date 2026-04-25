@@ -19414,8 +19414,8 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'bitget-wallet-lite',
-    name: 'Bitget Wallet Lite',
+    id: 'bitget-wallet',
+    name: 'Bitget Wallet',
     mainCategory: 'wallets',
     secondaryCategories: [],
     websiteLink: 'https://web3.bitget.com/',
@@ -19423,7 +19423,7 @@ export const LOGOS_DATA: LogoItem[] = [
       icon: {
         light: [
           {
-            url: '/library/bitget-wallet-lite-icon-light.png',
+            url: '/library/bitget-wallet-icon-light.png',
             format: 'png',
           },
         ],

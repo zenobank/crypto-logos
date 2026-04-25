@@ -126,6 +126,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/logo/bitget-wallet-lite',
+        destination: '/logo/bitget-wallet',
+        permanent: true,
+      },
+      {
         source: '/logo/aa-bundler',
         destination: '/',
         permanent: true,
