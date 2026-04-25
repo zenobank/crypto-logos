@@ -8807,6 +8807,10 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [{ url: '/library/maker-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/maker-text-dark.svg', format: 'svg' }],
+      },
     },
   },
   {
@@ -9453,6 +9457,10 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'png',
           },
         ],
+      },
+      text: {
+        light: [{ url: '/library/gitcoin-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/gitcoin-text-dark.svg', format: 'svg' }],
       },
     },
   },
@@ -10238,6 +10246,10 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'png',
           },
         ],
+      },
+      text: {
+        light: [{ url: '/library/livepeer-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/livepeer-text-dark.svg', format: 'svg' }],
       },
     },
   },
@@ -25602,6 +25614,10 @@ export const LOGOS_DATA: LogoItem[] = [
           },
         ],
       },
+      text: {
+        light: [{ url: '/library/ens-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/ens-text-dark.svg', format: 'svg' }],
+      },
     },
   },
   {
@@ -25745,6 +25761,10 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'png',
           },
         ],
+      },
+      text: {
+        light: [{ url: '/library/delphi-digital-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/delphi-digital-text-dark.svg', format: 'svg' }],
       },
     },
   },
@@ -27325,6 +27345,10 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'png',
           },
         ],
+      },
+      text: {
+        light: [{ url: '/library/planet-ix-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/planet-ix-text-dark.svg', format: 'svg' }],
       },
     },
   },
@@ -68584,6 +68608,10 @@ export const LOGOS_DATA: LogoItem[] = [
         light: [{ url: '/library/optimism-icon-light.svg', format: 'svg' }],
         dark: [{ url: '/library/optimism-icon-dark.svg', format: 'svg' }],
       },
+      text: {
+        light: [{ url: '/library/optimism-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/optimism-text-dark.svg', format: 'svg' }],
+      },
     },
   },
   {
@@ -92868,6 +92896,32 @@ export const LOGOS_DATA: LogoItem[] = [
             format: 'png',
           },
         ],
+      },
+    },
+  },
+  {
+    id: 'animoca',
+    name: 'Animoca Brands',
+    mainCategory: 'investors',
+    secondaryCategories: [],
+    websiteLink: 'https://www.animocabrands.com/',
+    logo: {
+      text: {
+        light: [{ url: '/library/animoca-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/animoca-text-dark.svg', format: 'svg' }],
+      },
+    },
+  },
+  {
+    id: 'giveth',
+    name: 'Giveth',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://giveth.io/',
+    logo: {
+      text: {
+        light: [{ url: '/library/giveth-text-light.svg', format: 'svg' }],
+        dark: [{ url: '/library/giveth-text-dark.svg', format: 'svg' }],
       },
     },
   },
