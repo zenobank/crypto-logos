@@ -93540,4 +93540,165 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'crystal-intelligence',
+    name: 'Crystal Intelligence',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://crystalintelligence.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/crystal-intelligence-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/crystal-intelligence-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'merkle-science',
+    name: 'Merkle Science',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.merklescience.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/merkle-science-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/merkle-science-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'scorechain',
+    name: 'Scorechain',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.scorechain.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/scorechain-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/scorechain-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'solidus-labs',
+    name: 'Solidus Labs',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.soliduslabs.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/solidus-labs-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/solidus-labs-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'predicate',
+    name: 'Predicate',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://predicate.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/predicate-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/predicate-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'defy',
+    name: 'Defy',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://www.getdefy.co/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/defy-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/defy-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'glassnode',
+    name: 'Glassnode',
+    mainCategory: 'infrastructure-tools',
+    secondaryCategories: [],
+    websiteLink: 'https://glassnode.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/glassnode-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/glassnode-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
