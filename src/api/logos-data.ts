@@ -92789,4 +92789,72 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'crixto',
+    name: 'Crixto',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.crixto.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/crixto-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/crixto-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        light: [
+          {
+            url: '/library/crixto-text-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/crixto-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'crypto-pay',
+    name: 'Crypto.com Pay',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://crypto.com/eea/pay',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/crypto-pay-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/crypto-pay-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+      text: {
+        dark: [
+          {
+            url: '/library/crypto-pay-text-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
