@@ -36,8 +36,11 @@ export function getRelatedLogos(logoId: string): LogoItemsResponse[] {
     }
   }
 
-  // 2. Same main category
-  const categoryLogos = LOGOS_BY_CATEGORY[currentLogo.mainCategory.id] || [];
+  // 2. Same main category (shuffled per-logo so each page shows a unique set)
+  const categoryLogos = shuffleWithSeed(
+    LOGOS_BY_CATEGORY[currentLogo.mainCategory.id] || [],
+    logoId,
+  );
   for (const logo of categoryLogos) {
     if (!seen.has(logo.id)) {
       seen.add(logo.id);
