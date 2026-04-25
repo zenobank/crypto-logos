@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Swaps" />
+
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TKRX7GNK');</script>
+<!-- End Google Tag Manager -->
+
+    
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      // Consent defaults for GTM/GA4 before app hydration.
+      window.dataLayer.push({
+        event: 'consent_default',
+        analytics_storage: 'granted',
+        ad_storage: 'denied'
+      });
+    </script>
+
+    <title>Buy, Sell &amp; Swap Crypto at the Best Rate | Swaps</title>
+    <meta name="description" content="Buy crypto, sell crypto, or swap tokens — all at the best guaranteed rate. Compare providers instantly, 34+ payment methods, non-custodial. Available in 100+ countries." />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2FBCFF" />
+
+    <!-- Preconnect to critical origins -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://flagcdn.com" crossorigin />
+    <!-- Google Fonts preconnect removed — not using external fonts -->
+
+    <!-- Removed: Playfair Display font (unused, was render-blocking) -->
+    <link rel="dns-prefetch" href="https://assets.coingecko.com" />
+    <link rel="dns-prefetch" href="https://api.coingecko.com" />
+    <!-- Vercel/deployment CDN -->
+    <link rel="preconnect" href="https://vercel.live" crossorigin />
+    <link rel="dns-prefetch" href="https://vercel.live" />
+    <!-- Supabase API -->
+    <link rel="preconnect" href="https://ogjepnqqttzltsdjsgzq.supabase.co" crossorigin />
+    <link rel="dns-prefetch" href="https://ogjepnqqttzltsdjsgzq.supabase.co" />
+    <!-- WalletConnect (deferred - only needed on wallet routes) -->
+    <link rel="dns-prefetch" href="https://pulse.walletconnect.org" />
+    <link rel="dns-prefetch" href="https://explorer-api.walletconnect.com" />
+
+    <!-- Preload critical fonts with high priority -->
+    <link
+      rel="preload"
+      href="/fonts/als-selector.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+      fetchpriority="high"
+    />
+
+    <!--
+      JSON-LD Structured Data (Organization / WebSite / Person / FinancialService)
+      is emitted at runtime by <GlobalSchemas /> in src/components/seo/GlobalSchemas.tsx.
+      Do NOT re-add inline JSON-LD here — it would duplicate the Organization node
+      and fragment LLM entity graphs (see PR #1, brand entity track).
+    -->
+
+    <!-- Critical CSS: Prevent FOUC, define initial viewport -->
+    <style>
+      /* Critical font-face */
+      @font-face {
+        font-family: 'ALS Sector';
+        src: url('/fonts/als-selector.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      /* Critical variables */
+      :root {
+        --background: 248 250 252;
+        --foreground: 15 23 42;
+        --primary: 47 188 255;
+      }
+      /* No dark mode — Apple light palette only */
+      /* Prevent FOUC */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background-color: rgb(var(--background));
+        color: rgb(var(--foreground));
+      }
+      /* Root container ready for React */
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      /* Skeleton animation */
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
+      }
+      .skeleton-pulse {
+        animation: pulse 2s ease-in-out infinite;
+      }
+      .skeleton-box {
+        background: #f5f5f7;
+        border-radius: 12px;
+      }
+      /*
+       * Scroll-lock while the widget skeleton is visible.
+       *
+       * Added to <html> synchronously by the inline script below for
+       * widget-hosting routes (/, /buy, /sell and their sub-paths), so the
+       * lock is in place from the VERY FIRST paint — before React even
+       * starts loading. Without this, the hardcoded landing skeleton
+       * (>800px) plus the ExchangeSeoHero (min-h-820px) push the body
+       * taller than typical viewport heights, and the browser paints a
+       * native scrollbar on the right edge before any JS can react.
+       *
+       * React removes this class once the widget finishes its reveal
+       * (see FiatFirstLoadSessionV2Widget.tsx — useLayoutEffect keyed off
+       * entryKey + MIN_INITIAL_SKELETON_MS timer).
+       *
+       * !important guards against the base `html, body { overflow-x: hidden }`
+       * rule in index.css from winning on longhand specificity.
+       */
+      html.swaps-widget-skeleton-lock,
+      html.swaps-widget-skeleton-lock body {
+        overflow: hidden !important;
+      }
+    </style>
+    <script>
+      /*
+       * Add the skeleton scroll-lock class before the browser paints
+       * anything. Runs during HTML parse, so by the time <body> renders,
+       * the CSS rule above is already in force — no scrollbar flash.
+       *
+       * Scoped to widget-hosting routes only so pages like /coverage,
+       * /pricing, /help keep their native scrollbar from frame zero.
+       *
+       * Safety: always removes the class after 800ms, even if React never
+       * loads. This covers the edge case of a broken JS bundle — users on
+       * a crashed page can still scroll to see error state.
+       */
+      (function () {
+        var p = window.location.pathname;
+        var isWidgetRoute =
+          p === '/' ||
+          p === '/buy' ||
+          p === '/sell' ||
+          p.indexOf('/buy/') === 0 ||
+          p.indexOf('/sell/') === 0;
+        if (!isWidgetRoute) return;
+        document.documentElement.classList.add('swaps-widget-skeleton-lock');
+        setTimeout(function () {
+          document.documentElement.classList.remove('swaps-widget-skeleton-lock');
+        }, 800);
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-DhQ6Ft9C.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-D05fMfCV.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-ui-DXbpo4hz.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-data-ImoBDC3F.js">
+    <link rel="modulepreload" crossorigin href="/assets/exchange-bootstrap-B_IqpJKa.js">
+    <link rel="stylesheet" crossorigin href="/assets/exchange-bootstrap-BTzee5dK.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-DP1mWxGg.css">
+  
+    <!-- SEO: Prerendered meta tags for / -->
+    <link rel="canonical" href="https://www.swaps.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Buy, Sell &amp; Swap Crypto at the Best Rate | Swaps" />
+    <meta property="og:description" content="Buy crypto, sell crypto, or swap tokens — all at the best guaranteed rate. Compare providers instantly, 34+ payment methods, non-custodial. Available in 100+ countries." />
+    <meta property="og:url" content="https://www.swaps.app" />
+    <meta property="og:site_name" content="Swaps" />
+    <meta property="og:image" content="https://ogjepnqqttzltsdjsgzq.supabase.co/functions/v1/og?title=Swaps&subtitle=Buy+Sell+Swap+Crypto&type=default&cta=Start+on+swaps.app+%E2%86%92" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Buy, Sell &amp; Swap Crypto at the Best Rate | Swaps" />
+    <meta name="twitter:description" content="Buy crypto, sell crypto, or swap tokens — all at the best guaranteed rate. Compare providers instantly, 34+ payment methods, non-custodial. Available in 100+ countries." />
+    <meta name="twitter:image" content="https://ogjepnqqttzltsdjsgzq.supabase.co/functions/v1/og?title=Swaps&subtitle=Buy+Sell+Swap+Crypto&type=default&cta=Start+on+swaps.app+%E2%86%92" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Swaps",
+        "legalName": "Supa Labs OÜ",
+        "url": "https://www.swaps.app",
+        "logo": "https://www.swaps.app/logo.svg",
+        "description": "Independent crypto price aggregator comparing rates from multiple providers",
+        "foundingDate": "2021",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Oru tn 2",
+          "addressLocality": "Tallinn",
+          "postalCode": "10127",
+          "addressCountry": "EE"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Buy, Sell & Swap Crypto at the Best Rate | Swaps",
+        "description": "Buy crypto, sell crypto, or swap tokens — all at the best guaranteed rate. Compare providers instantly, 34+ payment methods, non-custodial. Available in 100+ countries.",
+        "url": "https://www.swaps.app"
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKRX7GNK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <noscript><article id="seo-content">
+    <h1>Buy, Sell & Swap Crypto at the Best Rate</h1>
+    <p>Buy crypto, sell crypto, or swap tokens at the best guaranteed rate. Compare providers instantly with 34+ payment methods. Non-custodial — crypto goes directly to your wallet.</p>
+    <h2>How it works</h2>
+    <ol>
+      <li>Choose your crypto and payment method</li>
+      <li>Compare rates from multiple providers</li>
+      <li>Complete your purchase securely</li>
+    </ol>
+    <h2>Supported Cryptocurrencies</h2>
+    <ul>
+      <li><a href="https://www.swaps.app/crypto/bitcoin">Bitcoin (BTC)</a> — Digital gold. The currency the internet chose.</li>
+      <li><a href="https://www.swaps.app/crypto/ethereum">Ethereum (ETH)</a> — The world computer. Build anything, own everything.</li>
+      <li><a href="https://www.swaps.app/crypto/solana">Solana (SOL)</a> — Speed meets scale. Crypto at the speed of light.</li>
+      <li><a href="https://www.swaps.app/crypto/xrp">XRP</a> — Move money anywhere. In seconds, not days.</li>
+      <li><a href="https://www.swaps.app/crypto/usdt">Tether (USDT)</a> — The most traded stablecoin. Liquidity everywhere.</li>
+      <li><a href="https://www.swaps.app/crypto/usdc">USDC</a> — Digital dollars you can trust. Backed 1:1, always.</li>
+      <li><a href="https://www.swaps.app/crypto/bnb">BNB</a> — Power a blockchain used by millions.</li>
+      <li><a href="https://www.swaps.app/crypto/doge">Dogecoin (DOGE)</a> — The people's currency.</li>
+      <li><a href="https://www.swaps.app/crypto/cardano">Cardano (ADA)</a> — Built on science. Designed to last.</li>
+      <li><a href="https://www.swaps.app/crypto/avalanche">Avalanche (AVAX)</a> — Sub-second finality.</li>
+    </ul>
+    <p>Plus 45+ more tokens. <a href="https://www.swaps.app/crypto">View all cryptocurrencies</a>.</p>
+    <h2>Payment Methods</h2>
+    <ul>
+      <li><a href="https://www.swaps.app/payment-methods/card">Credit card</a></li>
+      <li><a href="https://www.swaps.app/payment-methods/debit-card">Debit card</a></li>
+      <li><a href="https://www.swaps.app/payment-methods/bank-transfer">Bank transfer</a></li>
+      <li><a href="https://www.swaps.app/payment-methods/sepa">SEPA</a></li>
+      <li><a href="https://www.swaps.app/payment-methods/apple-pay">Apple Pay</a></li>
+      <li><a href="https://www.swaps.app/payment-methods/google-pay">Google Pay</a></li>
+      <li><a href="https://www.swaps.app/payment-methods/upi">UPI</a></li>
+      <li><a href="https://www.swaps.app/payment-methods/mpesa">M-Pesa</a></li>
+      <li><a href="https://www.swaps.app/payment-methods/pix">PIX</a></li>
+    </ul>
+    <p>And 25+ more methods. <a href="https://www.swaps.app/payment-methods">View all payment methods</a>.</p>
+    <h2>Available in 190+ Countries</h2>
+    <p>Global coverage with local payment methods. Buy and sell crypto from anywhere.</p>
+    <h2>Compare Providers</h2>
+    <ul>
+      <li><a href="https://www.swaps.app/compare/coinbase">Coinbase</a></li>
+      <li><a href="https://www.swaps.app/compare/transak">Transak</a></li>
+      <li><a href="https://www.swaps.app/compare/paybis">PayBis</a></li>
+      <li><a href="https://www.swaps.app/compare/oneinch">1inch</a></li>
+      <li><a href="https://www.swaps.app/compare/lifi">LI.FI</a></li>
+    </ul>
+    <h2>Popular Conversions</h2>
+    <ul>
+      <li><a href="https://www.swaps.app/convert/usdt-to-inr">USDT to INR</a></li>
+      <li><a href="https://www.swaps.app/convert/usdt-to-eur">USDT to EUR</a></li>
+      <li><a href="https://www.swaps.app/convert/eur-to-usdt">EUR to USDT</a></li>
+      <li><a href="https://www.swaps.app/convert/usdt-to-usd">USDT to USD</a></li>
+      <li><a href="https://www.swaps.app/convert/gbp-to-btc">GBP to BTC</a></li>
+    </ul>
+    <h2>Learn</h2>
+    <ul>
+      <li><a href="https://www.swaps.app/blog/usdt-trc20-vs-erc20-difference">USDT TRC20 vs ERC20: Fees, Speed, Safety</a></li>
+      <li><a href="https://www.swaps.app/blog/what-is-solana">What Is Solana? A Complete Guide</a></li>
+      <li><a href="https://www.swaps.app/blog/what-is-usdt">What Is USDT (Tether)?</a></li>
+      <li><a href="https://www.swaps.app/blog/how-to-buy-crypto-with-sepa-bank-transfer">How to Buy Crypto with SEPA</a></li>
+      <li><a href="https://www.swaps.app/blog/how-to-transfer-crypto-to-bank-account">How to Transfer Crypto to Bank</a></li>
+    </ul>
+    <h2>Related Pages</h2>
+    <ul>
+      <li><a href="https://www.swaps.app/buy">Buy crypto</a></li>
+      <li><a href="https://www.swaps.app/sell">Sell crypto</a></li>
+      <li><a href="https://www.swaps.app/swap">Swap tokens</a></li>
+      <li><a href="https://www.swaps.app/buy-crypto-no-kyc">Buy crypto without KYC</a></li>
+      <li><a href="https://www.swaps.app/search">Wallet risk checker</a></li>
+      <li><a href="https://www.swaps.app/pricing">Pricing</a></li>
+      <li><a href="https://www.swaps.app/help">Help center</a></li>
+      <li><a href="https://www.swaps.app/about">About Swaps</a></li>
+      <li><a href="https://www.swaps.app/contact">Contact</a></li>
+    </ul>
+  </article></noscript>
+    <div id="root">
+      <!-- Landing Skeleton: shows instantly before React hydrates (Apple light theme) -->
+      <div
+        class="skeleton-pulse"
+        style="min-height: 100vh; background: #ffffff; color: #1d1d1f; padding: 0"
+      >
+        <!-- Navbar -->
+        <nav
+          style="
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 50;
+            padding: 16px 24px;
+            background: rgba(255, 255, 255, 0.72);
+            backdrop-filter: blur(20px);
+          "
+        >
+          <div
+            style="
+              max-width: 1280px;
+              margin: 0 auto;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <div class="skeleton-box" style="height: 32px; width: 120px; background: #f5f5f7"></div>
+            <div
+              class="skeleton-box"
+              style="height: 40px; width: 96px; border-radius: 20px; background: #f5f5f7"
+            ></div>
+          </div>
+        </nav>
+        <!-- Hero -->
+        <main style="padding-top: 160px; padding-bottom: 48px">
+          <div style="max-width: 1280px; margin: 0 auto; padding: 0 24px">
+            <div
+              style="display: flex; flex-direction: column; gap: 32px; align-items: center"
+            >
+              <!-- Text -->
+              <div style="display: flex; flex-direction: column; gap: 24px">
+                <div
+                  class="skeleton-box"
+                  style="height: 72px; width: 80%; background: #f5f5f7"
+                ></div>
+                <div
+                  class="skeleton-box"
+                  style="height: 72px; width: 60%; background: #f5f5f7"
+                ></div>
+                <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 16px">
+                  <div
+                    class="skeleton-box"
+                    style="height: 24px; width: 90%; opacity: 0.5; background: #f5f5f7"
+                  ></div>
+                  <div
+                    class="skeleton-box"
+                    style="height: 24px; width: 70%; opacity: 0.5; background: #f5f5f7"
+                  ></div>
+                </div>
+              </div>
+              <!-- Widget -->
+              <div style="max-width: 448px; margin: 0 auto; width: 100%">
+                <div
+                  style="
+                    background: #f5f5f7;
+                    border-radius: 32px;
+                    border: 1px solid #e5e5e7;
+                    padding: 24px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                  "
+                >
+                  <div style="display: flex; gap: 8px">
+                    <div
+                      class="skeleton-box"
+                      style="height: 40px; flex: 1; background: #e5e5e7"
+                    ></div>
+                    <div
+                      class="skeleton-box"
+                      style="height: 40px; flex: 1; opacity: 0.5; background: #e5e5e7"
+                    ></div>
+                    <div
+                      class="skeleton-box"
+                      style="height: 40px; flex: 1; opacity: 0.5; background: #e5e5e7"
+                    ></div>
+                  </div>
+                  <div class="skeleton-box" style="height: 64px; background: #e5e5e7"></div>
+                  <div class="skeleton-box" style="height: 64px; background: #e5e5e7"></div>
+                  <div
+                    class="skeleton-box"
+                    style="height: 56px; background: rgba(47, 188, 255, 0.15)"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <!-- TG debug overlay is opt-in only: add ?tgdebug=1 -->
+    <script>
+      (function () {
+        var debugEnabled = window.location.search.includes('tgdebug=1');
+        if (!debugEnabled) return;
+        window.addEventListener('error', function (e) {
+          if (window.Telegram && window.Telegram.WebApp) {
+            var d = document.createElement('div');
+            d.id = 'tg-error-debug';
+            d.style.cssText = 'position:fixed;bottom:0;left:0;right:0;background:#1a0000;color:#ff4444;padding:12px;font-size:11px;z-index:99999;max-height:40vh;overflow:auto;font-family:monospace;word-break:break-all;';
+            d.textContent = '[ERROR] ' + (e.message || 'unknown') + ' | ' + (e.filename || '?') + ':' + (e.lineno || '?') + ':' + (e.colno || '?');
+            document.body.appendChild(d);
+          }
+        });
+        window.addEventListener('unhandledrejection', function (e) {
+          if (window.Telegram && window.Telegram.WebApp) {
+            var d = document.getElementById('tg-error-debug') || document.createElement('div');
+            d.id = 'tg-error-debug';
+            d.style.cssText = 'position:fixed;bottom:0;left:0;right:0;background:#1a0000;color:#ff4444;padding:12px;font-size:11px;z-index:99999;max-height:40vh;overflow:auto;font-family:monospace;word-break:break-all;';
+            d.textContent += ' [PROMISE] ' + (e.reason && e.reason.message ? e.reason.message : String(e.reason));
+            document.body.appendChild(d);
+          }
+        });
+      })();
+    </script>
+    <!-- Skeleton safety: auto-remove after 8s to prevent infinite preloader on crash -->
+    <script>
+      setTimeout(function () {
+        var s = document.querySelector('.skeleton-pulse');
+        if (s && s.parentNode) s.parentNode.removeChild(s);
+      }, 8000);
+    </script>
+  </body>
+</html>

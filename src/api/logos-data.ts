@@ -92975,4 +92975,533 @@ export const LOGOS_DATA: LogoItem[] = [
       },
     },
   },
+  {
+    id: 'utrust',
+    name: 'Utrust (xMoney)',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.xmoney.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/utrust-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/utrust-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'cryptoprocessing',
+    name: 'CryptoProcessing',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://cryptoprocessing.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/cryptoprocessing-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/cryptoprocessing-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'b2binpay',
+    name: 'B2BINPAY',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://b2binpay.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/b2binpay-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/b2binpay-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'now-payments-custody',
+    name: 'NOWPayments Custody',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://nowpayments.io/custody',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/now-payments-custody-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/now-payments-custody-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'simplex',
+    name: 'Simplex',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.simplex.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/simplex-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/simplex-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'helio',
+    name: 'Helio (MoonPay Commerce)',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.hel.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/helio-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/helio-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'centi',
+    name: 'Centi',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://centi.ch/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/centi-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/centi-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'swaps',
+    name: 'Swaps',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.swaps.app/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/swaps-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/swaps-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'hesab-pay',
+    name: 'HesabPay',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://hesab.com/home/bs/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/hesab-pay-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/hesab-pay-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'lunu',
+    name: 'Lunu',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://lunu.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/lunu-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/lunu-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'spice-pay',
+    name: 'SpicePay',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.spicepay.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/spice-pay-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/spice-pay-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'remitano',
+    name: 'Remitano',
+    mainCategory: 'exchanges',
+    secondaryCategories: ['payments'],
+    websiteLink: 'https://remitano.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/remitano-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/remitano-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'paxful',
+    name: 'Paxful',
+    mainCategory: 'exchanges',
+    secondaryCategories: ['payments'],
+    websiteLink: 'https://paxful.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/paxful-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/paxful-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'gocrypto',
+    name: 'GoCrypto',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.gocrypto.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/gocrypto-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/gocrypto-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'strike-me',
+    name: 'Strike',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://strike.me/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/strike-me-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/strike-me-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'moonpay-commerce',
+    name: 'MoonPay Commerce',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.moonpay.com/business/commerce',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/moonpay-commerce-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/moonpay-commerce-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'block-bee',
+    name: 'BlockBee',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://blockbee.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/block-bee-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/block-bee-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'box-coin',
+    name: 'BoxCoin',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://boxcoin.dev/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/box-coin-icon-light.svg',
+            format: 'svg',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/box-coin-icon-dark.svg',
+            format: 'svg',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'shkeeper',
+    name: 'Shkeeper',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://shkeeper.io/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/shkeeper-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/shkeeper-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'pay-ram',
+    name: 'PayRam',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://payram.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/pay-ram-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/pay-ram-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'heleket',
+    name: 'Heleket',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://heleket.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/heleket-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/heleket-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ibis',
+    name: 'Ibis (IBIT Global)',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.ibitglobal.ai/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ibis-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ibis-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'ubii',
+    name: 'Ubii',
+    mainCategory: 'payments',
+    secondaryCategories: [],
+    websiteLink: 'https://www.ubiipagos.com/',
+    logo: {
+      icon: {
+        light: [
+          {
+            url: '/library/ubii-icon-light.png',
+            format: 'png',
+          },
+        ],
+        dark: [
+          {
+            url: '/library/ubii-icon-dark.png',
+            format: 'png',
+          },
+        ],
+      },
+    },
+  },
 ];
