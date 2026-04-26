@@ -1,6 +1,7 @@
 // Curated list of popular logo IDs surfaced first on the default home view.
 // Order matters: items appear in this order at the top of the grid.
 export const POPULAR_LOGO_IDS: string[] = [
+  'zenobank',
   'bitcoin',
   'ethereum',
   'usdt',
