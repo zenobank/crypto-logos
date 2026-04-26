@@ -124,3 +124,19 @@ export const LOGOS_RESPONSE_POPULAR_FIRST: LogoItemsResponse[] = (() => {
   const rest = LOGOS_RESPONSE.filter((logo) => !POPULAR_LOGO_ID_SET.has(logo.id));
   return [...popular, ...rest];
 })();
+
+// Same idea per category: popular logos that belong to the category (in curated
+// order) first, then the rest alphabetically. Used for category pages.
+export const LOGOS_BY_CATEGORY_POPULAR_FIRST: Record<
+  string,
+  LogoItemsResponse[]
+> = Object.fromEntries(
+  Object.entries(LOGOS_BY_CATEGORY).map(([categoryId, logos]) => {
+    const idsInCategory = new Set(logos.map((logo) => logo.id));
+    const popular = POPULAR_LOGO_IDS.filter((id) => idsInCategory.has(id))
+      .map((id) => LOGOS_BY_ID[id])
+      .filter((logo): logo is LogoItemsResponse => logo !== undefined);
+    const rest = logos.filter((logo) => !POPULAR_LOGO_ID_SET.has(logo.id));
+    return [categoryId, [...popular, ...rest]];
+  }),
+);

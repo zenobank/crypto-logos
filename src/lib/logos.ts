@@ -3,6 +3,7 @@ import {
   LOGOS_RESPONSE,
   LOGOS_RESPONSE_POPULAR_FIRST,
   LOGOS_BY_CATEGORY,
+  LOGOS_BY_CATEGORY_POPULAR_FIRST,
 } from '@/shared/constants/logos-data';
 
 // helpers
@@ -27,13 +28,15 @@ function getResults(
   category?: string,
   sortBy: LogosSortBy = LogosSortBy.NameAsc,
 ): LogoItemsResponse[] {
-  // Default home view (no search, no category, default sort): surface popular first.
-  const defaultHomeView =
-    !search && !category && sortBy === LogosSortBy.NameAsc;
+  // Default ascending view (no search): surface popular first, both for home
+  // and for category pages. Z-A sort and search bypass this.
+  const popularFirst = !search && sortBy === LogosSortBy.NameAsc;
 
   const baseLogos = category
-    ? (LOGOS_BY_CATEGORY[category] ?? [])
-    : defaultHomeView
+    ? (popularFirst
+        ? LOGOS_BY_CATEGORY_POPULAR_FIRST[category]
+        : LOGOS_BY_CATEGORY[category]) ?? []
+    : popularFirst
       ? LOGOS_RESPONSE_POPULAR_FIRST
       : LOGOS_RESPONSE;
 
