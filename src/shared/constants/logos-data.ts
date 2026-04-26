@@ -1,5 +1,9 @@
 // data
 import { LOGOS_DATA } from '@/api/logos-data';
+import {
+  POPULAR_LOGO_IDS,
+  POPULAR_LOGO_ID_SET,
+} from '@/shared/constants/popular-logos';
 
 // models
 import LogoItemsResponse from '@/shared/models/logos/logo-items-response';
@@ -110,3 +114,13 @@ export const LOGOS_BY_ID = LOGOS_RESPONSE.reduce(
   },
   {} as Record<string, LogoItemsResponse>,
 );
+
+// Popular logos in curated order (skips IDs that don't exist in the dataset),
+// followed by the rest alphabetically. Used for the default home view.
+export const LOGOS_RESPONSE_POPULAR_FIRST: LogoItemsResponse[] = (() => {
+  const popular = POPULAR_LOGO_IDS.map((id) => LOGOS_BY_ID[id]).filter(
+    (logo): logo is LogoItemsResponse => logo !== undefined,
+  );
+  const rest = LOGOS_RESPONSE.filter((logo) => !POPULAR_LOGO_ID_SET.has(logo.id));
+  return [...popular, ...rest];
+})();

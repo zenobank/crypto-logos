@@ -1,6 +1,7 @@
 // data
 import {
   LOGOS_RESPONSE,
+  LOGOS_RESPONSE_POPULAR_FIRST,
   LOGOS_BY_CATEGORY,
 } from '@/shared/constants/logos-data';
 
@@ -21,10 +22,20 @@ export interface GetLogosParams {
   sortBy?: LogosSortBy;
 }
 
-function getResults(search?: string, category?: string): LogoItemsResponse[] {
+function getResults(
+  search?: string,
+  category?: string,
+  sortBy: LogosSortBy = LogosSortBy.NameAsc,
+): LogoItemsResponse[] {
+  // Default home view (no search, no category, default sort): surface popular first.
+  const defaultHomeView =
+    !search && !category && sortBy === LogosSortBy.NameAsc;
+
   const baseLogos = category
     ? (LOGOS_BY_CATEGORY[category] ?? [])
-    : LOGOS_RESPONSE;
+    : defaultHomeView
+      ? LOGOS_RESPONSE_POPULAR_FIRST
+      : LOGOS_RESPONSE;
 
   if (!search) {
     return baseLogos;
@@ -47,7 +58,7 @@ export function getLogos(
     sortBy = LogosSortBy.NameAsc,
   } = params;
 
-  const results = getResults(search, category);
+  const results = getResults(search, category, sortBy);
   let sorted = results;
 
   if (search) {
