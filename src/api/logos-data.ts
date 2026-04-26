@@ -46556,6 +46556,7 @@ export const LOGOS_DATA: LogoItem[] = [
     name: 'TransFi',
     mainCategory: 'infrastructure-tools',
     secondaryCategories: [],
+    websiteLink: 'https://www.transfi.com/',
     logo: {
       icon: {
         light: [
