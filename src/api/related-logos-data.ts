@@ -141,7 +141,7 @@ export const RELATED_LOGOS_DATA: RelatedLogosGroup[] = [
   ['rocket-pool-protocol', 'rocket-pool-subgraph'], // Rocket Pool
   ['ronin', 'ronin-wallet', 'sky-mavis', 'axie-infinity'], // Sky Mavis/Ronin/Axie
   ['router-nitro', 'router-protocol'], // Router Protocol
-  ['safe', 'safe-core', 'safe-edges'], // Safe
+  ['safe', 'safe-edges'], // Safe
   ['sei', 'sei-v2', 'seiscan'], // Sei
   ['shapeshift', 'shapeshift-fox-token'], // ShapeShift
   ['snapshot', 'snapshot-subgraph'], // Snapshot

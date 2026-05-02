@@ -131,6 +131,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/logo/safe-core',
+        destination: '/logo/safe',
+        permanent: true,
+      },
+      {
         source: '/logo/aa-bundler',
         destination: '/',
         permanent: true,

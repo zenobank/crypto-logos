@@ -52952,22 +52952,6 @@ export const LOGOS_DATA: LogoItem[] = [
     },
   },
   {
-    id: 'safe-core',
-    name: 'Safe CORE',
-    mainCategory: 'infrastructure-tools',
-    secondaryCategories: [],
-    logo: {
-      icon: {
-        light: [
-          {
-            url: '/library/safe-core-icon-light.png',
-            format: 'png',
-          },
-        ],
-      },
-    },
-  },
-  {
     id: 'mosaia',
     name: 'Mosaia',
     mainCategory: 'infrastructure-tools',
